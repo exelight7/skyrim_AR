@@ -11,7 +11,7 @@
     <DebugType>none</DebugType>
     <GenerateSupportedRuntime>false</GenerateSupportedRuntime>
     <AutoGenerateBindingRedirects>false</AutoGenerateBindingRedirects>
-    <Version>1.0.0</Version>
+    <Version>0.9.9</Version>
     <Product>تعريب سكايرم</Product>
 
     <!-- The translation that gets embedded: the latest build of the mod (build_mod.py output).
