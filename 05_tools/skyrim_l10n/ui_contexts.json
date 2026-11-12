@@ -1,0 +1,29 @@
+{
+  "_comment": "Text field geometry measured from the 1.7.104.0 menu SWFs (08_qa/reports/swf_text_fields.json). Widths are stage pixels (1280x720 stage). safety = fraction of the width used for wrapping. Values marked unverified must be confirmed with in-game screenshots.",
+  "subtitle":        {"swf": "dialoguemenu.swf/hudmenu.swf", "field": "SubtitleText", "width": 800, "font_px": 22, "font": "ui", "align": "center", "html": true, "safety": 0.92},
+  "dialogue_topic":  {"swf": "dialoguemenu.swf", "field": "textField (topic list)", "width": 350, "font_px": 24, "font": "ui", "align": "left", "html": true, "safety": 0.92},
+  "journal_objective": {"swf": "quest_journal.swf", "field": "textField (objectives)", "width": 545, "font_px": 24, "font": "ui", "align": "left", "html": true, "safety": 0.92},
+  "journal_text":    {"swf": "quest_journal.swf", "field": "textField 600x400", "width": 600, "font_px": 24, "font": "ui", "align": "left", "html": true, "safety": 0.92},
+  "book_page":       {"swf": "book.swf", "field": "PageTextField", "width": 300, "font_px": 22, "font": "book", "align": "left", "html": true, "safety": 0.92},
+  "loading_screen":  {"swf": "loadingmenu.swf", "field": "textField", "width": 500, "font_px": 22, "font": "ui", "align": "right", "html": true, "safety": 0.92},
+  "message_box":     {"swf": "messagebox.swf", "field": "MessageText", "width": 350, "font_px": 22, "font": "ui", "align": "center", "html": true, "safety": 0.92},
+  "hud_notification": {"swf": "hudmenu.swf", "field": "TextFieldInstance", "width": 1266, "font_px": 24, "font": "ui", "align": "center", "html": true, "safety": 0.92},
+  "item_card":       {"swf": "inventorymenu.swf", "field": "item card description (unverified: not located yet)", "width": 400, "font_px": 20, "font": "ui", "align": "center", "html": true, "safety": 0.85},
+  "skill_card":      {"swf": "statsmenu.swf", "field": "CardDescriptionTextInstance (sprite 111, skill description, 2 lines)", "width": 724, "font_px": 22, "font": "ui", "align": "center", "html": true, "safety": 0.92},
+  "perk_card":       {"swf": "statsmenu.swf", "field": "CardDescriptionTextInstance (sprite 127, perk description)", "width": 1054, "font_px": 22, "font": "ui", "align": "center", "html": true, "safety": 0.92},
+  "short_label":     {"swf": "various", "field": "names, menu entries (no wrapping)", "width": null, "font_px": 24, "font": "ui", "align": "any", "html": false, "safety": 1.0},
+  "_fonts": {
+    "ui": "04_fonts/build/static/SkyrimArabicUI-Regular.ttf",
+    "book": "04_fonts/build/static/SkyrimArabicBook-Regular.ttf"
+  },
+  "_runtime_token_estimates": {
+    "_comment": "Text substituted at runtime; wrapping reserves this much width (Latin sample strings measured with the target font).",
+    "Alias": "Whiterun Guard",
+    "Global": "1000",
+    "mag": "100",
+    "dur": "60",
+    "BribeCost": "1000",
+    "number": "100",
+    "printf": "1000"
+  }
+}

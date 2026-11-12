@@ -1,0 +1,74 @@
+key	arabic
+ccbgssse003-zombies|dlstrings|0x0000002E	<font face'$HandwrittenFont'><font size='40'><p align='center'>\nاستحضار زومبي متعفن
+ccbgssse003-zombies|dlstrings|0x0000002F	<font face'$HandwrittenFont'><font size='40'><p align='center'>\nاستحضار زومبي
+ccbgssse003-zombies|dlstrings|0x00000033	<font face'$HandwrittenFont'><font size='40'><p align='center'>\nاستحضار زومبي خبيث
+ccbgssse003-zombies|dlstrings|0x00000035	<font face'$HandwrittenFont'><font size='40'><p align='center'>\nاستحضار زومبي كريه
+ccbgssse003-zombies|dlstrings|0x00000042	<font face="$HandwrittenFont" Size="17">\n<b>3 من ذروة الشمس، سنة 201 من العصر 4</b>\nاكتشف أحد تلاميذي مؤخراً مجلداً قديماً في كهف منسي أثناء رحلة جمع. هذا المجلد لا يشبه شيئاً رأيته منذ زمن طويل جداً. أعتقد أنه تعويذة استحضار من نوع ما، لكنني لا أستطيع الجزم.\n\nسأحتاج إلى قضاء بعض الوقت في فك رموزه. قد يكون ثميناً جداً لنا.\n[pagebreak]\n\n<b>18 من ذروة الشمس، سنة 201 من العصر 4</b>\nقضيت الأسابيع القليلة الماضية أعمل بلا كلل لفك رموز هذا المجلد القديم. الأمر كما توقعت تماماً؛ إنه فعلاً تعويذة استحضار. لكن المخلوق المستحضَر شرس على نحو خاص. زومبي من الموتى الأحياء ذو فعالية متعفنة رائعة، ويبدو أكثر نشاطاً بكثير في ساعات الليل المتأخرة.\n\nلن أتوقف الآن. أخطط لصنع نسخة أقوى من هذه التعويذة. ومولاغ بال شاهدي، سيكون تحت إمرتي جيش من الزومبي قبل مضي وقت طويل.\n[pagebreak]\n\n<b>15 من البذرة الأخيرة، سنة 201 من العصر 4</b>\nلا شيء كان يمكن أن يهيئني للقوة التي أوشك أن أمتلكها. كل تدريبي كان من أجل هذه اللحظة. قريباً، سأؤدي أنا وتلاميذي طقساً لم يُرَ مثله منذ قرون، ونستدعي جيشاً من الموتى الأحياء، قوياً ومستعداً لتنفيذ أوامري. ستشع قوته عبر سكايرم، فتُخرج موجات من الموتى الأحياء من الظلام.\n\nلقد حان الوقت!\n</font>
+ccbgssse003-zombies|dlstrings|0x00000043	<font face="$HandwrittenFont" size="17">\n\nأرجوكم، ليساعدني أحد! مجموعة من مستحضري الأرواح يجرّبون استحضار الزومبي بسحر قديم خطير، وأخشى أن تكون له عواقب غير مقصودة ولا رجعة فيها. طُردت من دراساتهم حين تحولت طموحاتهم إلى حماقة، رغم تحذيراتي.\n\nإنهم يؤدون في هذه اللحظة طقساً لاستدعاء مجموعة كبيرة من هذه المخلوقات الكريهة التي لا يمكن السيطرة عليها في أقصى جنوب سكايرم، ويجب إيقافهم قبل فوات الأوان!
+ccbgssse003-zombies|dlstrings|0x00000044	اقرأ يوميات مستحضر الأرواح
+ccbgssse003-zombies|dlstrings|0x00000046	وجدتُ موقع طقس مستحضر الأرواح، لكن بعد فوات الأوان. ووجدتُ أيضاً يوميات تصف ما جرى هنا. ويبدو أنهم استحضروا الموتى السائرين بالفعل، وربما في سكايرم كلها. وعليّ أن أبقى متيقظاً، خاصة في ساعات الليل المتأخرة.
+ccbgssse003-zombies|dlstrings|0x00000049	وجدتُ رسالة عاجلة مجهولة المرسل. وعليّ أن أقرأها لأعرف موضوعها.
+ccbgssse003-zombies|dlstrings|0x0000004B	تلقّيتُ رسالة مجهولة المرسل تطلب مساعدتي في إيقاف جماعة من مستحضري الأرواح يخططون لإقامة جيش من الموتى السائرين. وعليّ أن أتحرّى موقع الطقس.
+ccbgssse003-zombies|strings|0x00000001	زومبي
+ccbgssse003-zombies|strings|0x00000002	زومبي كريه
+ccbgssse003-zombies|strings|0x00000003	زومبي عنيد
+ccbgssse003-zombies|strings|0x00000004	لحم الموت
+ccbgssse003-zombies|strings|0x00000005	زومبي مرعب
+ccbgssse003-zombies|strings|0x00000006	جلد زومبي
+ccbgssse003-zombies|strings|0x00000008	استدعاء زومبي كريه
+ccbgssse003-zombies|strings|0x00000009	تجدّد الزومبي
+ccbgssse003-zombies|strings|0x0000000A	يستدعي زومبي لمدة <dur> ثانية حيثما يشير الملقي.
+ccbgssse003-zombies|strings|0x0000000B	زومبي متعفن
+ccbgssse003-zombies|strings|0x0000000C	زومبي كريه
+ccbgssse003-zombies|strings|0x0000000D	زومبي خبيث
+ccbgssse003-zombies|strings|0x0000000E	استدعاء زومبي متعفن
+ccbgssse003-zombies|strings|0x00000010	يستدعي زومبي متعفناً لمدة <dur> ثانية حيثما يشير الملقي.
+ccbgssse003-zombies|strings|0x00000011	استحضار زومبي خبيث
+ccbgssse003-zombies|strings|0x00000012	جلد زومبي
+ccbgssse003-zombies|strings|0x00000013	استدعاء زومبي خبيث
+ccbgssse003-zombies|strings|0x00000014	زومبي خبيث
+ccbgssse003-zombies|strings|0x00000016	زومبي مرعب
+ccbgssse003-zombies|strings|0x00000017	زومبي
+ccbgssse003-zombies|strings|0x00000019	استحضار زومبي متعفن
+ccbgssse003-zombies|strings|0x0000001A	زومبي خبيث
+ccbgssse003-zombies|strings|0x0000001B	زومبي كريه
+ccbgssse003-zombies|strings|0x0000001D	زومبي متعفن
+ccbgssse003-zombies|strings|0x0000001E	زومبي متعفن
+ccbgssse003-zombies|strings|0x0000001F	استحضار زومبي
+ccbgssse003-zombies|strings|0x00000020	يستدعي زومبي كريهاً لمدة <dur> ثانية حيثما يشير الملقي.
+ccbgssse003-zombies|strings|0x00000021	استدعاء زومبي
+ccbgssse003-zombies|strings|0x00000022	استحضار زومبي كريه
+ccbgssse003-zombies|strings|0x00000024	زومبي مرعب
+ccbgssse003-zombies|strings|0x00000025	جلد زومبي
+ccbgssse003-zombies|strings|0x00000026	زومبي
+ccbgssse003-zombies|strings|0x00000027	زومبي
+ccbgssse003-zombies|strings|0x00000028	يستدعي زومبي خبيثاً لمدة <dur> ثانية حيثما يشير الملقي.
+ccbgssse003-zombies|strings|0x00000029	زومبي عنيد
+ccbgssse003-zombies|strings|0x0000002A	زومبي عنيد
+ccbgssse003-zombies|strings|0x0000002B	ضرر الطاقة السحرية
+ccbgssse003-zombies|strings|0x0000002C	عفن الدماغ
+ccbgssse003-zombies|strings|0x0000002D	يستنزف <mag> نقطة من الطاقة السحرية.
+ccbgssse003-zombies|strings|0x00000030	كتاب تعويذة: استحضار زومبي متعفن
+ccbgssse003-zombies|strings|0x00000031	كتاب تعويذة: استحضار زومبي كريه
+ccbgssse003-zombies|strings|0x00000032	كتاب تعويذة: استحضار زومبي خبيث
+ccbgssse003-zombies|strings|0x00000034	كتاب تعويذة: استحضار زومبي
+ccbgssse003-zombies|strings|0x00000036	زومبي خبيث
+ccbgssse003-zombies|strings|0x00000037	فأس قتال نوردية قديمة مشحوذة
+ccbgssse003-zombies|strings|0x00000038	فأس حرب دراوغر مشحوذة
+ccbgssse003-zombies|strings|0x00000039	زومبي متعفن
+ccbgssse003-zombies|strings|0x0000003A	سيف ضخم نوردي قديم مشحوذ
+ccbgssse003-zombies|strings|0x0000003B	فأس قتال نوردية قديمة
+ccbgssse003-zombies|strings|0x0000003C	فأس حرب نوردية قديمة
+ccbgssse003-zombies|strings|0x0000003D	سيف نوردي قديم
+ccbgssse003-zombies|strings|0x0000003E	زومبي كريه
+ccbgssse003-zombies|strings|0x0000003F	زومبي
+ccbgssse003-zombies|strings|0x00000040	سيف ضخم نوردي قديم
+ccbgssse003-zombies|strings|0x00000041	سيف نوردي قديم مشحوذ
+ccbgssse003-zombies|strings|0x00000045	اقرأ الرسالة المجهولة
+ccbgssse003-zombies|strings|0x00000047	اقرأ يوميات مستحضر الأرواح
+ccbgssse003-zombies|strings|0x00000048	يوميات مستحضر الأرواح
+ccbgssse003-zombies|strings|0x0000004A	تحرَّ موقع الطقس
+ccbgssse003-zombies|strings|0x0000004C	الموتى الناهضون
+ccbgssse003-zombies|strings|0x0000004D	رسالة مجهولة المرسل
+ccbgssse003-zombies|strings|0x000020E6	سكايرم
+ccbgssse003-zombies|strings|0x0000A7EA	مكافأة صحة الأرواح المظلمة

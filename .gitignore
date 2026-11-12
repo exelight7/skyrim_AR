@@ -1,0 +1,22 @@
+# Game-derived data: never committed or distributed
+01_original/
+02_extracted/
+06_build/
+07_patch/
+09_release/
+03_translation/db/*.sqlite-journal
+__pycache__/
+.venv/
+*.pyc
+
+# Contains Bethesda's original English text: not published
+03_translation/db/
+03_translation/batches/
+08_qa/render_tests/ffdec_export/
+08_qa/_v*.txt
+# Local machine paths
+05_tools/tool_paths.json
+05_tools/installer_ui_v1_backup/
+# Decompiled Bethesda menu code / game menu text
+05_tools/swf_mods/
+08_qa/reports/swf_text_fields*.json

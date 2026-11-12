@@ -1,0 +1,26 @@
+key	arabic
+ccbgssse010-petdwarvenarmoredmudcrab|dlstrings|0x00000006	تلقّيتُ إشعار بيع من كالسيلمو. وعليّ أن أقرأه لأعرف موضوعه.
+ccbgssse010-petdwarvenarmoredmudcrab|dlstrings|0x00000008	اشتريتُ من كالسيلمو سلطعون طين دويمرياً أليفاً. وعليّ أن أكلّمه، فإما أرسله إلى بيته الجديد، وإما آخذه معي.
+ccbgssse010-petdwarvenarmoredmudcrab|dlstrings|0x0000000B	وجد كالسيلمو سلطعون طين بدرع دويمري في أثناء حفرياته، وعرض أن يبيعه لي. فوافقتُ، وصار الآن حيواني الأليف، أستطيع اصطحابه، أو إرساله إلى أي من بيوتي أو المدن الرئيسية.
+ccbgssse010-petdwarvenarmoredmudcrab|dlstrings|0x0000000C	<font face='$HandwrittenFont'>يشهد هذا الصك بملكية الموقّع أدناه لسلطعون الطين القزمي. لا يجوز نقل الملكية إلا مع فاتورة بيع مرفقة.\n\nملاحظة: سيتبعك أينما ذهبت، لكنه حذر من الغرباء العدوانيين. إنه ذكي وسريع، لذا يمكنك أن تصرفه ليبقى في أي من بيوتك المملوكة، أو داخل مدينة، أو حيث يقف تماماً، إن ظننت أن المكان يصلح بيتاً جيداً له.\n\nومن حين لآخر قد ينبش أيضاً شيئاً مفيداً أو ثميناً! أخيراً، أرفقت مجلد تعويذة كي تستدعيه إلى مكانك في أي وقت.\n\nآمل أن تستمتع بصحبته. أعود إلى عملي.\n\n-كالسيلمو\n</font>
+ccbgssse010-petdwarvenarmoredmudcrab|dlstrings|0x0000000E	وجد كالسيلمو سلطعون طين بدرع دويمري في أثناء حفرياته، وعرض أن يبيعه لي. وعليّ التوجه إلى قلعة ما تحت الحجر لأكلّمه وأشتري السلطعون.
+ccbgssse010-petdwarvenarmoredmudcrab|dlstrings|0x0000000F	<font face="$HandwrittenFont" size="17">\nأثناء حفرياتي، صادفت مخلوقاً صغيراً غريباً جداً - سلطعون طين، يكسوه درع قزمي مصفّح. إنه ودود جداً، لكن مع كل دراساتي لا وقت لدي للعناية بشيء كهذا.\n\nمما رأيته، تبدو جديراً بالثقة تماماً. هل تهتم بشرائه؟ إن كان الأمر كذلك، فأرجو أن تلقاني في مختبري في قلعة ما تحت الحجر.\n\n-كالسيلمو\n</font>
+ccbgssse010-petdwarvenarmoredmudcrab|dlstrings|0x00000012	<font face'$HandwrittenFont'><font size='40'><p align='center'>\nنقل الحيوان الأليف: سلطعون الطين القزمي
+ccbgssse010-petdwarvenarmoredmudcrab|dlstrings|0x00000013	وجد السلطعون الدويمري شيئاً...
+ccbgssse010-petdwarvenarmoredmudcrab|strings|0x00000001	سلطعون طين بدرع دويمري
+ccbgssse010-petdwarvenarmoredmudcrab|strings|0x00000002	اقرأ «إعلان بيع»
+ccbgssse010-petdwarvenarmoredmudcrab|strings|0x00000004	صكّ ملكية - سلطعون الطين
+ccbgssse010-petdwarvenarmoredmudcrab|strings|0x00000005	إشعار بيع - سلطعون طين دويمري
+ccbgssse010-petdwarvenarmoredmudcrab|strings|0x00000007	اشترِ سلطعون الطين
+ccbgssse010-petdwarvenarmoredmudcrab|strings|0x00000009	سلطعوني الأليف
+ccbgssse010-petdwarvenarmoredmudcrab|strings|0x0000000A	سلطعون الطين
+ccbgssse010-petdwarvenarmoredmudcrab|strings|0x0000000D	تعرّف على حيوانك الأليف الجديد
+ccbgssse010-petdwarvenarmoredmudcrab|strings|0x00000010	سلطعون طين دويمري أليف
+ccbgssse010-petdwarvenarmoredmudcrab|strings|0x00000011	تأثير الباحث عن الفتات
+ccbgssse010-petdwarvenarmoredmudcrab|strings|0x00000014	كتاب تعويذة: نقل سلطعون الطين الأليف
+ccbgssse010-petdwarvenarmoredmudcrab|strings|0x00000015	نقل الحيوان الأليف: سلطعون الطين الدويمري
+ccbgssse010-petdwarvenarmoredmudcrab|strings|0x00000016	قدرة الباحث عن الفتات
+ccbgssse010-petdwarvenarmoredmudcrab|strings|0x00000017	نقل سلطعون الطين الدويمري
+ccbgssse010-petdwarvenarmoredmudcrab|strings|0x00000018	ينقل سلطعون الطين الدويمري الأليف.
+ccbgssse010-petdwarvenarmoredmudcrab|strings|0x00000019	مقاومة السحر للحيوان الأليف
+ccbgssse010-petdwarvenarmoredmudcrab|strings|0x000051A0	قلعة ما تحت الحجر

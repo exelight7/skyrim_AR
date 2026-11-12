@@ -1,0 +1,171 @@
+key	arabic
+ccvsvsse002-pets|dlstrings|0x00000005	<font face='$HandwrittenFont'><div align="left">\n<b>4 من البذرة الأولى</b>\nأظن أن كوني بوسمرية يمنحني حقاً موهبة مع الحيوانات! جاءني هذا الثعلب الصغير اليوم، جريئاً كالنحاس، وبدأ يتسول الحلوى. لم يكن معي في ذلك الوقت إلا كعكة حلوى، لكن بدا أنها أعجبته بما يكفي. أتساءل إن كانت هذه الموهبة مع الحيوانات تنفع مع الخيول - ستجعل سرقتها سهلة جداً.\n\n<b>15 من البذرة الأولى</b>\nالمزعجة ذات الفرو لا تتركني وشأني! تتبعني في كل مكان، حتى نزولاً إلى المجاري. على الأقل هي هادئة بما يكفي ألا تنبّه الحراس...\n\n<b>1 من يد المطر</b>\nللثعلبة أنف حقيقي لشم النفائس. هذا الصباح فقط نبشت قلادة فضية من الطين - ما كنت لأراها أبداً لو لم تبدأ تخدش الأرض بمخلبها. لا بد أنها تنجذب إلى الأشياء اللامعة. لا أستطيع أن ألومها حقاً.\n\n<b>9 من يد المطر</b>\nتبيّن أن العثور على كعكة الحلوى أفضل ضربة حظ صادفتها منذ مدة. لها عينان وغرائز أفضل من أي لص التقيته، بمن فيهم فيكس. لا أتذكر آخر مرة كان فيها كيس نقودي بهذا الثقل - صرت أخشخش ككتيبة من الإمبراطوريين حين أمشي.\n\n<b>25 من يد المطر</b>\nأظن أنني سأجرب مسألة ترويض الحيوانات هذه على الذئاب خارج البلدة. بعض اللصوص الآخرين يرمقونني مؤخراً؛ وسيفكرون مرتين قبل أن يهاجموني إن كان ذئب عند عقبيّ.
+ccvsvsse002-pets|dlstrings|0x0000000A	وجد <Alias=PetRabbit> شيئاً!
+ccvsvsse002-pets|dlstrings|0x00000019	<font face='$HandwrittenFont'>\nجئت إلى البلدة قبل أيام قليلة أبحث عن عمل. الناس هنا لطفاء بما يكفي، وهناك كثير من القمح والبطاطا التي تحتاج إلى الحصاد، فلدي مورد ثابت من المال. \n\nلا أظن أنني سأحتاج إلى ماعزي العجوز للحمل هيلدا مدة أطول بكثير...عظامي كلها بدأت تصر، وأيام مغامراتي انتهت منذ زمن. الآن أحتاج فقط إلى أن أجد شخصاً مستعداً للعناية بها. وربما أحصل على بضع قطع نقدية مقابلها أيضاً - ما زالت في عظامها العجوز قوة.\n\nآه، كم سأفتقد التجوال في براري سكايرم! رأيت هناك أشياء كثيرة غريبة ورائعة - أشجار صنوبر بطول الجبال، وأضرحة نوردية قديمة، بل صادفت مرة روحاً هائمة مصنوعة من الجليد الخالص!\n\nبل صادفت بعض الناس يجربون ترويض أنواع مختلفة من المخلوقات. لا أعرف لماذا قد يريدون أي شيء غير كلب مخلص أو ماعز موثوقة مثل هيلدا - بعض تلك الوحوش في البرية لم تُخلق لتُروّض.\n\nصادفت خيميائية لديها أرنب أليف، وكادت تسرقني لصة معها ثعلب مروّض، لكن أظن أن الأرنب أو الثعلب قد يكونان وديعين بما يكفي. أما ذلك النشال الذي يحاول تدريب سكيفر فلا بد أنه مجنون جنون شيو العجوز. ولا أريد أن أفكر كثيراً في مصاص الدماء الذي كاد يجعلني وجبة له...أقسم إنه كان لديه عنكبوت لدغة الصقيع مدرّب! تسري فيّ القشعريرة لمجرد التفكير في ذلك.
+ccvsvsse002-pets|dlstrings|0x0000001B	*أضف مدخل اليوميات هنا*
+ccvsvsse002-pets|dlstrings|0x00000020	جهّزه على ماعز أو سكيفر أليف لزيادة حمولته بمقدار 40.
+ccvsvsse002-pets|dlstrings|0x00000023	لا يمكنك استخدام هذا في أثناء القتال
+ccvsvsse002-pets|dlstrings|0x00000024	لم يجد <Alias=PetRabbit> شيئاً...
+ccvsvsse002-pets|dlstrings|0x00000027	لدى <Alias=PetGoat> حليب للجمع!
+ccvsvsse002-pets|dlstrings|0x00000028	وجد <Alias=PetSkeever> شيئاً!
+ccvsvsse002-pets|dlstrings|0x00000029	لدى <Alias=PetSpider> سمّ للجني!
+ccvsvsse002-pets|dlstrings|0x0000002B	<font face='$HandwrittenFont'>\nلم يحالفني أي حظ في سرقة الذهب من أولئك التجار الأغنياء في السوق، وأغبياء نقابة اللصوص أولئك لا يريدونني. قالوا إنني أخرق جداً. طعامي والسكوما عندي ينفدان، قد أحتاج إلى البدء بقتل بعض السكيفر هنا من أجل اللحم...\n\nأخبرني أحد تجار السكوما عند الأرصفة أنه يعرف رجلاً من موروويند درّب كلب نيكس ليشتت انتباه ضحاياه - ساعده على سرقة كومة هائلة من الذهب، كما قال. لا أعرف إن كنت أصدق كلمة منه، لكن ماذا غير ذلك سأفعل؟ قد أجربه أيضاً.\n\nمؤسف أنه لا توجد كلاب نيكس هنا. لكن هناك كثير من السكيفر...سأحتاج إلى اصطياد بعضها على أي حال من أجل الطعام، فلأجرب تدريب واحد أولاً.
+ccvsvsse002-pets|dlstrings|0x0000002C	صار الأرنب <Alias=AliasRabbit> متاحاً للضم حيواناً أليفاً لك!\nيمكن أن تأمر <Alias=AliasRabbit> بأن يقودك إلى المكوّنات القريبة. ولدى <Alias=AliasRabbit> أيضاً فرصة للعثور على مكوّن مرة في اليوم.
+ccvsvsse002-pets|dlstrings|0x00000030	وجد <Alias=PetFox> شيئاً!
+ccvsvsse002-pets|dlstrings|0x00000032	لم يجد <Alias=PetSkeever> شيئاً...
+ccvsvsse002-pets|dlstrings|0x00000033	صار الثعلب <Alias=AliasFox> متاحاً للضم حيواناً أليفاً لك!\nيمكن أن تأمر <Alias=AliasFox> بأن يقودك إلى الأغراض الثمينة القريبة. ولدى <Alias=AliasFox> أيضاً فرصة للعثور على غرض لامع مرة في اليوم.
+ccvsvsse002-pets|dlstrings|0x00000038	صار العنكبوت <Alias=AliasSpider> متاحاً للضم حيواناً أليفاً لك!\nيمكن أن تأمر <Alias=AliasSpider> بأن ينسج فخاً من الشباك اللزجة ليبطئ أعداءك. ويمكن أيضاً جني سمّ قوي من <Alias=AliasSpider> مرة في اليوم.
+ccvsvsse002-pets|dlstrings|0x0000003A	لم يتمكن <Alias=PetSpider> من نسج فخ شباك هناك...
+ccvsvsse002-pets|dlstrings|0x0000003E	صارت العنزة <Alias=AliasGoat> متاحة للضم حيواناً أليفاً لك!\nتستطيع <Alias=AliasGoat> حمل أغراض كثيرة، ويمكن تجهيزها بخُرج لتحمل أكثر. ويمكن أيضاً جمع إبريق حليب من <Alias=AliasGoat> مرة في اليوم.
+ccvsvsse002-pets|dlstrings|0x0000003F	لم يجد <Alias=PetFox> شيئاً...
+ccvsvsse002-pets|dlstrings|0x00000043	مرحلة التجنيد
+ccvsvsse002-pets|dlstrings|0x00000051	<font face="$HandwrittenFont" size="18">\n<b>14 من البذر الثاني</b>\nيبدو أن الأرانب هنا بارعة على نحو خاص في شم مكونات الجرعات. وجدت مؤخراً واحداً يقضم نباتات الشوك عندي وتمكنت من الإمساك به. وآمل أن أستطيع تدريبه ليقودني إلى أغنى النباتات.\n\n<b>22 من البذر الثاني</b>\nالأرنب (الذي قررت أن أسميه الشوكة، تكريماً للنباتات المزروعة بعناية التي تمكن من تدميرها) يُظهر وعداً كبيراً. ثبت أنه أليف جداً بل ذكي إلى حد ما. لكن جعله يستجيب للأوامر قد يكون محنة بعض الشيء. لجأت إلى إغرائه بالجزر.
+ccvsvsse002-pets|dlstrings|0x00000053	يجب أن يكون <Alias=PetSpider> رفيقك لتعطيه الأوامر
+ccvsvsse002-pets|dlstrings|0x00000054	صار السكيفر <Alias=AliasSkeever> متاحاً للضم حيواناً أليفاً لك!\nيمكن أن تأمر <Alias=AliasSkeever> بأن يقودك إلى الطعام القريب. ولدى <Alias=AliasSkeever> أيضاً فرصة للعثور على طعام مرة في اليوم.
+ccvsvsse002-pets|dlstrings|0x00000064	<font face='$HandwrittenFont'><div align="left">\nبينما قد يكون إخوتي مهووسين بالطعم الذي يبثه الخوف في دم الفانين، أجد أن الألم يمنح حلاوة أقوى بكثير. ولا شيء قادر على إحداث الألم مثل سم عنكبوت لدغة الصقيع.\n\nلكن للأسف، الطريقة المعتادة لجمع سم لدغة الصقيع تتضمن قتل العنكبوت - مسعى مكلف وخطير. ولا يُحصل بالطرق العنيفة إلا على قليل جداً من السم للتجارب التي أرغب في إجرائها. \n\nولهذا، أمسكت عنكبوت لدغة صقيع من أعماق الكهف كي أجمع سمه بانتظام، الذي يبدو قوياً على نحو غير عادي. واكتشفت أن لديه على ما يبدو قدراً من الذكاء، وأحاول أن أعلمه طاعة أوامر معينة. آه كم سيكون لذيذاً أن يكون لدي عنكبوت مروّض يشبك فريستي عند الأمر!\n\nأظن أنني سأسميه أراكنيا.
+ccvsvsse002-pets|dlstrings|0x00000075	<font face="$HandwrittenFont">\n<font size="40">للبيع</font>\n\nماعز جبلية مروّضة واحدة. قادرة على حمل وزن كبير إلى حلق العالم والعودة. تعطي حليباً جيداً. \n\nإن كنت مهتماً بالشراء، فقابل هالفار في روريكستيد. \n\n- هالفار
+ccvsvsse002-pets|dlstrings|0x00000077	بعد قراءة يوميات هالفار عن مغامراته في أرجاء سكايرم، اكتشفتُ أن هناك حيوانات أليفة مروّضة أخرى كثيرة في البرية. وعليّ أن أنطلق للعثور عليها.
+ccvsvsse002-pets|dlstrings|0x0000007E	وجدتُ في نزل الفرس ذات الراية إشعاراً يعرض عنزة مروّضة للبيع. وعليّ أن أتحدث إلى هالفار في روريكستيد لأشتريها.
+ccvsvsse002-pets|dlstrings|0x00000080	الرحلة عبر سكايرم قد تكون شاقة وطويلة، وقد أنتفع برفقة حيوان وفي. وعليّ أن أسأل في البلدة إن كانت هناك حيوانات مروّضة للبيع.
+ccvsvsse002-pets|dlstrings|0x000000A9	الخروج من القفص
+ccvsvsse002-pets|ilstrings|0x00000014	(ثغاء!)
+ccvsvsse002-pets|ilstrings|0x0000001C	(صرير)
+ccvsvsse002-pets|ilstrings|0x00000022	(صرير)
+ccvsvsse002-pets|ilstrings|0x00000025	(نخير)
+ccvsvsse002-pets|ilstrings|0x0000002F	(نخير)
+ccvsvsse002-pets|ilstrings|0x00000037	(صرير)
+ccvsvsse002-pets|ilstrings|0x0000003B	(نخير)
+ccvsvsse002-pets|ilstrings|0x00000047	(نخير)
+ccvsvsse002-pets|ilstrings|0x00000050	(نخير)
+ccvsvsse002-pets|ilstrings|0x00000056	(صرير)
+ccvsvsse002-pets|ilstrings|0x0000005C	(صرير)
+ccvsvsse002-pets|ilstrings|0x00000063	(صرير)
+ccvsvsse002-pets|ilstrings|0x00000068	(صرير)
+ccvsvsse002-pets|ilstrings|0x0000006E	(نخير)
+ccvsvsse002-pets|ilstrings|0x00000074	(ثغاء!)
+ccvsvsse002-pets|ilstrings|0x0000007A	(نباح!)
+ccvsvsse002-pets|ilstrings|0x0000007F	(نخير)
+ccvsvsse002-pets|ilstrings|0x0000008D	(نخير)
+ccvsvsse002-pets|ilstrings|0x00000091	(نخير)
+ccvsvsse002-pets|ilstrings|0x00000093	(نخير)
+ccvsvsse002-pets|ilstrings|0x00000095	(نباح!)
+ccvsvsse002-pets|ilstrings|0x00000096	(نباح)
+ccvsvsse002-pets|ilstrings|0x00000098	(نخير)
+ccvsvsse002-pets|ilstrings|0x0000009A	(نخير)
+ccvsvsse002-pets|ilstrings|0x0000009D	(نخير)
+ccvsvsse002-pets|ilstrings|0x000000A6	(ثغاء!)
+ccvsvsse002-pets|strings|0x00000001	ثعلب
+ccvsvsse002-pets|strings|0x00000002	إمرة العنكبوت
+ccvsvsse002-pets|strings|0x00000003	اشترِ <Alias=AliasGoat> من <Alias=AliasFarmer>
+ccvsvsse002-pets|strings|0x00000004	الشلل
+ccvsvsse002-pets|strings|0x00000006	سم عضة الصقيع القوي
+ccvsvsse002-pets|strings|0x00000007	هذا عرضي... (<Global=ccVSVSSE002_GoatPrice> قطعة ذهبية)
+ccvsvsse002-pets|strings|0x00000008	اعثر على العنكبوت المروّض
+ccvsvsse002-pets|strings|0x00000009	حيوانات سكايرم الأليفة
+ccvsvsse002-pets|strings|0x0000000B	بعد التفكير، لا عليك.
+ccvsvsse002-pets|strings|0x0000000C	سكريتش
+ccvsvsse002-pets|strings|0x0000000D	هيلدا
+ccvsvsse002-pets|strings|0x0000000E	إمرة العنكبوت
+ccvsvsse002-pets|strings|0x0000000F	أراكنيا
+ccvsvsse002-pets|strings|0x00000010	مرحباً يا «شوكة». أتريد حلوى؟
+ccvsvsse002-pets|strings|0x00000011	لص
+ccvsvsse002-pets|strings|0x00000012	فخ الشبكة
+ccvsvsse002-pets|strings|0x00000013	عنكبوت عضة الصقيع
+ccvsvsse002-pets|strings|0x00000015	أطعم <Alias=AliasFox> كعكة حلوى
+ccvsvsse002-pets|strings|0x00000016	يوميات النشّال
+ccvsvsse002-pets|strings|0x00000017	ابحث عن طعام!
+ccvsvsse002-pets|strings|0x0000001A	مرحباً يا «لفافة حلوة». أتريد حلوى؟
+ccvsvsse002-pets|strings|0x0000001D	هالفار
+ccvsvsse002-pets|strings|0x0000001E	كهف كرونفانغر
+ccvsvsse002-pets|strings|0x0000001F	اجنِ السم
+ccvsvsse002-pets|strings|0x00000021	اعثر على حلوى للأرنب
+ccvsvsse002-pets|strings|0x00000026	اعثر على العنزة <Alias=AliasGoat>
+ccvsvsse002-pets|strings|0x0000002A	ابحث عن مكوّن!
+ccvsvsse002-pets|strings|0x0000002D	أطعم <Alias=AliasRabbit> جزرة
+ccvsvsse002-pets|strings|0x0000002E	ملاحظات عن الأرنب المروّض
+ccvsvsse002-pets|strings|0x00000031	اعثر على السكيفر المروّض
+ccvsvsse002-pets|strings|0x00000034	ما الذي معك هناك؟
+ccvsvsse002-pets|strings|0x00000035	اجمع الحليب
+ccvsvsse002-pets|strings|0x00000036	في الواقع، لا أملك ما يكفي من المال.
+ccvsvsse002-pets|strings|0x00000039	الشوكة
+ccvsvsse002-pets|strings|0x0000003C	حرّر <Alias=AliasSkeever> من قفصه
+ccvsvsse002-pets|strings|0x0000003D	مرحباً يا صاحبي. أتريد أن تأتي معي؟
+ccvsvsse002-pets|strings|0x00000040	ممر الجرذان
+ccvsvsse002-pets|strings|0x00000041	أرنب
+ccvsvsse002-pets|strings|0x00000042	ابحث عن شيء ثمين!
+ccvsvsse002-pets|strings|0x00000044	مرحباً يا صديقي، هل أنت جائع؟
+ccvsvsse002-pets|strings|0x00000045	اعرف المزيد عن العنزة
+ccvsvsse002-pets|strings|0x00000046	اعرف المزيد عن الثعلب
+ccvsvsse002-pets|strings|0x00000048	حرّر <Alias=AliasSpider> من قفصه
+ccvsvsse002-pets|strings|0x00000049	أمر عنكبوتك الأليف بنسج فخ شبكي في الموقع المستهدف. يمكن أن يكون <1> فخ شبكي فقط نشطاً في كل مرة.
+ccvsvsse002-pets|strings|0x0000004A	مفتاح قفص العنكبوت
+ccvsvsse002-pets|strings|0x0000004B	اعثر على مفتاح قفص السكيفر
+ccvsvsse002-pets|strings|0x0000004C	أرنب
+ccvsvsse002-pets|strings|0x0000004D	اعثر على الثعلب المروّض
+ccvsvsse002-pets|strings|0x0000004E	اعثر على الأرنب المروّض
+ccvsvsse002-pets|strings|0x0000004F	مرحباً يا صديقي، هل أنت جائع؟
+ccvsvsse002-pets|strings|0x00000052	أأستطيع شراء عنزتك؟
+ccvsvsse002-pets|strings|0x00000055	ما الذي معك هناك؟
+ccvsvsse002-pets|strings|0x00000057	ماعز
+ccvsvsse002-pets|strings|0x00000058	طوق حيوان
+ccvsvsse002-pets|strings|0x0000005A	سكايرم
+ccvsvsse002-pets|strings|0x0000005B	يوميات اللص
+ccvsvsse002-pets|strings|0x0000005D	كعكة الحلوى
+ccvsvsse002-pets|strings|0x0000005E	مصاص دماء عالم طبيعة
+ccvsvsse002-pets|strings|0x0000005F	يوميات هالفار
+ccvsvsse002-pets|strings|0x00000060	سكيفر
+ccvsvsse002-pets|strings|0x00000062	ما الذي معك هناك؟
+ccvsvsse002-pets|strings|0x00000065	اعثر على مفتاح قفص العنكبوت
+ccvsvsse002-pets|strings|0x00000066	حقيبة حيوان
+ccvsvsse002-pets|strings|0x00000067	يوميات عالم طبيعة مصاص دماء
+ccvsvsse002-pets|strings|0x0000006A	ماعز
+ccvsvsse002-pets|strings|0x0000006B	مفتاح قفص السكيفر
+ccvsvsse002-pets|strings|0x0000006C	جهّز غرضاً
+ccvsvsse002-pets|strings|0x0000006D	ينقل السكيفر سكريتش
+ccvsvsse002-pets|strings|0x0000006F	لننزع حملك.
+ccvsvsse002-pets|strings|0x00000070	النشل
+ccvsvsse002-pets|strings|0x00000071	حيِّ العنزة <Alias=AliasGoat>
+ccvsvsse002-pets|strings|0x00000072	لنُلبسك طوقك.
+ccvsvsse002-pets|strings|0x00000073	لننزع حملك.
+ccvsvsse002-pets|strings|0x00000076	اعرف المزيد عن <Alias=AliasGoat>
+ccvsvsse002-pets|strings|0x00000078	نقل أراكنيا
+ccvsvsse002-pets|strings|0x00000079	جهّز الخُرج
+ccvsvsse002-pets|strings|0x0000007B	جهّز الطوق
+ccvsvsse002-pets|strings|0x0000007C	تفقّد الإعلانات في الفرس ذات الراية
+ccvsvsse002-pets|strings|0x0000007D	لننزع طوقك.
+ccvsvsse002-pets|strings|0x00000081	نقل الحيوان الأليف: سكريتش
+ccvsvsse002-pets|strings|0x00000082	لنُلبسك حملك.
+ccvsvsse002-pets|strings|0x00000083	لنُلبسك حملك.
+ccvsvsse002-pets|strings|0x00000084	ينقل الماعز هيلدا
+ccvsvsse002-pets|strings|0x00000085	جهّز الخُرج
+ccvsvsse002-pets|strings|0x00000086	اشترِ عنزة مروّضة من <Alias=AliasFarmer>
+ccvsvsse002-pets|strings|0x00000087	نقل الحيوان الأليف: أراكنيا
+ccvsvsse002-pets|strings|0x00000088	ينقل الأرنب الشوكة
+ccvsvsse002-pets|strings|0x00000089	ينقل الثعلب كعكة الحلوى
+ccvsvsse002-pets|strings|0x0000008A	لنُلبسك طوقك.
+ccvsvsse002-pets|strings|0x0000008B	لنُلبسك طوقك.
+ccvsvsse002-pets|strings|0x0000008C	نقل الحيوان الأليف: الشوكة
+ccvsvsse002-pets|strings|0x0000008E	لننزع طوقك.
+ccvsvsse002-pets|strings|0x0000008F	طوق حيوان
+ccvsvsse002-pets|strings|0x00000090	للبيع
+ccvsvsse002-pets|strings|0x00000092	جهّز غرضاً
+ccvsvsse002-pets|strings|0x00000094	لنُلبسك طوقك.
+ccvsvsse002-pets|strings|0x00000097	نقل الشوكة
+ccvsvsse002-pets|strings|0x00000099	جهّز غرضاً
+ccvsvsse002-pets|strings|0x0000009B	لننزع طوقك.
+ccvsvsse002-pets|strings|0x0000009C	نقل الحيوان الأليف: كعكة الحلوى
+ccvsvsse002-pets|strings|0x0000009E	نقل سكريتش
+ccvsvsse002-pets|strings|0x0000009F	نقل الحيوان الأليف: هيلدا
+ccvsvsse002-pets|strings|0x000000A0	نقل هيلدا
+ccvsvsse002-pets|strings|0x000000A1	نقل كعكة الحلوى
+ccvsvsse002-pets|strings|0x000000A2	لننزع طوقك.
+ccvsvsse002-pets|strings|0x000000A3	ينقل العنكبوت أراكنيا
+ccvsvsse002-pets|strings|0x000000A4	انسج فخ شباك!
+ccvsvsse002-pets|strings|0x000000A5	حقيبة حيوان
+ccvsvsse002-pets|strings|0x000000A7	لنجمع بعض الحليب.
+ccvsvsse002-pets|strings|0x000000A8	لنجمع بعض السم.
+ccvsvsse002-pets|strings|0x000000AA	تزداد سعة الحمل بمقدار <mag> نقطة.
+ccvsvsse002-pets|strings|0x000000AB	تعزيز الحمولة
+ccvsvsse002-pets|strings|0x000000AC	تعزيز الحمولة
+ccvsvsse002-pets|strings|0x000000AD	تعزيز الحمولة
+ccvsvsse002-pets|strings|0x0000EA7E	الفرس ذات الراية

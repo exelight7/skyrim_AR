@@ -1,0 +1,7 @@
+<Project>
+  <!-- Keep build intermediates out of OneDrive -->
+  <PropertyGroup>
+    <BaseIntermediateOutputPath>$(LOCALAPPDATA)\SkyrimArabicInstallerBuild\obj\</BaseIntermediateOutputPath>
+    <BaseOutputPath>$(LOCALAPPDATA)\SkyrimArabicInstallerBuild\bin\</BaseOutputPath>
+  </PropertyGroup>
+</Project>

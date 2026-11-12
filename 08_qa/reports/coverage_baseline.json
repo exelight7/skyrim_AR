@@ -1,0 +1,1195 @@
+{
+ "game_version": "1.7.104.0",
+ "by_plugin": {
+  "_resourcepack": {
+   "strings": {
+    "entries": 27,
+    "non_empty": 27,
+    "words": 36
+   }
+  },
+  "ccafdsse001-dwesanctuary": {
+   "dlstrings": {
+    "entries": 16,
+    "non_empty": 16,
+    "words": 986
+   },
+   "ilstrings": {
+    "entries": 5,
+    "non_empty": 5,
+    "words": 15
+   },
+   "strings": {
+    "entries": 48,
+    "non_empty": 48,
+    "words": 165
+   }
+  },
+  "ccasvsse001-almsivi": {
+   "dlstrings": {
+    "entries": 99,
+    "non_empty": 99,
+    "words": 6195
+   },
+   "strings": {
+    "entries": 288,
+    "non_empty": 288,
+    "words": 1171
+   }
+  },
+  "ccbgssse001-fish": {
+   "dlstrings": {
+    "entries": 219,
+    "non_empty": 219,
+    "words": 14090
+   },
+   "strings": {
+    "entries": 808,
+    "non_empty": 808,
+    "words": 3316
+   }
+  },
+  "ccbgssse002-exoticarrows": {
+   "dlstrings": {
+    "entries": 15,
+    "non_empty": 15,
+    "words": 430
+   },
+   "strings": {
+    "entries": 44,
+    "non_empty": 44,
+    "words": 118
+   }
+  },
+  "ccbgssse003-zombies": {
+   "dlstrings": {
+    "entries": 10,
+    "non_empty": 10,
+    "words": 432
+   },
+   "ilstrings": {
+    "entries": 5,
+    "non_empty": 0,
+    "words": 0
+   },
+   "strings": {
+    "entries": 68,
+    "non_empty": 68,
+    "words": 213
+   }
+  },
+  "ccbgssse004-ruinsedge": {
+   "dlstrings": {
+    "entries": 2,
+    "non_empty": 2,
+    "words": 17
+   },
+   "strings": {
+    "entries": 24,
+    "non_empty": 24,
+    "words": 96
+   }
+  },
+  "ccbgssse005-goldbrand": {
+   "dlstrings": {
+    "entries": 24,
+    "non_empty": 24,
+    "words": 1647
+   },
+   "strings": {
+    "entries": 50,
+    "non_empty": 50,
+    "words": 255
+   }
+  },
+  "ccbgssse006-stendarshammer": {
+   "dlstrings": {
+    "entries": 2,
+    "non_empty": 2,
+    "words": 33
+   },
+   "strings": {
+    "entries": 10,
+    "non_empty": 10,
+    "words": 37
+   }
+  },
+  "ccbgssse007-chrysamere": {
+   "dlstrings": {
+    "entries": 2,
+    "non_empty": 2,
+    "words": 30
+   },
+   "strings": {
+    "entries": 25,
+    "non_empty": 25,
+    "words": 91
+   }
+  },
+  "ccbgssse008-wraithguard": {
+   "dlstrings": {
+    "entries": 22,
+    "non_empty": 22,
+    "words": 1679
+   },
+   "strings": {
+    "entries": 80,
+    "non_empty": 80,
+    "words": 273
+   }
+  },
+  "ccbgssse010-petdwarvenarmoredmudcrab": {
+   "dlstrings": {
+    "entries": 8,
+    "non_empty": 8,
+    "words": 316
+   },
+   "strings": {
+    "entries": 18,
+    "non_empty": 18,
+    "words": 59
+   }
+  },
+  "ccbgssse011-hrsarmrelvn": {
+   "strings": {
+    "entries": 1,
+    "non_empty": 1,
+    "words": 3
+   }
+  },
+  "ccbgssse012-hrsarmrstl": {
+   "strings": {
+    "entries": 1,
+    "non_empty": 1,
+    "words": 3
+   }
+  },
+  "ccbgssse013-dawnfang": {
+   "dlstrings": {
+    "entries": 30,
+    "non_empty": 30,
+    "words": 2616
+   },
+   "strings": {
+    "entries": 99,
+    "non_empty": 95,
+    "words": 278
+   }
+  },
+  "ccbgssse014-spellpack01": {
+   "dlstrings": {
+    "entries": 18,
+    "non_empty": 18,
+    "words": 144
+   },
+   "strings": {
+    "entries": 117,
+    "non_empty": 116,
+    "words": 669
+   }
+  },
+  "ccbgssse016-umbra": {
+   "dlstrings": {
+    "entries": 11,
+    "non_empty": 11,
+    "words": 1038
+   },
+   "strings": {
+    "entries": 30,
+    "non_empty": 30,
+    "words": 74
+   }
+  },
+  "ccbgssse018-shadowrend": {
+   "dlstrings": {
+    "entries": 11,
+    "non_empty": 11,
+    "words": 273
+   },
+   "strings": {
+    "entries": 40,
+    "non_empty": 40,
+    "words": 77
+   }
+  },
+  "ccbgssse019-staffofsheogorath": {
+   "dlstrings": {
+    "entries": 8,
+    "non_empty": 8,
+    "words": 266
+   },
+   "strings": {
+    "entries": 31,
+    "non_empty": 31,
+    "words": 124
+   }
+  },
+  "ccbgssse020-graycowl": {
+   "dlstrings": {
+    "entries": 21,
+    "non_empty": 21,
+    "words": 1715
+   },
+   "ilstrings": {
+    "entries": 3,
+    "non_empty": 3,
+    "words": 39
+   },
+   "strings": {
+    "entries": 83,
+    "non_empty": 82,
+    "words": 459
+   }
+  },
+  "ccbgssse021-lordsmail": {
+   "dlstrings": {
+    "entries": 9,
+    "non_empty": 9,
+    "words": 495
+   },
+   "strings": {
+    "entries": 46,
+    "non_empty": 45,
+    "words": 163
+   }
+  },
+  "ccbgssse025-advdsgs": {
+   "dlstrings": {
+    "entries": 73,
+    "non_empty": 73,
+    "words": 6373
+   },
+   "ilstrings": {
+    "entries": 10,
+    "non_empty": 10,
+    "words": 10
+   },
+   "strings": {
+    "entries": 394,
+    "non_empty": 394,
+    "words": 1635
+   }
+  },
+  "ccbgssse031-advcyrus": {
+   "dlstrings": {
+    "entries": 20,
+    "non_empty": 20,
+    "words": 1829
+   },
+   "strings": {
+    "entries": 99,
+    "non_empty": 99,
+    "words": 302
+   }
+  },
+  "ccbgssse034-mntuni": {
+   "dlstrings": {
+    "entries": 25,
+    "non_empty": 25,
+    "words": 994
+   },
+   "ilstrings": {
+    "entries": 6,
+    "non_empty": 0,
+    "words": 0
+   },
+   "strings": {
+    "entries": 76,
+    "non_empty": 76,
+    "words": 209
+   }
+  },
+  "ccbgssse035-petnhound": {
+   "dlstrings": {
+    "entries": 10,
+    "non_empty": 10,
+    "words": 277
+   },
+   "ilstrings": {
+    "entries": 4,
+    "non_empty": 0,
+    "words": 0
+   },
+   "strings": {
+    "entries": 28,
+    "non_empty": 28,
+    "words": 87
+   }
+  },
+  "ccbgssse036-petbwolf": {
+   "dlstrings": {
+    "entries": 12,
+    "non_empty": 12,
+    "words": 351
+   },
+   "ilstrings": {
+    "entries": 2,
+    "non_empty": 0,
+    "words": 0
+   },
+   "strings": {
+    "entries": 30,
+    "non_empty": 29,
+    "words": 101
+   }
+  },
+  "ccbgssse037-curios": {
+   "dlstrings": {
+    "entries": 2,
+    "non_empty": 2,
+    "words": 17
+   },
+   "strings": {
+    "entries": 79,
+    "non_empty": 79,
+    "words": 187
+   }
+  },
+  "ccbgssse038-bowofshadows": {
+   "dlstrings": {
+    "entries": 16,
+    "non_empty": 16,
+    "words": 1387
+   },
+   "strings": {
+    "entries": 40,
+    "non_empty": 40,
+    "words": 154
+   }
+  },
+  "ccbgssse040-advobgobs": {
+   "dlstrings": {
+    "entries": 10,
+    "non_empty": 10,
+    "words": 1170
+   },
+   "ilstrings": {
+    "entries": 9,
+    "non_empty": 5,
+    "words": 5
+   },
+   "strings": {
+    "entries": 109,
+    "non_empty": 109,
+    "words": 434
+   }
+  },
+  "ccbgssse041-netchleather": {
+   "dlstrings": {
+    "entries": 21,
+    "non_empty": 21,
+    "words": 1428
+   },
+   "ilstrings": {
+    "entries": 16,
+    "non_empty": 16,
+    "words": 20
+   },
+   "strings": {
+    "entries": 77,
+    "non_empty": 77,
+    "words": 368
+   }
+  },
+  "ccbgssse043-crosselv": {
+   "dlstrings": {
+    "entries": 11,
+    "non_empty": 11,
+    "words": 617
+   },
+   "strings": {
+    "entries": 17,
+    "non_empty": 17,
+    "words": 49
+   }
+  },
+  "ccbgssse045-hasedoki": {
+   "dlstrings": {
+    "entries": 19,
+    "non_empty": 19,
+    "words": 3206
+   },
+   "strings": {
+    "entries": 35,
+    "non_empty": 35,
+    "words": 142
+   }
+  },
+  "ccbgssse050-ba_daedric": {
+   "dlstrings": {
+    "entries": 11,
+    "non_empty": 11,
+    "words": 1802
+   },
+   "strings": {
+    "entries": 21,
+    "non_empty": 21,
+    "words": 74
+   }
+  },
+  "ccbgssse051-ba_daedricmail": {
+   "dlstrings": {
+    "entries": 13,
+    "non_empty": 12,
+    "words": 2141
+   },
+   "strings": {
+    "entries": 29,
+    "non_empty": 29,
+    "words": 160
+   }
+  },
+  "ccbgssse052-ba_iron": {
+   "dlstrings": {
+    "entries": 10,
+    "non_empty": 10,
+    "words": 825
+   },
+   "strings": {
+    "entries": 21,
+    "non_empty": 21,
+    "words": 78
+   }
+  },
+  "ccbgssse053-ba_leather": {
+   "dlstrings": {
+    "entries": 11,
+    "non_empty": 11,
+    "words": 969
+   },
+   "strings": {
+    "entries": 26,
+    "non_empty": 26,
+    "words": 80
+   }
+  },
+  "ccbgssse054-ba_orcish": {
+   "dlstrings": {
+    "entries": 10,
+    "non_empty": 10,
+    "words": 665
+   },
+   "strings": {
+    "entries": 24,
+    "non_empty": 24,
+    "words": 84
+   }
+  },
+  "ccbgssse055-ba_orcishscaled": {
+   "dlstrings": {
+    "entries": 12,
+    "non_empty": 12,
+    "words": 1570
+   },
+   "strings": {
+    "entries": 32,
+    "non_empty": 32,
+    "words": 179
+   }
+  },
+  "ccbgssse056-ba_silver": {
+   "dlstrings": {
+    "entries": 8,
+    "non_empty": 8,
+    "words": 2132
+   },
+   "strings": {
+    "entries": 21,
+    "non_empty": 21,
+    "words": 67
+   }
+  },
+  "ccbgssse057-ba_stalhrim": {
+   "dlstrings": {
+    "entries": 5,
+    "non_empty": 5,
+    "words": 328
+   },
+   "strings": {
+    "entries": 14,
+    "non_empty": 14,
+    "words": 39
+   }
+  },
+  "ccbgssse058-ba_steel": {
+   "dlstrings": {
+    "entries": 11,
+    "non_empty": 11,
+    "words": 648
+   },
+   "strings": {
+    "entries": 28,
+    "non_empty": 28,
+    "words": 93
+   }
+  },
+  "ccbgssse059-ba_dragonplate": {
+   "dlstrings": {
+    "entries": 16,
+    "non_empty": 16,
+    "words": 1349
+   },
+   "strings": {
+    "entries": 42,
+    "non_empty": 42,
+    "words": 113
+   }
+  },
+  "ccbgssse060-ba_dragonscale": {
+   "dlstrings": {
+    "entries": 7,
+    "non_empty": 7,
+    "words": 1085
+   },
+   "strings": {
+    "entries": 18,
+    "non_empty": 18,
+    "words": 51
+   }
+  },
+  "ccbgssse061-ba_dwarven": {
+   "dlstrings": {
+    "entries": 8,
+    "non_empty": 8,
+    "words": 1150
+   },
+   "strings": {
+    "entries": 16,
+    "non_empty": 16,
+    "words": 50
+   }
+  },
+  "ccbgssse062-ba_dwarvenmail": {
+   "dlstrings": {
+    "entries": 6,
+    "non_empty": 6,
+    "words": 903
+   },
+   "strings": {
+    "entries": 15,
+    "non_empty": 15,
+    "words": 48
+   }
+  },
+  "ccbgssse063-ba_ebony": {
+   "dlstrings": {
+    "entries": 14,
+    "non_empty": 14,
+    "words": 2424
+   },
+   "strings": {
+    "entries": 40,
+    "non_empty": 40,
+    "words": 154
+   }
+  },
+  "ccbgssse064-ba_elven": {
+   "dlstrings": {
+    "entries": 9,
+    "non_empty": 9,
+    "words": 1632
+   },
+   "strings": {
+    "entries": 18,
+    "non_empty": 18,
+    "words": 50
+   }
+  },
+  "ccbgssse066-staves": {
+   "strings": {
+    "entries": 465,
+    "non_empty": 465,
+    "words": 2046
+   }
+  },
+  "ccbgssse067-daedinv": {
+   "dlstrings": {
+    "entries": 48,
+    "non_empty": 48,
+    "words": 5653
+   },
+   "ilstrings": {
+    "entries": 4,
+    "non_empty": 0,
+    "words": 0
+   },
+   "strings": {
+    "entries": 245,
+    "non_empty": 245,
+    "words": 775
+   }
+  },
+  "ccbgssse068-bloodfall": {
+   "dlstrings": {
+    "entries": 8,
+    "non_empty": 8,
+    "words": 484
+   },
+   "strings": {
+    "entries": 19,
+    "non_empty": 19,
+    "words": 76
+   }
+  },
+  "ccbgssse069-contest": {
+   "dlstrings": {
+    "entries": 10,
+    "non_empty": 10,
+    "words": 907
+   },
+   "ilstrings": {
+    "entries": 2,
+    "non_empty": 0,
+    "words": 0
+   },
+   "strings": {
+    "entries": 34,
+    "non_empty": 34,
+    "words": 130
+   }
+  },
+  "cccbhsse001-gaunt": {
+   "strings": {
+    "entries": 39,
+    "non_empty": 39,
+    "words": 113
+   }
+  },
+  "ccedhsse001-norjewel": {
+   "dlstrings": {
+    "entries": 9,
+    "non_empty": 9,
+    "words": 465
+   },
+   "strings": {
+    "entries": 40,
+    "non_empty": 40,
+    "words": 151
+   }
+  },
+  "ccedhsse002-splkntset": {
+   "dlstrings": {
+    "entries": 26,
+    "non_empty": 26,
+    "words": 1896
+   },
+   "strings": {
+    "entries": 74,
+    "non_empty": 74,
+    "words": 247
+   }
+  },
+  "ccedhsse003-redguard": {
+   "dlstrings": {
+    "entries": 31,
+    "non_empty": 30,
+    "words": 2890
+   },
+   "strings": {
+    "entries": 91,
+    "non_empty": 91,
+    "words": 418
+   }
+  },
+  "cceejsse001-hstead": {
+   "dlstrings": {
+    "entries": 2,
+    "non_empty": 2,
+    "words": 83
+   },
+   "strings": {
+    "entries": 117,
+    "non_empty": 117,
+    "words": 202
+   }
+  },
+  "cceejsse002-tower": {
+   "dlstrings": {
+    "entries": 14,
+    "non_empty": 14,
+    "words": 1563
+   },
+   "strings": {
+    "entries": 177,
+    "non_empty": 177,
+    "words": 288
+   }
+  },
+  "cceejsse003-hollow": {
+   "dlstrings": {
+    "entries": 5,
+    "non_empty": 5,
+    "words": 144
+   },
+   "strings": {
+    "entries": 148,
+    "non_empty": 148,
+    "words": 280
+   }
+  },
+  "cceejsse004-hall": {
+   "dlstrings": {
+    "entries": 11,
+    "non_empty": 11,
+    "words": 468
+   },
+   "strings": {
+    "entries": 183,
+    "non_empty": 183,
+    "words": 308
+   }
+  },
+  "cceejsse005-cave": {
+   "dlstrings": {
+    "entries": 27,
+    "non_empty": 27,
+    "words": 1884
+   },
+   "strings": {
+    "entries": 194,
+    "non_empty": 194,
+    "words": 415
+   }
+  },
+  "ccffbsse001-imperialdragon": {
+   "dlstrings": {
+    "entries": 57,
+    "non_empty": 57,
+    "words": 2391
+   },
+   "strings": {
+    "entries": 185,
+    "non_empty": 183,
+    "words": 813
+   }
+  },
+  "ccffbsse002-crossbowpack": {
+   "dlstrings": {
+    "entries": 8,
+    "non_empty": 8,
+    "words": 64
+   },
+   "strings": {
+    "entries": 18,
+    "non_empty": 18,
+    "words": 43
+   }
+  },
+  "ccfsvsse001-backpacks": {
+   "strings": {
+    "entries": 22,
+    "non_empty": 22,
+    "words": 64
+   }
+  },
+  "cckrtsse001_altar": {
+   "dlstrings": {
+    "entries": 65,
+    "non_empty": 65,
+    "words": 4930
+   },
+   "strings": {
+    "entries": 228,
+    "non_empty": 228,
+    "words": 1071
+   }
+  },
+  "ccmtysse001-knightsofthenine": {
+   "dlstrings": {
+    "entries": 7,
+    "non_empty": 6,
+    "words": 610
+   },
+   "strings": {
+    "entries": 55,
+    "non_empty": 55,
+    "words": 224
+   }
+  },
+  "ccmtysse002-ve": {
+   "dlstrings": {
+    "entries": 30,
+    "non_empty": 30,
+    "words": 2048
+   },
+   "strings": {
+    "entries": 62,
+    "non_empty": 62,
+    "words": 197
+   }
+  },
+  "ccpewsse002-armsofchaos": {
+   "dlstrings": {
+    "entries": 16,
+    "non_empty": 16,
+    "words": 1210
+   },
+   "strings": {
+    "entries": 104,
+    "non_empty": 100,
+    "words": 401
+   }
+  },
+  "ccqdrsse001-survivalmode": {
+   "dlstrings": {
+    "entries": 130,
+    "non_empty": 119,
+    "words": 3126
+   },
+   "strings": {
+    "entries": 477,
+    "non_empty": 477,
+    "words": 1729
+   }
+  },
+  "ccqdrsse002-firewood": {
+   "dlstrings": {
+    "entries": 16,
+    "non_empty": 16,
+    "words": 242
+   },
+   "strings": {
+    "entries": 28,
+    "non_empty": 28,
+    "words": 84
+   }
+  },
+  "ccrmssse001-necrohouse": {
+   "dlstrings": {
+    "entries": 37,
+    "non_empty": 37,
+    "words": 1552
+   },
+   "ilstrings": {
+    "entries": 1,
+    "non_empty": 0,
+    "words": 0
+   },
+   "strings": {
+    "entries": 130,
+    "non_empty": 130,
+    "words": 375
+   }
+  },
+  "cctwbsse001-puzzledungeon": {
+   "dlstrings": {
+    "entries": 52,
+    "non_empty": 51,
+    "words": 3384
+   },
+   "ilstrings": {
+    "entries": 2,
+    "non_empty": 0,
+    "words": 0
+   },
+   "strings": {
+    "entries": 269,
+    "non_empty": 265,
+    "words": 934
+   }
+  },
+  "ccvsvsse001-winter": {
+   "dlstrings": {
+    "entries": 3,
+    "non_empty": 3,
+    "words": 53
+   },
+   "strings": {
+    "entries": 16,
+    "non_empty": 16,
+    "words": 32
+   }
+  },
+  "ccvsvsse002-pets": {
+   "dlstrings": {
+    "entries": 29,
+    "non_empty": 29,
+    "words": 1332
+   },
+   "ilstrings": {
+    "entries": 26,
+    "non_empty": 26,
+    "words": 26
+   },
+   "strings": {
+    "entries": 116,
+    "non_empty": 116,
+    "words": 407
+   }
+  },
+  "ccvsvsse003-necroarts": {
+   "dlstrings": {
+    "entries": 14,
+    "non_empty": 14,
+    "words": 85
+   },
+   "ilstrings": {
+    "entries": 2,
+    "non_empty": 0,
+    "words": 0
+   },
+   "strings": {
+    "entries": 259,
+    "non_empty": 258,
+    "words": 942
+   }
+  },
+  "ccvsvsse004-beafarmer": {
+   "dlstrings": {
+    "entries": 47,
+    "non_empty": 47,
+    "words": 2380
+   },
+   "ilstrings": {
+    "entries": 3,
+    "non_empty": 3,
+    "words": 3
+   },
+   "strings": {
+    "entries": 145,
+    "non_empty": 145,
+    "words": 526
+   }
+  },
+  "dawnguard": {
+   "dlstrings": {
+    "entries": 486,
+    "non_empty": 454,
+    "words": 19753
+   },
+   "ilstrings": {
+    "entries": 4034,
+    "non_empty": 4020,
+    "words": 47464
+   },
+   "strings": {
+    "entries": 3662,
+    "non_empty": 3655,
+    "words": 14717
+   }
+  },
+  "dragonborn": {
+   "dlstrings": {
+    "entries": 645,
+    "non_empty": 628,
+    "words": 52587
+   },
+   "ilstrings": {
+    "entries": 5143,
+    "non_empty": 5086,
+    "words": 59733
+   },
+   "strings": {
+    "entries": 5282,
+    "non_empty": 5273,
+    "words": 21431
+   }
+  },
+  "hearthfires": {
+   "dlstrings": {
+    "entries": 29,
+    "non_empty": 29,
+    "words": 3357
+   },
+   "ilstrings": {
+    "entries": 708,
+    "non_empty": 708,
+    "words": 8009
+   },
+   "strings": {
+    "entries": 1536,
+    "non_empty": 1536,
+    "words": 5426
+   }
+  },
+  "skyrim": {
+   "dlstrings": {
+    "entries": 2686,
+    "non_empty": 2668,
+    "words": 408903
+   },
+   "ilstrings": {
+    "entries": 34427,
+    "non_empty": 34225,
+    "words": 442571
+   },
+   "strings": {
+    "entries": 30301,
+    "non_empty": 30288,
+    "words": 114243
+   }
+  },
+  "update": {
+   "dlstrings": {
+    "entries": 303,
+    "non_empty": 298,
+    "words": 18198
+   },
+   "ilstrings": {
+    "entries": 158,
+    "non_empty": 152,
+    "words": 2195
+   },
+   "strings": {
+    "entries": 1132,
+    "non_empty": 1132,
+    "words": 3972
+   }
+  }
+ },
+ "totals": {
+  "entries": 99458,
+  "non_empty": 99012,
+  "words": 1358154,
+  "unique_texts": 78169,
+  "texts_repeated_more_than_once": 8050,
+  "entries_with_tokens": 3685,
+  "interface_keys": 861,
+  "translated": 1743,
+  "accepted": 1743
+ },
+ "token_types": {
+  "[pagebreak]": 1657,
+  "<font": 1600,
+  "<p": 1474,
+  "<Alias": 1015,
+  "</p>": 880,
+  "</font>": 729,
+  "<mag>": 583,
+  "<img": 540,
+  "<dur>": 397,
+  "<Global": 370,
+  "<b>": 320,
+  "</b>": 320,
+  "<br>": 284,
+  "<Alias.ShortName": 170,
+  "<i>": 73,
+  "</i>": 73,
+  "<50>": 67,
+  "<25>": 67,
+  "<10>": 66,
+  "<BR>": 60,
+  "<BribeCost>": 48,
+  "%.0f": 48,
+  "<15>": 46,
+  "<Alias.PronounObj": 43,
+  "<div": 39,
+  "<30>": 36,
+  "<20>": 33,
+  "<5>": 29,
+  "<75>": 28,
+  "<Alias.PronounPosObj": 26,
+  "<8>": 25,
+  "%s": 24,
+  "<u>": 24,
+  "</u>": 24,
+  "<Alias.Pronoun": 23,
+  "<60>": 17,
+  "%d": 15,
+  "<100>": 15,
+  "<2>": 10,
+  "<br/>": 10
+ },
+ "most_repeated": [
+  {
+   "text": "Mine",
+   "count": 588
+  },
+  {
+   "text": "Chest",
+   "count": 333
+  },
+  {
+   "text": "Place",
+   "count": 264
+  },
+  {
+   "text": "Prisoner",
+   "count": 177
+  },
+  {
+   "text": "Door",
+   "count": 140
+  },
+  {
+   "text": "Harvest",
+   "count": 113
+  },
+  {
+   "text": "Catch",
+   "count": 88
+  },
+  {
+   "text": "Iron Ore Vein",
+   "count": 82
+  },
+  {
+   "text": "Corundum Ore Vein",
+   "count": 78
+  },
+  {
+   "text": "Bed",
+   "count": 76
+  },
+  {
+   "text": "Moonstone Ore Vein",
+   "count": 76
+  },
+  {
+   "text": "Orichalcum Ore Vein",
+   "count": 76
+  },
+  {
+   "text": "Gold Ore Vein",
+   "count": 76
+  },
+  {
+   "text": "Silver Ore Vein",
+   "count": 76
+  },
+  {
+   "text": "Quicksilver Ore Vein",
+   "count": 76
+  },
+  {
+   "text": "Chair",
+   "count": 74
+  },
+  {
+   "text": "Hay Pile",
+   "count": 71
+  },
+  {
+   "text": "(Remain silent)",
+   "count": 63
+  },
+  {
+   "text": "Skyrim",
+   "count": 57
+  },
+  {
+   "text": "Take",
+   "count": 51
+  },
+  {
+   "text": "...",
+   "count": 51
+  },
+  {
+   "text": "Yes",
+   "count": 50
+  },
+  {
+   "text": "No",
+   "count": 50
+  },
+  {
+   "text": "Torso",
+   "count": 49
+  },
+  {
+   "text": "Cancel",
+   "count": 48
+  }
+ ]
+}

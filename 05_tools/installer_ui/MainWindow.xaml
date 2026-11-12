@@ -1,0 +1,310 @@
+<Window x:Class="SkyrimArabicInstaller.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="تعريب سكايرم — EXELIGHT" Width="1240" Height="760"
+        WindowStyle="None" AllowsTransparency="True" Background="Transparent"
+        ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen"
+        FontFamily="{StaticResource Cairo}" FontSize="14" Foreground="{StaticResource Text}"
+        UseLayoutRounding="True" TextOptions.TextFormattingMode="Ideal"
+        Loaded="Window_Loaded" KeyDown="Window_KeyDown">
+    <!-- Structure is laid out left-to-right in screen terms; every text-bearing
+         panel sets FlowDirection=RightToLeft itself. -->
+    <Window.Resources>
+        <PathGeometry x:Key="ShellGeo" Figures="M30,0 L1150,0 L1180,30 L1180,670 L1150,700 L30,700 L0,670 L0,30 Z"/>
+        <PathGeometry x:Key="InnerGeo" Figures="M34,8 L1146,8 L1172,34 L1172,666 L1146,692 L34,692 L8,666 L8,34 Z"/>
+    </Window.Resources>
+
+    <Grid x:Name="Root" Margin="30" Opacity="0" RenderTransformOrigin="0.5,0.5">
+        <Grid.RenderTransform>
+            <ScaleTransform x:Name="RootScale" ScaleX="0.95" ScaleY="0.95"/>
+        </Grid.RenderTransform>
+
+        <Path Data="{StaticResource ShellGeo}" Fill="#04060B">
+            <Path.Effect>
+                <DropShadowEffect BlurRadius="30" ShadowDepth="0" Opacity="0.8" Color="Black"/>
+            </Path.Effect>
+        </Path>
+
+        <Grid x:Name="Shell" Clip="{StaticResource ShellGeo}" Background="#04060B"
+              MouseLeftButtonDown="Shell_Drag" MouseMove="Shell_MouseMove">
+
+            <!-- Living backdrop and centrepiece, both built in code -->
+            <Canvas x:Name="SceneHost" Width="1180" Height="700" IsHitTestVisible="False"/>
+
+            <!-- Shade that keeps the reading column legible -->
+            <Rectangle x:Name="ReadShade" Width="700" HorizontalAlignment="Right" IsHitTestVisible="False">
+                <Rectangle.Fill>
+                    <LinearGradientBrush StartPoint="0,0" EndPoint="1,0">
+                        <GradientStop Color="#0004060B" Offset="0"/>
+                        <GradientStop Color="#B004060B" Offset="0.55"/>
+                        <GradientStop Color="#D004060B" Offset="1"/>
+                    </LinearGradientBrush>
+                </Rectangle.Fill>
+            </Rectangle>
+
+            <Canvas x:Name="SigilHost" Width="1180" Height="700" IsHitTestVisible="False"/>
+
+            <!-- ===== Top chrome ===== -->
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="26,20,0,0">
+                <Button Style="{StaticResource WinButton}" Content="&#xE8BB;" Click="Close_Click" ToolTip="إغلاق"/>
+                <Button Style="{StaticResource WinButton}" Content="&#xE921;" Click="Minimize_Click" ToolTip="تصغير"/>
+            </StackPanel>
+            <StackPanel x:Name="Brand" Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,27,74,0" IsHitTestVisible="False">
+                <TextBlock Text="مثبّت تعريب سكايرم" FontSize="12" Foreground="{StaticResource Muted}" VerticalAlignment="Center" FlowDirection="RightToLeft"/>
+                <Rectangle Width="1" Height="12" Fill="#40FFFFFF" Margin="12,0"/>
+                <TextBlock Text="E X E L I G H T" FontFamily="Segoe UI" FontWeight="SemiBold" FontSize="11.5" Foreground="{StaticResource GoldLight}" VerticalAlignment="Center"/>
+                <Rectangle Width="7" Height="7" Fill="{StaticResource GoldMetalHot}" Margin="12,0,0,0" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5">
+                    <Rectangle.RenderTransform>
+                        <RotateTransform Angle="45"/>
+                    </Rectangle.RenderTransform>
+                </Rectangle>
+            </StackPanel>
+
+            <!-- ===== Reading column: welcome / path / options ===== -->
+            <Grid x:Name="PageHost" Width="506" HorizontalAlignment="Right" Margin="0,84,74,112" FlowDirection="RightToLeft">
+
+                <!-- 0 · The call -->
+                <StackPanel x:Name="PageWelcome" VerticalAlignment="Center" Visibility="Collapsed">
+                    <StackPanel Orientation="Horizontal">
+                        <Rectangle Width="34" Height="1.5" Fill="{StaticResource Gold}" VerticalAlignment="Center" Margin="0,0,12,0"/>
+                        <TextBlock Text="التعريب العربي الكامل" Style="{StaticResource Eyebrow}"/>
+                    </StackPanel>
+                    <TextBlock x:Name="HeroTitle" Text="سكايرم" FontFamily="{StaticResource Amiri}" FontWeight="Bold" FontSize="118" Margin="0,-34,0,-58">
+                        <TextBlock.Foreground>
+                            <LinearGradientBrush StartPoint="0,0.2" EndPoint="1,0.8">
+                                <LinearGradientBrush.RelativeTransform>
+                                    <TranslateTransform x:Name="HeroShimmer" X="-1"/>
+                                </LinearGradientBrush.RelativeTransform>
+                                <GradientStop Color="#E3BC6E" Offset="0"/>
+                                <GradientStop Color="#E9C987" Offset="0.36"/>
+                                <GradientStop Color="#FFFDF2" Offset="0.5"/>
+                                <GradientStop Color="#E9C987" Offset="0.64"/>
+                                <GradientStop Color="#E3BC6E" Offset="1"/>
+                            </LinearGradientBrush>
+                        </TextBlock.Foreground>
+                        <TextBlock.Effect>
+                            <DropShadowEffect Color="#E2B96A" BlurRadius="34" ShadowDepth="0" Opacity="0.42"/>
+                        </TextBlock.Effect>
+                    </TextBlock>
+                    <TextBlock Text="بلُغةِ الضّاد" FontFamily="{StaticResource Amiri}" FontSize="35" Foreground="{StaticResource Text}" Margin="2,0,0,-10"/>
+                    <TextBlock Style="{StaticResource Lead}" Margin="0,6,0,0"
+                               Text="أراضي الشمال تناديك بلسانك. حواراتها ومهامها وكتبها وقوائمها بعربية فصيحة وخطّ واضح، في خطوات قليلة ودون أن يُمَسّ ملفّ واحد من ملفات اللعبة الأصلية."/>
+                    <Grid Margin="0,24,0,0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <StackPanel>
+                            <TextBlock x:Name="Stat1" Text="0" FontWeight="Black" FontSize="27" Foreground="{StaticResource GoldMetalHot}" FlowDirection="LeftToRight" HorizontalAlignment="Left"/>
+                            <TextBlock Text="نصّ معرَّب" FontSize="12.5" Foreground="{StaticResource Muted}" Margin="0,-6,0,0"/>
+                        </StackPanel>
+                        <Rectangle Grid.Column="1" Width="1" Fill="{StaticResource Hair}" Margin="18,6"/>
+                        <StackPanel Grid.Column="2">
+                            <TextBlock x:Name="Stat2" Text="0" FontWeight="Black" FontSize="27" Foreground="{StaticResource GoldMetalHot}" FlowDirection="LeftToRight" HorizontalAlignment="Left"/>
+                            <TextBlock Text="ملحقاً مدعوماً" FontSize="12.5" Foreground="{StaticResource Muted}" Margin="0,-6,0,0"/>
+                        </StackPanel>
+                        <Rectangle Grid.Column="3" Width="1" Fill="{StaticResource Hair}" Margin="18,6"/>
+                        <StackPanel Grid.Column="4">
+                            <TextBlock x:Name="Stat3" Text="0" FontWeight="Black" FontSize="27" Foreground="{StaticResource GoldMetalHot}" FlowDirection="LeftToRight" HorizontalAlignment="Left"/>
+                            <TextBlock Text="تعديل على الملفات الأصلية" FontSize="12.5" Foreground="{StaticResource Muted}" Margin="0,-6,0,0"/>
+                        </StackPanel>
+                    </Grid>
+                </StackPanel>
+
+                <!-- 1 · The road -->
+                <StackPanel x:Name="PagePath" VerticalAlignment="Center" Visibility="Collapsed">
+                    <StackPanel Orientation="Horizontal">
+                        <Rectangle Width="34" Height="1.5" Fill="{StaticResource Gold}" VerticalAlignment="Center" Margin="0,0,12,0"/>
+                        <TextBlock Text="الفصل الثاني · الطريق" Style="{StaticResource Eyebrow}"/>
+                    </StackPanel>
+                    <TextBlock Text="أين تقع سكايرم؟" Style="{StaticResource Display}" Margin="0,-6,0,-10"/>
+                    <TextBlock Style="{StaticResource Lead}" Text="دُلَّنا على مجلد Skyrim Special Edition الذي يضمّ الملف SkyrimSE.exe، ونتكفّل نحن بالباقي."/>
+
+                    <Grid Margin="0,22,0,0" Height="60">
+                        <Border Background="#99060A12" BorderThickness="1">
+                            <Border.BorderBrush>
+                                <SolidColorBrush x:Name="PathBorderBrush" Color="#30FFFFFF"/>
+                            </Border.BorderBrush>
+                        </Border>
+                        <Rectangle x:Name="PathGlow" Height="2" VerticalAlignment="Bottom" Opacity="0.9">
+                            <Rectangle.Fill>
+                                <LinearGradientBrush StartPoint="0,0" EndPoint="1,0">
+                                    <GradientStop Color="#00FFFFFF" Offset="0"/>
+                                    <GradientStop x:Name="PathGlowStop" Color="#8693A8" Offset="0.5"/>
+                                    <GradientStop Color="#00FFFFFF" Offset="1"/>
+                                </LinearGradientBrush>
+                            </Rectangle.Fill>
+                        </Rectangle>
+                        <Grid Margin="8,0,16,0">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto"/>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="Auto"/>
+                            </Grid.ColumnDefinitions>
+                            <Path Data="M0.5,2.5 L0.5,15.5 L19.5,15.5 L19.5,5.5 L9.5,5.5 L7.5,2.5 Z M0.5,8.5 L19.5,8.5" Stroke="{StaticResource Gold}" StrokeThickness="1.3" StrokeLineJoin="Round" VerticalAlignment="Center" Margin="10,0,12,0" FlowDirection="LeftToRight"/>
+                            <TextBox x:Name="PathText" Grid.Column="1" Background="Transparent" BorderThickness="0" Foreground="{StaticResource Text}"
+                                     CaretBrush="{StaticResource Gold}" SelectionBrush="{StaticResource Gold}" FontFamily="Segoe UI" FontSize="13.5"
+                                     FlowDirection="LeftToRight" VerticalAlignment="Center" TextChanged="PathText_TextChanged"/>
+                            <Button Grid.Column="2" Style="{StaticResource GhostButton}" Content="استعراض" Height="38" Padding="12,0" Margin="10,0,0,0" Click="Browse_Click"/>
+                        </Grid>
+                    </Grid>
+
+                    <StackPanel Orientation="Horizontal" Margin="4,14,0,0">
+                        <Grid Width="18" Height="18" Margin="0,0,10,0" VerticalAlignment="Center">
+                            <Ellipse x:Name="StatusRing" Stroke="#8693A8" StrokeThickness="1.2" RenderTransformOrigin="0.5,0.5">
+                                <Ellipse.RenderTransform>
+                                    <ScaleTransform/>
+                                </Ellipse.RenderTransform>
+                            </Ellipse>
+                            <Ellipse x:Name="StatusDot" Width="8" Height="8">
+                                <Ellipse.Fill>
+                                    <SolidColorBrush x:Name="StatusDotBrush" Color="#8693A8"/>
+                                </Ellipse.Fill>
+                            </Ellipse>
+                        </Grid>
+                        <TextBlock x:Name="StatusText" Text="لم يُحدَّد مجلد بعد" FontSize="14" Foreground="{StaticResource Soft}" VerticalAlignment="Center"/>
+                    </StackPanel>
+
+                    <Grid Margin="0,28,0,0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <StackPanel>
+                            <TextBlock Text="المساحة المطلوبة" FontSize="12.5" Foreground="{StaticResource Muted}"/>
+                            <TextBlock Text="نحو 60 ميغابايت" FontWeight="Bold" FontSize="15.5"/>
+                        </StackPanel>
+                        <Rectangle Grid.Column="1" Width="1" Fill="{StaticResource Hair}" Margin="18,4"/>
+                        <StackPanel Grid.Column="2">
+                            <TextBlock Text="الإصدار المدعوم" FontSize="12.5" Foreground="{StaticResource Muted}"/>
+                            <TextBlock Text="Special Edition" FontFamily="Segoe UI" FontWeight="SemiBold" FontSize="15.5" Margin="0,3,0,0"/>
+                        </StackPanel>
+                        <Rectangle Grid.Column="3" Width="1" Fill="{StaticResource Hair}" Margin="18,4"/>
+                        <StackPanel Grid.Column="4">
+                            <TextBlock Text="الملفات الأصلية" FontSize="12.5" Foreground="{StaticResource Muted}"/>
+                            <TextBlock Text="تبقى كما هي" FontWeight="Bold" FontSize="15.5"/>
+                        </StackPanel>
+                    </Grid>
+                </StackPanel>
+
+                <!-- 2 · The gear -->
+                <StackPanel x:Name="PageOptions" VerticalAlignment="Center" Visibility="Collapsed">
+                    <StackPanel Orientation="Horizontal">
+                        <Rectangle Width="34" Height="1.5" Fill="{StaticResource Gold}" VerticalAlignment="Center" Margin="0,0,12,0"/>
+                        <TextBlock Text="الفصل الثالث · العتاد" Style="{StaticResource Eyebrow}"/>
+                    </StackPanel>
+                    <TextBlock Text="جهِّز عتادك" Style="{StaticResource Display}" Margin="0,-6,0,-22"/>
+                    <ToggleButton x:Name="OptText" Style="{StaticResource RuneSwitch}" IsChecked="True" Click="Option_Click">
+                        <StackPanel>
+                            <TextBlock Text="ترجمة النصوص" FontWeight="Bold" FontSize="15.5"/>
+                            <TextBlock Text="الحوارات والمهام والقوائم والكتب" FontSize="12.5" Foreground="{StaticResource Muted}" Margin="0,-3,0,0"/>
+                        </StackPanel>
+                    </ToggleButton>
+                    <ToggleButton x:Name="OptBackup" Style="{StaticResource RuneSwitch}" IsChecked="True" Click="Option_Click">
+                        <StackPanel>
+                            <TextBlock Text="نسخة احتياطية" FontWeight="Bold" FontSize="15.5"/>
+                            <TextBlock Text="حفظ الملفات الأصلية لاستعادتها متى شئت" FontSize="12.5" Foreground="{StaticResource Muted}" Margin="0,-3,0,0"/>
+                        </StackPanel>
+                    </ToggleButton>
+                    <ToggleButton x:Name="OptShortcut" Style="{StaticResource RuneSwitch}" Click="Option_Click">
+                        <StackPanel>
+                            <TextBlock Text="اختصار على سطح المكتب" FontWeight="Bold" FontSize="15.5"/>
+                            <TextBlock Text="تشغيل اللعبة المعرّبة مباشرة" FontSize="12.5" Foreground="{StaticResource Muted}" Margin="0,-3,0,0"/>
+                        </StackPanel>
+                    </ToggleButton>
+                    <TextBlock Text="خطّ اللعبة" Style="{StaticResource Eyebrow}" Foreground="{StaticResource Muted}" Margin="4,14,0,8"/>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="12"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <RadioButton x:Name="FontModern" Style="{StaticResource ChoiceCard}" GroupName="Font" IsChecked="True" Click="Option_Click">
+                            <StackPanel>
+                                <TextBlock Text="حديث" FontSize="12" Foreground="{StaticResource Muted}"/>
+                                <TextBlock Text="أهلاً بك في سكايرم" FontSize="18" FontWeight="Bold" Margin="0,-2,0,0"/>
+                            </StackPanel>
+                        </RadioButton>
+                        <RadioButton x:Name="FontClassic" Grid.Column="2" Style="{StaticResource ChoiceCard}" GroupName="Font" Click="Option_Click">
+                            <StackPanel>
+                                <TextBlock Text="كلاسيكي" FontSize="12" Foreground="{StaticResource Muted}"/>
+                                <TextBlock Text="أهلاً بك في سكايرم" FontFamily="{StaticResource Amiri}" FontSize="23" FontWeight="Bold" Margin="0,-5,0,-14"/>
+                            </StackPanel>
+                        </RadioButton>
+                    </Grid>
+                </StackPanel>
+            </Grid>
+
+            <!-- ===== Centre stage: carving / done ===== -->
+            <Grid x:Name="StageHost" Width="700" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,96" FlowDirection="RightToLeft">
+
+                <!-- 3 · The carving -->
+                <StackPanel x:Name="PageInstall" Visibility="Collapsed" Height="142">
+                    <TextBlock Text="يُنقَش الآن" Style="{StaticResource Eyebrow}" HorizontalAlignment="Center"/>
+                    <TextBlock x:Name="TaskText" Text="التحضير" FontFamily="{StaticResource Amiri}" FontWeight="Bold" FontSize="33" HorizontalAlignment="Center" Margin="0,-10,0,-18"/>
+                    <TextBlock x:Name="LogText" Text=" " FontSize="13" Foreground="{StaticResource Muted}" HorizontalAlignment="Center"/>
+                    <StackPanel x:Name="Pips" Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,12,0,0" FlowDirection="RightToLeft"/>
+                </StackPanel>
+
+                <!-- 4 · The end -->
+                <StackPanel x:Name="PageDone" Visibility="Collapsed" Height="278">
+                    <TextBlock Text="اكتمل النقش" Style="{StaticResource Eyebrow}" HorizontalAlignment="Center"/>
+                    <TextBlock Text="سكايرم تتكلّم العربية" FontFamily="{StaticResource Amiri}" FontWeight="Bold" FontSize="52" Foreground="{StaticResource GoldMetalHot}" HorizontalAlignment="Center" Margin="0,-4,0,-18">
+                        <TextBlock.Effect>
+                            <DropShadowEffect Color="#E2B96A" BlurRadius="30" ShadowDepth="0" Opacity="0.5"/>
+                        </TextBlock.Effect>
+                    </TextBlock>
+                    <TextBlock Style="{StaticResource Lead}" HorizontalAlignment="Center" TextAlignment="Center" Text="كل شيء في مكانه، والملفات الأصلية محفوظة. رحلة موفّقة يا دوفاكين."/>
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,24,0,0">
+                        <Button Style="{StaticResource PrimaryButton}" Content="ادخل سكايرم" Click="Launch_Click"/>
+                        <Button Style="{StaticResource GhostButton}" Content="إنهاء" MinWidth="120" Margin="14,0,0,0" Click="Close_Click"/>
+                    </StackPanel>
+                </StackPanel>
+            </Grid>
+
+            <!-- ===== Footer: the journey, and the way forward ===== -->
+            <Canvas x:Name="StepsHost" Width="506" Height="58" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,74,26">
+                <Canvas.RenderTransform>
+                    <TranslateTransform x:Name="StepsShift"/>
+                </Canvas.RenderTransform>
+            </Canvas>
+            <StackPanel x:Name="Nav" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="70,0,0,34">
+                <Button x:Name="BtnNext" Style="{StaticResource PrimaryButton}" Content="ابدأ الرحلة" Click="Next_Click"/>
+                <Button x:Name="BtnBack" Style="{StaticResource GhostButton}" Content="السابق" MinWidth="118" Margin="14,0,0,0" Click="Back_Click"/>
+            </StackPanel>
+
+            <!-- ===== Frame ===== -->
+            <Canvas IsHitTestVisible="False">
+                <Path Data="{StaticResource InnerGeo}" Stroke="#16FFFFFF" StrokeThickness="1"/>
+                <Path Data="{StaticResource ShellGeo}" Stroke="{StaticResource FrameGold}" StrokeThickness="3"/>
+                <!-- corner knots -->
+                <Path Data="M8,62 L8,34 L34,8 L62,8 M16,46 L46,16" Stroke="{StaticResource Gold}" StrokeThickness="1.4" Opacity="0.85"/>
+                <Path Data="M1172,62 L1172,34 L1146,8 L1118,8 M1164,46 L1134,16" Stroke="{StaticResource Gold}" StrokeThickness="1.4" Opacity="0.85"/>
+                <Path Data="M8,638 L8,666 L34,692 L62,692 M16,654 L46,684" Stroke="{StaticResource Gold}" StrokeThickness="1.4" Opacity="0.85"/>
+                <Path Data="M1172,638 L1172,666 L1146,692 L1118,692 M1164,654 L1134,684" Stroke="{StaticResource Gold}" StrokeThickness="1.4" Opacity="0.85"/>
+                <!-- a slow light that travels the top edge -->
+                <Rectangle x:Name="EdgeLight" Width="240" Height="2" Canvas.Top="0">
+                    <Rectangle.Fill>
+                        <LinearGradientBrush StartPoint="0,0" EndPoint="1,0">
+                            <GradientStop Color="#00FFF3CF" Offset="0"/>
+                            <GradientStop Color="#FFFFF3CF" Offset="0.5"/>
+                            <GradientStop Color="#00FFF3CF" Offset="1"/>
+                        </LinearGradientBrush>
+                    </Rectangle.Fill>
+                    <Rectangle.RenderTransform>
+                        <TranslateTransform x:Name="EdgeLightT" X="-240"/>
+                    </Rectangle.RenderTransform>
+                </Rectangle>
+            </Canvas>
+
+            <!-- Opening curtain -->
+            <Rectangle x:Name="Curtain" Fill="#04060B" IsHitTestVisible="False"/>
+        </Grid>
+    </Grid>
+</Window>

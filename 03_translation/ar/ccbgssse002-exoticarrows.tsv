@@ -1,0 +1,49 @@
+key	arabic
+ccbgssse002-exoticarrows|dlstrings|0x00000019	عند الضربة القاتلة، يتجسّد في جوهرة روح مملوءة بروح الهدف.
+ccbgssse002-exoticarrows|dlstrings|0x0000001A	<font face'$HandwrittenFont'><font size='40'><p align='center'>\nجعبة مستحضرة
+ccbgssse002-exoticarrows|dlstrings|0x0000001D	تلقّيتُ رسالة ومخططاً لقطعة أثرية دويمرية قديمة، سهم يبدو أنه مصنوع من أحجار الأرواح. وعليّ أن أسترجع هذه القطعة وأتعلّم كيف أصنع مثلها.
+ccbgssse002-exoticarrows|dlstrings|0x0000001E	وجدتُ سهام سارق الأرواح الدويمرية القديمة في كاغروميز، وصار بإمكاني صنعها.
+ccbgssse002-exoticarrows|dlstrings|0x00000022	تلقّيتُ رسالة من كالسيلمو في ماركارث. وعليّ أن أقرأها لأعرف موضوعها.
+ccbgssse002-exoticarrows|dlstrings|0x00000024	<p>  </p>
+ccbgssse002-exoticarrows|dlstrings|0x00000025	<font face="$HandwrittenFont">\nأثناء دراساتي وجدت مخططاً أعتقد أنه قد يكون مفيداً لك جداً. إنه لقطعة أثرية دويمرية قديمة: سهم خاص مصنوع من جوهرة روح.\n\nأرفقت المخطط وخريطة للمكان الذي عُثر عليها فيه آخر مرة. احصل عليهما لتفهم كيف صُنعت، واصنعها لنفسك.\n\n-كالسيلمو\n</font>
+ccbgssse002-exoticarrows|dlstrings|0x00000027	تلقّيتُ رسالة ومخططاً لقطعة أثرية دويمرية قديمة، سهم يبدو أنه مصنوع من أحجار الأرواح. وعليّ أن أسترجع هذه القطعة وأتعلّم كيف أصنع مثلها.
+ccbgssse002-exoticarrows|dlstrings|0x00000028	يبقى معلّقاً في الهواء حتى يُطلَق بالقدرة الصغرى «سهام التحريك الذهني».
+ccbgssse002-exoticarrows|dlstrings|0x0000002E	<font face'$HandwrittenFont'><font size='40'><p align='center'>\nسهام التحريك الذهني
+ccbgssse002-exoticarrows|dlstrings|0x00000030	يطلق سهام التحريك الذهني المعلّقة.
+ccbgssse002-exoticarrows|dlstrings|0x00000033	قيل لي إن كتاب تعويذة مفقوداً عُثر عليه، يتيح صنع سهام خاصة يمكن التحكم فيها بقدرة «التحريك الذهني الصغرى». وعليّ التوجه إلى كلية وينترهولد لأعرف المزيد.
+ccbgssse002-exoticarrows|dlstrings|0x00000037	وجدتُ كتاب سهام التحريك الذهني، وتعلّمتُ من ملاحظات البحث كيف أصنعها وأستخدمها.
+ccbgssse002-exoticarrows|dlstrings|0x00000039	<font face="$HandwrittenFont">\nهذا المجلد السحري سيعلّم قارئه الفن الفريد لسهم التحريك الذهني، فيمنحه قوة صغرى، والمعرفة اللازمة لصنع هذه السهام الخاصة.\n\nعند إطلاق السهم، سيجده المرء معلقاً، متجمداً في الهواء حتى تُلقى القوة الصغرى لسهم التحريك الذهني، فتنطلق الرشقة.\n\nيبدو أنه لا يمكن تعليق إلا عدد معين من السهام في الهواء في آن واحد. عند محاولة إطلاق أكثر من عشرة، تعود ببساطة إلى جعبة الرامي. لكن يمكن انتزاعها من الهواء وهي معلقة.\n\nعند الاصطدام، تفقد هذه السهام قوتها السحرية، ولا يمكن استعادتها. وبما أنها تحمل خصائص سحرية خاصة بها، يبدو لي أنها منيعة على تسحيرات القوس الذي تُطلق منه.\n</font>
+ccbgssse002-exoticarrows|dlstrings|0x0000003A	وجدتُ الكتاب وتعلّمتُ قدرة «التحريك الذهني الصغرى»، لكن عليّ قراءة ملاحظات البحث لأفهم كيف أصنع السهام وأستخدمها.
+ccbgssse002-exoticarrows|strings|0x00000003	رأس سهم من جوهرة روح
+ccbgssse002-exoticarrows|strings|0x00000009	سرقة الروح
+ccbgssse002-exoticarrows|strings|0x0000000A	سهم عظمي
+ccbgssse002-exoticarrows|strings|0x0000000B	سهم سارق الأرواح
+ccbgssse002-exoticarrows|strings|0x0000000C	سهم ناري
+ccbgssse002-exoticarrows|strings|0x0000000D	سهم البرق
+ccbgssse002-exoticarrows|strings|0x0000000E	سهم جليدي
+ccbgssse002-exoticarrows|strings|0x0000000F	جعبة مستحضَرة
+ccbgssse002-exoticarrows|strings|0x00000010	جعبة مستحضَرة
+ccbgssse002-exoticarrows|strings|0x00000013	سرقة الروح
+ccbgssse002-exoticarrows|strings|0x00000014	يُنشئ جعبة سحرية لمدة <dur> ثانية.
+ccbgssse002-exoticarrows|strings|0x00000016	الجعبة الصوفية
+ccbgssse002-exoticarrows|strings|0x00000017	سهم مستحضَر
+ccbgssse002-exoticarrows|strings|0x00000018	كتاب تعويذة: جعبة مستحضَرة
+ccbgssse002-exoticarrows|strings|0x0000001C	رسالة من كالسيلمو
+ccbgssse002-exoticarrows|strings|0x0000001F	اعثر على سهام سارق الأرواح
+ccbgssse002-exoticarrows|strings|0x00000020	مخطط السهم الدويمري
+ccbgssse002-exoticarrows|strings|0x00000021	سافر إلى سولستهايم
+ccbgssse002-exoticarrows|strings|0x00000023	اقرأ الرسالة من كالسيلمو
+ccbgssse002-exoticarrows|strings|0x00000026	سارق الأرواح
+ccbgssse002-exoticarrows|strings|0x0000002A	يطلق سهام التحريك الذهني المعلّقة.
+ccbgssse002-exoticarrows|strings|0x0000002C	سهام التحريك الذهني
+ccbgssse002-exoticarrows|strings|0x0000002F	سهم التحريك الذهني
+ccbgssse002-exoticarrows|strings|0x00000031	سهم التحريك الذهني
+ccbgssse002-exoticarrows|strings|0x00000032	كتاب تعويذة: سهام التحريك الذهني
+ccbgssse002-exoticarrows|strings|0x00000034	اقرأ ملاحظة البحث
+ccbgssse002-exoticarrows|strings|0x00000035	ملاحظات بحث سهام التحريك الذهني
+ccbgssse002-exoticarrows|strings|0x00000036	سريع كالسهم
+ccbgssse002-exoticarrows|strings|0x00000038	سهم التحريك الذهني
+ccbgssse002-exoticarrows|strings|0x0000003B	اعثر على مجلّد سهم التحريك عن بُعد
+ccbgssse002-exoticarrows|strings|0x0000004B	كاغروميز
+ccbgssse002-exoticarrows|strings|0x00000075	سولستهايم
+ccbgssse002-exoticarrows|strings|0x00003FC0	الأركانيوم

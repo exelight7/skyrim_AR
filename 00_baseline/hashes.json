@@ -1,0 +1,238 @@
+{
+ "created_utc": "2026-11-05T16:04:24+00:00",
+ "file_count": 46,
+ "files": {
+  "Data/Dawnguard.esm": {
+   "mtime": 1793804198,
+   "sha256": "fc8f92cb7ed55217046ee96b84caa54c058c12f7c408ac2a71da880a7bd3eab7",
+   "size": 25884488
+  },
+  "Data/Dragonborn.esm": {
+   "mtime": 1793804198,
+   "sha256": "635f21a938a17b8677f524cf41210933afc7f23820f2e210ab3bb6d3cd837046",
+   "size": 64664159
+  },
+  "Data/HearthFires.esm": {
+   "mtime": 1793804198,
+   "sha256": "0f681496771e6d1983c6c1c9dd6602964068837f015bfa21e69a149c3b050047",
+   "size": 3979105
+  },
+  "Data/MarketplaceTextures.bsa": {
+   "mtime": 1793804198,
+   "sha256": "5d5f4d8dc4210424c30694d2a0e7549e4dbeefab916405a2162646228b309d94",
+   "size": 3224203
+  },
+  "Data/Skyrim - Animations.bsa": {
+   "mtime": 1793804198,
+   "sha256": "f2e1bf18f6498d637998808a06ecf17220d17d123eceddbb796eced8b68dc68a",
+   "size": 65155583
+  },
+  "Data/Skyrim - Interface.bsa": {
+   "mtime": 1793804198,
+   "sha256": "e3d0c8d13d76ddb5cf9fc4cffe916475b708ea6cac2a46956442a558f14324de",
+   "size": 106921497
+  },
+  "Data/Skyrim - Meshes0.bsa": {
+   "mtime": 1793804198,
+   "sha256": "f3de11a1fcbd8b3e9582d5981be815c2c5f160f5be21044479e318de8a5183e9",
+   "size": 1153136827
+  },
+  "Data/Skyrim - Meshes1.bsa": {
+   "mtime": 1793804198,
+   "sha256": "d0e4a62fac342271c27aba5338296ddfe06de790448ebe6e9cf6df7460a4f7c0",
+   "size": 378759883
+  },
+  "Data/Skyrim - Misc.bsa": {
+   "mtime": 1793804198,
+   "sha256": "30957adeb1a109c8b8079a5791c2a24c1fdd1d01957e9338480f4d8e03d9d23f",
+   "size": 17658991
+  },
+  "Data/Skyrim - Shaders.bsa": {
+   "mtime": 1793804198,
+   "sha256": "fd1ba630f443353ed21ed4ca0380968f9c7091c8434518ea3cc79bc6d38c18e7",
+   "size": 67768230
+  },
+  "Data/Skyrim - Sounds.bsa": {
+   "mtime": 1793804198,
+   "sha256": "c18244acb9500db0d6e695ca27e9fd535483c9c1a0ec0d9fa7800a00231fc3b4",
+   "size": 1538656059
+  },
+  "Data/Skyrim - Textures0.bsa": {
+   "mtime": 1793804198,
+   "sha256": "4484f81348998b641ce2b3adb47376923d2f801cc0c7b341bb350bf3fb80c5f2",
+   "size": 659448974
+  },
+  "Data/Skyrim - Textures1.bsa": {
+   "mtime": 1793804198,
+   "sha256": "2a525f8486dedd9a0b1c02a09c3129121b5858497f0076809059844f24d985cf",
+   "size": 1511492648
+  },
+  "Data/Skyrim - Textures2.bsa": {
+   "mtime": 1793804198,
+   "sha256": "8572e6d210a3458484659dba25bb72ff498f2f23b49d456af75cfb1079d59130",
+   "size": 1345109830
+  },
+  "Data/Skyrim - Textures3.bsa": {
+   "mtime": 1793804198,
+   "sha256": "3d32b888215dfa9b67255f3567852cb8cd62282d4603a126888eb0d894a6e2fb",
+   "size": 1406304717
+  },
+  "Data/Skyrim - Textures4.bsa": {
+   "mtime": 1793804198,
+   "sha256": "a681fc3a5e2f09b01fd5bc12faad4730d314eb401824811832b35d4860e8ca81",
+   "size": 1265325033
+  },
+  "Data/Skyrim - Textures5.bsa": {
+   "mtime": 1793804198,
+   "sha256": "bf177540927cb4a7dd5b9c92136fe3d8ced67ce34d43283426faa07316f9ac9c",
+   "size": 810446049
+  },
+  "Data/Skyrim - Textures6.bsa": {
+   "mtime": 1793804198,
+   "sha256": "de3906f51bbd05dddee714622aa44701971e8de6f413f5eadcaf874a8baa50e2",
+   "size": 107081915
+  },
+  "Data/Skyrim - Textures7.bsa": {
+   "mtime": 1793804198,
+   "sha256": "e4dfca85b0c46db84b8b3e5be648326607d248332648e87661e80a975fc3af97",
+   "size": 700871549
+  },
+  "Data/Skyrim - Textures8.bsa": {
+   "mtime": 1793804198,
+   "sha256": "472343d30ee25f04fd05aeccfd7c800ef25c9faa1fbe435c9fa88fcd0f43be70",
+   "size": 214496000
+  },
+  "Data/Skyrim - Voices_en0.bsa": {
+   "mtime": 1793804198,
+   "sha256": "c1fae184fd37f30709283344424822a3db550a68e70ca84292d3d688f1c4c2e3",
+   "size": 1805869173
+  },
+  "Data/Skyrim.esm": {
+   "mtime": 1793804198,
+   "sha256": "e198c3b85e5e48e0c92a6580d8f66e644256b68d812ee32b61735cf9b753df73",
+   "size": 249752131
+  },
+  "Data/Update.esm": {
+   "mtime": 1793804198,
+   "sha256": "b298b0f65fa0127fd13c1f5ef6bb30eaf9d21fd19f5e6f8f91f829c9007d3280",
+   "size": 19121864
+  },
+  "Data/Video/BGS_Logo.bik": {
+   "mtime": 1793804198,
+   "sha256": "21fda4c1c5964142aaa9366acc29c6c19b3633ba80afdac24e82ec714cf2c58d",
+   "size": 13835808
+  },
+  "Data/_ResourcePack.bsa": {
+   "mtime": 1793804198,
+   "sha256": "22527a90587773e35f9e54ffc86a0bb26c7fea523b6254152e121e0ced949619",
+   "size": 916509890
+  },
+  "Data/_ResourcePack.esl": {
+   "mtime": 1793804337,
+   "sha256": "3479f3aa9002e28d206a1e7366d613e52d7ba93fc6b96c207a1fcf89051a67db",
+   "size": 78483
+  },
+  "Data/ccBGSSSE001-Fish.bsa": {
+   "mtime": 1793804198,
+   "sha256": "b865e8187bac934042ba0051121e6f8ba0cb9fef919a81f72b97dbb012dad7dc",
+   "size": 377675522
+  },
+  "Data/ccBGSSSE001-Fish.esm": {
+   "mtime": 1793804198,
+   "sha256": "0036c3bb38754d1681529f6f828987506efbecc97fe6008753ac05e7c6738fff",
+   "size": 1425176
+  },
+  "Data/ccBGSSSE025-AdvDSGS.bsa": {
+   "mtime": 1793804198,
+   "sha256": "7cbc4cb0e167236628a236059c4886ce0e089b661b3a612f012728a75fd468a3",
+   "size": 1092876237
+  },
+  "Data/ccBGSSSE025-AdvDSGS.esm": {
+   "mtime": 1793804198,
+   "sha256": "070784062525ac872b98503cf60918bcd7e7b8aede7fcedd86839a57467add5b",
+   "size": 812873
+  },
+  "Data/ccBGSSSE037-Curios.bsa": {
+   "mtime": 1793804198,
+   "sha256": "641aef57b1123cef59a78dde6fc3eeca796a858615b9655b098e283a8dc62aa6",
+   "size": 111740475
+  },
+  "Data/ccBGSSSE037-Curios.esl": {
+   "mtime": 1793804319,
+   "sha256": "75209dbb177ea27f3abd164b6ecf07670ecdc3858cc01e4a3db8d1e2443136fe",
+   "size": 37476
+  },
+  "Data/ccQDRSSE001-SurvivalMode.bsa": {
+   "mtime": 1793804198,
+   "sha256": "d951bdc12270e121924702c61e80c05936982d049ed664e169e0f897d5669112",
+   "size": 12835601
+  },
+  "Data/ccQDRSSE001-SurvivalMode.esl": {
+   "mtime": 1793804281,
+   "sha256": "0aeb0734128137f77fed4c2c329fd4ce71a4d043a2093871886ad84e5821ac47",
+   "size": 240724
+  },
+  "High.ini": {
+   "mtime": 1793804534,
+   "sha256": "2413dc2f7cbf4551d9c6686780dfd20664c68604cab764604e30daa648606f95",
+   "size": 906
+  },
+  "Low.ini": {
+   "mtime": 1793804474,
+   "sha256": "f045a0165b9d09d167ea11a228401e21c517497d0a333939db0a2e9ab7a25c9b",
+   "size": 898
+  },
+  "Medium.ini": {
+   "mtime": 1793804533,
+   "sha256": "e5cb56c29c28a0e57055b75bf3153c6e7d8510100f656b490fadd3b9bdffc5fe",
+   "size": 898
+  },
+  "Skyrim.ccc": {
+   "mtime": 1793804533,
+   "sha256": "abdbd029c2aaf1c401c7537ae8bd9201258eb68a36f0513253c54d7c0e244a3b",
+   "size": 2035
+  },
+  "Skyrim/SkyrimPrefs.ini": {
+   "mtime": 1793804489,
+   "sha256": "2636ec3d1d307913b62c06d13b5548ff2243058b96d8a242488b4ffe243f5fa2",
+   "size": 3498
+  },
+  "SkyrimSE.exe": {
+   "mtime": 1793804198,
+   "sha256": "846efccf0c1374d71f892907f46549560f2fcb0a75cb87a3eed438baa0f1402f",
+   "size": 37910440
+  },
+  "SkyrimSELauncher.exe": {
+   "mtime": 1793804198,
+   "sha256": "9204f00ba4e0093f00fd461883f171f1b98f7d7de27969ff5e41ba3608ae271b",
+   "size": 4724064
+  },
+  "Skyrim_Default.ini": {
+   "mtime": 1793804474,
+   "sha256": "61c151bc60d5d737dad3d65a99a48d9bb8b50812b6b9f1f993323f0337813fa8",
+   "size": 1859
+  },
+  "Ultra.ini": {
+   "mtime": 1793804426,
+   "sha256": "10dc00f0dae7783e2f904eabf68be09e4c2460ec1edd30a6231f22b47b847000",
+   "size": 911
+  },
+  "bink2w64.dll": {
+   "mtime": 1793804198,
+   "sha256": "653247e35db8d6453e83a008c805a877fd2d56a1d844282f9065ce2f34388fec",
+   "size": 391360
+  },
+  "installscript.vdf": {
+   "mtime": 1793804261,
+   "sha256": "c434bfa88d60a3718e32fb4ad9806b9ef5a79427858ba3e161847622eae19a7b",
+   "size": 673
+  },
+  "steam_api64.dll": {
+   "mtime": 1793804198,
+   "sha256": "1db3fd414039d3e5815a5721925dd2e0a3a9f2549603c6cab7c49b84966a1af3",
+   "size": 298384
+  }
+ },
+ "game_dir": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Skyrim Special Edition",
+ "total_bytes": 16092533099
+}

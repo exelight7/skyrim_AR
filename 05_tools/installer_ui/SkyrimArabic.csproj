@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <!-- net48 ships with every Windows 10/11, so the EXE runs with no extra install -->
+    <TargetFramework>net48</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+    <LangVersion>latest</LangVersion>
+    <AssemblyName>SkyrimArabic</AssemblyName>
+    <RootNamespace>SkyrimArabicInstaller</RootNamespace>
+    <DebugType>none</DebugType>
+    <GenerateSupportedRuntime>false</GenerateSupportedRuntime>
+    <AutoGenerateBindingRedirects>false</AutoGenerateBindingRedirects>
+    <Version>1.0.0</Version>
+    <Product>تعريب سكايرم</Product>
+  </PropertyGroup>
+  <ItemGroup>
+    <Resource Include="Fonts\*.ttf" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,27 @@
+key	arabic
+ccbgssse004-ruinsedge|dlstrings|0x0000000E	وجدتُ «حافة الخراب».
+ccbgssse004-ruinsedge|dlstrings|0x00000012	وجدتُ خريطة لموقع القوس الأسطوري «حافة الخراب».
+ccbgssse004-ruinsedge|strings|0x00000001	الشلل
+ccbgssse004-ruinsedge|strings|0x00000002	تقليل الحمولة
+ccbgssse004-ruinsedge|strings|0x00000003	حافة الخراب
+ccbgssse004-ruinsedge|strings|0x00000004	يطبّق عشوائياً أحد هذه التأثيرات على الهدف: الصقيع، تثبيط الهمة، الهياج، استنزاف الطاقة السحرية، الشلل.
+ccbgssse004-ruinsedge|strings|0x00000005	استنزاف الطاقة السحرية
+ccbgssse004-ruinsedge|strings|0x00000006	التأثير الأساسي للقوس
+ccbgssse004-ruinsedge|strings|0x00000007	المخلوقات والأشخاص حتى المستوى <mag> سيهاجمون أي شيء قريب لمدة <dur> ثانية.
+ccbgssse004-ruinsedge|strings|0x00000008	تقليل سعة الحمل بمقدار <mag> لمدة <dur> ثانية.
+ccbgssse004-ruinsedge|strings|0x00000009	حافة الخراب
+ccbgssse004-ruinsedge|strings|0x0000000A	اعثر على حافة الخراب
+ccbgssse004-ruinsedge|strings|0x0000000B	الغضب
+ccbgssse004-ruinsedge|strings|0x0000000C	الشلل
+ccbgssse004-ruinsedge|strings|0x0000000D	تثبيط الهمة
+ccbgssse004-ruinsedge|strings|0x0000000F	الهياج
+ccbgssse004-ruinsedge|strings|0x00000010	الهياج
+ccbgssse004-ruinsedge|strings|0x00000011	العبء
+ccbgssse004-ruinsedge|strings|0x00000013	الإبطاء
+ccbgssse004-ruinsedge|strings|0x00000014	الخوف
+ccbgssse004-ruinsedge|strings|0x00000015	المخلوقات والأشخاص حتى المستوى <mag> يفرّون من القتال لمدة <dur> ثانية.
+ccbgssse004-ruinsedge|strings|0x00000016	يتلقى الهدف <mag> نقطة ضرر صقيع بالصحة والتحمّل.
+ccbgssse004-ruinsedge|strings|0x00000017	صقيع
+ccbgssse004-ruinsedge|strings|0x00000018	ضرر الصقيع
+ccbgssse004-ruinsedge|strings|0x00000019	زعيم قطاع الطرق
+ccbgssse004-ruinsedge|strings|0x0000F83C	كهف الجدول الصخري

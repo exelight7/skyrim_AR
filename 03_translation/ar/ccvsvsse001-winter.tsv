@@ -1,0 +1,19 @@
+key	arabic
+ccvsvsse001-winter|dlstrings|0x00000003	بدء التشغيل
+ccvsvsse001-winter|dlstrings|0x00000006	<font face="$HandwrittenFont">يشهد هذا الصك بملكية رنّة مدرّبة. لا يجوز نقل الملكية إلا مع فاتورة بيع مرفقة.\n\n
+ccvsvsse001-winter|dlstrings|0x00000010	يقترب عيد ساتوراليا، وتنتشر شائعات عن تاجر جديد قرب داونستار يبيع بضائع نادرة وفريدة جداً خاصة بالعيد. وعليّ أن أبحث عنه.
+ccvsvsse001-winter|strings|0x00000001	رنّة
+ccvsvsse001-winter|strings|0x00000002	حصان
+ccvsvsse001-winter|strings|0x00000004	أغراني بيريفال
+ccvsvsse001-winter|strings|0x00000005	قبعة ساتوراليا
+ccvsvsse001-winter|strings|0x00000008	حذاء ساتوراليا
+ccvsvsse001-winter|strings|0x00000009	تاجر الرنّة
+ccvsvsse001-winter|strings|0x0000000A	ملابس ساتوراليا
+ccvsvsse001-winter|strings|0x0000000B	صندوق
+ccvsvsse001-winter|strings|0x0000000D	عقد بيع رنّة
+ccvsvsse001-winter|strings|0x0000000E	رنّة <Alias=Player>
+ccvsvsse001-winter|strings|0x0000000F	اعثر على تاجر ساتوراليا
+ccvsvsse001-winter|strings|0x00000011	قفازات ساتوراليا
+ccvsvsse001-winter|strings|0x00000012	حقيبة ظهر صغيرة
+ccvsvsse001-winter|strings|0x00000013	التحضير لساتوراليا
+ccvsvsse001-winter|strings|0x000020E6	سكايرم

@@ -1,0 +1,458 @@
+{
+ "eligibility": {
+  "EMPTY": 391,
+  "LIKELY_HIDDEN": 82,
+  "PLAYER_VISIBLE": 90457,
+  "REVIEW_VISIBILITY": 1821
+ },
+ "linked_non_empty": [
+  92360,
+  92360
+ ],
+ "categories": {
+  "dialogue_line": 44201,
+  "item_name": 9458,
+  "dialogue_topic": 7386,
+  "npc_name": 2842,
+  "quest_objective": 2435,
+  "player_choice": 1947,
+  "location_name": 1875,
+  "magic_effect_name": 1808,
+  "quest_name": 1707,
+  "spell_name": 1505,
+  "quest_journal": 1463,
+  "acti_full": 1230,
+  "book_title": 1139,
+  "book_text": 1129,
+  "magic_effect_description": 1004,
+  "activate_prompt": 993,
+  "game_setting_text": 981,
+  "message": 933,
+  "ench_full": 757,
+  "hdpt_full": 740,
+  "cont_full": 626,
+  "message_title": 551,
+  "faction_name": 514,
+  "perk_name": 483,
+  "map_marker": 472,
+  "perk_description": 411,
+  "furn_full": 407,
+  "loading_screen": 374,
+  "npc_short_name": 357,
+  "message_button": 336,
+  "door_full": 297,
+  "race_name": 208,
+  "clfm_full": 172,
+  "spell_description": 162,
+  "class_name": 159,
+  "item_description": 154,
+  "flor_full": 122,
+  "body_part_name": 111,
+  "word_of_power": 105,
+  "shout_name": 104,
+  "tree_full": 98,
+  "word_of_power_translation": 88,
+  "faction_rank": 61,
+  "book_description": 61,
+  "race_description": 57,
+  "proj_full": 54,
+  "shout_description": 48,
+  "coll_desc": 48,
+  "expl_full": 32,
+  "hazd_full": 30,
+  "skill_name": 27,
+  "skill_description": 24,
+  "perk_button": 19,
+  "snct_full": 18,
+  "tact_full": 16,
+  "eyes_full": 8,
+  "region_name": 7,
+  "watr_full": 6
+ },
+ "by_plugin_eligibility": [
+  [
+   "_resourcepack",
+   "PLAYER_VISIBLE",
+   27
+  ],
+  [
+   "ccbgssse001-fish",
+   "PLAYER_VISIBLE",
+   1021
+  ],
+  [
+   "ccbgssse001-fish",
+   "REVIEW_VISIBILITY",
+   6
+  ],
+  [
+   "ccbgssse025-advdsgs",
+   "PLAYER_VISIBLE",
+   463
+  ],
+  [
+   "ccbgssse025-advdsgs",
+   "REVIEW_VISIBILITY",
+   14
+  ],
+  [
+   "ccbgssse037-curios",
+   "PLAYER_VISIBLE",
+   75
+  ],
+  [
+   "ccbgssse037-curios",
+   "REVIEW_VISIBILITY",
+   6
+  ],
+  [
+   "ccqdrsse001-survivalmode",
+   "EMPTY",
+   11
+  ],
+  [
+   "ccqdrsse001-survivalmode",
+   "PLAYER_VISIBLE",
+   595
+  ],
+  [
+   "ccqdrsse001-survivalmode",
+   "REVIEW_VISIBILITY",
+   1
+  ],
+  [
+   "dawnguard",
+   "EMPTY",
+   53
+  ],
+  [
+   "dawnguard",
+   "LIKELY_HIDDEN",
+   11
+  ],
+  [
+   "dawnguard",
+   "PLAYER_VISIBLE",
+   8015
+  ],
+  [
+   "dawnguard",
+   "REVIEW_VISIBILITY",
+   103
+  ],
+  [
+   "dragonborn",
+   "EMPTY",
+   83
+  ],
+  [
+   "dragonborn",
+   "LIKELY_HIDDEN",
+   3
+  ],
+  [
+   "dragonborn",
+   "PLAYER_VISIBLE",
+   10901
+  ],
+  [
+   "dragonborn",
+   "REVIEW_VISIBILITY",
+   83
+  ],
+  [
+   "hearthfires",
+   "LIKELY_HIDDEN",
+   4
+  ],
+  [
+   "hearthfires",
+   "PLAYER_VISIBLE",
+   2252
+  ],
+  [
+   "hearthfires",
+   "REVIEW_VISIBILITY",
+   17
+  ],
+  [
+   "skyrim",
+   "EMPTY",
+   233
+  ],
+  [
+   "skyrim",
+   "LIKELY_HIDDEN",
+   62
+  ],
+  [
+   "skyrim",
+   "PLAYER_VISIBLE",
+   65539
+  ],
+  [
+   "skyrim",
+   "REVIEW_VISIBILITY",
+   1580
+  ],
+  [
+   "update",
+   "EMPTY",
+   11
+  ],
+  [
+   "update",
+   "LIKELY_HIDDEN",
+   2
+  ],
+  [
+   "update",
+   "PLAYER_VISIBLE",
+   1569
+  ],
+  [
+   "update",
+   "REVIEW_VISIBILITY",
+   11
+  ]
+ ],
+ "dialogue": {
+  "lines": 44480,
+  "with_quest": 44480,
+  "speaker_exact_npc": 34643,
+  "speaker_quest_alias": 3461,
+  "speaker_voice_type": 3139,
+  "speaker_faction": 1532,
+  "speaker_race": 21,
+  "speaker_unknown": 1684,
+  "speaker_multiple_candidates": 0,
+  "speaker_source": {
+   "npc_condition": 23125,
+   "scene": 9279,
+   "alias_condition": 5700,
+   "voice": 3139,
+   "unknown": 1684,
+   "faction": 1532,
+   "race": 21
+  },
+  "unknown_speaker_by_quest": [
+   [
+    "DLC1NPCMentalModel",
+    213
+   ],
+   [
+    "DialogueGeneric",
+    209
+   ],
+   [
+    "DLC2DialogueGenericDarkElf",
+    154
+   ],
+   [
+    "DLC1DialogueVampire",
+    101
+   ],
+   [
+    "DLC2DialogueGenericRieklings",
+    70
+   ],
+   [
+    "DialogueCarriageSystem",
+    67
+   ],
+   [
+    "DialogueGenericUniqueVoices",
+    61
+   ],
+   [
+    "DLC2RRGuardDialogue",
+    54
+   ],
+   [
+    "DLC2DialogueSkaalVillageGeneric",
+    49
+   ],
+   [
+    "DialogueDremora",
+    46
+   ],
+   [
+    "PetFramework_ParentQuest",
+    45
+   ],
+   [
+    "DLC1DialogueGenericUniqueVoices",
+    45
+   ],
+   [
+    "DLC2DialogueCultists",
+    39
+   ],
+   [
+    "DLC1RNPCClickedHellos",
+    38
+   ],
+   [
+    "DialogueCrimeGuards",
+    35
+   ],
+   [
+    "WEThalmorDialogue",
+    33
+   ],
+   [
+    "DialogueOrcs",
+    33
+   ],
+   [
+    "DLC1VQ01RNPC",
+    32
+   ],
+   [
+    "DLC2DialogueGenericUniqueVoices",
+    29
+   ],
+   [
+    "DLC2DialogueBandits",
+    28
+   ]
+  ]
+ },
+ "context_flags": {
+  "player_gender_conditioned": 879,
+  "speaker_gender_conditioned": 173,
+  "shared_response": 2248
+ },
+ "tables": {
+  "string_refs": 92752,
+  "records": 104206,
+  "quests": 2338,
+  "topics": 19757,
+  "infos": 41437,
+  "speakers": 6626,
+  "scenes": 2142,
+  "actor_refs": 13075
+ },
+ "top_quests_by_lines": [
+  [
+   "DialogueRiften",
+   907
+  ],
+  [
+   "DarkBrotherhood",
+   819
+  ],
+  [
+   "DialogueWhiterun",
+   807
+  ],
+  [
+   "DialogueGeneric",
+   802
+  ],
+  [
+   "DialogueSolitude",
+   713
+  ],
+  [
+   "MQ302",
+   585
+  ],
+  [
+   "DialogueFollower",
+   559
+  ],
+  [
+   "DialogueWindhelm",
+   558
+  ],
+  [
+   "DialogueMarkarth",
+   480
+  ],
+  [
+   "MQ00",
+   428
+  ],
+  [
+   "DLC2DialogueRavenRock",
+   418
+  ],
+  [
+   "MQ101",
+   380
+  ],
+  [
+   "MQ201Party",
+   348
+  ],
+  [
+   "WISharedInfos",
+   341
+  ],
+  [
+   "DialogueWinterholdCollege",
+   315
+  ],
+  [
+   "DialogueGuardsGeneral",
+   296
+  ],
+  [
+   "DLC2DialogueTelMithryn",
+   294
+  ],
+  [
+   "TGDialogue",
+   289
+  ],
+  [
+   "CW",
+   289
+  ],
+  [
+   "CWSharedInfos",
+   273
+  ],
+  [
+   "MQ201",
+   259
+  ],
+  [
+   "DA16",
+   255
+  ],
+  [
+   "MS01",
+   240
+  ],
+  [
+   "DLC1VQ05",
+   226
+  ],
+  [
+   "DialogueCompanionsJorrvaskr",
+   225
+  ],
+  [
+   "TGRShell",
+   224
+  ],
+  [
+   "DialogueGenericUniqueVoices",
+   219
+  ],
+  [
+   "DLC1NPCMentalModel",
+   213
+  ],
+  [
+   "MQ104",
+   212
+  ],
+  [
+   "DialogueFalkreath",
+   212
+  ]
+ ]
+}

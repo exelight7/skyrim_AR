@@ -1,0 +1,220 @@
+key	arabic
+cceejsse005-cave|dlstrings|0x0000004D	ينقصك الغرض المطلوب
+cceejsse005-cave|dlstrings|0x0000008A	<font face='$HandwrittenFont' size='22'>\nالمعلومات التي حصلنا عليها من الجاسوس كانت دقيقة تماماً. من النظرة الأولى، بدا كهفاً عادياً كأي كهف. \n\nكنت مستعداً للاستدارة والاستسلام لهذه الليلة، حين أقبل هؤلاء النبلاء بفراء فاخر يصلح للنوم عليه. راقبتهم يدخلون الكهف واحداً تلو الآخر، حتى بقي رجل واحد. فربتّ على كتفه، ودككت قبضتي في جبهته بقوة حتى سمعت جمجمته تتكسر.\n\nلكنه سيكون بخير. غير أنه سيحتاج إلى سترة جديدة، فقد سمعت خيطاً يتمزق.</font>
+cceejsse005-cave|dlstrings|0x0000008B	ماذا تريد أن تفعل؟
+cceejsse005-cave|dlstrings|0x0000008C	تلقّيتُ رسالة من ساعٍ تذكر أن مأدبة تُقام في قصر كبير جنوب منارة تدفق الصقيع. فوصلتُ إلى المكان وتحدثتُ إلى النادل، فأعطاني قائمة الطعام. ويبدو أن المأدبة فخ محكم للتغذّي على حفنة من الضيوف النبلاء. وبعد القضاء على الضيوف وعلى جماعة مباغتة من حرّاس الفجر، عليّ الآن أن أتحدث إلى النادل.
+cceejsse005-cave|dlstrings|0x00000090	<font face='$HandwrittenFont' size='20'>\nإن كنتم تقرؤون هذا، فأنا ميت، ولذا، سيتعين عليكم أن تسمعوا نخبي بالروح. \n\nبالطبع، قليل من الأعمال أولاً. بما أنه لا ورثة أحياء لي، قررت أن أورث القصر لك. بشرط، أن تنهي هذه الوجبة الأخيرة.\n\nكما تعلمون، أحببت دائماً حفلات العشاء. ولذا، لعشائي الأخير، قررت أن أدعو بعض الأصدقاء. \n\nفيرين، تشاركنا أنا وأنت شراكة عمل طويلة مثمرة، لكنك عدّلت الدفاتر لتمنح نفسك حصة أكبر. لا تظن أنني لم ألاحظ.\n\nمارينا، كنتِ حبي الأول، لكنكِ أيضاً، خطئي الأول. فحبك لم يكن لي وحدي، ولذلك، لم أنسَ قط.\n\nإيغريت، كنتِ ربيبتي، وبطرق ما، عددتك ابنة. لكن الابنة لا تتآمر لسرقة الميراث. لذا سأعلمك هذا الدرس كما يفعل الأب.\n\nليياثيل، قاتلنا في الحرب معاً، ورابطتنا مقدسة بطرق كثيرة. لكنني أعرف الأهوال التي ارتكبتها لتنجو، ومع أنني تجاهلتها حينها، لا أستطيع الآن.\n\nغالتيوس، صديقي الإمبراطوري القديم، الذي كان يشرب النبيذ معي في كروم الإخوة سوريلي في سكينغراد. ذات ليلة، أفرطت في الشرب، ورأيت من المناسب أن تهين عائلتي. قلت لك إنني سامحتك، لأنك كنت سكراناً. لم أسامحك. \n\nأخيراً، <Alias=Player>. لم نلتقِ قط. أحضرتك إلى هنا على نزوة. أنت هنا ورقة مفاجئة. فرصة لتغيير مصائر أصدقائي. أو، للابتهاج بها. فكما هو مصيري في العالم الآخر، الأمر أكثر إثارة بكثير، كما ترون، إن كان المستقبل مجهولاً.\n\nوبعد هذا القول، قُدّمت المشروبات.</font>
+cceejsse005-cave|dlstrings|0x00000092	تلقّيتُ رسالة من ساعٍ تذكر أن مأدبة تُقام في قصر كبير جنوب منارة تدفق الصقيع. فوصلتُ إلى المكان وتحدثتُ إلى النادل، فأعطاني قائمة الطعام. ويبدو أن المأدبة فخ محكم للتغذّي على حفنة من الضيوف النبلاء. وبعد القضاء على الضيوف وعلى جماعة مباغتة من حرّاس الفجر، عليّ الآن أن أتحدث إلى النادل.
+cceejsse005-cave|dlstrings|0x00000093	تلقّيتُ رسالة من ساعٍ تذكر أن مأدبة تُقام في قصر كبير جنوب منارة تدفق الصقيع. فوصلتُ إلى المكان وتحدثتُ إلى النادل، فأعطاني قائمة الطعام. ويبدو أن المأدبة فخ محكم للتغذّي على حفنة من الضيوف النبلاء. وبما أنني مصاص دماء، سُمح لي بمشاركتهم الوجبة.
+cceejsse005-cave|dlstrings|0x00000096	تلقّيتُ رسالة من ساعٍ تذكر أن مأدبة تُقام في قصر كبير جنوب منارة تدفق الصقيع. فوصلتُ إلى المكان وتحدثتُ إلى النادل، فأعطاني قائمة الطعام. ويبدو أن المأدبة فخ محكم للتغذّي على حفنة من الضيوف النبلاء. وبعد صدّ مصاصي الدماء، تحدثتُ إلى عضو من حرّاس الفجر تسلّل إلى الحفل، فشكرني على المساعدة.
+cceejsse005-cave|dlstrings|0x00000099	تلقّيتُ رسالة من ساعٍ تذكر أن مأدبة تُقام في قصر كبير جنوب منارة تدفق الصقيع. فوصلتُ إلى المكان وتحدثتُ إلى النادل، فأعطاني قائمة الطعام. ويبدو أن المأدبة فخ محكم للتغذّي على حفنة من الضيوف النبلاء. وبعد صدّ مصاصي الدماء، عليّ أن أتحدث إلى أي ناجين.
+cceejsse005-cave|dlstrings|0x0000009A	<font face='$HandwrittenFont' size='20'>\nإن كنتم تقرؤون هذا، فأنا ميت، ولذا، سيتعين عليكم أن تسمعوا نخبي بالروح. \n\nبالطبع، قليل من الأعمال أولاً. بما أنه لا ورثة أحياء لي، قررت أن أورث القصر لك. بشرط، أن تنهي هذه الوجبة الأخيرة.\n\nكما تعلمون، أحببت دائماً حفلات العشاء. ولذا، لعشائي الأخير، قررت أن أدعو بعض الأصدقاء. \n\nفيرين، تشاركنا أنا وأنت شراكة عمل طويلة مثمرة، لكنك عدّلت الدفاتر لتمنح نفسك حصة أكبر. لا تظن أنني لم ألاحظ.\n\nمارينا، كنتِ حبي الأول، لكنكِ أيضاً، خطئي الأول. فحبك لم يكن لي وحدي، ولذلك، لم أنسَ قط.\n\nإيغريت، كنتِ ربيبتي، وبطرق ما، عددتك ابنة. لكن الابنة لا تتآمر لسرقة الميراث. لذا سأعلمك هذا الدرس كما يفعل الأب.\n\nليياثيل، قاتلنا في الحرب معاً، ورابطتنا مقدسة بطرق كثيرة. لكنني أعرف الأهوال التي ارتكبتها لتنجو، ومع أنني تجاهلتها حينها، لا أستطيع الآن.\n\nغالتيوس، صديقي الإمبراطوري القديم، الذي كان يشرب النبيذ معي في كروم الإخوة سوريلي في سكينغراد. ذات ليلة، أفرطت في الشرب، ورأيت من المناسب أن تهين عائلتي. قلت لك إنني سامحتك، لأنك كنت سكراناً. لم أسامحك. \n\nوبارفين، أخي العزيز. تنمّرت عليّ منذ يوم ولادتي. افترضت دائماً أن الدم سيربطنا معاً، وسيربطنا فعلاً، لكن ليس بالطريقة التي تظنها.\n\nأخيراً، <Alias=Player>. لم نلتقِ قط. أحضرتك إلى هنا على نزوة. أنت هنا ورقة مفاجئة. فرصة لتغيير مصائر أصدقائي. أو، للابتهاج بها. فكما هو مصيري في العالم الآخر، الأمر أكثر إثارة بكثير، كما ترون، إن كان المستقبل مجهولاً.\n\nوبعد هذا القول، قُدّمت المشروبات.</font>
+cceejsse005-cave|dlstrings|0x0000009B	<font face='$HandwrittenFont' size='22'>\n<p align='center'><b><u>قائمة العشاء</u></b></p></font>\nالمشروبات\n<font face='$HandwrittenFont' size='16'>\nنبيذ وسم النار \nنبيذ ألتو</font>\n\nالطبق الرئيسي\n<font face='$HandwrittenFont' size='16'>\nسوفليه الضوء المظلم - لمسة جديدة على وصفة الذوّاقة الشهيرة\nلحم غزال أحمر كالدم بصلصة الطماطم\nساق ماعز مشوية بمرق النخاع</font>\n[pagebreak]\n\nالحلوى\n<font face='$HandwrittenFont' size='16'>\nفطيرة التفاح\nكعكات الحلوى\nكروستاتا توت الثلج\nحلوى الكريمة المسلوقة\n</font>
+cceejsse005-cave|dlstrings|0x000000A3	تلقّيتُ رسالة من ساعٍ تذكر أن مأدبة تُقام في قصر كبير جنوب منارة تدفق الصقيع. وعليّ أن أزور القاعة وأحضر الاحتفالات.
+cceejsse005-cave|dlstrings|0x000000A4	تلقّيتُ رسالة من ساعٍ تذكر أن مأدبة تُقام في قصر كبير جنوب منارة تدفق الصقيع. فوصلتُ إلى المكان وتحدثتُ إلى النادل، فأعطاني قائمة الطعام. وعلى مائدة المأدبة وجدتُ إحدى وجبات كثيرة أتغذّى عليها.
+cceejsse005-cave|dlstrings|0x000000A6	تلقّيتُ رسالة من ساعٍ تذكر أن مأدبة تُقام في قصر كبير جنوب منارة تدفق الصقيع. فوصلتُ إلى المكان وتحدثتُ إلى النادل، فأعطاني قائمة الطعام. ويبدو أن المأدبة فخ محكم للتغذّي على حفنة من الضيوف النبلاء. وبعد صدّ مصاصي الدماء، تحدثتُ إلى عضو من حرّاس الفجر تسلّل إلى الحفل، فشكرني على المساعدة.
+cceejsse005-cave|dlstrings|0x000000A9	تلقّيتُ رسالة من ساعٍ تذكر أن مأدبة تُقام في قصر كبير جنوب منارة تدفق الصقيع. فوصلتُ إلى المكان وتحدثتُ إلى النادل، فأعطاني قائمة الطعام. وعلى مائدة المأدبة قرأتُ رسالة تلمّح إلى أن هذه المأدبة ليست كما تبدو.
+cceejsse005-cave|dlstrings|0x000000AF	<font face='$HandwrittenFont' size='22'>\n<p align='center'><b><u>قائمة العشاء</u></b></p></font>\nالمشروبات\n<font face='$HandwrittenFont' size='16'>\nدم ونبيذ</font>\n\nالطبق الرئيسي\n<font face='$HandwrittenFont' size='16'>\nذكر نوردي\nذكر بريتوني\nذكر دنمري\nأنثى من الإلف العالي\nذكر إمبراطوري\nأنثى إمبراطورية</font>\n[pagebreak]\n\nالحلوى\n<font face='$HandwrittenFont' size='16'>\nطبق البيت الخاص - العبيد المستعبَدون\n</font>
+cceejsse005-cave|dlstrings|0x000000B1	تلقّيتُ رسالة من ساعٍ تذكر أن مأدبة تُقام في قصر كبير جنوب منارة تدفق الصقيع. فوصلتُ إلى المكان وتحدثتُ إلى النادل، فأعطاني قائمة الطعام. ويبدو أن المأدبة فخ محكم للتغذّي على حفنة من الضيوف النبلاء.
+cceejsse005-cave|dlstrings|0x000000B9	<font face='$HandwrittenFont' size='20'>\n<Alias=Player>،\n\nأنت مدعو بكل ترحاب إلى العشاء والشراب في قصر قشعريرة الدم. وبصفتك ضيفاً مكرّماً، نشجعك على الحضور مبكراً والاختلاط ببقية الحاضرين. وحين تكون مستعداً للوليمة، اطلب من نادل البيت قائمة الطعام وسيدخلك إلى قاعة الولائم.\n\nستُعرض أفخر الأطباق وألذها. ولن تكون هناك حاجة إلى المقبلات. وحين يجهز الجميع ويجلسون، تنتظرك وجبة كاملة.\n\nتعال من أجل العشاء، وابقَ من أجل الشراب.\n</font>
+cceejsse005-cave|dlstrings|0x000000BB	تلقّيتُ رسالة من ساعٍ تذكر أن مأدبة تُقام في قصر كبير جنوب منارة تدفق الصقيع. فوصلتُ إلى المكان وتحدثتُ إلى النادل، فأعطاني قائمة الطعام.
+cceejsse005-cave|dlstrings|0x000000BC	حارس الفجر
+cceejsse005-cave|dlstrings|0x000000C0	في أثناء أسفاري عبر سكايرم صادفتُ ساعياً معه رسالة موجّهة إليّ. وعليّ أن أقرأها لأعرف من أرسلها ولماذا.
+cceejsse005-cave|dlstrings|0x000000CB	في أثناء أسفاري عبر سكايرم صادفتُ ساعياً معه رسالة موجّهة إليّ. وعليّ أن أقرأها لأعرف من أرسلها ولماذا.
+cceejsse005-cave|dlstrings|0x000000CF	<font face='$HandwrittenFont' size='20'>\n<Alias=Player>،\n\nأنت مدعو بكل ترحاب إلى العشاء والشراب في قصر قشعريرة الدم. وبصفتك من أبناء الليل، نشجعك على الاختلاط بالأطباق وهي تضحك وتشرب حتى تمتلئ بطونها. وحين تكون مستعداً للوليمة، اطلب من نادل البيت قائمة الطعام وسيدخل ضيوفنا الكرام إلى قاعة الولائم.\n\nوحين يجهز العشاء ويجلس، سيكون ذلك إشارة لبدء الافتراس.\n\nتعال من أجل العشاء، وابقَ من أجل الشراب.</font>
+cceejsse005-cave|dlstrings|0x000000D1	تلقّيتُ رسالة من ساعٍ تذكر أن مأدبة تُقام في قصر كبير جنوب منارة تدفق الصقيع. فوصلتُ إلى المكان وتحدثتُ إلى النادل، فأعطاني قائمة الطعام. ويبدو أن المأدبة فخ محكم للتغذّي على حفنة من الضيوف النبلاء.
+cceejsse005-cave|dlstrings|0x000000D4	في سكايرم كثيراً ما يوصل السعاة الأخبار والرسائل الشخصية. فإن توجّهتُ إلى إحدى المقاطعات الكبرى، قد أجد شيئاً موجّهاً إليّ.
+cceejsse005-cave|dlstrings|0x000000D6	تلقّيتُ رسالة من ساعٍ تذكر أن مأدبة تُقام في قصر كبير جنوب منارة تدفق الصقيع. فوصلتُ إلى المكان فوجدتُ عند الباب حشداً من الضيوف.
+cceejsse005-cave|dlstrings|0x000000DA	تلقّيتُ رسالة من ساعٍ تذكر أن مأدبة تُقام في قصر كبير جنوب منارة تدفق الصقيع. فوصلتُ إلى المكان وتحدثتُ إلى النادل، فأعطاني قائمة الطعام. ويبدو أن المأدبة فخ محكم للتغذّي على حفنة من الضيوف النبلاء. وبعد القضاء على الضيوف وعلى جماعة مباغتة من حرّاس الفجر، عليّ الآن أن أتحدث إلى النادل.
+cceejsse005-cave|strings|0x00000001	ضع
+cceejsse005-cave|strings|0x00000002	ضع
+cceejsse005-cave|strings|0x00000003	دوكان
+cceejsse005-cave|strings|0x00000004	يعسوب في برطمان
+cceejsse005-cave|strings|0x00000005	ضع
+cceejsse005-cave|strings|0x00000006	ضع
+cceejsse005-cave|strings|0x00000007	جرّة فضية
+cceejsse005-cave|strings|0x00000008	ضع
+cceejsse005-cave|strings|0x00000009	فأس رون حرّاس الفجر
+cceejsse005-cave|strings|0x0000000A	شمعدان
+cceejsse005-cave|strings|0x0000000B	ضع
+cceejsse005-cave|strings|0x0000000C	ترس رون حرّاس الفجر
+cceejsse005-cave|strings|0x0000000E	هيفنوراك
+cceejsse005-cave|strings|0x0000000F	مطرقة رون حرّاس الفجر
+cceejsse005-cave|strings|0x00000010	ضع
+cceejsse005-cave|strings|0x00000011	ضع
+cceejsse005-cave|strings|0x00000012	مخلب التنين الياقوتي
+cceejsse005-cave|strings|0x00000013	مخلب التنين المرجاني
+cceejsse005-cave|strings|0x00000014	كوب
+cceejsse005-cave|strings|0x00000015	ضع
+cceejsse005-cave|strings|0x00000016	ضع
+cceejsse005-cave|strings|0x00000017	كأس
+cceejsse005-cave|strings|0x00000018	تحدّث
+cceejsse005-cave|strings|0x00000019	ضع
+cceejsse005-cave|strings|0x0000001A	وعاء
+cceejsse005-cave|strings|0x0000001B	قِدر
+cceejsse005-cave|strings|0x0000001C	ضع
+cceejsse005-cave|strings|0x0000001D	ضع
+cceejsse005-cave|strings|0x0000001E	ناكريين
+cceejsse005-cave|strings|0x0000001F	ضع
+cceejsse005-cave|strings|0x00000020	دمية مصاص الدماء
+cceejsse005-cave|strings|0x00000021	سلّة
+cceejsse005-cave|strings|0x00000022	سكين النحت
+cceejsse005-cave|strings|0x00000023	فراشة ليلية في برطمان
+cceejsse005-cave|strings|0x00000024	ضع
+cceejsse005-cave|strings|0x00000025	طبق تقديم
+cceejsse005-cave|strings|0x00000026	ضع
+cceejsse005-cave|strings|0x00000027	ضع
+cceejsse005-cave|strings|0x00000028	ضع
+cceejsse005-cave|strings|0x00000029	جوهرة الياقوت الأزرق المثلى
+cceejsse005-cave|strings|0x0000002A	راغوت
+cceejsse005-cave|strings|0x0000002B	كيس كبير
+cceejsse005-cave|strings|0x0000002C	إبريق المريد
+cceejsse005-cave|strings|0x0000002D	ضع
+cceejsse005-cave|strings|0x0000002E	قلنسوة جلدية لمصاص الدماء
+cceejsse005-cave|strings|0x0000002F	سلّة
+cceejsse005-cave|strings|0x00000030	برطمان فارغ
+cceejsse005-cave|strings|0x00000031	جوهرة الياقوت المثلى
+cceejsse005-cave|strings|0x00000032	ضع
+cceejsse005-cave|strings|0x00000033	كأس
+cceejsse005-cave|strings|0x00000034	ترس أورييل
+cceejsse005-cave|strings|0x00000035	جوهرة الألماس المثلى
+cceejsse005-cave|strings|0x00000036	مخلب زجاجي
+cceejsse005-cave|strings|0x00000037	ضع
+cceejsse005-cave|strings|0x00000038	فوكون
+cceejsse005-cave|strings|0x00000039	جرّة صغيرة
+cceejsse005-cave|strings|0x0000003A	أوتار
+cceejsse005-cave|strings|0x0000003B	مخلب أبنوسي
+cceejsse005-cave|strings|0x0000003C	النسيم
+cceejsse005-cave|strings|0x0000003D	ضع
+cceejsse005-cave|strings|0x0000003E	مخلب التنين العاجي
+cceejsse005-cave|strings|0x0000003F	كوناهريك
+cceejsse005-cave|strings|0x00000040	مخلب الجمشت، النصف الأيمن
+cceejsse005-cave|strings|0x00000041	جلد غزال الوادي
+cceejsse005-cave|strings|0x00000042	برميل
+cceejsse005-cave|strings|0x00000043	ضع
+cceejsse005-cave|strings|0x00000044	سلّة
+cceejsse005-cave|strings|0x00000045	ضع
+cceejsse005-cave|strings|0x00000046	صندوق
+cceejsse005-cave|strings|0x00000047	سرير
+cceejsse005-cave|strings|0x00000048	جرّة صغيرة
+cceejsse005-cave|strings|0x00000049	سلّة
+cceejsse005-cave|strings|0x0000004A	جرّة صغيرة
+cceejsse005-cave|strings|0x0000004B	ضع
+cceejsse005-cave|strings|0x0000004C	صحن
+cceejsse005-cave|strings|0x0000004E	ضع
+cceejsse005-cave|strings|0x0000004F	ماشية مصاصي الدماء
+cceejsse005-cave|strings|0x00000050	ضع
+cceejsse005-cave|strings|0x00000051	جرّة صغيرة
+cceejsse005-cave|strings|0x00000052	كيس كبير
+cceejsse005-cave|strings|0x00000053	جوهرة الزمرد المثلى
+cceejsse005-cave|strings|0x00000054	نحلة في برطمان
+cceejsse005-cave|strings|0x00000055	سندان
+cceejsse005-cave|strings|0x00000056	ضع
+cceejsse005-cave|strings|0x00000057	كأس فضية
+cceejsse005-cave|strings|0x00000058	ضع
+cceejsse005-cave|strings|0x00000059	فراشة في برطمان
+cceejsse005-cave|strings|0x0000005A	كومة قش
+cceejsse005-cave|strings|0x0000005B	كرسي بذراعين
+cceejsse005-cave|strings|0x0000005C	حشرة المشعل في برطمان
+cceejsse005-cave|strings|0x0000005D	ضع
+cceejsse005-cave|strings|0x0000005E	أزيدال
+cceejsse005-cave|strings|0x0000005F	سرير
+cceejsse005-cave|strings|0x00000060	ضع
+cceejsse005-cave|strings|0x00000061	صندوق
+cceejsse005-cave|strings|0x00000062	فولسونغ
+cceejsse005-cave|strings|0x00000063	جرّة
+cceejsse005-cave|strings|0x00000064	موروكي
+cceejsse005-cave|strings|0x00000065	زاكريسوس
+cceejsse005-cave|strings|0x00000066	ضع
+cceejsse005-cave|strings|0x00000067	ضع
+cceejsse005-cave|strings|0x00000068	بوتقة الصهر
+cceejsse005-cave|strings|0x00000069	ضع
+cceejsse005-cave|strings|0x0000006A	ضع
+cceejsse005-cave|strings|0x0000006B	القناع الخشبي
+cceejsse005-cave|strings|0x0000006C	ميراك
+cceejsse005-cave|strings|0x0000006D	مخلب الألماس
+cceejsse005-cave|strings|0x0000006E	برميل
+cceejsse005-cave|strings|0x0000006F	جرّة
+cceejsse005-cave|strings|0x00000070	ضع
+cceejsse005-cave|strings|0x00000071	ضع
+cceejsse005-cave|strings|0x00000072	ضع
+cceejsse005-cave|strings|0x00000073	سيف هاركون
+cceejsse005-cave|strings|0x00000074	جوهرة الجمشت المثلى
+cceejsse005-cave|strings|0x00000075	ضع
+cceejsse005-cave|strings|0x00000076	وعاء
+cceejsse005-cave|strings|0x00000077	شمعدان
+cceejsse005-cave|strings|0x00000078	ضع
+cceejsse005-cave|strings|0x00000079	المخلب الذهبي
+cceejsse005-cave|strings|0x0000007A	مخلب الجمشت، النصف الأيسر
+cceejsse005-cave|strings|0x0000007B	ضع
+cceejsse005-cave|strings|0x0000007C	كروسيس
+cceejsse005-cave|strings|0x0000007D	مخلب التنين الياقوتي الأزرق
+cceejsse005-cave|strings|0x0000007E	ضع
+cceejsse005-cave|strings|0x0000007F	ضع
+cceejsse005-cave|strings|0x00000080	قوس أورييل
+cceejsse005-cave|strings|0x00000081	ضع
+cceejsse005-cave|strings|0x00000082	ضع
+cceejsse005-cave|strings|0x00000083	خزانة كتب
+cceejsse005-cave|strings|0x00000084	ضع
+cceejsse005-cave|strings|0x00000085	مخلب التنين الزمردي
+cceejsse005-cave|strings|0x00000086	ست الحسن
+cceejsse005-cave|strings|0x00000087	مخلب حديدي
+cceejsse005-cave|strings|0x00000088	سرير
+cceejsse005-cave|strings|0x00000089	أأنت هنا من أجل حفل العشاء؟
+cceejsse005-cave|strings|0x0000008D	إيغريت
+cceejsse005-cave|strings|0x0000008E	شاعر
+cceejsse005-cave|strings|0x0000008F	حارس الفجر
+cceejsse005-cave|strings|0x00000091	أريد أن أجلس. الآن.
+cceejsse005-cave|strings|0x00000094	أي أفكار؟
+cceejsse005-cave|strings|0x00000095	كهف الدم البارد
+cceejsse005-cave|strings|0x00000097	نادل
+cceejsse005-cave|strings|0x00000098	أتدلّني على طاولتي؟
+cceejsse005-cave|strings|0x0000009C	أتضوّر جوعاً، فلنأكل.
+cceejsse005-cave|strings|0x0000009D	هل تظن أن الطعام سيكون جيداً؟
+cceejsse005-cave|strings|0x0000009E	اقرأ بصوت عالٍ من فضلك
+cceejsse005-cave|strings|0x0000009F	دعوة إلى العشاء
+cceejsse005-cave|strings|0x000000A0	أقدّر ذلك.
+cceejsse005-cave|strings|0x000000A1	أودّ رؤية قائمة الطعام من فضلك.
+cceejsse005-cave|strings|0x000000A2	حمّال
+cceejsse005-cave|strings|0x000000A5	اجلس إلى مائدة الوليمة
+cceejsse005-cave|strings|0x000000A7	ليياثيل
+cceejsse005-cave|strings|0x000000A8	اقرأ رسالة الوليمة
+cceejsse005-cave|strings|0x000000AA	مفتاح قصر الدم البارد
+cceejsse005-cave|strings|0x000000AB	ضيوف على العشاء
+cceejsse005-cave|strings|0x000000AC	فيرين
+cceejsse005-cave|strings|0x000000AE	تحدّث إلى النادل
+cceejsse005-cave|strings|0x000000B0	شاعر
+cceejsse005-cave|strings|0x000000B2	غالتيوس
+cceejsse005-cave|strings|0x000000B3	انتظر أخباراً من ساعي البريد
+cceejsse005-cave|strings|0x000000B4	اقرأ بصوت عالٍ من فضلك
+cceejsse005-cave|strings|0x000000B5	قائمة العشاء
+cceejsse005-cave|strings|0x000000B6	انضم إلى الوليمة
+cceejsse005-cave|strings|0x000000B7	تصدَّ لهجوم مصاصي الدماء
+cceejsse005-cave|strings|0x000000B8	لا تفعل شيئاً
+cceejsse005-cave|strings|0x000000BA	التغذّي
+cceejsse005-cave|strings|0x000000BD	كهف الدم البارد
+cceejsse005-cave|strings|0x000000BE	بدا أن الرسالة تُلمّح إلى أن آخر الناجين سيحصل على البيت.
+cceejsse005-cave|strings|0x000000BF	كهف الدم البارد
+cceejsse005-cave|strings|0x000000C1	تحدّث إلى النادل
+cceejsse005-cave|strings|0x000000C2	أنهِ الوليمة
+cceejsse005-cave|strings|0x000000C3	دعوة إلى العشاء
+cceejsse005-cave|strings|0x000000C4	ابدأ الوليمة
+cceejsse005-cave|strings|0x000000C5	انتقل إلى مائدة المأدبة
+cceejsse005-cave|strings|0x000000C6	مارينا
+cceejsse005-cave|strings|0x000000C7	احضر وليمة المأدبة
+cceejsse005-cave|strings|0x000000C8	هل سيبقى أتباعك؟
+cceejsse005-cave|strings|0x000000C9	دوريان
+cceejsse005-cave|strings|0x000000CA	بارفين
+cceejsse005-cave|strings|0x000000CC	كهف قد يكون لمصاصي الدماء
+cceejsse005-cave|strings|0x000000CD	إغواء مصاص الدماء
+cceejsse005-cave|strings|0x000000CE	مات مصاصو الدماء كلهم. والوصية تقول إن البيت لي.
+cceejsse005-cave|strings|0x000000D0	هل حضر كل الضيوف؟
+cceejsse005-cave|strings|0x000000D2	مات «حرس الفجر» والنبلاء.
+cceejsse005-cave|strings|0x000000D3	حسناً، لا تدع الباب يصدمك وأنت خارج.
+cceejsse005-cave|strings|0x000000D5	تحدّث إلى الناجي
+cceejsse005-cave|strings|0x000000D7	قائمة العشاء
+cceejsse005-cave|strings|0x000000D8	كرسي
+cceejsse005-cave|strings|0x000000D9	اقرأ دعوة العشاء
+cceejsse005-cave|strings|0x000000DB	سكايرم
+cceejsse005-cave|strings|0x000000DC	كهف الدم البارد
+cceejsse005-cave|strings|0x00000F49	مخيم الأقمار الصامتة

@@ -1,0 +1,447 @@
+<Application x:Class="SkyrimArabicInstaller.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+
+        <!-- ===== Type ===== -->
+        <FontFamily x:Key="Cairo">pack://application:,,,/Fonts/#Cairo</FontFamily>
+        <FontFamily x:Key="Amiri">pack://application:,,,/Fonts/#Amiri</FontFamily>
+        <FontFamily x:Key="Runes">Segoe UI Historic, Segoe UI Symbol</FontFamily>
+        <FontFamily x:Key="Icons">Segoe MDL2 Assets</FontFamily>
+
+        <!-- ===== Palette: night, ember gold, glacier ice ===== -->
+        <Color x:Key="GoldC">#E2B96A</Color>
+        <Color x:Key="IceC">#9FDCF0</Color>
+        <SolidColorBrush x:Key="Gold" Color="#E2B96A"/>
+        <SolidColorBrush x:Key="GoldLight" Color="#F7E3AE"/>
+        <SolidColorBrush x:Key="GoldDeep" Color="#A9772B"/>
+        <SolidColorBrush x:Key="Ice" Color="#9FDCF0"/>
+        <SolidColorBrush x:Key="Text" Color="#EEF2F8"/>
+        <SolidColorBrush x:Key="Soft" Color="#C2CCDB"/>
+        <SolidColorBrush x:Key="Muted" Color="#8693A8"/>
+        <SolidColorBrush x:Key="Hair" Color="#22FFFFFF"/>
+
+        <LinearGradientBrush x:Key="GoldMetal" StartPoint="0,0" EndPoint="0,1">
+            <GradientStop Color="#FFF3CF" Offset="0"/>
+            <GradientStop Color="#EBC57A" Offset="0.45"/>
+            <GradientStop Color="#B8862F" Offset="1"/>
+        </LinearGradientBrush>
+        <LinearGradientBrush x:Key="GoldMetalHot" StartPoint="0,0" EndPoint="0,1">
+            <GradientStop Color="#FFFBEA" Offset="0"/>
+            <GradientStop Color="#F6D58E" Offset="0.45"/>
+            <GradientStop Color="#CC9A3E" Offset="1"/>
+        </LinearGradientBrush>
+        <LinearGradientBrush x:Key="FrameGold" StartPoint="0,0" EndPoint="1,1">
+            <GradientStop Color="#C8E2B96A" Offset="0"/>
+            <GradientStop Color="#30E2B96A" Offset="0.3"/>
+            <GradientStop Color="#209FDCF0" Offset="0.6"/>
+            <GradientStop Color="#B0E2B96A" Offset="1"/>
+        </LinearGradientBrush>
+
+        <!-- ===== Text roles ===== -->
+        <Style x:Key="Eyebrow" TargetType="TextBlock">
+            <Setter Property="FontSize" Value="12.5"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Foreground" Value="{StaticResource Gold}"/>
+        </Style>
+        <Style x:Key="Display" TargetType="TextBlock">
+            <Setter Property="FontFamily" Value="{StaticResource Amiri}"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="FontSize" Value="50"/>
+            <Setter Property="Foreground" Value="{StaticResource Text}"/>
+        </Style>
+        <Style x:Key="Lead" TargetType="TextBlock">
+            <Setter Property="FontSize" Value="15"/>
+            <Setter Property="LineHeight" Value="29"/>
+            <Setter Property="TextWrapping" Value="Wrap"/>
+            <Setter Property="Foreground" Value="{StaticResource Soft}"/>
+        </Style>
+
+        <!-- ===== Window buttons ===== -->
+        <Style x:Key="WinButton" TargetType="Button">
+            <Setter Property="Width" Value="34"/>
+            <Setter Property="Height" Value="34"/>
+            <Setter Property="FontFamily" Value="{StaticResource Icons}"/>
+            <Setter Property="FontSize" Value="10"/>
+            <Setter Property="Foreground" Value="{StaticResource Muted}"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="FocusVisualStyle" Value="{x:Null}"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Grid Background="Transparent">
+                            <Rectangle x:Name="Bg" Width="22" Height="22" Fill="#18FFFFFF" Stroke="#40E2B96A" StrokeThickness="1" Opacity="0" RenderTransformOrigin="0.5,0.5">
+                                <Rectangle.RenderTransform>
+                                    <RotateTransform Angle="45"/>
+                                </Rectangle.RenderTransform>
+                            </Rectangle>
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Grid>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Foreground" Value="{StaticResource GoldLight}"/>
+                                <Trigger.EnterActions>
+                                    <BeginStoryboard>
+                                        <Storyboard>
+                                            <DoubleAnimation Storyboard.TargetName="Bg" Storyboard.TargetProperty="Opacity" To="1" Duration="0:0:0.18"/>
+                                        </Storyboard>
+                                    </BeginStoryboard>
+                                </Trigger.EnterActions>
+                                <Trigger.ExitActions>
+                                    <BeginStoryboard>
+                                        <Storyboard>
+                                            <DoubleAnimation Storyboard.TargetName="Bg" Storyboard.TargetProperty="Opacity" To="0" Duration="0:0:0.25"/>
+                                        </Storyboard>
+                                    </BeginStoryboard>
+                                </Trigger.ExitActions>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <!-- ===== Primary: a forged gold blade ===== -->
+        <Style x:Key="PrimaryButton" TargetType="Button">
+            <Setter Property="Foreground" Value="#1D1304"/>
+            <Setter Property="FontFamily" Value="{StaticResource Cairo}"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="FontSize" Value="16.5"/>
+            <Setter Property="Height" Value="54"/>
+            <Setter Property="MinWidth" Value="212"/>
+            <Setter Property="Padding" Value="26,0"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="FocusVisualStyle" Value="{x:Null}"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Grid x:Name="G" FlowDirection="LeftToRight" RenderTransformOrigin="0.5,0.5">
+                            <Grid.RenderTransform>
+                                <ScaleTransform x:Name="S"/>
+                            </Grid.RenderTransform>
+                            <Border x:Name="Glow" Background="#E2B96A" Margin="26,14,26,-4" Opacity="0.28">
+                                <Border.Effect>
+                                    <BlurEffect Radius="26"/>
+                                </Border.Effect>
+                            </Border>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="24"/>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="24"/>
+                                </Grid.ColumnDefinitions>
+                                <Path Data="M1,0 L0,1 L1,2 Z" Stretch="Fill" Fill="{StaticResource GoldMetal}" Margin="0,0,-0.5,0"/>
+                                <Path Grid.Column="2" Data="M0,0 L1,1 L0,2 Z" Stretch="Fill" Fill="{StaticResource GoldMetal}" Margin="-0.5,0,0,0"/>
+                                <Border Grid.Column="1" Background="{StaticResource GoldMetal}" ClipToBounds="True">
+                                    <Grid>
+                                        <Rectangle Height="1" VerticalAlignment="Top" Fill="#CCFFFFFF"/>
+                                        <Rectangle Height="1" VerticalAlignment="Top" Margin="0,4,0,0" Fill="#407A5210"/>
+                                        <Rectangle Height="1" VerticalAlignment="Bottom" Margin="0,0,0,4" Fill="#407A5210"/>
+                                        <Canvas>
+                                            <Rectangle x:Name="Shine" Width="70" Height="80" Canvas.Top="-12" Canvas.Left="-120" Opacity="0.9">
+                                                <Rectangle.Fill>
+                                                    <LinearGradientBrush StartPoint="0,0" EndPoint="1,0">
+                                                        <GradientStop Color="#00FFFFFF" Offset="0"/>
+                                                        <GradientStop Color="#D0FFFFFF" Offset="0.5"/>
+                                                        <GradientStop Color="#00FFFFFF" Offset="1"/>
+                                                    </LinearGradientBrush>
+                                                </Rectangle.Fill>
+                                                <Rectangle.RenderTransform>
+                                                    <TransformGroup>
+                                                        <SkewTransform AngleX="-24"/>
+                                                        <TranslateTransform/>
+                                                    </TransformGroup>
+                                                </Rectangle.RenderTransform>
+                                            </Rectangle>
+                                        </Canvas>
+                                    </Grid>
+                                </Border>
+                            </Grid>
+                            <Rectangle Width="7" Height="7" Fill="#6B4A12" HorizontalAlignment="Left" Margin="15,0,0,0" RenderTransformOrigin="0.5,0.5">
+                                <Rectangle.RenderTransform>
+                                    <RotateTransform Angle="45"/>
+                                </Rectangle.RenderTransform>
+                            </Rectangle>
+                            <Rectangle Width="7" Height="7" Fill="#6B4A12" HorizontalAlignment="Right" Margin="0,0,15,0" RenderTransformOrigin="0.5,0.5">
+                                <Rectangle.RenderTransform>
+                                    <RotateTransform Angle="45"/>
+                                </Rectangle.RenderTransform>
+                            </Rectangle>
+                            <ContentPresenter FlowDirection="RightToLeft" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="{TemplateBinding Padding}"/>
+                        </Grid>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Trigger.EnterActions>
+                                    <BeginStoryboard>
+                                        <Storyboard>
+                                            <DoubleAnimation Storyboard.TargetName="Glow" Storyboard.TargetProperty="Opacity" To="0.85" Duration="0:0:0.25"/>
+                                            <DoubleAnimation Storyboard.TargetName="S" Storyboard.TargetProperty="ScaleX" To="1.04" Duration="0:0:0.3">
+                                                <DoubleAnimation.EasingFunction>
+                                                    <BackEase EasingMode="EaseOut" Amplitude="0.9"/>
+                                                </DoubleAnimation.EasingFunction>
+                                            </DoubleAnimation>
+                                            <DoubleAnimation Storyboard.TargetName="S" Storyboard.TargetProperty="ScaleY" To="1.04" Duration="0:0:0.3">
+                                                <DoubleAnimation.EasingFunction>
+                                                    <BackEase EasingMode="EaseOut" Amplitude="0.9"/>
+                                                </DoubleAnimation.EasingFunction>
+                                            </DoubleAnimation>
+                                            <DoubleAnimation Storyboard.TargetName="Shine" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[1].(TranslateTransform.X)" From="0" To="460" Duration="0:0:0.75"/>
+                                        </Storyboard>
+                                    </BeginStoryboard>
+                                </Trigger.EnterActions>
+                                <Trigger.ExitActions>
+                                    <BeginStoryboard>
+                                        <Storyboard>
+                                            <DoubleAnimation Storyboard.TargetName="Glow" Storyboard.TargetProperty="Opacity" To="0.28" Duration="0:0:0.35"/>
+                                            <DoubleAnimation Storyboard.TargetName="S" Storyboard.TargetProperty="ScaleX" To="1" Duration="0:0:0.25"/>
+                                            <DoubleAnimation Storyboard.TargetName="S" Storyboard.TargetProperty="ScaleY" To="1" Duration="0:0:0.25"/>
+                                        </Storyboard>
+                                    </BeginStoryboard>
+                                </Trigger.ExitActions>
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="True">
+                                <Trigger.EnterActions>
+                                    <BeginStoryboard>
+                                        <Storyboard>
+                                            <DoubleAnimation Storyboard.TargetName="S" Storyboard.TargetProperty="ScaleX" To="0.96" Duration="0:0:0.08"/>
+                                            <DoubleAnimation Storyboard.TargetName="S" Storyboard.TargetProperty="ScaleY" To="0.96" Duration="0:0:0.08"/>
+                                        </Storyboard>
+                                    </BeginStoryboard>
+                                </Trigger.EnterActions>
+                                <Trigger.ExitActions>
+                                    <BeginStoryboard>
+                                        <Storyboard>
+                                            <DoubleAnimation Storyboard.TargetName="S" Storyboard.TargetProperty="ScaleX" To="1" Duration="0:0:0.2"/>
+                                            <DoubleAnimation Storyboard.TargetName="S" Storyboard.TargetProperty="ScaleY" To="1" Duration="0:0:0.2"/>
+                                        </Storyboard>
+                                    </BeginStoryboard>
+                                </Trigger.ExitActions>
+                            </Trigger>
+                            <Trigger Property="IsEnabled" Value="False">
+                                <Setter TargetName="G" Property="Opacity" Value="0.4"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <!-- ===== Ghost: the same blade, drawn in outline ===== -->
+        <Style x:Key="GhostButton" TargetType="Button">
+            <Setter Property="Foreground" Value="{StaticResource GoldLight}"/>
+            <Setter Property="FontFamily" Value="{StaticResource Cairo}"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="FontSize" Value="14.5"/>
+            <Setter Property="Height" Value="46"/>
+            <Setter Property="Padding" Value="20,0"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="FocusVisualStyle" Value="{x:Null}"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Grid FlowDirection="LeftToRight" Background="Transparent">
+                            <Grid x:Name="Fill" Opacity="0">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="20"/>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="20"/>
+                                </Grid.ColumnDefinitions>
+                                <Path Data="M1,0 L0,1 L1,2 Z" Stretch="Fill" Fill="#26E2B96A" Margin="0,0,-0.5,0"/>
+                                <Rectangle Grid.Column="1" Fill="#26E2B96A"/>
+                                <Path Grid.Column="2" Data="M0,0 L1,1 L0,2 Z" Stretch="Fill" Fill="#26E2B96A" Margin="-0.5,0,0,0"/>
+                            </Grid>
+                            <Grid x:Name="Line" Opacity="0.55">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="20"/>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="20"/>
+                                </Grid.ColumnDefinitions>
+                                <Path Data="M1,0 L0,1 L1,2" Stretch="Fill" Stroke="{StaticResource Gold}" StrokeThickness="1.2"/>
+                                <Border Grid.Column="1" BorderBrush="{StaticResource Gold}" BorderThickness="0,1.2"/>
+                                <Path Grid.Column="2" Data="M0,0 L1,1 L0,2" Stretch="Fill" Stroke="{StaticResource Gold}" StrokeThickness="1.2"/>
+                            </Grid>
+                            <ContentPresenter FlowDirection="RightToLeft" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="{TemplateBinding Padding}"/>
+                        </Grid>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Trigger.EnterActions>
+                                    <BeginStoryboard>
+                                        <Storyboard>
+                                            <DoubleAnimation Storyboard.TargetName="Fill" Storyboard.TargetProperty="Opacity" To="1" Duration="0:0:0.2"/>
+                                            <DoubleAnimation Storyboard.TargetName="Line" Storyboard.TargetProperty="Opacity" To="1" Duration="0:0:0.2"/>
+                                        </Storyboard>
+                                    </BeginStoryboard>
+                                </Trigger.EnterActions>
+                                <Trigger.ExitActions>
+                                    <BeginStoryboard>
+                                        <Storyboard>
+                                            <DoubleAnimation Storyboard.TargetName="Fill" Storyboard.TargetProperty="Opacity" To="0" Duration="0:0:0.3"/>
+                                            <DoubleAnimation Storyboard.TargetName="Line" Storyboard.TargetProperty="Opacity" To="0.55" Duration="0:0:0.3"/>
+                                        </Storyboard>
+                                    </BeginStoryboard>
+                                </Trigger.ExitActions>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <!-- ===== Rune switch: a diamond that kindles ===== -->
+        <Style x:Key="RuneSwitch" TargetType="ToggleButton">
+            <Setter Property="Foreground" Value="{StaticResource Text}"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="FocusVisualStyle" Value="{x:Null}"/>
+            <Setter Property="HorizontalContentAlignment" Value="Stretch"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="ToggleButton">
+                        <Grid>
+                            <Rectangle x:Name="Wash" Opacity="0">
+                                <Rectangle.Fill>
+                                    <LinearGradientBrush StartPoint="0,0" EndPoint="1,0">
+                                        <GradientStop Color="#00E2B96A" Offset="0"/>
+                                        <GradientStop Color="#1FE2B96A" Offset="1"/>
+                                    </LinearGradientBrush>
+                                </Rectangle.Fill>
+                            </Rectangle>
+                            <Border BorderBrush="{StaticResource Hair}" BorderThickness="0,0,0,1" Padding="4,11,10,11" Background="Transparent">
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="Auto"/>
+                                        <ColumnDefinition Width="*"/>
+                                    </Grid.ColumnDefinitions>
+                                    <Grid Width="34" Height="34" FlowDirection="LeftToRight" Margin="2,0,14,0">
+                                        <Rectangle x:Name="Halo" Width="24" Height="24" Fill="#E2B96A" Opacity="0" RenderTransformOrigin="0.5,0.5">
+                                            <Rectangle.RenderTransform>
+                                                <RotateTransform Angle="45"/>
+                                            </Rectangle.RenderTransform>
+                                            <Rectangle.Effect>
+                                                <BlurEffect Radius="14"/>
+                                            </Rectangle.Effect>
+                                        </Rectangle>
+                                        <Rectangle Width="19" Height="19" Fill="#B005070D" Stroke="#99E2B96A" StrokeThickness="1.3" RenderTransformOrigin="0.5,0.5">
+                                            <Rectangle.RenderTransform>
+                                                <RotateTransform Angle="45"/>
+                                            </Rectangle.RenderTransform>
+                                        </Rectangle>
+                                        <Rectangle x:Name="Core" Width="10" Height="10" Fill="{StaticResource GoldMetalHot}" RenderTransformOrigin="0.5,0.5">
+                                            <Rectangle.RenderTransform>
+                                                <TransformGroup>
+                                                    <ScaleTransform ScaleX="0" ScaleY="0"/>
+                                                    <RotateTransform Angle="45"/>
+                                                </TransformGroup>
+                                            </Rectangle.RenderTransform>
+                                        </Rectangle>
+                                    </Grid>
+                                    <ContentPresenter x:Name="CP" Grid.Column="1" VerticalAlignment="Center" Opacity="0.6"/>
+                                </Grid>
+                            </Border>
+                        </Grid>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsChecked" Value="True">
+                                <Trigger.EnterActions>
+                                    <BeginStoryboard>
+                                        <Storyboard>
+                                            <DoubleAnimation Storyboard.TargetName="Core" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)" To="1" Duration="0:0:0.4">
+                                                <DoubleAnimation.EasingFunction>
+                                                    <BackEase EasingMode="EaseOut" Amplitude="1.4"/>
+                                                </DoubleAnimation.EasingFunction>
+                                            </DoubleAnimation>
+                                            <DoubleAnimation Storyboard.TargetName="Core" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)" To="1" Duration="0:0:0.4">
+                                                <DoubleAnimation.EasingFunction>
+                                                    <BackEase EasingMode="EaseOut" Amplitude="1.4"/>
+                                                </DoubleAnimation.EasingFunction>
+                                            </DoubleAnimation>
+                                            <DoubleAnimation Storyboard.TargetName="Halo" Storyboard.TargetProperty="Opacity" To="0.6" Duration="0:0:0.4"/>
+                                            <DoubleAnimation Storyboard.TargetName="CP" Storyboard.TargetProperty="Opacity" To="1" Duration="0:0:0.3"/>
+                                        </Storyboard>
+                                    </BeginStoryboard>
+                                </Trigger.EnterActions>
+                                <Trigger.ExitActions>
+                                    <BeginStoryboard>
+                                        <Storyboard>
+                                            <DoubleAnimation Storyboard.TargetName="Core" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)" To="0" Duration="0:0:0.2"/>
+                                            <DoubleAnimation Storyboard.TargetName="Core" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)" To="0" Duration="0:0:0.2"/>
+                                            <DoubleAnimation Storyboard.TargetName="Halo" Storyboard.TargetProperty="Opacity" To="0" Duration="0:0:0.3"/>
+                                            <DoubleAnimation Storyboard.TargetName="CP" Storyboard.TargetProperty="Opacity" To="0.6" Duration="0:0:0.3"/>
+                                        </Storyboard>
+                                    </BeginStoryboard>
+                                </Trigger.ExitActions>
+                            </Trigger>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Trigger.EnterActions>
+                                    <BeginStoryboard>
+                                        <Storyboard>
+                                            <DoubleAnimation Storyboard.TargetName="Wash" Storyboard.TargetProperty="Opacity" To="1" Duration="0:0:0.2"/>
+                                        </Storyboard>
+                                    </BeginStoryboard>
+                                </Trigger.EnterActions>
+                                <Trigger.ExitActions>
+                                    <BeginStoryboard>
+                                        <Storyboard>
+                                            <DoubleAnimation Storyboard.TargetName="Wash" Storyboard.TargetProperty="Opacity" To="0" Duration="0:0:0.35"/>
+                                        </Storyboard>
+                                    </BeginStoryboard>
+                                </Trigger.ExitActions>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <!-- ===== Choice card (font style) ===== -->
+        <Style x:Key="ChoiceCard" TargetType="RadioButton">
+            <Setter Property="Foreground" Value="{StaticResource Text}"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="FocusVisualStyle" Value="{x:Null}"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="RadioButton">
+                        <Grid>
+                            <Border x:Name="Bd" Background="#0FFFFFFF" BorderBrush="#26FFFFFF" BorderThickness="1" Padding="16,9,16,10">
+                                <ContentPresenter/>
+                            </Border>
+                            <Border x:Name="On" BorderBrush="{StaticResource Gold}" BorderThickness="1.4" Opacity="0">
+                                <Border.Background>
+                                    <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                                        <GradientStop Color="#2AE2B96A" Offset="0"/>
+                                        <GradientStop Color="#08E2B96A" Offset="1"/>
+                                    </LinearGradientBrush>
+                                </Border.Background>
+                                <Rectangle Width="9" Height="9" Fill="{StaticResource GoldMetalHot}" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,-5,12,0" RenderTransformOrigin="0.5,0.5">
+                                    <Rectangle.RenderTransform>
+                                        <RotateTransform Angle="45"/>
+                                    </Rectangle.RenderTransform>
+                                </Rectangle>
+                            </Border>
+                        </Grid>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsChecked" Value="True">
+                                <Trigger.EnterActions>
+                                    <BeginStoryboard>
+                                        <Storyboard>
+                                            <DoubleAnimation Storyboard.TargetName="On" Storyboard.TargetProperty="Opacity" To="1" Duration="0:0:0.25"/>
+                                        </Storyboard>
+                                    </BeginStoryboard>
+                                </Trigger.EnterActions>
+                                <Trigger.ExitActions>
+                                    <BeginStoryboard>
+                                        <Storyboard>
+                                            <DoubleAnimation Storyboard.TargetName="On" Storyboard.TargetProperty="Opacity" To="0" Duration="0:0:0.25"/>
+                                        </Storyboard>
+                                    </BeginStoryboard>
+                                </Trigger.ExitActions>
+                            </Trigger>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="Bd" Property="Background" Value="#1CFFFFFF"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Application.Resources>
+</Application>

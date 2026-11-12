@@ -1,0 +1,192 @@
+key	arabic
+ccvsvsse004-beafarmer|dlstrings|0x00000001	يبني 2 من المناحل التي تنتج النحل وأقراص العسل والعسل.
+ccvsvsse004-beafarmer|dlstrings|0x00000004	اعتقدت <Alias=Wife> أن زوجها الغاضب المتسلّط قتل ابنهما، <Alias=GhostChild>، فسمّمته. أيمكن أن يكون <Alias=Husband> قد قتل ابنه؟ وعليّ أن أفتّش المزرعة لأعرف المزيد.
+ccvsvsse004-beafarmer|dlstrings|0x00000009	يبني بئراً وصناديق زراعة. ويضيف أيضاً أثاثاً خارجياً وزينة لبيت المزرعة.
+ccvsvsse004-beafarmer|dlstrings|0x0000000E	اختر مزاراً لوضعه هنا:
+ccvsvsse004-beafarmer|dlstrings|0x00000018	يبني حظائر للحيوانات. يتيح شراء الأبقار والماعز والدجاج للمزرعة.
+ccvsvsse004-beafarmer|dlstrings|0x00000019	يبني إسطبلاً. يتيح شراء حصان للمزرعة.
+ccvsvsse004-beafarmer|dlstrings|0x0000001B	حين وصلتُ إلى <Alias=FarmLocation>، اكتشفتُ أن الشائعات صحيحة: فهذا المكان تسكنه فعلاً أرواح موتى لا يعرفون الراحة. فما الذي يدفع أرواح هؤلاء المزارعين البسطاء إلى هذا الغضب؟ وأي مأساة تسبّبت في موتهم المبكر؟ وعليّ أن أفتّش المزرعة لأعرف المزيد.
+ccvsvsse004-beafarmer|dlstrings|0x00000024	صار <Alias=Farmhand1> يعمل لديك.
+ccvsvsse004-beafarmer|dlstrings|0x0000002E	أعدتُ <Alias=FarmLocation> إلى المزرعة المزدهرة التي كانت عليها.
+ccvsvsse004-beafarmer|dlstrings|0x00000033	يُقال إن <Alias=FarmLocation> قرب روريكستيد تسكنها أشباح تضايق المسافرين على الطريق. ويعرض جارل مقاطعة وايترن المزرعة نفسها مكافأة لمن يستطيع أن يريح هذه الأرواح. وعليّ التوجه إلى <Alias=FarmLocation> للتحرّي.
+ccvsvsse004-beafarmer|dlstrings|0x00000034	كشفتُ حقيقة ما جرى في <Alias=FarmLocation>. فبعد اختفاء ابنهما، قتل <Alias=Husband> و<Alias=Wife> أحدهما الآخر، <Alias=Wife> بخلاصة الباذنجان المميت، و<Alias=Husband> بفأس، وكلاهما يظن أن الآخر قتل ابنهما، <Alias=GhostChild>. والسبيل الوحيد لإحلال السلام في روحيهما أخيراً أن أكتشف ما حلّ بـ<Alias=GhostChild> حقاً.
+ccvsvsse004-beafarmer|dlstrings|0x00000037	ترك <Alias=Farmhand1> العمل لديك.
+ccvsvsse004-beafarmer|dlstrings|0x0000003F	كشفتُ الحقيقة المروّعة لما جرى في مزرعة التلال الذهبية. فبعد اختفاء ابنهما، قتل <Alias=Husband> و<Alias=Wife> أحدهما الآخر، ويبدو أن ابنهما هرب من شجار والديه. والسبيل الوحيد لإحلال السلام في الأرواح هنا أن أعرف ما حلّ بـ<Alias=GhostChild>، ولذلك عليّ أن أجد البئر القديمة المذكورة في يومياته.
+ccvsvsse004-beafarmer|dlstrings|0x00000040	تسير <Alias=FarmLocation> بخطى ثابتة نحو أن تصبح مزرعة مربحة من جديد، بعد أن زرعتُ المحاصيل واستأجرتُ عمّالاً لرعايتها. وعليّ بعد ذلك أن أنظر في اقتناء بعض الماشية.
+ccvsvsse004-beafarmer|dlstrings|0x00000049	صار <Alias=Farmhand2> يعمل لديك.
+ccvsvsse004-beafarmer|dlstrings|0x0000004A	الآن بعد أن أرحتُ الأشباح التي كانت تسكن <Alias=FarmLocation> وامتلكتها، عليّ أن أنظر في إعادة مزرعتي الجديدة إلى سابق مجدها. وأولاً عليّ أن أزرع بعض المحاصيل.
+ccvsvsse004-beafarmer|dlstrings|0x00000051	عليّ أن أجد وكيلاً يدير الأعمال اليومية. فلعل أحد حلفائي يقبل هذه الوظيفة بعد أن أريه المكان؟ أو لعل شريك حياتي يستطيع إدارة المزرعة إن جعلتها بيتنا.
+ccvsvsse004-beafarmer|dlstrings|0x00000052	اختر مزاراً لوضعه هنا:
+ccvsvsse004-beafarmer|dlstrings|0x00000054	<font face="$HandwrittenFont">\n\nأمي وأبي يتشاجران مجدداً. إنهما يتشاجران دائماً هذه الأيام. أمي تكره هوس أبي بالأبقار وسعر القمح، وكل تلك الأشياء المملة. وأبي لا يحب أزهار أمي ولا زجاجاتها المليئة بالأشياء اللزجة. وأنا أيضاً لا أحب الأشياء اللزجة، لكنها تجعلني أشعر بتحسن حين أمرض، فأظن أنها لا بأس بها. \n\nلا أطيق الانتظار حتى أكبر بما يكفي لأنضم إلى الفيلق وأبتعد عن المزرعة. أتدرب كل يوم بسيفي - أظن أنني جيد بما يكفي لأكون قائداً، أو حتى جنرالاً! لكن أبي لا يريدني أن أنضم إلى الفيلق لأنه يقول إن عليّ أن أتولى المزرعة حين أكبر. وأمي لا تريدني أن أذهب لأن ذلك خطير. هذا تقريباً الشيء الوحيد الذي يتفقان عليه.\n\nأراهن أنني لو هزمت قاطع طريق أو قتلت ذئباً أو شيئاً كهذا فسيريهم ذلك! حينها سيضطران إلى السماح لي بالانضمام إلى الفيلق. \n\nأبي يقول لي دائماً أن أبتعد عن البئر القديمة، تلك التي نحو النصب الطويل، قرب الشجرة الجالسة على صخرة. يقول إن الذئاب تحب الصيد هناك. لذا هناك سأذهب. سأقتل ذئباً وأحضر رأسه إلى البيت، وسيثبت ذلك أنني رجل لا طفل.\n\nثم إنني تعبت من سماع أمي وأبي يصرخان أحدهما على الآخر.\n\n</font>\n
+ccvsvsse004-beafarmer|dlstrings|0x00000056	وجدتُ رفات <Alias=GhostChild> قرب البئر القديمة، ومعها سيفه الخشبي الحبيب. وحسب يومياته، هرب من البيت فراراً من شجار والديه الدائم، ويبدو أن الذئاب تغلّبت عليه. وعليّ أن أعيد السيف الخشبي إلى <Alias=FarmLocation>، لتعرف روحا <Alias=Husband> و<Alias=Wife> أخيراً حقيقة ما حدث لابنهما.
+ccvsvsse004-beafarmer|dlstrings|0x00000058	أُضيف %.0f من أكوام الملح إلى مؤونة بيت المزرعة
+ccvsvsse004-beafarmer|dlstrings|0x0000005C	لم يعد <Alias=GuardDog> يحرس المزرعة.
+ccvsvsse004-beafarmer|dlstrings|0x0000005D	يترك وكيلك خدمتك.
+ccvsvsse004-beafarmer|dlstrings|0x0000005F	ترك <Alias=Farmhand2> العمل لديك.
+ccvsvsse004-beafarmer|dlstrings|0x00000069	اختر مزاراً لوضعه هنا:
+ccvsvsse004-beafarmer|dlstrings|0x0000006B	أُضيف %.0f من القش إلى صندوق طاولة العمل
+ccvsvsse004-beafarmer|dlstrings|0x0000006D	أُضيف %.0f من الحجارة المقطوعة إلى صندوق طاولة العمل
+ccvsvsse004-beafarmer|dlstrings|0x00000071	<font face="$HandwrittenFont"><b>23 من البذرة الأولى</b>\n\nأراد <Alias=Husband> بشدة أن يجرب أن نكون مزارعين، فها نحن الآن مع قطعة أرضنا الصخرية وبيت مزرعة قديم متهدم بسقف يرشح. ليس هذا ما حلمت به، لكننا سنستفيد منه قدر ما نستطيع. \n\nعلى الأقل التربة جيدة، حتى لو كانت مليئة بالصخور. سأستطيع أن أنشئ حديقة جميلة، فيها كل المكونات التي أحتاجها لجرعاتي. ودخل ذلك يُفترض أن يجتاز بنا الشتاء الأول، إن لم يكن غير ذلك. \n[pagebreak]\n<b>10 من البذر الثاني</b>\n\nوجدت غرفة سرية مسدودة بجدار في القبو. ستصلح جيداً مختبراً لخيميائي؛ أحب زوجي حباً جماً، لكنه قد يكون أحمق عنيداً حين يتعلق الأمر بالسحر اللطيف للأرض. لولا جرعاتي، لمات <Alias=GhostChild> الصغير في الشتاء الماضي من الحمى. \n[pagebreak]\n<b>1 من سقوط الصقيع</b>\n\nمزرعتنا تبلي حسناً بما يكفي، لكن عيني <Alias=Husband> صارتا أكبر من كيس نقوده. كان يتحدث مؤخراً عن شراء عربة، كأننا لا نكافح أحياناً لنضع الطعام على المائدة. عربة، حقاً! \n\nرأيت النظرات القبيحة التي يرمق بها جرعاتي وأعشابي، لكن من أين غير ذلك سنحصل على المال لكل الأشياء التي يشتريها؟ وما تلبث أن تراه يحاول شراء مزرعة أخرى!\n[pagebreak]\n<b>13 من منتصف العام</b>\n\nاختفى <Alias=GhostChild>. بحثنا في كل مكان، لكننا لا نستطيع أن نجده. وسيفه الخشبي الصغير مفقود أيضاً - لتحفظني الآلهة، آمل ألا يكون قد هرب! إنه لا يدرك كم هو خطر هناك في التندرا. \n[pagebreak]\n<b>16 من منتصف العام</b>\n\nمضت ثلاثة أيام الآن. ابني الصغير ما زال غائباً. لا تعجبني الطريقة التي ينظر بها <Alias=Husband> إليّ - عيناه داكنتان جداً، ساكنتان جداً، كبحيرة متجمدة. أظن أنني سمعته يتمتم بشيء عن «أن أنال ما أستحقه». \n\nهل يمكن أن يكون قد...؟ لا، لا أجرؤ حتى على كتابة الفكرة على الورق. \n[pagebreak]\nلقد فعلها. لا بد أنه فعلها. ذلك الوحش قتل ابني، والآن ينظر إليّ بتلك العينين المليئتين بالكراهية وابتسامة ساخرة. يحتقر فنوني الخيميائية إلى حد أنه أخذ ابني مني ليعاقبني. \n\nلم أحضّر سماً من قبل، لكنني أعرف كيف يُصنع. أعرف كيف أعبّئ الموت في زجاجة. بضع قطرات في شرابه وسيُثأر لطفلي.\n[pagebreak]\nتم الأمر. ستلعنني الآلهة، لكنها ستلعنه أكثر لقتله طفلاً. <Alias=GhostChild>، أنا آسفة جداً. ليتني استطعت أن-\n\nانتظر، أسمع شيئـ\n</font>\n
+ccvsvsse004-beafarmer|dlstrings|0x00000074	بعد أن ازدهرت <Alias=FarmLocation> من جديد، سيجني عمّالي المأجورون فائض المحاصيل ومنتجات الحيوانات لاستعمالي الشخصي. وعليّ أن أتفقّد المؤونة داخل بيت المزرعة لأرى ما جُمع.
+ccvsvsse004-beafarmer|dlstrings|0x00000076	صار <Alias=GuardDog> يحرس المزرعة.
+ccvsvsse004-beafarmer|dlstrings|0x00000079	أتضع المزار المختار هنا؟ بعد وضعه لا يمكن تغيير المزار.
+ccvsvsse004-beafarmer|dlstrings|0x0000007E	اختر مزاراً لوضعه هنا:
+ccvsvsse004-beafarmer|dlstrings|0x0000007F	<font face="$HandwrittenFont"><b>14 من البذرة الأولى</b>\n\nاليوم أول يوم في حياتنا الجديدة. اشتريت قطعة أرض كبيرة فيها بيت مزرعة متداعٍ بثمن بخس خارج روريكستيد مباشرة. لم يردها أحد غيري، بسبب كثرة صخورها. صخور كثيرة جداً، قال الرجال الآخرون. لكن لي ولـ<Alias=Wife> ظهرين قويين وقلبين راغبين؛ سنزيل تلك الصخور، ونحوّل هذه الأرض الخصبة إلى مزرعة لا يستطيعون إلا أن يحلموا بها. \n\nسيكون هذا المكان المثالي لتربية <Alias=GhostChild> الصغير.\n[pagebreak]\n<b>21 من البذر الثاني</b>\n\nيوم طويل. يدي تؤلمني حتى أكاد لا أستطيع الكتابة. أُصلح بيت المزرعة، والنباتات الأولى في الأرض. شعور جميل. فعلناها. قبّلتني <Alias=Wife> الليلة كما كانت تفعل حين تزوجنا أول مرة. عيناها تناديانني. \n[pagebreak]\n<b>1 من ذروة الشمس</b>\n\nحصدنا محصولنا الأول اليوم. لم يكن كثيراً، لكنه بداية. وحين شاهدت أشعة الشمس تطل أول مرة فوق الأفق على حقولنا اليوم، عرفت ماذا أسمي هذا المكان - <Alias=FarmLocation>، تيمناً بنور أكاتوش المجيد. قريباً، سيكون إرثاً جديراً بابننا. قليلاً بعد فقط، أعرف ذلك.\n[pagebreak]\n<b>23 من سقوط الصقيع</b>\n\nقلبي مضطرب. <Alias=GhostChild> يكبر بسرعة ليصبح صبياً قوياً، مع أنه يقضي وقتاً طويلاً جداً في اللعب بسيفه الخشبي ذاك والحلم بالهرب للانضمام إلى الفيلق. \n\nلكن زوجتي العزيزة، <Alias=Wife>... غرابتها تقلقني. أحياناً تختفي ساعات، ثم تظهر في البيت كأنها كانت هناك طوال الوقت. وكثيراً ما أراها تحمل سلة مليئة بأزهار داكنة غريبة، ولا تخبرني ما هي أو من أين حصلت عليها. وفي الشتاء الماضي، حين مرض <Alias=GhostChild> بالحمى، أخرجت <Alias=Wife> زجاجة سوداء صغيرة من حيث لا يعلم أحد وصبّت ما لا يعلمه أحد في حلقه... وبعد دقائق قليلة فقط، زالت الحمى. رفضت <Alias=Wife> أن تخبرني ما كان في الزجاجة، أو من أين حصلت عليها. كنت سعيداً جداً لأنها أنقذت صبينا الصغير، بالطبع، لكن...\n\nلتحفظني مارا، لكنني أخشى أن تكون زوجتي من عبدة الدايدرا، أو ساحرة.\n[pagebreak]\n<b>16 من منتصف العام</b>\n\n<Alias=GhostChild> مفقود منذ ثلاثة أيام. ابني الصغير.\n\nبحثت في كل مكان، لكن لا أثر له. حتى سيفه اللعبة المفضل مفقود. ماذا لو أخذته الذئاب؟ أو خطفه قطاع الطرق؟ \n\n<Alias=Wife> تراقبني. لا تعجبني النظرة في عينيها. ولم تبكِ على الإطلاق. أي أم لا تبكي حين يُفقد طفلها؟ \n\nماذا لو-\nلا أجرؤ حتى على كتابة الفكرة على الورق. إنه أمر لا يُعقل. \n[pagebreak]\nوجدته. وجدت سر <Alias=Wife>. هذا هو المكان الذي كانت تختفي فيه. الجرعات، والنباتات، والكتب... أشياء شريرة غير طبيعية وجدتها هناك في الأسفل. لتساعدني الآلهة، زوجتي ساحرة.\n\nلم أرد أن أفتح كتبها الكريهة، لكن كان عليّ أن أعرف، كان عليّ أن-\n\nست الحسن القاتلة. هذا اسم النبات، الذي رأيتها تتسلل به. تزرعه في كل مكان في هذا المكان المخبأ.\n\nلا بد أنها سممت ابني. رأيت السخرية على وجهها، والضحك في عينيها وهي تراقبني أقلب المزرعة رأساً على عقب بحثاً عنه. كانت تسخر مني. \n\nلم أشعر قط بغضب كهذا. أرتجف منه، وأتصبب عرقاً منه. \nأعرف بالضبط ما يجب أن أفعله. روح ابني تهمس لي، تطالب بالثأر. \n\nأبقي فأساً عند الباب للتعامل مع الحيوانات البرية. وستصلح للتعامل مع ساحرة أيضاً. \n</font>
+ccvsvsse004-beafarmer|dlstrings|0x00000080	يبني ورشة حدادة. تتضمّن سنداناً وحجر شحذ وطاولة دروع وحامل دباغة ومصهراً.
+ccvsvsse004-beafarmer|dlstrings|0x00000084	صار بإمكان الأرواح القلقة في <Alias=FarmLocation> أن ترقد بسلام أخيراً، وقد اجتمعت بروح ابنها، وعرف كل منهما أنه لم يقتل ابنهما الوحيد. والآن بعد أن لم تعد <Alias=FarmLocation> مسكونة بالأشباح، أستطيع امتلاكها.
+ccvsvsse004-beafarmer|dlstrings|0x00000090	يحوّل الصومعة إلى طاحونة هوائية ويضيف مطحنة حبوب لتحويل القمح إلى طحين أو قش.
+ccvsvsse004-beafarmer|dlstrings|0x00000093	المحاصيل تنمو والماشية مزدهرة. وقريباً سأبدأ جني أرباح مزرعتي. وعليّ أن أعود بعد أيام وأتحدث إلى <Alias=Overseer> لأجمع ما كُسب من مال.
+ccvsvsse004-beafarmer|dlstrings|0x00000099	<font face="$HandwrittenFont">\n<font size="40">مكافأة</font>\n\nبأمر من <Alias=Jarl>:\n\nإلى كل رجال مقاطعة وايترن ونسائها القادرين الشجعان. يتعرض المسافرون على الطريق قرب <Alias=FarmLocation> للترويع من أشباح تسكن المزرعة القريبة. \n\nكل من يستطيع طرد الأشباح نهائياً سيُكافأ بحقوق ملكية أرض <Alias=FarmLocation>.\n\n--<Alias=Steward>
+ccvsvsse004-beafarmer|dlstrings|0x0000009B	بعد أن ازدهرت <Alias=FarmLocation> من جديد، سيجني عمّالي المأجورون فائض المحاصيل ومنتجات الحيوانات لاستعمال عائلتي. وعليّ أن أتفقّد المؤونة داخل بيت المزرعة لأرى ما جُمع.
+ccvsvsse004-beafarmer|dlstrings|0x0000009E	المحاصيل والحليب والبيض التي تنتجها المزرعة ستُخزَّن تلقائياً في هذه الخزانة.
+ccvsvsse004-beafarmer|dlstrings|0x000000A1	عليّ أن أجد وكيلاً يدير الأعمال اليومية. فلعل أحد حلفائي يقبل هذه الوظيفة بعد أن أريه المكان؟ أو إن تزوجتُ، أستطيع أن أجعل هذا المكان بيتنا ويدير شريك حياتي المزرعة.
+ccvsvsse004-beafarmer|dlstrings|0x000000A2	الآن وقد صار لديّ وكيل يدير المزرعة في غيابي، عليّ أن أنظر في استئجار عمّال لرعاية المحاصيل والحيوانات. ويمكنني أن أسأل في البلدة إن كان أحد يبحث عن عمل، أو أترك الأمر لوكيلي الجديد.
+ccvsvsse004-beafarmer|dlstrings|0x000000A3	<font face="$HandwrittenFont">\n<i>\nأشعر...بغرابة. حر وبرد في آن واحد. يدي ترتجف. الكتابة صعبة. دوار شديد...\nأظن أنني سُممت...\n\nيبدو أنها تغلبت عليّ في النهاية...\n</i>\n</font>
+ccvsvsse004-beafarmer|dlstrings|0x000000A4	أتزيل طاولة العمل نهائياً؟
+ccvsvsse004-beafarmer|dlstrings|0x000000A9	اتهم <Alias=Husband> زوجته بأنها ساحرة قبل أن يهاجمها، ويبدو أنها سمّمته بعد ذلك. أيمكن أن تكون <Alias=Wife> قد قتلت ابنها؟ وعليّ أن أحاول العثور على مختبرها السري لأكشف الحقيقة.
+ccvsvsse004-beafarmer|dlstrings|0x000000AC	يبني كوخاً لمساعدك المأجور. يزيد إنتاجية المزرعة.
+ccvsvsse004-beafarmer|dlstrings|0x000000C1	في سكايرم، قد يوفّر لك الحديث إلى صاحب النُّزل أعمالاً وشائعات وخيوطاً أخرى مثيرة. وعليّ أن أتحدث إلى أحدهم لأعرف إن كان لديه ما أساعد فيه.
+ccvsvsse004-beafarmer|ilstrings|0x0000000D	(نخير)
+ccvsvsse004-beafarmer|ilstrings|0x00000092	(أنين)
+ccvsvsse004-beafarmer|ilstrings|0x000000BD	(نخير)
+ccvsvsse004-beafarmer|strings|0x00000002	اختيار
+ccvsvsse004-beafarmer|strings|0x00000003	استبدل غرفة المكتبة بغرفة نوم للأطفال. (<Global=VSVGLO_KidRoom> قطعة ذهبية)
+ccvsvsse004-beafarmer|strings|0x00000005	إسطبل
+ccvsvsse004-beafarmer|strings|0x00000006	بقرة. (<Global=VSVGLO_AnimCow> قطعة ذهبية)
+ccvsvsse004-beafarmer|strings|0x00000007	أودّ أن تشتري لي حصاناً. (<Global=VSVGLO_Horse> قطعة ذهبية)
+ccvsvsse004-beafarmer|strings|0x00000008	بضع عنزات. (<Global=VSVGLO_AnimGoat> قطعة ذهبية)
+ccvsvsse004-beafarmer|strings|0x0000000A	ركن الطعام. (<Global=VSVGLO_Dining> قطعة ذهبية)
+ccvsvsse004-beafarmer|strings|0x0000000B	شبح
+ccvsvsse004-beafarmer|strings|0x0000000C	مزار
+ccvsvsse004-beafarmer|strings|0x0000000F	أودّ أن تشتري ماشية للمزرعة.
+ccvsvsse004-beafarmer|strings|0x00000010	سيف خشبي
+ccvsvsse004-beafarmer|strings|0x00000011	نعم
+ccvsvsse004-beafarmer|strings|0x00000012	(السابق)
+ccvsvsse004-beafarmer|strings|0x00000013	(خروج)
+ccvsvsse004-beafarmer|strings|0x00000014	أورفال
+ccvsvsse004-beafarmer|strings|0x00000015	بعد التفكير، لا أظن أن لديّ ما يكفي من الذهب الآن.
+ccvsvsse004-beafarmer|strings|0x00000016	مخضّة الزبدة
+ccvsvsse004-beafarmer|strings|0x00000017	حظائر الحيوانات
+ccvsvsse004-beafarmer|strings|0x0000001A	(السابق)
+ccvsvsse004-beafarmer|strings|0x0000001C	زينيثار
+ccvsvsse004-beafarmer|strings|0x0000001D	مكافأة - الأرواح القلقة
+ccvsvsse004-beafarmer|strings|0x0000001E	مزرعة التلال الذهبية
+ccvsvsse004-beafarmer|strings|0x0000001F	مفتاح مزرعة التلال الذهبية
+ccvsvsse004-beafarmer|strings|0x00000020	أحتاج منك أن تستأجر عمّالاً للعمل في المزرعة. (<Global=VSVGLO_FHS> قطعة ذهبية)
+ccvsvsse004-beafarmer|strings|0x00000021	ورشة الحدادة
+ccvsvsse004-beafarmer|strings|0x00000022	سرير
+ccvsvsse004-beafarmer|strings|0x00000023	اكتشف ما حدث لـ<Alias=GhostChild>
+ccvsvsse004-beafarmer|strings|0x00000025	أزورا
+ccvsvsse004-beafarmer|strings|0x00000026	شبح
+ccvsvsse004-beafarmer|strings|0x00000027	طاولة جانبية
+ccvsvsse004-beafarmer|strings|0x00000028	جونكويل
+ccvsvsse004-beafarmer|strings|0x00000029	مطحنة الحبوب
+ccvsvsse004-beafarmer|strings|0x0000002A	منحل
+ccvsvsse004-beafarmer|strings|0x0000002B	لا عليك.
+ccvsvsse004-beafarmer|strings|0x0000002C	استبدل غرفة المكتبة بغرفة نوم للأطفال. (<Global=VSVGLO_KidRoom> قطعة ذهبية)
+ccvsvsse004-beafarmer|strings|0x0000002D	سرير
+ccvsvsse004-beafarmer|strings|0x0000002F	فتّش المزرعة بحثاً عن أدلة
+ccvsvsse004-beafarmer|strings|0x00000030	يا حبّي، لم أعد أحتاج إلى عملك وكيلاً.
+ccvsvsse004-beafarmer|strings|0x00000031	تحدّث إلى <Alias=GhostChild>
+ccvsvsse004-beafarmer|strings|0x00000032	تحدّث إلى صاحب النُّزل في <Alias=InnRorikstead> أو <Alias=InnWhiterun>
+ccvsvsse004-beafarmer|strings|0x00000036	يوميات <Alias=Husband>
+ccvsvsse004-beafarmer|strings|0x00000038	(التالي)
+ccvsvsse004-beafarmer|strings|0x00000039	مزارع
+ccvsvsse004-beafarmer|strings|0x0000003A	وظّف عامل مزرعة يساعد في العمل
+ccvsvsse004-beafarmer|strings|0x0000003B	سرير
+ccvsvsse004-beafarmer|strings|0x0000003C	اجمع المحصول الزائد من المخزن
+ccvsvsse004-beafarmer|strings|0x0000003D	العامل <Alias=Farmhand1>
+ccvsvsse004-beafarmer|strings|0x0000003E	طاحونة هوائية
+ccvsvsse004-beafarmer|strings|0x00000041	خذ السيف اللعبة
+ccvsvsse004-beafarmer|strings|0x00000042	السيف الخشبي لـ<Alias=GhostChild>
+ccvsvsse004-beafarmer|strings|0x00000043	أحتاج منك أن تستأجر عاملاً آخر للمزرعة. (<Global=VSVGLO_FH> قطعة ذهبية)
+ccvsvsse004-beafarmer|strings|0x00000044	المطبخ. (<Global=VSVGLO_Kitchen> قطعة ذهبية)
+ccvsvsse004-beafarmer|strings|0x00000045	ميفالا
+ccvsvsse004-beafarmer|strings|0x00000046	منحل
+ccvsvsse004-beafarmer|strings|0x00000047	أركاي
+ccvsvsse004-beafarmer|strings|0x00000048	زينة خارجية
+ccvsvsse004-beafarmer|strings|0x0000004B	اعثر على المختبر الخفي
+ccvsvsse004-beafarmer|strings|0x0000004C	(التالي)
+ccvsvsse004-beafarmer|strings|0x0000004D	لم نعد بحاجة إلى خدماتك.
+ccvsvsse004-beafarmer|strings|0x0000004E	ديبيلا
+ccvsvsse004-beafarmer|strings|0x0000004F	العامل <Alias=Farmhand2>
+ccvsvsse004-beafarmer|strings|0x00000050	دجاجتان. (<Global=VSVGLO_AnimChick> قطعة ذهبية)
+ccvsvsse004-beafarmer|strings|0x00000053	(خروج)
+ccvsvsse004-beafarmer|strings|0x00000055	أكاتوش
+ccvsvsse004-beafarmer|strings|0x00000057	يمكن لعائلتك أن ترقد بسلام الآن.
+ccvsvsse004-beafarmer|strings|0x00000059	اعثر على دليل يُدين <Alias=Husband>
+ccvsvsse004-beafarmer|strings|0x0000005B	طاولة جانبية
+ccvsvsse004-beafarmer|strings|0x0000005E	انتظر بضعة أيام حتى تبدأ <Alias=FarmLocation> في جني المال
+ccvsvsse004-beafarmer|strings|0x00000060	(التالي)
+ccvsvsse004-beafarmer|strings|0x00000061	كفّ عن حراسة المزرعة.
+ccvsvsse004-beafarmer|strings|0x00000062	مارا
+ccvsvsse004-beafarmer|strings|0x00000063	مختبر الخيمياء والتسحير. (<Global=VSVGLO_Lab> قطعة ذهبية)
+ccvsvsse004-beafarmer|strings|0x00000064	كيناريث
+ccvsvsse004-beafarmer|strings|0x00000065	سكايرم
+ccvsvsse004-beafarmer|strings|0x00000066	تحدّث إلى <Alias=Overseer> لتستلم ربح اليوم
+ccvsvsse004-beafarmer|strings|0x00000067	رين
+ccvsvsse004-beafarmer|strings|0x00000068	جئتُ لأجمع أرباح المزرعة.
+ccvsvsse004-beafarmer|strings|0x0000006A	أودّ أن تشتري أثاثاً جديداً لبيت المزرعة.
+ccvsvsse004-beafarmer|strings|0x0000006C	تالوس
+ccvsvsse004-beafarmer|strings|0x0000006E	الموتى المضطربون
+ccvsvsse004-beafarmer|strings|0x0000006F	شبح
+ccvsvsse004-beafarmer|strings|0x00000070	إزالة طاولة العمل
+ccvsvsse004-beafarmer|strings|0x00000072	العلّية. (<Global=VSVGLO_Loft> قطعة ذهبية)
+ccvsvsse004-beafarmer|strings|0x00000073	سافر إلى <Alias=FarmLocation>
+ccvsvsse004-beafarmer|strings|0x00000075	صندوق
+ccvsvsse004-beafarmer|strings|0x00000077	لا
+ccvsvsse004-beafarmer|strings|0x00000078	نعم
+ccvsvsse004-beafarmer|strings|0x0000007A	صندوق
+ccvsvsse004-beafarmer|strings|0x0000007B	شبح
+ccvsvsse004-beafarmer|strings|0x0000007C	(السابق)
+ccvsvsse004-beafarmer|strings|0x0000007D	تربة خصبة
+ccvsvsse004-beafarmer|strings|0x00000081	مزرعة التلال الذهبية
+ccvsvsse004-beafarmer|strings|0x00000082	سيف رين
+ccvsvsse004-beafarmer|strings|0x00000083	مهجع التلال الذهبية
+ccvsvsse004-beafarmer|strings|0x00000085	مزرعة التلال الذهبية
+ccvsvsse004-beafarmer|strings|0x00000086	لا
+ccvsvsse004-beafarmer|strings|0x00000087	جمع الحليب
+ccvsvsse004-beafarmer|strings|0x00000088	جوليانوس
+ccvsvsse004-beafarmer|strings|0x00000089	إنبيق
+ccvsvsse004-beafarmer|strings|0x0000008A	ابنِ حظيرة للحيوانات
+ccvsvsse004-beafarmer|strings|0x0000008B	استأجر وكيلاً للمزرعة
+ccvsvsse004-beafarmer|strings|0x0000008C	ازرع المحاصيل (<Global=VSVGLO_CropsPlanted>/<Global=VSVGLO_CropsPlantedGoal>)
+ccvsvsse004-beafarmer|strings|0x0000008D	خزانة ملابس
+ccvsvsse004-beafarmer|strings|0x0000008E	طاولة المزارع
+ccvsvsse004-beafarmer|strings|0x0000008F	اعثر على البئر القديمة
+ccvsvsse004-beafarmer|strings|0x00000091	أعِد السيف اللعبة الخاص بـ<Alias=GhostChild> إلى المزرعة
+ccvsvsse004-beafarmer|strings|0x00000095	ضع
+ccvsvsse004-beafarmer|strings|0x00000096	عامل مزرعة
+ccvsvsse004-beafarmer|strings|0x00000097	أستطيع أن أدفع لك <Global=VSVGLO_FH> قطعة ذهبية.
+ccvsvsse004-beafarmer|strings|0x00000098	أبحث عن عامل لمزرعتي. أأنت مهتم؟
+ccvsvsse004-beafarmer|strings|0x0000009A	بوثيا
+ccvsvsse004-beafarmer|strings|0x0000009C	مهجع عمّال المزرعة
+ccvsvsse004-beafarmer|strings|0x0000009D	صار بإمكان عائلتك أن ترقد بسلام.
+ccvsvsse004-beafarmer|strings|0x0000009F	مزرعة التلال الذهبية
+ccvsvsse004-beafarmer|strings|0x000000A0	بعد التفكير، يبدو أن المال ينقصني...
+ccvsvsse004-beafarmer|strings|0x000000A5	ستيندار
+ccvsvsse004-beafarmer|strings|0x000000A6	تحدّث إلى <Alias=Overseer> بشأن شراء الماشية
+ccvsvsse004-beafarmer|strings|0x000000A7	حياة المزارع تناسبني
+ccvsvsse004-beafarmer|strings|0x000000A8	خزانة المؤن
+ccvsvsse004-beafarmer|strings|0x000000AB	يوميات رين
+ccvsvsse004-beafarmer|strings|0x000000AD	لا عليك.
+ccvsvsse004-beafarmer|strings|0x000000AE	غرفة النوم الرئيسية. (<Global=VSVGLO_Bedroom> قطعة ذهبية)
+ccvsvsse004-beafarmer|strings|0x000000AF	صفحة ممزقة
+ccvsvsse004-beafarmer|strings|0x000000B0	غرفة الأطفال. (<Global=VSVGLO_KidRoom> قطعة ذهبية)
+ccvsvsse004-beafarmer|strings|0x000000B1	هل ترغب في أن تكون وكيل المزرعة؟
+ccvsvsse004-beafarmer|strings|0x000000B2	ابقَ هنا واحرس المزرعة!
+ccvsvsse004-beafarmer|strings|0x000000B3	أبحث عن وكيل لمزرعتي. أأنت مهتم؟
+ccvsvsse004-beafarmer|strings|0x000000B4	المكتبة وغرفة العرض. (<Global=VSVGLO_KidRoomAlt> قطعة ذهبية)
+ccvsvsse004-beafarmer|strings|0x000000B5	أحتاج منك أن تستأجر عاملاً آخر للمزرعة. (<Global=VSVGLO_FH> قطعة ذهبية)
+ccvsvsse004-beafarmer|strings|0x000000B6	لم نعد بحاجة إلى خدماتك وكيلاً.
+ccvsvsse004-beafarmer|strings|0x000000B7	يوميات <Alias=Wife>
+ccvsvsse004-beafarmer|strings|0x000000B8	أحسنت إدارة المزرعة. هل جنينا أي مال؟
+ccvsvsse004-beafarmer|strings|0x000000B9	هيكل طفل عظمي
+ccvsvsse004-beafarmer|strings|0x000000BA	باب خشبي
+ccvsvsse004-beafarmer|strings|0x000000BB	باب خشبي
+ccvsvsse004-beafarmer|strings|0x000000BC	باب خشبي
+ccvsvsse004-beafarmer|strings|0x000000BE	توقف عن حراسة المزرعة.
+ccvsvsse004-beafarmer|strings|0x000000BF	فتّش المختبر بحثاً عن أدلة
+ccvsvsse004-beafarmer|strings|0x000000C0	ابقَ هنا واحرس المزرعة!
+ccvsvsse004-beafarmer|strings|0x000000C2	اسأل صاحب نُزل عن عمل
+ccvsvsse004-beafarmer|strings|0x000000DB	مهجع مزرعة التلال الذهبية

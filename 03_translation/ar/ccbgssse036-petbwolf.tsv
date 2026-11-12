@@ -1,0 +1,41 @@
+key	arabic
+ccbgssse036-petbwolf|dlstrings|0x00000002	يبدو «الذئب العظمي» هادئاً قانعاً بعد أن أعدتُ إليه طوطمه. ويبدو أنه سيتبعني إن شئت. قد يراه بعضهم غريب المنظر، لكن ربما فيه ما هو أعمق من مظهره.
+ccbgssse036-petbwolf|dlstrings|0x00000009	في قفص قريب مخلوق آخر من هذه المخلوقات الغريبة، أظن أن الطوطم له. وعليّ أن آخذه إليه.
+ccbgssse036-petbwolf|dlstrings|0x0000000F	اكتشفتُ مكان مستحضر الأرواح. ويبدو أن المخلوقات الغريبة المذكورة في الرسالة ذئاب من الموتى الأحياء، أقامها مستحضر الأرواح بفنونه المظلمة. ووضع حدّ لهذه التجارب يُفترض أن يمنعه من إقامة المزيد.
+ccbgssse036-petbwolf|dlstrings|0x00000016	مات مستحضر الأرواح. وعليّ أن أفتّش جثته بحثاً عن أي أدلة.
+ccbgssse036-petbwolf|dlstrings|0x00000018	<font face="$HandwrittenFont">\nيا صديقي، نطلب عونك. \n\nمستحضر أرواح مظلم يهاجم الأبرياء على طول الساحل الشمالي، ترافقه مخلوقات غريبة تنفذ كل أوامره. أثق أنك تستطيع مساعدتنا في هذا الأمر المزعج والتحقيق نيابة عنا.\n\nبولغير مخلب الدب\n</font>
+ccbgssse036-petbwolf|dlstrings|0x0000002E	أخبرني بولغير مخلب الدب أن مستحضر أرواح شريراً يهاجم الأبرياء في مكان ما على الساحل الشمالي. وتتحدث الرسالة أيضاً عن مخلوقات غريبة ترافقه. وعليّ أن أبحث على الساحل لأرى إن كنتُ أستطيع حلّ هذا اللغز.
+ccbgssse036-petbwolf|dlstrings|0x0000002F	معي رسالة من بولغير مخلب الدب. وعليّ أن أقرأها لأعرف إن كان يحتاج إلى مساعدة في شيء.
+ccbgssse036-petbwolf|dlstrings|0x00000038	وجد لك الذئب العظمي شيئاً.
+ccbgssse036-petbwolf|dlstrings|0x00000043	الذئب العظمي يشكرك على عظم التنين
+ccbgssse036-petbwolf|dlstrings|0x0000004C	<font face="$HandwrittenFont">\nهذا مذهل حقاً. من خلال تجاربي على هذه الذئاب من الموتى الأحياء، اكتشفت طريقة لزيادة قوتي. \n\nبالتهام طواطمها؛ الأشياء التي تربطها بين الحياة والموت نفسه، \nأستطيع أن أربط أرواحها بقوة حياتي.\n\nالتهمت بالفعل طوطمين وأصحابهما الآن تحت سيطرتي التامة. لكن هذا لا يكفي، أحتاج إلى طوطم ثالث لأتأكد.\n</font>
+ccbgssse036-petbwolf|dlstrings|0x00000056	التعاويذ والهجمات أكثر فعالية ضد الموتى الأحياء ومستحضري الأرواح.
+ccbgssse036-petbwolf|dlstrings|0x0000005B	واجهتُ مستحضر أرواح شريراً وذئبين من الموتى الأحياء. ويبدو أن مستحضر الأرواح يتحكم في هذين المخلوقين. ووضع حدّ لهذه التجارب يُفترض أن يمنعه من إقامة المزيد.
+ccbgssse036-petbwolf|strings|0x00000001	ذئب عظمي
+ccbgssse036-petbwolf|strings|0x00000004	رسالة من بولغير مخلب الدب
+ccbgssse036-petbwolf|strings|0x0000000B	اعثر على مستحضر الأرواح والمخلوقات الغريبة
+ccbgssse036-petbwolf|strings|0x0000000C	خذ الطوطم إلى الذئب المحبوس
+ccbgssse036-petbwolf|strings|0x0000000E	يوميات مستحضر الأرواح
+ccbgssse036-petbwolf|strings|0x00000011	ذئب مستعبَد
+ccbgssse036-petbwolf|strings|0x00000012	انتقام الذئب العظمي
+ccbgssse036-petbwolf|strings|0x00000017	دع الذئاب النائمة
+ccbgssse036-petbwolf|strings|0x0000001A	مفتاح قفص الذئب
+ccbgssse036-petbwolf|strings|0x00000020	مستحضر أرواح
+ccbgssse036-petbwolf|strings|0x00000021	هدية الذئب العظمي
+ccbgssse036-petbwolf|strings|0x00000022	يزيد الضرر على الموتى الأحياء بنسبة 25% ما دام الذئب العظمي برفقتك.
+ccbgssse036-petbwolf|strings|0x00000023	انتقام الذئب العظمي
+ccbgssse036-petbwolf|strings|0x00000025	ينقل الذئب العظمي إلى جانبك.
+ccbgssse036-petbwolf|strings|0x0000002A	اهزم مستحضر الأرواح
+ccbgssse036-petbwolf|strings|0x00000035	انتقام الذئب العظمي
+ccbgssse036-petbwolf|strings|0x00000036	نقل الحيوان الأليف: ذئب عظمي
+ccbgssse036-petbwolf|strings|0x00000045	استدعاء ذئب عظمي
+ccbgssse036-petbwolf|strings|0x00000046	كلب
+ccbgssse036-petbwolf|strings|0x00000048	عظمة الطوطم
+ccbgssse036-petbwolf|strings|0x0000004A	هدية الذئب العظمي
+ccbgssse036-petbwolf|strings|0x0000004D	اقرأ الرسالة من بولغير مخلب الدب
+ccbgssse036-petbwolf|strings|0x0000004F	فتّش مستحضر الأرواح
+ccbgssse036-petbwolf|strings|0x00000051	ذئب مستعبَد
+ccbgssse036-petbwolf|strings|0x00000052	مكافأة الذئب العظمي
+ccbgssse036-petbwolf|strings|0x00000059	اهزم مستحضر الأرواح
+ccbgssse036-petbwolf|strings|0x0000005F	ذئب عظمي
+ccbgssse036-petbwolf|strings|0x000020E6	سكايرم

@@ -1,0 +1,235 @@
+key	arabic
+ccffbsse001-imperialdragon|dlstrings|0x00000068	حسب رسالة وجدتها في وايترن، يخوض عباءات العاصفة والإمبراطوريون معركة أبطال. ويُشاع أن إيرسارالد المطعون ثلاثاً طلب من كل بطل محتمل أن يثبت جدارته بقتل خمسة دببة ثلجية وتسليمه جلودها. وقد أخذتُ الجلود التي أحتاجها من محاربة اسمها كليا مخلب الذئب في كاينزغروف.
+ccffbsse001-imperialdragon|dlstrings|0x0000006E	اختِرتُ للقتال في معركة الأبطال. وباستخدام خريطة تسلّمتها من قائدي، وصلتُ إلى موقع المعركة. وبعد مواجهة بطل الخصم، حان وقت القتال.
+ccffbsse001-imperialdragon|dlstrings|0x00000074	<font face="$HandwrittenFont">\nأخبار معركتك مع الإمبراطوريين تنتشر في أرجاء إيستمارش. ليتني كنت هناك لأرى ذلك الشيء البائس الذي يسمونه بطلاً يتوسل من أجل حياته. لقد استحققت وأكثر حق لبس درع دبّ العاصفة، فهو لك تحتفظ به. \n\nقاتل جيداً وليرشدك تالوس.\n\n- إيرسارالد المطعون ثلاثاً\n
+ccffbsse001-imperialdragon|dlstrings|0x0000007B	حسب رسالة وجدتها في وايترن، يخوض عباءات العاصفة والإمبراطوريون معركة أبطال. ويُشاع أن إيرسارالد المطعون ثلاثاً طلب من كل بطل محتمل أن يثبت جدارته بقتل خمسة دببة ثلجية وتسليمه جلودها. أو يمكنني أن أحاول انتحال صفة جندي والتحدث إلى المندوب أدفينتوس كايسينيوس في سوليتيود.
+ccffbsse001-imperialdragon|dlstrings|0x00000081	تستعر حرب أهلية بين عباءات العاصفة والإمبراطوريين، ووايترن في قلبها. وبعد انضمامي إلى الإمبراطوريين، عليّ التوجه إلى إحدى المقاطعات الكبرى تحسّباً لوجود ساعٍ يحمل لي أخباراً.
+ccffbsse001-imperialdragon|dlstrings|0x00000085	<font face="$HandwrittenFont">\n<Alias=Player>،\n\nتحدتنا فرقة من متمردي عباءات العاصفة إلى معركة في حقول وايترن. يريدون أن نرسل حامية من أعظم أبطالنا لتقاتل أبطالهم. تحدثت إلى الجنرال توليوس ولا نستطيع أن نستبعد احتمال أن يكون هذا فخاً من نوع ما. \n\nففي النهاية، أظهر الخونة أنهم لا يبالون كثيراً بالولاء، ومن المستبعد أن يولوا الشرف المجاملة نفسها.\n\nبصفتك أحد أصلب محاربينا، نود أن تتولى هذه المهمة. صاغ حدادونا لك طقم درع خاصاً يُفترض أن يوفر بعض الحماية. وسنرسل حامية لدعمك، لكننا لا نستطيع أن نوفر أكثر من نصف دزينة من الرجال. وإن وصلت الأمور إلى القتال، فسيتعين عليك أن تتولى القيادة.  \n\n- المندوب أدفينتوس كايسينيوس\n
+ccffbsse001-imperialdragon|dlstrings|0x00000086	اختِرتُ للقتال في معركة الأبطال. وباستخدام خريطة تسلّمتها من قائدي، وصلتُ إلى موقع المعركة.
+ccffbsse001-imperialdragon|dlstrings|0x0000008A	<font face="$HandwrittenFont">\nتحدتنا فرقة من متمردي عباءات العاصفة إلى معركة في حقول وايترن. يريدون أن نرسل حامية من أعظم أبطالنا لتقاتل أبطالهم. تحدثت إلى الجنرال توليوس ولا نستطيع أن نستبعد احتمال أن يكون هذا فخاً من نوع ما. \n\nففي النهاية، أظهر الخونة أنهم لا يبالون كثيراً بالولاء، ومن المستبعد أن يولوا الشرف المجاملة نفسها.\n\nومع ذلك، فالفوز في هذا سيبدد كثيراً من الهالة حول محاربيهم. إن فزنا، فهي ضربة هائلة لمعنوياتهم. وإن خسرنا، فسنشيع أن بطلنا لم يكن إلا جندياً آخر. \n\nوعلى أي حال، الأفضل أن نجد شخصاً مستعداً لأن يضحي بحياته من أجل القضية. وإن نجا بطريقة ما، فسيكون قد استحق الدرع الذي صغناه له.\n
+ccffbsse001-imperialdragon|dlstrings|0x00000090	اختِرتُ للقتال في معركة الأبطال. وباستخدام خريطة تسلّمتها من قائدي، وصلتُ إلى موقع المعركة وهزمتُ بطل الخصم.
+ccffbsse001-imperialdragon|dlstrings|0x00000098	اختِرتُ للقتال في معركة الأبطال. وباستخدام خريطة تسلّمتها من قائدي، وصلتُ إلى موقع المعركة. وبعد مواجهة بطل الخصم، حان وقت القتال.
+ccffbsse001-imperialdragon|dlstrings|0x00000099	اختِرتُ للقتال في معركة الأبطال. وباستخدام خريطة تسلّمتها من قائدي، وصلتُ إلى موقع المعركة. وبعد مواجهة بطل الخصم، حان وقت القتال.
+ccffbsse001-imperialdragon|dlstrings|0x0000009B	اختِرتُ للقتال في معركة الأبطال. وباستخدام خريطة تسلّمتها من قائدي، وصلتُ إلى موقع المعركة وهزمتُ بطل الخصم.
+ccffbsse001-imperialdragon|dlstrings|0x0000009D	اختِرتُ للقتال في معركة الأبطال. وباستخدام خريطة تسلّمتها من قائدي، وصلتُ إلى موقع المعركة. وبعد مواجهة بطل الخصم، حان وقت القتال.
+ccffbsse001-imperialdragon|dlstrings|0x0000009E	اختارني الإمبراطوريون للقتال في معركة الأبطال. وبمفتاح تسلّمته من المندوب أدفينتوس كايسينيوس، فتحتُ صندوقاً فيه درع البطل وخريطة لموقع المعركة.
+ccffbsse001-imperialdragon|dlstrings|0x0000009F	تلقّيتُ رسالة من إيرسارالد المطعون ثلاثاً. يطلب فيها أن أكون بطلاً في مبارزة ضد حامية إمبراطورية، ووعدني بدرع أرتديه في المعركة.
+ccffbsse001-imperialdragon|dlstrings|0x000000A0	<font face="$HandwrittenFont">\nتحدينا الكلاب الإمبراطورية إلى نزال أبطال. بالطبع، لن يكون بطلهم بطلاً إلا بالاسم. فكل من يلعق أحذية الإمبراطورية بالكاد يستطيع أن يدّعي لقباً كهذا.\n\nلهذا يجب أن نجد شخصاً جديراً بأن يضع هؤلاء الحمقى في مكانهم. أعلنت أن كل من يريد أن يكون بطلنا يجب أن يثبت جدارته بأن يحضر لي خمس فراء دب الثلج. \n\nإن استطاع أن يقتل خمسة من تلك الوحوش، فخمسة إمبراطوريين سيكونون كسكين تخترق زبدة دافئة.
+ccffbsse001-imperialdragon|dlstrings|0x000000A1	اختارني الإمبراطوريون للقتال في معركة الأبطال. ولهذا تسلّمتُ مفتاحاً من المندوب أدفينتوس كايسينيوس في سوليتيود، يفتح صندوقاً في قلعة دور فيه درع البطل وخريطة لموقع المعركة.
+ccffbsse001-imperialdragon|dlstrings|0x000000A2	اختارني الإمبراطوريون للقتال في معركة الأبطال. ولهذا تسلّمتُ مفتاحاً من المندوب أدفينتوس كايسينيوس في سوليتيود، يفتح صندوقاً في قلعة دور فيه درع البطل وخريطة لموقع المعركة.
+ccffbsse001-imperialdragon|dlstrings|0x000000A4	تستعر حرب أهلية بين عباءات العاصفة والإمبراطوريين، ووايترن في قلبها. وعليّ أن أتحرّى حانات المدينة لأرى ما أعرف عن الحال الراهن للحرب.
+ccffbsse001-imperialdragon|dlstrings|0x000000A5	تستعر حرب أهلية بين عباءات العاصفة والإمبراطوريين، ووايترن في قلبها. ولعلمه بأنني انحزتُ إلى الإمبراطوريين، أرسل إليّ المندوب أدفينتوس كايسينيوس رسالة. لعله يحتاج إلى خدماتي.
+ccffbsse001-imperialdragon|dlstrings|0x000000AA	حسب رسالة وجدتها في وايترن، يخوض عباءات العاصفة والإمبراطوريون معركة أبطال. ويُشاع أن إيرسارالد المطعون ثلاثاً طلب من كل بطل محتمل أن يثبت جدارته بقتل خمسة دببة ثلجية وتسليمه جلودها. أو يمكنني أن أحاول انتحال صفة جندي والتحدث إلى المندوب أدفينتوس كايسينيوس في سوليتيود.
+ccffbsse001-imperialdragon|dlstrings|0x000000AB	اختِرتُ للقتال في معركة الأبطال. وباستخدام خريطة تسلّمتها من قائدي، وصلتُ إلى موقع المعركة. وبعد مواجهة بطل الخصم، حان وقت القتال.
+ccffbsse001-imperialdragon|dlstrings|0x000000AC	اختارني عباءات العاصفة للقتال في معركة الأبطال. وبمفتاح تسلّمته من إيرسارالد المطعون ثلاثاً، فتحتُ صندوقاً فيه درع البطل وخريطة لموقع المعركة.
+ccffbsse001-imperialdragon|dlstrings|0x000000AE	تلقّيتُ رسالة من إيرسارالد المطعون ثلاثاً. يطلب فيها أن أكون بطلاً في مبارزة ضد حامية إمبراطورية، وأعطاني مفتاح صندوق فيه طقم درع قوي. وعليّ أن أسترجع الدرع والخريطة التي فيها موقع المعركة.
+ccffbsse001-imperialdragon|dlstrings|0x000000B2	<font face="$HandwrittenFont">\n<Alias=Player>،\n\nتحدينا الكلاب الإمبراطورية إلى نزال أبطال. يُقال إن محارباً عظيماً يقودهم، لكن كل من يلعق أحذية الإمبراطورية بالكاد يستطيع أن يدّعي لقباً كهذا.\n\nلهذا نطلب منك أن تضع هؤلاء الحمقى في مكانهم. جدني في قصر الملوك، وسأزودك بدرع بطل حقيقي. وحين تتجهز، ستلتقي حامية من أفضل جنودنا وتضع حداً لشارب الحليب هذا وعصابته من المحتالين.\n\nوحين يحين الوقت، لا تضيّع أنفاسك بالكلام. دع حقول وايترن تشرب دماءهم. \n\n- إيرسارالد المطعون ثلاثاً\n
+ccffbsse001-imperialdragon|dlstrings|0x000000B4	تلقّيتُ رسالة من المندوب أدفينتوس كايسينيوس. يطلب فيها أن أكون بطلاً في مبارزة ضد حامية من عباءات العاصفة، ووعدني بدرع أرتديه في المعركة.
+ccffbsse001-imperialdragon|dlstrings|0x000000BB	تستعر حرب أهلية بين عباءات العاصفة والإمبراطوريين، ووايترن في قلبها. ولعلمه بأنني انحزتُ إلى عباءات العاصفة، أرسل إليّ إيرسارالد المطعون ثلاثاً رسالة. لعله يحتاج إلى خدماتي.
+ccffbsse001-imperialdragon|dlstrings|0x000000C2	<font face="$HandwrittenFont">وصلتنا أخبار انتصارك على المتمردين، وكذلك معظم سكايرم. نتوقع أن يزداد التجنيد عشرة أضعاف نتيجة لذلك. لا أحد يريد أن ينحاز إلى قضية خاسرة.\n\nمكافأةً لك، يمكنك أن تحتفظ بدرع البطل وأسلحته. وبالحكم على ما فعلته بأولئك المرتدين، أعرف أنك ستحسن استخدامها.\n\n- المندوب أدفينتوس كايسينيوس\n
+ccffbsse001-imperialdragon|dlstrings|0x000000C3	<font face="$HandwrittenFont">\nهناك حديث في الحانات عن معركة في وايترن بين بطلين، أحدهما من عباءات العاصفة، والآخر إمبراطوري. لكن مع أن المسرح قد أُعدّ، فإن الممثلين لم يُختاروا بعد.\n\nأوضح إيرسارالد المطعون ثلاثاً أن بطل عباءات العاصفة يجب أن يثبت بأسه بأن يحضر له فراء خمسة دببة ثلج. ومع أن المهمة تبدو شاقة، تقول الشائعات إن محاربة اسمها كليا مخلب الذئب من بروما قد قتلت الوحوش بالفعل، وشقت طريقها إلى كاينزغروف.\n\nأما من جانبهم، فلم يذكر المندوب أدفينتوس كايسينيوس أي طقس في اختيار بطلهم. وهذا يجعلك تتساءل إن كان أي جندي راغب سيفي بالغرض.\n
+ccffbsse001-imperialdragon|dlstrings|0x000000C8	تستعر حرب أهلية بين عباءات العاصفة والإمبراطوريين، ووايترن في قلبها. وبعد انضمامي إلى عباءات العاصفة، عليّ التوجه إلى إحدى المقاطعات الكبرى تحسّباً لوجود ساعٍ يحمل لي أخباراً.
+ccffbsse001-imperialdragon|dlstrings|0x000000CA	اختِرتُ للقتال في معركة الأبطال. وباستخدام خريطة تسلّمتها من قائدي، وصلتُ إلى موقع المعركة وهزمتُ بطل الخصم.
+ccffbsse001-imperialdragon|dlstrings|0x000000CB	اختِرتُ للقتال في معركة الأبطال. وباستخدام خريطة تسلّمتها من قائدي، وصلتُ إلى موقع المعركة. وبعد مواجهة بطل الخصم، حان وقت القتال.
+ccffbsse001-imperialdragon|dlstrings|0x000000CC	اختِرتُ للقتال في معركة الأبطال. وباستخدام خريطة تسلّمتها من قائدي، وصلتُ إلى موقع المعركة. وبعد مواجهة بطل الخصم، حان وقت القتال.
+ccffbsse001-imperialdragon|dlstrings|0x000000CD	اختِرتُ للقتال في معركة الأبطال. وباستخدام خريطة تسلّمتها من قائدي، وصلتُ إلى موقع المعركة وهزمتُ بطل الخصم. ومكافأةً لي، تسلّمتُ طقم درع دبّ العاصفة من المندوب أدفينتوس كايسينيوس.
+ccffbsse001-imperialdragon|dlstrings|0x000000CE	اختِرتُ للقتال في معركة الأبطال. وباستخدام خريطة تسلّمتها من قائدي، وصلتُ إلى موقع المعركة وهزمتُ بطل الخصم. ومكافأةً لي، تسلّمتُ من المندوب طقم درع التنين الإمبراطوري.
+ccffbsse001-imperialdragon|dlstrings|0x000000CF	اختِرتُ للقتال في معركة الأبطال. وباستخدام خريطة تسلّمتها من قائدي، وصلتُ إلى موقع المعركة. وبعد مواجهة بطل الخصم، حان وقت القتال.
+ccffbsse001-imperialdragon|dlstrings|0x000000D0	اختِرتُ للقتال في معركة الأبطال. وباستخدام خريطة تسلّمتها من قائدي، وصلتُ إلى موقع المعركة. وبعد مواجهة بطل الخصم، حان وقت القتال.
+ccffbsse001-imperialdragon|dlstrings|0x000000D1	اختِرتُ للقتال في معركة الأبطال. وباستخدام خريطة تسلّمتها من قائدي، وصلتُ إلى موقع المعركة. وبعد مواجهة بطل الخصم، حان وقت القتال.
+ccffbsse001-imperialdragon|dlstrings|0x000000D2	<font face="$HandwrittenFont">وصلتنا أخبار انتصارك على المتمردين، وكذلك معظم سكايرم. نتوقع أن يزداد التجنيد عشرة أضعاف نتيجة لذلك. لا أحد يريد أن ينحاز إلى قضية خاسرة.\n\nمكافأةً لك، إليك درع البطل وأسلحته. وبالحكم على ما فعلته بأولئك المرتدين، أعرف أنك ستحسن استخدامها.\n\n- المندوب أدفينتوس كايسينيوس\n
+ccffbsse001-imperialdragon|dlstrings|0x000000D3	اختِرتُ للقتال في معركة الأبطال. وباستخدام خريطة تسلّمتها من قائدي، وصلتُ إلى موقع المعركة. وبعد مواجهة بطل الخصم، حان وقت القتال.
+ccffbsse001-imperialdragon|dlstrings|0x000000D4	اختِرتُ للقتال في معركة الأبطال. وباستخدام خريطة تسلّمتها من قائدي، وصلتُ إلى موقع المعركة. وبعد مواجهة بطل الخصم، حان وقت القتال.
+ccffbsse001-imperialdragon|dlstrings|0x000000D5	اختِرتُ للقتال في معركة الأبطال. وباستخدام خريطة تسلّمتها من قائدي، وصلتُ إلى موقع المعركة. وبعد مواجهة بطل الخصم، حان وقت القتال.
+ccffbsse001-imperialdragon|dlstrings|0x000000D8	اختِرتُ للقتال في معركة الأبطال. وباستخدام خريطة تسلّمتها من قائدي، وصلتُ إلى موقع المعركة. وبعد مواجهة بطل الخصم، حان وقت القتال.
+ccffbsse001-imperialdragon|dlstrings|0x000000DA	اختِرتُ للقتال في معركة الأبطال. وباستخدام خريطة تسلّمتها من قائدي، وصلتُ إلى موقع المعركة. وبعد مواجهة بطل الخصم، حان وقت القتال.
+ccffbsse001-imperialdragon|dlstrings|0x000000DB	اختِرتُ للقتال في معركة الأبطال. وباستخدام خريطة تسلّمتها من قائدي، وصلتُ إلى موقع المعركة. وبعد مواجهة بطل الخصم، حان وقت القتال.
+ccffbsse001-imperialdragon|dlstrings|0x000000DC	<font face="$HandwrittenFont">\nأخبار معركتك مع الإمبراطوريين تنتشر في أرجاء إيستمارش. ليتني كنت هناك لأرى ذلك الشيء البائس الذي يسمونه بطلاً يتوسل من أجل حياته. لقد استحققت وأكثر حق لبس درع دبّ العاصفة، الذي أعطيك إياه الآن. \n\nقاتل جيداً وليرشدك تالوس.\n\n- إيرسارالد المطعون ثلاثاً\n
+ccffbsse001-imperialdragon|dlstrings|0x000000DD	اختِرتُ للقتال في معركة الأبطال. وباستخدام خريطة تسلّمتها من قائدي، وصلتُ إلى موقع المعركة. وبعد مواجهة بطل الخصم، حان وقت القتال.
+ccffbsse001-imperialdragon|dlstrings|0x000000E7	يزيد تقييم الدروع الثقيلة بنسبة 20%.
+ccffbsse001-imperialdragon|dlstrings|0x000000E9	دبّ العاصفة
+ccffbsse001-imperialdragon|dlstrings|0x000000EC	دبّ العاصفة
+ccffbsse001-imperialdragon|dlstrings|0x000000ED	دبّ العاصفة
+ccffbsse001-imperialdragon|dlstrings|0x000000EE	دبّ العاصفة
+ccffbsse001-imperialdragon|dlstrings|0x000000EF	دبّ العاصفة
+ccffbsse001-imperialdragon|dlstrings|0x000000F2	تستعر حرب أهلية بين عباءات العاصفة والإمبراطوريين، ووايترن في قلبها. وبعد أن انحزتُ إلى طرف، عليّ أن أتحدث إلى قائدي لأرى إن كنتُ أستطيع القتال بطلاً.
+ccffbsse001-imperialdragon|dlstrings|0x000000F3	دبّ العاصفة
+ccffbsse001-imperialdragon|dlstrings|0x000000F5	دبّ العاصفة
+ccffbsse001-imperialdragon|dlstrings|0x00011633	مكافأة إضافية للدرع بنسبة 25% عند ارتداء طقم متناسق من الدروع الثقيلة.
+ccffbsse001-imperialdragon|strings|0x00000001	تعزيز الهجمات القوية
+ccffbsse001-imperialdragon|strings|0x00000003	ترس التنين الإمبراطوري
+ccffbsse001-imperialdragon|strings|0x00000004	يضيف <mag>% إلى المقاومة العنصرية لـ<درع التنين الإمبراطوري>.
+ccffbsse001-imperialdragon|strings|0x00000005	الهياج
+ccffbsse001-imperialdragon|strings|0x00000006	ترس التنين الإمبراطوري
+ccffbsse001-imperialdragon|strings|0x00000007	الصقيع المحطِّم
+ccffbsse001-imperialdragon|strings|0x00000008	روح الدب
+ccffbsse001-imperialdragon|strings|0x00000009	هيئة أكاتوش
+ccffbsse001-imperialdragon|strings|0x0000000A	درع صدر التنين الإمبراطوري
+ccffbsse001-imperialdragon|strings|0x0000000B	الروح الداخلية: الصقر
+ccffbsse001-imperialdragon|strings|0x0000000D	تقل مدة انتظار الصيحة بنسبة <25>%.
+ccffbsse001-imperialdragon|strings|0x0000000E	إيقاف الزمن
+ccffbsse001-imperialdragon|strings|0x0000000F	درع دب العاصفة
+ccffbsse001-imperialdragon|strings|0x00000011	يضاعف ضرر الضرب بالترس.
+ccffbsse001-imperialdragon|strings|0x00000012	يتلقى الهدف <mag> نقطة ضرر صقيع بالصحة والتحمّل. لديه فرصة لتحطيم الأعداء الذين تقل صحتهم عن <20%>.
+ccffbsse001-imperialdragon|strings|0x00000013	خوذة التنين الإمبراطورية
+ccffbsse001-imperialdragon|strings|0x00000014	هياج الصقيع
+ccffbsse001-imperialdragon|strings|0x00000015	تعزيز ضرر الالتحام
+ccffbsse001-imperialdragon|strings|0x00000016	قسم التنين
+ccffbsse001-imperialdragon|strings|0x00000017	قسم التنين
+ccffbsse001-imperialdragon|strings|0x00000018	الضرب بالترس يوقف الزمن لحظة قصيرة. يزيد مقاومة السحر بنسبة <mag>%.
+ccffbsse001-imperialdragon|strings|0x00000019	المقاومة العنصرية
+ccffbsse001-imperialdragon|strings|0x0000001A	الروح الداخلية: الذئب
+ccffbsse001-imperialdragon|strings|0x0000001B	خوذة دب العاصفة
+ccffbsse001-imperialdragon|strings|0x0000001C	تعزيز الروح الداخلية
+ccffbsse001-imperialdragon|strings|0x0000001D	ترس دب العاصفة
+ccffbsse001-imperialdragon|strings|0x0000001E	يضيف <mag> نقطة إلى الصحة والدرع.
+ccffbsse001-imperialdragon|strings|0x0000001F	مخلب أكاتوش
+ccffbsse001-imperialdragon|strings|0x00000020	ترس دب العاصفة
+ccffbsse001-imperialdragon|strings|0x00000021	هيئة أكاتوش
+ccffbsse001-imperialdragon|strings|0x00000023	إيقاف الزمن
+ccffbsse001-imperialdragon|strings|0x00000024	يُلحق <10> ضرر نار، ويزداد الضرر مع كل إصابة متتالية للهدف نفسه.
+ccffbsse001-imperialdragon|strings|0x00000025	روح الذئب
+ccffbsse001-imperialdragon|strings|0x00000026	روح الدب
+ccffbsse001-imperialdragon|strings|0x00000027	قفازات دب العاصفة
+ccffbsse001-imperialdragon|strings|0x00000028	عند انخفاض الصحة، لديه فرصة لمنح مرتديه <جلد الأبنوس>، فيزداد دفاعه.
+ccffbsse001-imperialdragon|strings|0x00000029	حذاء دب العاصفة
+ccffbsse001-imperialdragon|strings|0x0000002A	تصبح منيعاً لمدة <dur> ثانية.
+ccffbsse001-imperialdragon|strings|0x0000002B	ضربة التجميد
+ccffbsse001-imperialdragon|strings|0x0000002C	درع صدر دب العاصفة
+ccffbsse001-imperialdragon|strings|0x0000002E	التكيّف العنصري
+ccffbsse001-imperialdragon|strings|0x00000030	يزيد ضرر الالتحام بنسبة <10>%.
+ccffbsse001-imperialdragon|strings|0x00000032	تقل كلفة التحمّل للهجمة القوية بنسبة <20>%.
+ccffbsse001-imperialdragon|strings|0x00000033	ضرر النار
+ccffbsse001-imperialdragon|strings|0x00000034	بعد إصابته بعنصر سحري يتشرّبه. مقاومة بنسبة <50>% للعنصر المتشرَّب.
+ccffbsse001-imperialdragon|strings|0x00000035	تعزيز تقييم الدرع
+ccffbsse001-imperialdragon|strings|0x00000037	يحرق الهدف بـ<mag> ضرر. الأهداف المشتعلة تتلقى ضرراً إضافياً.
+ccffbsse001-imperialdragon|strings|0x00000039	يتلقى الهدف <mag> نقطة ضرر صقيع بالصحة والتحمّل.
+ccffbsse001-imperialdragon|strings|0x0000003A	مقاومة الصواعق
+ccffbsse001-imperialdragon|strings|0x0000003B	الروح الداخلية: الدب
+ccffbsse001-imperialdragon|strings|0x0000003C	ضرر النار
+ccffbsse001-imperialdragon|strings|0x0000003D	عند ارتداء <درع دب العاصفة>، يمنح زيادات في تقييم الدرع.
+ccffbsse001-imperialdragon|strings|0x0000003E	مقاومة النار
+ccffbsse001-imperialdragon|strings|0x0000003F	مقاومة الصقيع
+ccffbsse001-imperialdragon|strings|0x00000040	مخلب أكاتوش
+ccffbsse001-imperialdragon|strings|0x00000041	عاصفة نارية
+ccffbsse001-imperialdragon|strings|0x00000042	سيف دب العاصفة
+ccffbsse001-imperialdragon|strings|0x00000043	يزداد تجدّد التحمّل بنسبة <mag>%.
+ccffbsse001-imperialdragon|strings|0x00000044	روح الذئب
+ccffbsse001-imperialdragon|strings|0x00000045	مكافآت <درع دب العاصفة> تزداد بنسبة <50>%. يزيد مقاومة الصقيع بنسبة <25>%.
+ccffbsse001-imperialdragon|strings|0x00000046	ضربة التجميد
+ccffbsse001-imperialdragon|strings|0x00000047	درع التنين الإمبراطوري
+ccffbsse001-imperialdragon|strings|0x00000048	قفازات التنين الإمبراطورية
+ccffbsse001-imperialdragon|strings|0x0000004A	ضربة العاصفة
+ccffbsse001-imperialdragon|strings|0x0000004B	عباءة اللهب
+ccffbsse001-imperialdragon|strings|0x0000004C	عباءة الصقيع
+ccffbsse001-imperialdragon|strings|0x0000004D	قسم التنين
+ccffbsse001-imperialdragon|strings|0x0000004E	تعزيز الدرع
+ccffbsse001-imperialdragon|strings|0x0000004F	قفازات دب العاصفة
+ccffbsse001-imperialdragon|strings|0x00000050	روح الذئب
+ccffbsse001-imperialdragon|strings|0x00000051	عباءة البرق
+ccffbsse001-imperialdragon|strings|0x00000052	حذاء دب العاصفة
+ccffbsse001-imperialdragon|strings|0x00000053	عباءة دب العاصفة
+ccffbsse001-imperialdragon|strings|0x00000054	عباءة التنين الإمبراطورية
+ccffbsse001-imperialdragon|strings|0x00000055	روح الدب
+ccffbsse001-imperialdragon|strings|0x00000056	الروح الداخلية: الذئب
+ccffbsse001-imperialdragon|strings|0x00000057	ترس التنين الإمبراطوري
+ccffbsse001-imperialdragon|strings|0x00000058	خوذة التنين الإمبراطورية
+ccffbsse001-imperialdragon|strings|0x00000059	التوجيه العنصري
+ccffbsse001-imperialdragon|strings|0x0000005A	حكم تسون
+ccffbsse001-imperialdragon|strings|0x0000005B	رمز
+ccffbsse001-imperialdragon|strings|0x0000005C	الروح الداخلية: الصقر
+ccffbsse001-imperialdragon|strings|0x0000005D	ضرر الصقيع
+ccffbsse001-imperialdragon|strings|0x0000005E	الروح الداخلية: الدب
+ccffbsse001-imperialdragon|strings|0x0000005F	خوذة دب العاصفة
+ccffbsse001-imperialdragon|strings|0x00000060	الروح الداخلية
+ccffbsse001-imperialdragon|strings|0x00000061	حذاء التنين الإمبراطوري
+ccffbsse001-imperialdragon|strings|0x00000062	قفازات التنين الإمبراطورية
+ccffbsse001-imperialdragon|strings|0x00000063	هيئة أكاتوش
+ccffbsse001-imperialdragon|strings|0x00000064	الهياج
+ccffbsse001-imperialdragon|strings|0x00000065	مخلب أكاتوش
+ccffbsse001-imperialdragon|strings|0x00000066	ضرر الصقيع
+ccffbsse001-imperialdragon|strings|0x00000067	حذاء التنين الإمبراطوري
+ccffbsse001-imperialdragon|strings|0x00000069	(اختياري) اسرق جلود دببة الثلج من كليا في كاينزغروف
+ccffbsse001-imperialdragon|strings|0x0000006A	جئت بشأن أولئك المتمردين من عباءات العاصفة.
+ccffbsse001-imperialdragon|strings|0x0000006B	والآن تموت أيها الخنزير الإمبراطوري.
+ccffbsse001-imperialdragon|strings|0x0000006C	ما المهمة؟
+ccffbsse001-imperialdragon|strings|0x0000006D	معركة الأبطال
+ccffbsse001-imperialdragon|strings|0x0000006F	أظن أننا نستطيع أن يساعد أحدنا الآخر.
+ccffbsse001-imperialdragon|strings|0x00000071	اقرأ الرسالة
+ccffbsse001-imperialdragon|strings|0x00000072	تنكّر في هيئة جندي إمبراطوري وتحدّث إلى المندوب
+ccffbsse001-imperialdragon|strings|0x00000073	لننتهِ من الأمر.
+ccffbsse001-imperialdragon|strings|0x00000075	استرجع درع دب العاصفة والخريطة
+ccffbsse001-imperialdragon|strings|0x00000076	قلعة دور
+ccffbsse001-imperialdragon|strings|0x00000078	حان وقت موتك أيها الكلب المتمرد.
+ccffbsse001-imperialdragon|strings|0x00000079	أستطيع التعامل مع ذلك، وأكثر.
+ccffbsse001-imperialdragon|strings|0x0000007A	سمعت أنك تبحث عن بطل. أنا مخلص للإمبراطورية. (إقناع)
+ccffbsse001-imperialdragon|strings|0x0000007C	صندوق
+ccffbsse001-imperialdragon|strings|0x0000007D	وصلتني رسالتك عن حاجتك إلى بطل.
+ccffbsse001-imperialdragon|strings|0x0000007E	رسالة من الإمبراطورية
+ccffbsse001-imperialdragon|strings|0x0000007F	رسالة إيرسارالد المطعون ثلاثاً
+ccffbsse001-imperialdragon|strings|0x00000080	سمعت أنك تبحث عن بطل. أنا مخلص للإمبراطورية. (إقناع)
+ccffbsse001-imperialdragon|strings|0x00000082	انضم إلى الحامية الإمبراطورية في موقع المعركة
+ccffbsse001-imperialdragon|strings|0x00000083	تحدّث مع البطل الإمبراطوري
+ccffbsse001-imperialdragon|strings|0x00000084	أنا مشغول بعض الشيء الآن.
+ccffbsse001-imperialdragon|strings|0x00000087	مفتاح مستودع الأسلحة الإمبراطوري
+ccffbsse001-imperialdragon|strings|0x00000088	لنبدأ إذن.
+ccffbsse001-imperialdragon|strings|0x00000089	انضم إلى حامية عباءات العاصفة في موقع المعركة
+ccffbsse001-imperialdragon|strings|0x0000008B	اهزم جنود عباءات العاصفة
+ccffbsse001-imperialdragon|strings|0x0000008C	سمعت أنك تبحث عن جندي لقتال بطل من عباءات العاصفة.
+ccffbsse001-imperialdragon|strings|0x0000008D	(اختياري) أقنع المندوب بأن يجعلك بطله
+ccffbsse001-imperialdragon|strings|0x0000008E	توجّه إلى إحدى المقاطعات الكبرى وانتظر أخباراً من ساعي البريد
+ccffbsse001-imperialdragon|strings|0x0000008F	استرجع درع التنين الإمبراطوري والخريطة
+ccffbsse001-imperialdragon|strings|0x00000091	صندوق
+ccffbsse001-imperialdragon|strings|0x00000092	قابل قائدك
+ccffbsse001-imperialdragon|strings|0x00000093	اهزم الجنود الإمبراطوريين
+ccffbsse001-imperialdragon|strings|0x00000094	سلّم خمسة من جلود دببة الثلج إلى إيرسارالد في ويندهيلم
+ccffbsse001-imperialdragon|strings|0x00000097	تحدّث مع بطل عباءات العاصفة
+ccffbsse001-imperialdragon|strings|0x0000009A	بطل عباءات العاصفة
+ccffbsse001-imperialdragon|strings|0x0000009C	رسالة من عباءات العاصفة
+ccffbsse001-imperialdragon|strings|0x000000A3	فراء دب الثلج لكليا
+ccffbsse001-imperialdragon|strings|0x000000A6	اتفقنا. لنباشر الأمر.
+ccffbsse001-imperialdragon|strings|0x000000A7	رسالة تنويه
+ccffbsse001-imperialdragon|strings|0x000000A8	مفتاح صندوق دب العاصفة
+ccffbsse001-imperialdragon|strings|0x000000A9	خريطة موقع المعركة
+ccffbsse001-imperialdragon|strings|0x000000AD	أنا مستعد لمنازلة البطل الإمبراطوري.
+ccffbsse001-imperialdragon|strings|0x000000AF	رسالة المندوب أدفينتوس كايسينيوس
+ccffbsse001-imperialdragon|strings|0x000000B0	معركة الأبطال
+ccffbsse001-imperialdragon|strings|0x000000B3	أنا مستعد لمنازلة بطل عباءات العاصفة.
+ccffbsse001-imperialdragon|strings|0x000000B5	سيقودنا التسعة إلى النصر.
+ccffbsse001-imperialdragon|strings|0x000000B6	جئتُ بشأن أولئك الكلاب الإمبراطوريين.
+ccffbsse001-imperialdragon|strings|0x000000B8	ابحث عن معلومات في الصياد الثمل
+ccffbsse001-imperialdragon|strings|0x000000B9	قابل قائدك
+ccffbsse001-imperialdragon|strings|0x000000BA	أولئك المتمردون من عباءات العاصفة في عداد الموتى.
+ccffbsse001-imperialdragon|strings|0x000000BC	البطل الإمبراطوري
+ccffbsse001-imperialdragon|strings|0x000000BD	لديّ العزيمة، وأكثر.
+ccffbsse001-imperialdragon|strings|0x000000BE	هم في عداد الموتى.
+ccffbsse001-imperialdragon|strings|0x000000BF	سأبذل قصارى جهدي.
+ccffbsse001-imperialdragon|strings|0x000000C0	سمعتُ أن لديك عملاً لي.
+ccffbsse001-imperialdragon|strings|0x000000C1	أريد أن أقاتل بطلاً عنكم. هذا ما طلبتموه.
+ccffbsse001-imperialdragon|strings|0x000000C4	هل يجب أن نتقاتل؟ هل سترى سكايرم السلام يوماً؟
+ccffbsse001-imperialdragon|strings|0x000000C5	رسالة تنويه
+ccffbsse001-imperialdragon|strings|0x000000C6	فلنمنحهم إذن حرباً لا تُنسى.
+ccffbsse001-imperialdragon|strings|0x000000C7	لنجعلها معركة يتذكرها الشعراء.
+ccffbsse001-imperialdragon|strings|0x000000C9	يحرق الهدف بـ<mag> ضرر. الأهداف المشتعلة تتلقى ضرراً إضافياً.
+ccffbsse001-imperialdragon|strings|0x000000D6	رسالة تنويه
+ccffbsse001-imperialdragon|strings|0x000000D7	بطل عباءات العاصفة
+ccffbsse001-imperialdragon|strings|0x000000D9	رسالة تنويه
+ccffbsse001-imperialdragon|strings|0x000000DE	البطل الإمبراطوري
+ccffbsse001-imperialdragon|strings|0x000000DF	كليا مخلب الذئب
+ccffbsse001-imperialdragon|strings|0x000000E0	كليا
+ccffbsse001-imperialdragon|strings|0x000000E1	كليا مخلب الذئب
+ccffbsse001-imperialdragon|strings|0x000000E2	كليا
+ccffbsse001-imperialdragon|strings|0x000000E3	سمعت أنك تبحث عن جندي لقتال بطل من عباءات العاصفة.
+ccffbsse001-imperialdragon|strings|0x000000E4	تفقّد الجثة
+ccffbsse001-imperialdragon|strings|0x000000E5	ميزة خوذة دب العاصفة
+ccffbsse001-imperialdragon|strings|0x000000E6	تعزيز الدروع الثقيلة
+ccffbsse001-imperialdragon|strings|0x000000E8	درع - الأبنوس
+ccffbsse001-imperialdragon|strings|0x000000EA	جلد الأبنوس
+ccffbsse001-imperialdragon|strings|0x000000EB	سمعت أنك بحاجة إلى بطل.
+ccffbsse001-imperialdragon|strings|0x000000F0	سمعت أنك بحاجة إلى بطل.
+ccffbsse001-imperialdragon|strings|0x000000F1	قابل قائدك
+ccffbsse001-imperialdragon|strings|0x000000F4	يحسّن تقييم درع الملقي بمقدار <mag> نقطة لمدة <dur> ثانية.
+ccffbsse001-imperialdragon|strings|0x000020E6	سكايرم
+ccffbsse001-imperialdragon|strings|0x000081D8	الصياد الثمل
+ccffbsse001-imperialdragon|strings|0x00009EEB	قصر الملوك
+ccffbsse001-imperialdragon|strings|0x00011738	الطقم المتناسق

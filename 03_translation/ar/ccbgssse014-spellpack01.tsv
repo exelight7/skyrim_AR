@@ -1,0 +1,129 @@
+key	arabic
+ccbgssse014-spellpack01|dlstrings|0x00000006	<font face'$HandwrittenFont'><font size='40'><p align='center'>\nالتجميد الطليق
+ccbgssse014-spellpack01|dlstrings|0x00000011	<font face'$HandwrittenFont'><font size='40'><p align='center'>\nرون الشلل
+ccbgssse014-spellpack01|dlstrings|0x00000014	<font face'$HandwrittenFont'><font size='40'><p align='center'>\nالعواصف الطليقة
+ccbgssse014-spellpack01|dlstrings|0x00000016	<font face'$HandwrittenFont'><font size='40'><p align='center'>\nاللهب الطليق
+ccbgssse014-spellpack01|dlstrings|0x0000003E	<font face'$HandwrittenFont'><font size='40'><p align='center'>\nهروب أوروم المائي
+ccbgssse014-spellpack01|dlstrings|0x00000044	<font face'$HandwrittenFont'><font size='40'><p align='center'>\nالانفجار العنصري الخاطف
+ccbgssse014-spellpack01|dlstrings|0x0000004B	<font face'$HandwrittenFont'><font size='40'><p align='center'>\nالخنق
+ccbgssse014-spellpack01|dlstrings|0x00000055	<font face'$HandwrittenFont'><font size='40'><p align='center'>\nكبرياء هيرستانغ
+ccbgssse014-spellpack01|dlstrings|0x00000058	<font face'$HandwrittenFont'><font size='40'><p align='center'>\nالوهج العنصري
+ccbgssse014-spellpack01|dlstrings|0x00000065	<font face'$HandwrittenFont'><font size='40'><p align='center'>\nلمسة الموت
+ccbgssse014-spellpack01|dlstrings|0x00000068	وجدتُ في كهف سقطة هوب الصندوق الأسطوري الملآن بكتب التعاويذ القديمة المفقودة منذ زمن طويل.
+ccbgssse014-spellpack01|dlstrings|0x0000006D	سمعتُ حكايات عن مكتبة قديمة لكتب التعاويذ مفقودة منذ زمن طويل، يُشاع أنها في مكان ما من منطقة وينترهولد. وعليّ أن أستكشف المنطقة لأرى ما أجد.
+ccbgssse014-spellpack01|dlstrings|0x00000071	<font face'$HandwrittenFont'><font size='40'><p align='center'>\nترحيب فينريك
+ccbgssse014-spellpack01|dlstrings|0x0000007C	<font face'$HandwrittenFont'><font size='40'><p align='center'>\nالقبضة الخانقة
+ccbgssse014-spellpack01|dlstrings|0x0000007E	<font face'$HandwrittenFont'><font size='40'><p align='center'>\nحبل المشنقة
+ccbgssse014-spellpack01|dlstrings|0x00000084	<font face'$HandwrittenFont'><font size='40'><p align='center'>\nغضب مارا
+ccbgssse014-spellpack01|dlstrings|0x00000088	<font face'$HandwrittenFont'><font size='40'><p align='center'>\nالقذيفة العنصرية
+ccbgssse014-spellpack01|dlstrings|0x0000008B	<font face'$HandwrittenFont'><font size='40'><p align='center'>\nالانفجار العنصري
+ccbgssse014-spellpack01|strings|0x00000001	يطلق سيلاً من الكرات النارية بعيدة المدى في قوس. يُنشئ الارتطام جداراً من النار يُلحق <50> نقطة ضرر نار في الثانية.
+ccbgssse014-spellpack01|strings|0x00000002	العواصف الطليقة
+ccbgssse014-spellpack01|strings|0x00000003	رون الشلل
+ccbgssse014-spellpack01|strings|0x00000004	كتاب تعويذة: التجميد الطليق
+ccbgssse014-spellpack01|strings|0x00000005	اللهب الطليق
+ccbgssse014-spellpack01|strings|0x00000009	صاعقة برق استدعاء العاصفة
+ccbgssse014-spellpack01|strings|0x0000000A	عاصفة سهام الصواعق
+ccbgssse014-spellpack01|strings|0x0000000B	التجميد الطليق
+ccbgssse014-spellpack01|strings|0x0000000C	رون الشلل
+ccbgssse014-spellpack01|strings|0x0000000D	كتاب تعويذة: العواصف الطليقة
+ccbgssse014-spellpack01|strings|0x0000000E	العواصف الطليقة
+ccbgssse014-spellpack01|strings|0x00000010	اللهب الطليق
+ccbgssse014-spellpack01|strings|0x00000012	كتاب تعويذة: رون الشلل
+ccbgssse014-spellpack01|strings|0x00000013	تتلقى الأهداف في مدى الالتحام <40> نقطة ضرر صواعق في الثانية بالصحة، ونصفها بالطاقة السحرية. ضربات البرق العشوائية تُلحق <30> ضرراً إضافياً.
+ccbgssse014-spellpack01|strings|0x00000015	التجميد الطليق
+ccbgssse014-spellpack01|strings|0x00000017	تُلقى على سطح قريب، وتنفجر عند اقتراب الأعداء فتشلّ حركتهم لمدة <dur> ثانية.
+ccbgssse014-spellpack01|strings|0x00000018	كتاب تعويذة: اللهب الطليق
+ccbgssse014-spellpack01|strings|0x00000019	التجميد الطليق
+ccbgssse014-spellpack01|strings|0x0000001A	تعزيز الاستحضار والوهم
+ccbgssse014-spellpack01|strings|0x0000001B	تعزيز الاستحضار والوهم
+ccbgssse014-spellpack01|strings|0x0000001C	رداء المبتدئ ذو الاستحضار والوهم
+ccbgssse014-spellpack01|strings|0x0000001D	رداء المستجد ذو التدمير والتحويل
+ccbgssse014-spellpack01|strings|0x0000001E	استنزاف عباءة البرق
+ccbgssse014-spellpack01|strings|0x0000001F	تعزيز التدمير والتحويل
+ccbgssse014-spellpack01|strings|0x00000020	تعزيز التدمير والتحويل
+ccbgssse014-spellpack01|strings|0x00000021	رداء المبتدئ ذو التدمير والتحويل
+ccbgssse014-spellpack01|strings|0x00000022	دفقة برد تُلحق <mag> نقطة ضرر في الثانية بالصحة والتحمّل.
+ccbgssse014-spellpack01|strings|0x00000023	رداء الأستاذ ذو الاستحضار والوهم
+ccbgssse014-spellpack01|strings|0x00000024	رداء المتمكّن ذو التدمير والتحويل
+ccbgssse014-spellpack01|strings|0x00000025	رداء الخبير ذو التدمير والتحويل
+ccbgssse014-spellpack01|strings|0x00000026	لسعة الصقيع الطليقة
+ccbgssse014-spellpack01|strings|0x00000027	رداء ساحر
+ccbgssse014-spellpack01|strings|0x00000028	رداء المستجد ذو الاستحضار والوهم
+ccbgssse014-spellpack01|strings|0x00000029	تعزيز التدمير والتحويل
+ccbgssse014-spellpack01|strings|0x0000002A	تعزيز التدمير والتحويل
+ccbgssse014-spellpack01|strings|0x0000002B	تعزيز الاستحضار والوهم
+ccbgssse014-spellpack01|strings|0x0000002C	تجميد عباءة الصقيع
+ccbgssse014-spellpack01|strings|0x0000002D	رداء ساحر
+ccbgssse014-spellpack01|strings|0x0000002E	رداء الخبير ذو الاستحضار والوهم
+ccbgssse014-spellpack01|strings|0x0000002F	ريح متجمّدة تحيط بالملقي، فتطرح الأعداء القريبين أرضاً وتجمّدهم بـ<50> نقطة ضرر في الثانية للصحة والتحمّل.
+ccbgssse014-spellpack01|strings|0x00000030	تعزيز التدمير والتحويل
+ccbgssse014-spellpack01|strings|0x00000031	تعزيز الاستحضار والوهم
+ccbgssse014-spellpack01|strings|0x00000032	رداء الأستاذ ذو التدمير والتحويل
+ccbgssse014-spellpack01|strings|0x00000033	رداء المتمكّن ذو الاستحضار والوهم
+ccbgssse014-spellpack01|strings|0x00000034	تعزيز الاستحضار والوهم
+ccbgssse014-spellpack01|strings|0x00000036	الشرر
+ccbgssse014-spellpack01|strings|0x00000038	برق يُلحق <mag> نقطة ضرر صواعق في الثانية بالصحة والطاقة السحرية.
+ccbgssse014-spellpack01|strings|0x00000039	كتاب تعويذة: القذيفة العنصرية
+ccbgssse014-spellpack01|strings|0x0000003A	الوهج العنصري
+ccbgssse014-spellpack01|strings|0x0000003B	المكتبة المفقودة
+ccbgssse014-spellpack01|strings|0x0000003C	كبرياء هيرستانغ
+ccbgssse014-spellpack01|strings|0x0000003D	انفجار عنصري يُلحق <mag> نقطة ضرر نار و<mag> نقطة ضرر صواعق ونصف ذلك بالتحمّل.
+ccbgssse014-spellpack01|strings|0x0000003F	القبضة الخانقة
+ccbgssse014-spellpack01|strings|0x00000040	تجدّد الصحة
+ccbgssse014-spellpack01|strings|0x00000041	كتاب تعويذة: القبضة الخانقة
+ccbgssse014-spellpack01|strings|0x00000042	كتاب تعويذة: ترحيب فينريك
+ccbgssse014-spellpack01|strings|0x00000043	اللهب
+ccbgssse014-spellpack01|strings|0x00000045	امتصاص <mag> نقطة صحة في الثانية من الهدف، لمدة <dur> ثانية.
+ccbgssse014-spellpack01|strings|0x00000046	هروب أوروم المائي
+ccbgssse014-spellpack01|strings|0x00000047	كبرياء هيرستانغ
+ccbgssse014-spellpack01|strings|0x00000048	يستدعي دباً لمدة <dur> ثانية حيثما يشير الملقي. مقاومة <50>% من ضرر الصقيع لمدة <60> ثانية. تتجدّد الصحة أسرع بنسبة <50>% لمدة <60> ثانية.
+ccbgssse014-spellpack01|strings|0x0000004A	امتصاص الصحة
+ccbgssse014-spellpack01|strings|0x0000004C	كتاب تعويذة: هروب أوروم المائي
+ccbgssse014-spellpack01|strings|0x0000004E	امتصاص <mag> نقطة صحة في الثانية من الهدف، لمدة <dur> ثانية.
+ccbgssse014-spellpack01|strings|0x0000004F	اعثر على المكتبة المفقودة لمجلدات التعاويذ
+ccbgssse014-spellpack01|strings|0x00000051	الصاعقة
+ccbgssse014-spellpack01|strings|0x00000052	الانفجار العنصري الخاطف
+ccbgssse014-spellpack01|strings|0x00000053	يصبح الملقي مختفياً ويستطيع فتح الأقفال من مستوى الخبير فما دونه لمدة <dur> ثانية. تفعيل أي شيء أو الهجوم يبطل التعويذة.
+ccbgssse014-spellpack01|strings|0x00000054	انفجار عنصري يُلحق <mag> نقطة ضرر نار و<mag> نقطة ضرر صواعق ونصف ذلك بالتحمّل.
+ccbgssse014-spellpack01|strings|0x00000056	كتاب تعويذة: غضب مارا
+ccbgssse014-spellpack01|strings|0x00000057	لمسة الموت
+ccbgssse014-spellpack01|strings|0x00000059	امتصاص <mag> نقطة صحة في الثانية من الهدف، لمدة <dur> ثانية.
+ccbgssse014-spellpack01|strings|0x0000005A	غضب مارا
+ccbgssse014-spellpack01|strings|0x0000005B	كبرياء هيرستانغ
+ccbgssse014-spellpack01|strings|0x0000005C	الوهج العنصري
+ccbgssse014-spellpack01|strings|0x0000005D	كتاب تعويذة: كبرياء هيرستانغ
+ccbgssse014-spellpack01|strings|0x0000005E	الوهج العنصري
+ccbgssse014-spellpack01|strings|0x0000005F	ترحيب فينريك
+ccbgssse014-spellpack01|strings|0x00000060	ترحيب فينريك: فتح القفل
+ccbgssse014-spellpack01|strings|0x00000061	الوهج العنصري
+ccbgssse014-spellpack01|strings|0x00000062	ترحيب فينريك
+ccbgssse014-spellpack01|strings|0x00000063	كتاب تعويذة: الانفجار العنصري الخاطف
+ccbgssse014-spellpack01|strings|0x00000064	كتاب تعويذة: الانفجار العنصري
+ccbgssse014-spellpack01|strings|0x00000066	كتاب تعويذة: حبل المشنقة
+ccbgssse014-spellpack01|strings|0x00000067	هروب أوروم المائي
+ccbgssse014-spellpack01|strings|0x00000069	انفجار عنصري يُلحق <mag> نقطة ضرر نار و<mag> نقطة ضرر صواعق ونصف ذلك بالتحمّل.
+ccbgssse014-spellpack01|strings|0x0000006A	انفجار عنصري يُلحق <mag> نقطة ضرر نار و<mag> نقطة ضرر صواعق ونصف ذلك بالتحمّل.
+ccbgssse014-spellpack01|strings|0x0000006B	غضب مارا
+ccbgssse014-spellpack01|strings|0x0000006C	حبل المشنقة
+ccbgssse014-spellpack01|strings|0x0000006F	تتجدّد الصحة أسرع بنسبة <mag>% لمدة <dur> ثانية.
+ccbgssse014-spellpack01|strings|0x00000070	الانفجار العنصري
+ccbgssse014-spellpack01|strings|0x00000072	مقاومة <mag>% من ضرر الصقيع لمدة <dur> ثانية.
+ccbgssse014-spellpack01|strings|0x00000074	الوهج العنصري
+ccbgssse014-spellpack01|strings|0x00000075	امتصاص الصحة
+ccbgssse014-spellpack01|strings|0x00000076	صندوق المجلد القديم
+ccbgssse014-spellpack01|strings|0x00000077	كتاب تعويذة: الوهج العنصري
+ccbgssse014-spellpack01|strings|0x00000078	القذيفة العنصرية
+ccbgssse014-spellpack01|strings|0x00000079	لمدة <dur> ثانية، يتلقى الخصوم في مدى الالتحام <16> نقطة ضرر نار في الثانية. الموتى الأحياء حتى المستوى <26> يفرّون لمدة <dur> ثانية.
+ccbgssse014-spellpack01|strings|0x0000007A	كتاب تعويذة: الخنق
+ccbgssse014-spellpack01|strings|0x0000007D	ترحيب فينريك
+ccbgssse014-spellpack01|strings|0x0000007F	يختفي الملقي لمدة <dur> ثانية. تفعيل أي شيء أو الهجوم يبطل التعويذة. يستطيع تنفّس الماء لمدة <dur> ثانية. رؤية ليلية محسَّنة لمدة <dur> ثانية.
+ccbgssse014-spellpack01|strings|0x00000080	امتصاص <mag> نقطة صحة في الثانية من الهدف، لمدة <dur> ثانية.
+ccbgssse014-spellpack01|strings|0x00000081	مقاومة الصقيع
+ccbgssse014-spellpack01|strings|0x00000085	الخنق
+ccbgssse014-spellpack01|strings|0x00000086	امتصاص الصحة
+ccbgssse014-spellpack01|strings|0x00000089	دب
+ccbgssse014-spellpack01|strings|0x0000008A	امتصاص الصحة
+ccbgssse014-spellpack01|strings|0x0000008C	كتاب تعويذة: لمسة الموت
+ccbgssse014-spellpack01|strings|0x0000008E	عين الليل
+ccbgssse014-spellpack01|strings|0x00002E24	كهف سقطة هوب

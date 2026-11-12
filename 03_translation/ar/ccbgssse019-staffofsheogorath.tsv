@@ -1,0 +1,38 @@
+key	arabic
+ccbgssse019-staffofsheogorath|dlstrings|0x00000006	هناك شيء ينتظرني في ريفن روك، وعليّ أن أرى ما هو.
+ccbgssse019-staffofsheogorath|dlstrings|0x00000009	يجعل ذكور النيتش الخاصة تتجاهل الضرر من أي شيء عدا شوكة القشعريرة.
+ccbgssse019-staffofsheogorath|dlstrings|0x0000000C	هناك شيء ينتظرني في جزيرة سولستهايم. وعليّ أن أسافر إلى هناك وأتحرّى الأمر.
+ccbgssse019-staffofsheogorath|dlstrings|0x0000000D	أتممتُ المحنة، وصنعتُ عصا شيوغوراث.
+ccbgssse019-staffofsheogorath|dlstrings|0x00000010	يضيف تعزيزاً لضرر الشوكة عند قتال ذكور النيتش في المهمة.
+ccbgssse019-staffofsheogorath|dlstrings|0x00000011	<font face="$HandwrittenFont" size="19">\nعزيزي من عثر على هذه الرسالة، إنه يوم حظك! ستجد بالقرب شوكة القشعريرة. آه، كم أحب أدوات المائدة! «لكن ما هي؟» لا بد أنك تسأل. حسناً، القشعريرة هي انتصاب الشعر بسبب البرد أو الخوف أو الإثارة -- والإثارة حلّت بنا حقاً يا صديقي!\n\nخذ هذه الشوكة، واستخدمها لقتل نيتشين ذكرين مميزين في قتال منفرد. سيعطيك كل منهما قطعة أثرية: عين سيرتا، وغصن شجرة الظلال. قد يجدها محاربو عصر آخر مألوفة. اجمعهما مع بعض أحجار القلب عند مسحِّر العصي لتحصل على مفاجأة خاصة!\n\nإن نجحت، فستُكافأ مكافأة سخية، بعصا شيوغوراث (سخية حقاً!) وإن لم تنجح، حسناً... أحب أن أشاهد قتالاً جيداً!\n\nالمخلص لك،\nاللورد شيوغوراث\n</font>
+ccbgssse019-staffofsheogorath|dlstrings|0x00000016	قبلتُ محنة القتال التي عرضها شيوغوراث. وعليّ أن أجد ذكور النيتش الخاصة هذه، وأقتلها بشوكة القشعريرة، وأحصل على القطع الأثرية.
+ccbgssse019-staffofsheogorath|dlstrings|0x0000001E	قتلتُ ذكور النيتش وحصلتُ على القطع الأثرية. وعليّ أن أصل إلى مسحِّر العصي لأدمجها وأصنع عصا شيوغوراث.
+ccbgssse019-staffofsheogorath|strings|0x00000001	شوكة القشعريرة
+ccbgssse019-staffofsheogorath|strings|0x00000002	عصا شيوغوراث
+ccbgssse019-staffofsheogorath|strings|0x00000004	الشلل
+ccbgssse019-staffofsheogorath|strings|0x00000005	الأهداف التي تفشل في المقاومة تُشَلّ لمدة <dur> ثانية.
+ccbgssse019-staffofsheogorath|strings|0x00000007	شلل عصا شيوغوراث
+ccbgssse019-staffofsheogorath|strings|0x0000000A	نيتش ذكر
+ccbgssse019-staffofsheogorath|strings|0x0000000F	سافر إلى سولستهايم
+ccbgssse019-staffofsheogorath|strings|0x00000012	تحرَّ النيتش المتقيّئ
+ccbgssse019-staffofsheogorath|strings|0x00000013	اصنع عصا شيوغوراث
+ccbgssse019-staffofsheogorath|strings|0x00000014	شوكة القشعريرة
+ccbgssse019-staffofsheogorath|strings|0x00000015	شوكة القشعريرة
+ccbgssse019-staffofsheogorath|strings|0x00000017	غصن شجرة الظلال
+ccbgssse019-staffofsheogorath|strings|0x00000018	احصل على عين سيرتا
+ccbgssse019-staffofsheogorath|strings|0x00000019	عين سيرتا
+ccbgssse019-staffofsheogorath|strings|0x0000001A	ضرر النيتش لشوكة القشعريرة
+ccbgssse019-staffofsheogorath|strings|0x0000001B	احصل على غصن شجرة الظلال
+ccbgssse019-staffofsheogorath|strings|0x0000001C	خذ شوكة القشعريرة
+ccbgssse019-staffofsheogorath|strings|0x0000001D	عين سيرتا
+ccbgssse019-staffofsheogorath|strings|0x0000001F	رسالة غامضة
+ccbgssse019-staffofsheogorath|strings|0x00000020	غصن شجرة الظلال
+ccbgssse019-staffofsheogorath|strings|0x00000021	شوكة القشعريرة
+ccbgssse019-staffofsheogorath|strings|0x00000022	انتهى أمره
+ccbgssse019-staffofsheogorath|strings|0x00000023	شلل عصا شيوغوراث
+ccbgssse019-staffofsheogorath|strings|0x00000024	شلل عصا شيوغوراث
+ccbgssse019-staffofsheogorath|strings|0x00000025	الأهداف التي تفشل في المقاومة تُغلَّف برماد متصلّب لمدة <dur> ثانية.
+ccbgssse019-staffofsheogorath|strings|0x00000075	سولستهايم
+ccbgssse019-staffofsheogorath|strings|0x00000111	تيل ميثرين
+ccbgssse019-staffofsheogorath|strings|0x00000203	النيتش المتقيّئ
+ccbgssse019-staffofsheogorath|strings|0x0000F1E1	نزل قمة الريح

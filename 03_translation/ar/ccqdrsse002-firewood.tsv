@@ -1,0 +1,39 @@
+key	arabic
+ccqdrsse002-firewood|dlstrings|0x00000002	لا يمكنك إقامة مخيم هنا.
+ccqdrsse002-firewood|dlstrings|0x00000010	ماذا تفعل؟
+ccqdrsse002-firewood|dlstrings|0x00000013	أتقيم مخيماً هنا؟
+ccqdrsse002-firewood|dlstrings|0x00000019	لا يمكنك إقامة مخيم في أثناء القتال.
+ccqdrsse002-firewood|dlstrings|0x0000001A	أمتأكد أنك تريد فكّ المخيم؟
+ccqdrsse002-firewood|dlstrings|0x0000001F	لا يمكنك إقامة مخيم الآن.
+ccqdrsse002-firewood|dlstrings|0x00000020	لا يمكنك إقامة مخيم داخل مبنى.
+ccqdrsse002-firewood|dlstrings|0x00000022	لا يمكنك إقامة مخيم وأنت راكب.
+ccqdrsse002-firewood|dlstrings|0x00000023	لا يمكنك إقامة مخيم في المدن أو البلدات.
+ccqdrsse002-firewood|dlstrings|0x00000024	لا يمكنك إقامة مخيم وأنت تسبح.
+ccqdrsse002-firewood|dlstrings|0x00000027	لا توجد أرض مستوية كافية للتخييم هنا.
+ccqdrsse002-firewood|dlstrings|0x00000028	لا توجد مساحة كافية لإقامة مخيم هنا.
+ccqdrsse002-firewood|dlstrings|0x0000002A	لا يمكنك إقامة مخيم وأنت في الهواء.
+ccqdrsse002-firewood|dlstrings|0x0000002B	لا يمكنك إقامة مخيم وأنت تستخدم شيئاً آخر.
+ccqdrsse002-firewood|dlstrings|0x00000030	تتيح لك المخيمات أن تبقى مستريحاً ودافئاً وأنت تستكشف البرية. اصنع لوازم التخييم في مسبك، واستخدمها لإقامة مخيم في الخلاء.\n\nفي مخيمك يمكنك النوم في مأواك المؤقت، أو طهو عدد محدود من الوجبات على نار المخيم.\n\nيُعلَّم موقع مخيمك على خريطتك، لتعثر عليه وتسافر إليه سريعاً فيما بعد.\n\nلا يمكن إقامة إلا مخيم واحد في كل مرة. وإقامة مخيم جديد تزيل المخيم السابق، وتُحدَّث علامة مخيمك على الخريطة إلى المخيم الجديد.
+ccqdrsse002-firewood|dlstrings|0x00000031	تتيح لك المخيمات أن تستريح وتبقى دافئاً وأنت تستكشف البرية. ويمكنك طهو عدد محدود من الوجبات على نار المخيم. ويُعلَّم مخيمك على خريطتك لتعثر عليه وتسافر إليه سريعاً فيما بعد.
+ccqdrsse002-firewood|strings|0x00000001	استخدام
+ccqdrsse002-firewood|strings|0x00000003	ملجأ
+ccqdrsse002-firewood|strings|0x00000006	إقامة مخيم
+ccqdrsse002-firewood|strings|0x00000008	إلغاء
+ccqdrsse002-firewood|strings|0x00000009	نوم
+ccqdrsse002-firewood|strings|0x0000000B	فكّ المخيم
+ccqdrsse002-firewood|strings|0x0000000D	نار المخيم
+ccqdrsse002-firewood|strings|0x00000014	مؤن التخييم
+ccqdrsse002-firewood|strings|0x00000015	أقم مخيماً في الخارج.
+ccqdrsse002-firewood|strings|0x00000016	فراش أرضي
+ccqdrsse002-firewood|strings|0x00000017	موافق
+ccqdrsse002-firewood|strings|0x00000018	إلغاء
+ccqdrsse002-firewood|strings|0x0000001B	يمكنك طهو بعض الوجبات على لهب نار المخيمات التي تنصبها.
+ccqdrsse002-firewood|strings|0x0000001D	إلغاء
+ccqdrsse002-firewood|strings|0x0000001E	التخييم
+ccqdrsse002-firewood|strings|0x00000021	موقع تخييم
+ccqdrsse002-firewood|strings|0x00000025	موقع تخييم
+ccqdrsse002-firewood|strings|0x00000026	إذا نصبت مخيماً فسيُعلَّم موقعه على خريطتك، لتسافر إليه سريعاً فيما بعد.
+ccqdrsse002-firewood|strings|0x0000002C	موافق
+ccqdrsse002-firewood|strings|0x00000032	صندوق خشبي
+ccqdrsse002-firewood|strings|0x00000075	سولستهايم
+ccqdrsse002-firewood|strings|0x000020E6	سكايرم

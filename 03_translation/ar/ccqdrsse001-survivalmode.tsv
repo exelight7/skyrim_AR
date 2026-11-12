@@ -1,0 +1,537 @@
+key	arabic
+ccqdrsse001-survivalmode|dlstrings|0x00000006	تنخفض الصحة الكلية. تتحرك أبطأ بنسبة <30>%. فتح الأقفال والنشل أصعب بنسبة <70>%.
+ccqdrsse001-survivalmode|dlstrings|0x0000001A	دمك الأرغوني يتيح لك أكل اللحم النيء دون خطر المرض.
+ccqdrsse001-survivalmode|dlstrings|0x00000021	ينخفض التحمّل الكلي. الهجمات بالأسلحة أبطأ بنسبة <30>%. أنت أقل فعالية في استخدام الأتراس والتخفي بنسبة <70>%.
+ccqdrsse001-survivalmode|dlstrings|0x00000027	لست جائعاً.
+ccqdrsse001-survivalmode|dlstrings|0x00000028	أنت مُنهَك!
+ccqdrsse001-survivalmode|dlstrings|0x0000002C	فتح الأقفال والنشل أسهل بنسبة <10>%. أنت أكثر مقاومة للصقيع بنسبة <10>%.
+ccqdrsse001-survivalmode|dlstrings|0x00000037	أنت شبعان.
+ccqdrsse001-survivalmode|dlstrings|0x00000042	الماء المتجمّد يُلحق بك الضرر ببطء.
+ccqdrsse001-survivalmode|dlstrings|0x00000043	تشعر ببرد شديد.
+ccqdrsse001-survivalmode|dlstrings|0x00000047	أنت مرتاح.
+ccqdrsse001-survivalmode|dlstrings|0x0000005D	تنخفض الطاقة السحرية الكلية. تتجدّد الطاقة السحرية والتحمّل أبطأ بنسبة <25>%. الجرعات النافعة أقل فعالية بنسبة <20>%.
+ccqdrsse001-survivalmode|dlstrings|0x00000065	تشعر بدفء أكثر، لكنك لا تزال متجمداً.
+ccqdrsse001-survivalmode|dlstrings|0x0000006C	تستيقظ وأنت أفضل حالاً، لكنك لا تزال متعَباً.
+ccqdrsse001-survivalmode|dlstrings|0x00000077	تشعر بالبرد قليلاً.
+ccqdrsse001-survivalmode|dlstrings|0x0000007E	تشعر بالانتعاش.
+ccqdrsse001-survivalmode|dlstrings|0x00000088	يتجدّد التحمّل أسرع بنسبة <10>%.
+ccqdrsse001-survivalmode|dlstrings|0x0000008E	تشعر بدفء أكثر، لكنك لا تزال تشعر بالبرد قليلاً.
+ccqdrsse001-survivalmode|dlstrings|0x00000092	الهواء بارد على نحو خطر.
+ccqdrsse001-survivalmode|dlstrings|0x000000A2	تشعر بتحسّن، لكنك لا تزال جائعاً.
+ccqdrsse001-survivalmode|dlstrings|0x000000A3	تنخفض الطاقة السحرية الكلية. لم تعد الطاقة السحرية والتحمّل يتعافيان. الجرعات النافعة أقل فعالية بنسبة <80>%. مقاومتك للأمراض أقل بنسبة <40>%.
+ccqdrsse001-survivalmode|dlstrings|0x000000A8	أنت جائع جداً.
+ccqdrsse001-survivalmode|dlstrings|0x000000A9	أنت دافئ.
+ccqdrsse001-survivalmode|dlstrings|0x000000AA	أنت متخدّر من البرد!
+ccqdrsse001-survivalmode|dlstrings|0x000000AF	تزداد دفئاً.
+ccqdrsse001-survivalmode|dlstrings|0x000000B0	هذا الماء شديد البرودة!
+ccqdrsse001-survivalmode|dlstrings|0x000000B3	أنت مستنزَف.
+ccqdrsse001-survivalmode|dlstrings|0x000000B5	أنت منتعش.
+ccqdrsse001-survivalmode|dlstrings|0x000000B6	دمك النوردي يحسّن مقاومتك للبيئات الباردة بمقدار <25> نقطة.
+ccqdrsse001-survivalmode|dlstrings|0x000000B7	أنت متعب.
+ccqdrsse001-survivalmode|dlstrings|0x000000B9	تنخفض الصحة الكلية. تتحرك أبطأ بنسبة <40>%. فتح الأقفال والنشل أصعب بنسبة <90>%.
+ccqdrsse001-survivalmode|dlstrings|0x000000BA	تشعر بدفء أكثر، لكنك لا تزال تشعر ببرد شديد.
+ccqdrsse001-survivalmode|dlstrings|0x000000BC	تستيقظ وأنت أفضل حالاً، لكنك لا تزال مستنزَفاً.
+ccqdrsse001-survivalmode|dlstrings|0x000000BD	أنت متعَب.
+ccqdrsse001-survivalmode|dlstrings|0x000000BF	تستيقظ وأنت أفضل حالاً، لكنك لا تزال متعباً.
+ccqdrsse001-survivalmode|dlstrings|0x000000C6	أنت شبعان تماماً.
+ccqdrsse001-survivalmode|dlstrings|0x000000CC	يجب تقديم قربان قدره %.0f قطعة ذهبية لتنال بركة هذا المزار.\n\nأتقدّم القربان؟
+ccqdrsse001-survivalmode|dlstrings|0x000000CF	أنت تتضوّر جوعاً!
+ccqdrsse001-survivalmode|dlstrings|0x000000D0	تشعر بتحسّن، لكنك لا تزال جائعاً قليلاً.
+ccqdrsse001-survivalmode|dlstrings|0x000000D1	تنخفض الطاقة السحرية الكلية. تتجدّد الطاقة السحرية والتحمّل أبطأ بنسبة <50>%. الجرعات النافعة أقل فعالية بنسبة <40>%. مقاومتك للأمراض أقل بنسبة <10>%.
+ccqdrsse001-survivalmode|dlstrings|0x000000D3	أنت جائع.
+ccqdrsse001-survivalmode|dlstrings|0x000000D5	يبرد الأرغونيون أسرع بنسبة <25%> في البيئات الباردة.
+ccqdrsse001-survivalmode|dlstrings|0x000000EF	لا تملك ما يكفي من الذهب للقربان.
+ccqdrsse001-survivalmode|dlstrings|0x000000F2	ينخفض التحمّل الكلي. الهجمات بالأسلحة أبطأ بنسبة <40>%. أنت أقل فعالية في استخدام الأتراس والتخفي بنسبة <90>%.
+ccqdrsse001-survivalmode|dlstrings|0x000000F5	دمك البوسمري يمنحك مقاومة للإرهاق بنسبة <25%>.
+ccqdrsse001-survivalmode|dlstrings|0x000000F7	تنخفض الصحة الكلية. تتحرك أبطأ بنسبة <20>%. فتح الأقفال والنشل أصعب بنسبة <50>%.
+ccqdrsse001-survivalmode|dlstrings|0x00000102	تشعر بتحسّن، لكنك لا تزال جائعاً جداً.
+ccqdrsse001-survivalmode|dlstrings|0x00000105	أنت متجمّد.
+ccqdrsse001-survivalmode|dlstrings|0x0000010E	دمك الخاجيتي يحسّن مقاومتك للبيئات الباردة بمقدار <15> نقطة.
+ccqdrsse001-survivalmode|dlstrings|0x0000010F	تزداد سعة الحمل بمقدار 100 (50 إذا كان وضع النجاة مفعّلاً).
+ccqdrsse001-survivalmode|dlstrings|0x00000116	دمك الأوركي يمنحك مقاومة للجوع والإرهاق بنسبة <15%>، ويزيد مقاومتك للبيئات الباردة بمقدار <10> نقاط.
+ccqdrsse001-survivalmode|dlstrings|0x00000123	ينخفض التحمّل الكلي. الهجمات بالأسلحة أبطأ بنسبة <10>%. أنت أقل فعالية في استخدام الأتراس والتخفي بنسبة <30>%.
+ccqdrsse001-survivalmode|dlstrings|0x0000012B	دمك الدانمري يمنحك مقاومة للإرهاق بنسبة <25%>.
+ccqdrsse001-survivalmode|dlstrings|0x00000150	تنخفض الطاقة السحرية الكلية. تتجدّد الطاقة السحرية والتحمّل أبطأ بنسبة <75>%. الجرعات النافعة أقل فعالية بنسبة <60>%. مقاومتك للأمراض أقل بنسبة <20>%.
+ccqdrsse001-survivalmode|dlstrings|0x00000151	ينخفض التحمّل الكلي. الهجمات بالأسلحة أبطأ بنسبة <20>%. أنت أقل فعالية في استخدام الأتراس والتخفي بنسبة <50>%.
+ccqdrsse001-survivalmode|dlstrings|0x00000153	دمك الإلفي الأعلى يمنحك مقاومة للإرهاق بنسبة <25%>.
+ccqdrsse001-survivalmode|dlstrings|0x00000161	الجوع\n\nأنت جائع، مما ينقص القدرة على التحمّل المتاحة لك، وتظهر منطقة داكنة في شريط القدرة على التحمّل. ويؤثر الجوع أيضاً في سرعة هجومك بالأسلحة.\n\nكُل لتقلّل جوعك. فالوجبات المطهوّة تسدّ الجوع أفضل بكثير من الطعام النيّء. وأكل اللحم النيّء قد يصيبك بالتسمم الغذائي.
+ccqdrsse001-survivalmode|dlstrings|0x00000162	البرد\nأنت بردان، مما ينقص صحتك الكلية، وتظهر منطقة داكنة في شريط الصحة. وقد يبطئ البرد حركتك أيضاً. قف قرب نار أو انتقل إلى منطقة أدفأ لتدفأ. وتشير أيقونة الشمس أو ندفة الثلج قرب البوصلة إلى ما إذا كنت تزداد دفئاً أو برداً.\n\nيمكنك إبطاء إحساسك بالبرد بارتداء دروع ذات دفء عالٍ. وتناول الحساء الساخن وحمل شعلة يحسّنان أيضاً معدّل دفئك.
+ccqdrsse001-survivalmode|dlstrings|0x00000164	لا تشعر هنا بالجوع ولا بالإرهاق ولا بالبرد.
+ccqdrsse001-survivalmode|dlstrings|0x00000166	الإرهاق\n\nأنت متعب، مما ينقص الطاقة السحرية المتاحة لك، وتظهر منطقة داكنة في شريط الطاقة السحرية. ويبطئ الإرهاق أيضاً استعادتك للطاقة السحرية والقدرة على التحمّل، ويقلّل فعالية الجرعات.\n\nنم في سرير لتقلّل إرهاقك. والنوم تحت سقف يمنحك راحة أكثر من النوم في العراء.
+ccqdrsse001-survivalmode|dlstrings|0x0000016A	تشعر بتحسّن، وصرتَ الآن شبعاناً.
+ccqdrsse001-survivalmode|dlstrings|0x0000016B	فتح الأقفال والنشل أصعب بنسبة <30>%، والأقواس تُلحق ضرراً أقل بنسبة <30>% لمدة <24> ساعة.
+ccqdrsse001-survivalmode|dlstrings|0x0000016C	الهواء بارد قليلاً هنا.
+ccqdrsse001-survivalmode|dlstrings|0x0000016F	أصابك الضعف من الجوع.
+ccqdrsse001-survivalmode|dlstrings|0x00000173	أصابك داء الأبواغ الخضراء.
+ccqdrsse001-survivalmode|dlstrings|0x00000178	الهواء دافئ هنا.
+ccqdrsse001-survivalmode|dlstrings|0x0000017A	أصابك داء العفن البني.
+ccqdrsse001-survivalmode|dlstrings|0x00000181	تشعر بدفء أكثر، وصرتَ الآن مرتاحاً.
+ccqdrsse001-survivalmode|dlstrings|0x00000183	الهواء قارس هنا.
+ccqdrsse001-survivalmode|dlstrings|0x00000185	الهواء معتدل هنا.
+ccqdrsse001-survivalmode|dlstrings|0x00000186	لا تحتاج إلى الطعام أو الراحة أو الدفء في هذه المنطقة من العالم الآخر.
+ccqdrsse001-survivalmode|dlstrings|0x00000187	أصابك التشوّش من الإرهاق.
+ccqdrsse001-survivalmode|dlstrings|0x00000188	أصابك التسمم الغذائي.
+ccqdrsse001-survivalmode|dlstrings|0x00000189	أصابتك دودة الأمعاء.
+ccqdrsse001-survivalmode|dlstrings|0x00000191	تنخفض الطاقة السحرية الكلية. تتجدّد الطاقة السحرية والتحمّل أبطأ بنسبة <50>%. الجرعات النافعة أقل فعالية بنسبة <40>%.
+ccqdrsse001-survivalmode|dlstrings|0x0000019C	الهواء شديد البرودة هنا.
+ccqdrsse001-survivalmode|dlstrings|0x0000019E	تتعافى الطاقة السحرية والتحمّل أبطأ بنسبة <50>%، ولم يعد الطعام يستعيد الصحة لمدة <3> أيام.
+ccqdrsse001-survivalmode|dlstrings|0x000001AC	تنخفض الطاقة السحرية الكلية. تتجدّد الطاقة السحرية والتحمّل أبطأ بنسبة <75>%. الجرعات النافعة أقل فعالية بنسبة <60>%.
+ccqdrsse001-survivalmode|dlstrings|0x000001AD	يستنزف التحمّل بمقدار <2> نقطة في الثانية. يزداد الإرهاق أسرع بنسبة <400>%.
+ccqdrsse001-survivalmode|dlstrings|0x000001B2	ينخفض تجدّد التحمّل بنسبة <25>%. الطعام يسدّ الجوع أقل بنسبة <25>%.
+ccqdrsse001-survivalmode|dlstrings|0x000001B6	أنت أقل فعالية بأسلحة الالتحام وصدّ الضرر بترسك بنسبة <30>% لمدة <24> ساعة.
+ccqdrsse001-survivalmode|dlstrings|0x000001B7	أصابتك عضة الصقيع من البرد.
+ccqdrsse001-survivalmode|dlstrings|0x000001BA	تتجدّد الطاقة السحرية والتحمّل أبطأ بنسبة <30>% لمدة <24> ساعة.
+ccqdrsse001-survivalmode|dlstrings|0x000001BC	تنخفض الطاقة السحرية الكلية. لم تعد الطاقة السحرية والتحمّل يتعافيان. الجرعات النافعة أقل فعالية بنسبة <80>%.
+ccqdrsse001-survivalmode|dlstrings|0x000001CF	تستيقظ منتعشاً.
+ccqdrsse001-survivalmode|dlstrings|0x000001D2	تتعافى الطاقة السحرية بسرعة <25>% فقط من المعتاد.
+ccqdrsse001-survivalmode|dlstrings|0x000001D3	أصابتك دودة الأمعاء المُقعِدة.
+ccqdrsse001-survivalmode|dlstrings|0x000001DC	أصابك الوهن الشديد.
+ccqdrsse001-survivalmode|dlstrings|0x000001FE	يضيف وضع النجاة ميزات وتحديات جديدة إلى أسلوب اللعب، فيحوّل سكايرم إلى أرض من البرد القارس والبرية القاسية.\n\nلتفعيل وضع النجاة، افتح قائمة الإيقاف المؤقت، واختر «الإعدادات»، ثم «أسلوب اللعب»، وفعّل «وضع النجاة». ويمكن تفعيله مع أي مستوى صعوبة. ولأقصى تحدٍّ، استخدمه مع صعوبة «الأستاذ» أو «الأسطوري».\n\nالنجاة: الأساسيات\n\nالبقاء بصحة جيدة\nعليك أن تنتبه لعافيتك العامة بأن تبقى شبعاناً مستريحاً دافئاً. راجع «النجاة: الجوع والطعام والإرهاق» و«النجاة: البرد والدفء والمياه المتجمدة» لمزيد من التفاصيل.\n\nالسفر السريع\nالسفر السريع معطّل. فإن أردتَ الذهاب إلى مكان فعليك الذهاب سيراً. ويمكنك أيضاً ركوب عربة أو قارب إلى وجهتك، لكن انتبه إلى أنك قد تصل جائعاً بردانَ محتاجاً إلى الراحة بعد رحلة طويلة.\n\nتجدد الصحة\nلم تعد صحتك تتجدد تلقائياً. وعليك استخدام تعاويذ الاستشفاء والطعام والجرعات لاستعادة صحتك.\n\nالارتقاء مستوى\nلترتقي مستوى، عليك الآن أن تنام في سرير. ويمكنك إنفاق نقاط المزايا لاحقاً بعد أن تُمنح لك عقب النوم.\n\nإدارة المتاع\nصرتَ تستطيع حمل أغراض أقل بكثير. راجع مدخل «النجاة: الأغراض» لمزيد من التفاصيل.\n\nالنجاة: الجوع والطعام والإرهاق\n\nالجوع\nمع مرور الوقت ستجوع، مما يؤثر في قدرتك الكلية على التحمّل وفي قدرتك على استخدام معظم الأسلحة. وكلما اشتد جوعك نقصت القدرة على التحمّل المتاحة لك، وتظهر منطقة داكنة داخل شريط القدرة على التحمّل. كُل لتسدّ جوعك. فإن أكلتَ ما يكفي نلتَ ميزة «الشبع». وفي وضع النجاة، إن أكلتَ لحماً نيّئاً فقد تصاب بالتسمم الغذائي، الذي قد يمنعك من نيل فوائد الطعام للصحة حتى يزول أثره.\n\nالطعام\nبوجه عام، الطعام المطهوّ يسدّ الجوع أكثر بكثير من الطعام النيّء. فاحرص على إعداد بضع وجبات قبل الانطلاق في مغامرتك التالية. ويمكن الآن طهو الحساء الساخن باستخدام أملاح النار، وهو يخفّف بردك ويمنحك زيادة في معدّل دفئك أيضاً.\n\nالإرهاق\nحتى أشجع المغامرين يحتاجون إلى الراحة بين حين وآخر. والإرهاق ينقص الطاقة السحرية المتاحة لك، وتظهر منطقة داكنة داخل شريط الطاقة السحرية. وكلما اشتد إرهاقك تراجعت فعالية الجرعات، وضعفت قدرتك على استعادة الطاقة السحرية والقدرة على التحمّل. وعليك أن تنام في سرير بين حين وآخر لتزيل إرهاقك. وفي وضع النجاة، لم تعد ميزة «الراحة التامة» تُمنح تلقائياً بعد النوم. فإن نمتَ في العراء فلن تنال نوماً مريحاً، وستستيقظ مستنزَفاً في أحسن الأحوال. أما إن نمتَ في سرير تحت سقف فستنال ميزة «الراحة التامة».\n\nالنجاة: البرد والدفء والمياه المتجمدة\n\nالبرد\nصار برد سكايرم القارس الآن عدواً مرهوباً بحد ذاته. فالسفر في المناطق الثلجية أو الماطرة يزيد بردك. والبرد ينقص الصحة المتاحة لك، وتظهر منطقة داكنة داخل شريط الصحة. وكلما اشتد بردك تراجعت سرعة حركتك وقدرتك على فتح الأقفال والنشل. وإن بلغتَ أعلى درجات البرد، تنخفض صحتك إلى 0 وتموت من التعرّض للعوامل الجوية. ويمكنك أن تدفأ بالوقوف قرب نار، أو تناول حساء ساخن، أو الانتقال إلى مكان أدفأ. وتظهر أيقونة الشمس أو ندفة الثلج قرب البوصلة لتبيّن ما إذا كنت تزداد دفئاً أو برداً حالياً.\n\nالدفء\nكلما ارتفع معدّل دفئك، أبطأ إحساسك بآثار الأجواء الباردة. ومعظم الملابس والدروع توفّر الدفء، ويظهر ذلك في وصف الغرض. وبعض الدروع دافئة على نحو استثنائي، وبعضها لا يصلح لحماية مرتديه من الأجواء القاسية. ويمكنك أيضاً رفع معدّل دفئك مؤقتاً بتناول حساء ساخن أو حمل شعلة.\n\nالمياه المتجمدة\nالسباحة في نهر جليدي قد تكون موتاً سريعاً. فإن سبحتَ في منطقة متجمدة ازداد بردك فوراً وبدأت صحتك تتضرر. اخرج من الماء في أسرع وقت لتبدأ الدفء ويتوقف نقص صحتك. واستخدام تعويذة «عباءة اللهب» أو قدرة الدنمر «غضب الأسلاف» يجعلك محصّناً مؤقتاً من آثار المياه المتجمدة.\n\nالنجاة: الأمراض والعِلل\n\nالأمراض\nصارت المخلوقات في أرجاء البلاد تحمل أمراضاً جديدة خطرة، وصارت الأمراض السابقة أشدّ إنهاكاً. وأكل اللحم غير المطهوّ قد يسبّب الآن التسمم الغذائي. وإن لم تعالج مرضاً، فقد يتطور مع الوقت إلى صورة أخطر.\n\nالعِلل\nالوقت الذي تقضيه وأنت معتلّ يعرّضك لخطر الإصابة بعلّة، تخلّف آثاراً قد تبقى طويلاً بعد تحسّن حالتك. ولا يمكن علاج العِلل مباشرة، لكنها تزول مع الوقت.\n\nالعِلل\nالضعف: تقلّ فعاليتك في استخدام أسلحة القتال القريب وفي صدّ الضرر بترسك.\nالتشوّش: تتجدد الطاقة السحرية والقدرة على التحمّل ببطء أكبر.\nعضة الصقيع: تقلّ فعاليتك في فتح الأقفال والنشل وإلحاق الضرر بالقوس.\n\nالمزارات\nلم تعد المزارات تشفي الأمراض مجاناً؛ فعليك الآن تقديم قربان من الذهب لتنال فوائد المزار. أما المزارات التي تصنعها في بيت بنيته فيمكن استخدامها مجاناً.\n\nالنجاة: الأغراض\n\nالحمولة\nفي وضع النجاة انخفض ما تستطيع حمله انخفاضاً كبيراً. وتجاوز الحمولة يستنزف قدرتك على التحمّل بسرعة ويجعلك ترهَق أسرع بكثير. وصار للسهام ومفاتيح الأقفال وزن.\n\nالمزايا والأحجار القائمة\nصارت ميزة «جيوب إضافية» و«حجر الجواد» يمنحان 50 وحدة حمولة إضافية بدلاً من 100.\n\nالنجاة: مصاصو الدماء والمستذئبون\n\nيستطيع مصاصو الدماء والمستذئبون كلاهما سدّ جوعهم بالتغذّي على ضحاياهم. وفي هيئة المستذئب أو سيد مصاصي الدماء، تكون محصّناً من نقص الصحة بسبب البرد، ويزداد بردك أبطأ بكثير من المعتاد.
+ccqdrsse001-survivalmode|dlstrings|0x000001FF	أصابك داء الترنّح المُقعِد.
+ccqdrsse001-survivalmode|dlstrings|0x00000200	أصابك عفن الدماغ المُقعِد.
+ccqdrsse001-survivalmode|dlstrings|0x00000204	لم تعد الطاقة السحرية تتعافى.
+ccqdrsse001-survivalmode|dlstrings|0x0000020F	أصابتك حمّى كسر العظام الشديدة.
+ccqdrsse001-survivalmode|dlstrings|0x00000213	ينخفض تجدّد التحمّل بنسبة <50>%. الطعام يسدّ الجوع أقل بنسبة <50>%.
+ccqdrsse001-survivalmode|dlstrings|0x00000214	أصابتك الحشرجة المُقعِدة.
+ccqdrsse001-survivalmode|dlstrings|0x00000216	أصابك داء الأبواغ الخضراء المُقعِد.
+ccqdrsse001-survivalmode|dlstrings|0x00000217	أصابك تيبّس المفاصل الشديد.
+ccqdrsse001-survivalmode|dlstrings|0x0000021A	يتطلّب تقديم الذهب في المزارات لنيل البركة.
+ccqdrsse001-survivalmode|dlstrings|0x0000021C	أصابتك الحشرجة الشديدة.
+ccqdrsse001-survivalmode|dlstrings|0x00000220	دمك الخاجيتي يتيح لك أكل اللحم النيء دون خطر المرض.
+ccqdrsse001-survivalmode|dlstrings|0x00000222	أصابك داء آفة العقل المُقعِد.
+ccqdrsse001-survivalmode|dlstrings|0x00000225	أصابك داء آفة العقل الشديد.
+ccqdrsse001-survivalmode|dlstrings|0x00000228	أصابك داء الترنّح الشديد.
+ccqdrsse001-survivalmode|dlstrings|0x0000022A	أصابك داء العفن البني الشديد.
+ccqdrsse001-survivalmode|dlstrings|0x0000022B	أصابك عفن الدماغ الشديد.
+ccqdrsse001-survivalmode|dlstrings|0x0000022C	أصابك تيبّس المفاصل المُقعِد.
+ccqdrsse001-survivalmode|dlstrings|0x0000022D	أصابك داء العفن البني المُقعِد.
+ccqdrsse001-survivalmode|dlstrings|0x0000022E	أصابك داء الأبواغ الخضراء الشديد.
+ccqdrsse001-survivalmode|dlstrings|0x00000232	أصابتك دودة الأمعاء الشديدة.
+ccqdrsse001-survivalmode|dlstrings|0x00000236	يضيف وضع النجاة ميزات وتحديات جديدة إلى أسلوب اللعب، فيحوّل سكايرم إلى أرض من البرد القارس والبرية القاسية.\n\nلتفعيل وضع النجاة، افتح قائمة الإيقاف المؤقت، واختر «الإعدادات»، ثم «أسلوب اللعب»، وفعّل «وضع النجاة». ويمكن تفعيله مع أي مستوى صعوبة. ولأقصى تحدٍّ، استخدمه مع صعوبة «الأستاذ» أو «الأسطوري».\n\nالنجاة: الأساسيات\n\nالبقاء بصحة جيدة\nعليك أن تنتبه لعافيتك العامة بأن تبقى شبعاناً مستريحاً دافئاً. راجع «النجاة: الجوع والطعام والإرهاق» و«النجاة: البرد والدفء والمياه المتجمدة» لمزيد من التفاصيل.\n\nالسفر السريع\nالسفر السريع معطّل. فإن أردتَ الذهاب إلى مكان فعليك الذهاب سيراً. ويمكنك أيضاً ركوب عربة أو قارب إلى وجهتك، لكن انتبه إلى أنك قد تصل جائعاً بردانَ محتاجاً إلى الراحة بعد رحلة طويلة.\n\nتجدد الصحة\nلم تعد صحتك تتجدد تلقائياً. وعليك استخدام تعاويذ الاستشفاء والطعام والجرعات لاستعادة صحتك.\n\nالارتقاء مستوى\nلترتقي مستوى، عليك الآن أن تنام في سرير. ويمكنك إنفاق نقاط المزايا لاحقاً بعد أن تُمنح لك عقب النوم.\n\nإدارة المتاع\nصرتَ تستطيع حمل أغراض أقل بكثير. راجع مدخل «النجاة: الأغراض» لمزيد من التفاصيل.\n\nالنجاة: الجوع والطعام والإرهاق\n\nالجوع\nمع مرور الوقت ستجوع، مما يؤثر في قدرتك الكلية على التحمّل وفي قدرتك على استخدام معظم الأسلحة. وكلما اشتد جوعك نقصت القدرة على التحمّل المتاحة لك، وتظهر منطقة داكنة داخل شريط القدرة على التحمّل. كُل لتسدّ جوعك. فإن أكلتَ ما يكفي نلتَ ميزة «الشبع». وفي وضع النجاة، إن أكلتَ لحماً نيّئاً فقد تصاب بالتسمم الغذائي، الذي قد يمنعك من نيل فوائد الطعام للصحة حتى يزول أثره.\n\nالطعام\nبوجه عام، الطعام المطهوّ يسدّ الجوع أكثر بكثير من الطعام النيّء. فاحرص على إعداد بضع وجبات قبل الانطلاق في مغامرتك التالية. ويمكن الآن طهو الحساء الساخن باستخدام أملاح النار، وهو يخفّف بردك ويمنحك زيادة في معدّل دفئك أيضاً.\n\nالإرهاق\nحتى أشجع المغامرين يحتاجون إلى الراحة بين حين وآخر. والإرهاق ينقص الطاقة السحرية المتاحة لك، وتظهر منطقة داكنة داخل شريط الطاقة السحرية. وكلما اشتد إرهاقك تراجعت فعالية الجرعات، وضعفت قدرتك على استعادة الطاقة السحرية والقدرة على التحمّل. وعليك أن تنام في سرير بين حين وآخر لتزيل إرهاقك. وفي وضع النجاة، لم تعد ميزة «الراحة التامة» تُمنح تلقائياً بعد النوم. فإن نمتَ في العراء فلن تنال نوماً مريحاً، وستستيقظ مستنزَفاً في أحسن الأحوال. أما إن نمتَ في سرير تحت سقف فستنال ميزة «الراحة التامة».\n\nالنجاة: البرد والدفء والمياه المتجمدة\n\nالبرد\nصار برد سكايرم القارس الآن عدواً مرهوباً بحد ذاته. فالسفر في المناطق الثلجية أو الماطرة يزيد بردك. والبرد ينقص الصحة المتاحة لك، وتظهر منطقة داكنة داخل شريط الصحة. وكلما اشتد بردك تراجعت سرعة حركتك وقدرتك على فتح الأقفال والنشل. وإن بلغتَ أعلى درجات البرد، تنخفض صحتك إلى 0 وتموت من التعرّض للعوامل الجوية. ويمكنك أن تدفأ بالوقوف قرب نار، أو تناول حساء ساخن، أو الانتقال إلى مكان أدفأ. وتظهر أيقونة الشمس أو ندفة الثلج قرب البوصلة لتبيّن ما إذا كنت تزداد دفئاً أو برداً حالياً.\n\nالدفء\nكلما ارتفع معدّل دفئك، أبطأ إحساسك بآثار الأجواء الباردة. ومعظم الملابس والدروع توفّر الدفء، ويظهر ذلك في وصف الغرض. وبعض الدروع دافئة على نحو استثنائي، وبعضها لا يصلح لحماية مرتديه من الأجواء القاسية. ويمكنك أيضاً رفع معدّل دفئك مؤقتاً بتناول حساء ساخن أو حمل شعلة.\n\nالمياه المتجمدة\nالسباحة في نهر جليدي قد تكون موتاً سريعاً. فإن سبحتَ في منطقة متجمدة ازداد بردك فوراً وبدأت صحتك تتضرر. اخرج من الماء في أسرع وقت لتبدأ الدفء ويتوقف نقص صحتك. واستخدام تعويذة «عباءة اللهب» أو قدرة الدنمر «غضب الأسلاف» يجعلك محصّناً مؤقتاً من آثار المياه المتجمدة.\n\nالنجاة: الأمراض والعِلل\n\nالأمراض\nصارت المخلوقات في أرجاء البلاد تحمل أمراضاً جديدة خطرة، وصارت الأمراض السابقة أشدّ إنهاكاً. وأكل اللحم غير المطهوّ قد يسبّب الآن التسمم الغذائي. وإن لم تعالج مرضاً، فقد يتطور مع الوقت إلى صورة أخطر.\n\nالعِلل\nالوقت الذي تقضيه وأنت معتلّ يعرّضك لخطر الإصابة بعلّة، تخلّف آثاراً قد تبقى طويلاً بعد تحسّن حالتك. ولا يمكن علاج العِلل مباشرة، لكنها تزول مع الوقت.\n\nالعِلل\nالضعف: تقلّ فعاليتك في استخدام أسلحة القتال القريب وفي صدّ الضرر بترسك.\nالتشوّش: تتجدد الطاقة السحرية والقدرة على التحمّل ببطء أكبر.\nعضة الصقيع: تقلّ فعاليتك في فتح الأقفال والنشل وإلحاق الضرر بالقوس.\n\nالمزارات\nلم تعد المزارات تشفي الأمراض مجاناً؛ فعليك الآن تقديم قربان من الذهب لتنال فوائد المزار. أما المزارات التي تصنعها في بيت بنيته فيمكن استخدامها مجاناً.\n\nالنجاة: الأغراض\n\nالحمولة\nفي وضع النجاة انخفض ما تستطيع حمله انخفاضاً كبيراً. وتجاوز الحمولة يستنزف قدرتك على التحمّل بسرعة ويجعلك ترهَق أسرع بكثير. وصار للسهام ومفاتيح الأقفال وزن.\n\nالمزايا والأحجار القائمة\nصارت ميزة «جيوب إضافية» و«حجر الجواد» يمنحان 50 وحدة حمولة إضافية بدلاً من 100.\n\nالنجاة: مصاصو الدماء والمستذئبون\n\nيستطيع مصاصو الدماء والمستذئبون كلاهما سدّ جوعهم بالتغذّي على ضحاياهم. وفي هيئة المستذئب أو سيد مصاصي الدماء، تكون محصّناً من نقص الصحة بسبب البرد، ويزداد بردك أبطأ بكثير من المعتاد.
+ccqdrsse001-survivalmode|dlstrings|0x00000239	يقلّل إجمالي صحة اللاعب وطاقته السحرية وتحمّله بما يتناسب مع احتياجاته.
+ccqdrsse001-survivalmode|dlstrings|0x0000023B	أصابتك حمّى كسر العظام المُقعِدة.
+ccqdrsse001-survivalmode|dlstrings|0x00000240	يقلّل فوائد الجرعات عند الإنهاك.
+ccqdrsse001-survivalmode|dlstrings|0x00000245	أصابك الوهن المُقعِد.
+ccqdrsse001-survivalmode|dlstrings|0x00000292	أنت جائع قليلاً.
+ccqdrsse001-survivalmode|dlstrings|0x00000293	وضع النجاة\n\nيضيف وضع النجاة الحاجة إلى الأكل والنوم والبقاء دافئاً. ويضيف أيضاً تحديات أخرى، مثل إلغاء السفر السريع، وتقليل ما تستطيع حمله، والارتقاء مستوى عند النوم فقط. راجع مدخل «وضع النجاة» في المساعدة للتفاصيل.\n\nأتفعّل وضع النجاة؟\n\n(يمكنك تفعيل وضع النجاة أو إيقافه في أي وقت من قائمة إعدادات أسلوب اللعب.)
+ccqdrsse001-survivalmode|dlstrings|0x000002A2	أنت دافئ ومرتاح.
+ccqdrsse001-survivalmode|dlstrings|0x000002A7	تنخفض الصحة الكلية. تتحرك أبطأ بنسبة <10>%. فتح الأقفال والنشل أصعب بنسبة <30>%.
+ccqdrsse001-survivalmode|dlstrings|0x000002AD	ينخفض تجدّد التحمّل بنسبة <75>%. الطعام يسدّ الجوع أقل بنسبة <75>%.
+ccqdrsse001-survivalmode|dlstrings|0x00010467	استدعِ قوة الهيست لاستعادة الصحة أسرع بعشرة أضعاف لمدة <60> ثانية.
+ccqdrsse001-survivalmode|strings|0x00000005	ينخفض تجدّد الطاقة السحرية بنسبة <mag>%.
+ccqdrsse001-survivalmode|strings|0x00000007	الجوع - شبعان تماماً
+ccqdrsse001-survivalmode|strings|0x00000017	حجر الجواد
+ccqdrsse001-survivalmode|strings|0x0000001B	مقاومة الإرهاق
+ccqdrsse001-survivalmode|strings|0x0000001F	مستنزَف
+ccqdrsse001-survivalmode|strings|0x00000032	فطيرة التفاح المحشوة
+ccqdrsse001-survivalmode|strings|0x00000033	الصامد
+ccqdrsse001-survivalmode|strings|0x0000003B	أنت أسهل كشفاً بنسبة <mag>%.
+ccqdrsse001-survivalmode|strings|0x00000049	يتضوّر جوعاً
+ccqdrsse001-survivalmode|strings|0x0000004A	إشباع الجوع كبير
+ccqdrsse001-survivalmode|strings|0x0000004B	إشباع الجوع صغير
+ccqdrsse001-survivalmode|strings|0x0000004C	[SURV=يخفّف البرد بمقدار <mag> نقطة.]
+ccqdrsse001-survivalmode|strings|0x0000004D	استعادة الدفء
+ccqdrsse001-survivalmode|strings|0x0000004F	[SURV=يسدّ الجوع بمقدار <18> نقطة.]
+ccqdrsse001-survivalmode|strings|0x00000050	إشباع الجوع صغير جداً
+ccqdrsse001-survivalmode|strings|0x00000051	[SURV=يسدّ الجوع بمقدار <220> نقطة.]
+ccqdrsse001-survivalmode|strings|0x00000053	تعزيز الدفء
+ccqdrsse001-survivalmode|strings|0x00000054	إشباع الجوع متوسط
+ccqdrsse001-survivalmode|strings|0x00000055	[SURV=يسدّ الجوع بمقدار <380> نقطة.]
+ccqdrsse001-survivalmode|strings|0x00000058	شبعان تماماً
+ccqdrsse001-survivalmode|strings|0x0000005E	استعادة الصحة
+ccqdrsse001-survivalmode|strings|0x0000005F	تعزيز الدفء
+ccqdrsse001-survivalmode|strings|0x00000060	زبدة
+ccqdrsse001-survivalmode|strings|0x00000062	مريح
+ccqdrsse001-survivalmode|strings|0x00000066	لا
+ccqdrsse001-survivalmode|strings|0x00000068	الجوع - شبعان
+ccqdrsse001-survivalmode|strings|0x0000006B	شبعان
+ccqdrsse001-survivalmode|strings|0x00000074	ينخفض تجدّد التحمّل بنسبة <mag>%.
+ccqdrsse001-survivalmode|strings|0x00000079	جائع
+ccqdrsse001-survivalmode|strings|0x0000007B	فتح الأقفال والنشل أصعب بنسبة <mag>%.
+ccqdrsse001-survivalmode|strings|0x00000082	بارد قليلاً
+ccqdrsse001-survivalmode|strings|0x00000084	تقليل الحمولة
+ccqdrsse001-survivalmode|strings|0x00000085	الضعف أمام البرد
+ccqdrsse001-survivalmode|strings|0x0000008B	منهَك
+ccqdrsse001-survivalmode|strings|0x00000096	ضرر الصحة
+ccqdrsse001-survivalmode|strings|0x0000009C	استعادة <mag> نقطة صحة.
+ccqdrsse001-survivalmode|strings|0x000000A0	الضعف أمام الإرهاق
+ccqdrsse001-survivalmode|strings|0x000000AD	مقاومة الجوع
+ccqdrsse001-survivalmode|strings|0x000000B1	الإرهاق - منتعش
+ccqdrsse001-survivalmode|strings|0x000000B8	نبيذ الإخوة سوريلي
+ccqdrsse001-survivalmode|strings|0x000000C0	مُجهَد
+ccqdrsse001-survivalmode|strings|0x000000C8	أنت أقل فعالية بأسلحة الالتحام بنسبة <mag>%.
+ccqdrsse001-survivalmode|strings|0x000000CA	نعم
+ccqdrsse001-survivalmode|strings|0x000000DB	التجميد
+ccqdrsse001-survivalmode|strings|0x000000DC	جيوب إضافية
+ccqdrsse001-survivalmode|strings|0x000000DF	الضعف أمام البرد
+ccqdrsse001-survivalmode|strings|0x000000E7	شريحة سلمون
+ccqdrsse001-survivalmode|strings|0x000000EC	دافئ
+ccqdrsse001-survivalmode|strings|0x000000FC	جيوب إضافية
+ccqdrsse001-survivalmode|strings|0x000000FF	النظام الغذائي النيء
+ccqdrsse001-survivalmode|strings|0x00000111	بارد جداً
+ccqdrsse001-survivalmode|strings|0x00000114	مقاومة الإرهاق
+ccqdrsse001-survivalmode|strings|0x00000118	البرد - مريح
+ccqdrsse001-survivalmode|strings|0x0000011E	فتح أقفال ونشل مخفَّضان
+ccqdrsse001-survivalmode|strings|0x0000011F	منتعش
+ccqdrsse001-survivalmode|strings|0x00000121	مقاومة الإرهاق
+ccqdrsse001-survivalmode|strings|0x00000122	مخدَّر
+ccqdrsse001-survivalmode|strings|0x00000125	الصد يمتص ضرراً أقل بنسبة <mag>%.
+ccqdrsse001-survivalmode|strings|0x00000126	الأقواس تُلحق ضرراً أقل بنسبة <mag>%.
+ccqdrsse001-survivalmode|strings|0x00000128	النظام الغذائي النيء
+ccqdrsse001-survivalmode|strings|0x0000012C	كروستاتا الجازباي
+ccqdrsse001-survivalmode|strings|0x00000135	جائع قليلاً
+ccqdrsse001-survivalmode|strings|0x00000137	تعزيز الدفء
+ccqdrsse001-survivalmode|strings|0x00000138	تعزيز الدفء
+ccqdrsse001-survivalmode|strings|0x00000143	الماء المتجمّد
+ccqdrsse001-survivalmode|strings|0x0000014B	متعب
+ccqdrsse001-survivalmode|strings|0x0000014E	مقاومة الإرهاق
+ccqdrsse001-survivalmode|strings|0x00000154	كيس الطحين
+ccqdrsse001-survivalmode|strings|0x00000155	تناول الحساء الساخن يدفئك فوراً ويزيد مقاومتك للأجواء الباردة.
+ccqdrsse001-survivalmode|strings|0x00000156	إبطاء تجدّد التحمّل
+ccqdrsse001-survivalmode|strings|0x00000157	كروستاتا توت الثلج
+ccqdrsse001-survivalmode|strings|0x00000159	الرنح
+ccqdrsse001-survivalmode|strings|0x0000015A	البرد يصعّب عليك الحركة السريعة وفتح الأقفال والنشل.
+ccqdrsse001-survivalmode|strings|0x0000015B	ملسوع بالصقيع
+ccqdrsse001-survivalmode|strings|0x0000015D	لا
+ccqdrsse001-survivalmode|strings|0x0000015E	الإرهاق
+ccqdrsse001-survivalmode|strings|0x0000015F	تناول ما يكفي من الطعام يمنحك ميزة «الشبع».
+ccqdrsse001-survivalmode|strings|0x00000160	الجوع
+ccqdrsse001-survivalmode|strings|0x00000165	البرد
+ccqdrsse001-survivalmode|strings|0x00000168	حاول أن تستريح قبل الشروع في مغامرة طويلة. فلا تدري متى تسنح لك فرصة النوم مجدداً.
+ccqdrsse001-survivalmode|strings|0x0000016D	دودة الأمعاء
+ccqdrsse001-survivalmode|strings|0x00000171	الترهّل
+ccqdrsse001-survivalmode|strings|0x00000176	مهارات سلاح مخفَّضة
+ccqdrsse001-survivalmode|strings|0x00000177	يستطيع الأرغونيون والخاجيت أكل اللحم النيّء دون أن يصابوا بالتسمم الغذائي.
+ccqdrsse001-survivalmode|strings|0x00000179	أنت أقل فعالية بأسلحة الالتحام بنسبة <25>%. يتطوّر إلى تصلّب المفاصل الحاد.
+ccqdrsse001-survivalmode|strings|0x0000017B	مُجهَد
+ccqdrsse001-survivalmode|strings|0x0000017C	العفن البني
+ccqdrsse001-survivalmode|strings|0x0000017E	ضرر أسلحة اليد الواحدة واليدين أقل بنسبة <15>%. يتطوّر إلى الترهّل الحاد.
+ccqdrsse001-survivalmode|strings|0x00000180	أنت أقل فعالية بأسلحة الالتحام بنسبة <mag>%.
+ccqdrsse001-survivalmode|strings|0x00000182	مهارات سلاح مخفَّضة
+ccqdrsse001-survivalmode|strings|0x0000018A	حين تجوع تصبح ضرباتك بالسلاح أبطأ، ويصدّ ترسك قدراً أقل من الضرر.
+ccqdrsse001-survivalmode|strings|0x0000018B	تصلّب المفاصل
+ccqdrsse001-survivalmode|strings|0x0000018C	استعادة <mag> نقطة صحة في الثانية لمدة <dur> ثانية.
+ccqdrsse001-survivalmode|strings|0x0000018D	فتح أقفال ونشل مخفَّضان
+ccqdrsse001-survivalmode|strings|0x0000018E	ما وراء العالم
+ccqdrsse001-survivalmode|strings|0x0000018F	ضرر سلاح مخفَّض
+ccqdrsse001-survivalmode|strings|0x00000190	الطقس في الليل أبرد منه في النهار.
+ccqdrsse001-survivalmode|strings|0x00000192	فتح الأقفال والنشل أصعب بنسبة <mag>%.
+ccqdrsse001-survivalmode|strings|0x00000194	الوقوف قرب النار يمنحك ميزة «الدفء».
+ccqdrsse001-survivalmode|strings|0x0000019A	بوجه عام، الطعام المطهوّ يسدّ الجوع أكثر بكثير من الطعام النيّء.
+ccqdrsse001-survivalmode|strings|0x0000019B	نعم
+ccqdrsse001-survivalmode|strings|0x0000019D	النورديون أشدّ سكان سكايرم مقاومةً للأجواء الباردة.
+ccqdrsse001-survivalmode|strings|0x0000019F	إذا أرهقك التعب فلن تستعيد الطاقة السحرية أو القدرة على التحمّل بالسهولة نفسها.
+ccqdrsse001-survivalmode|strings|0x000001A0	ضرر أسلحة اليد الواحدة واليدين أقل بنسبة <mag>%.
+ccqdrsse001-survivalmode|strings|0x000001A1	مشوّش
+ccqdrsse001-survivalmode|strings|0x000001A2	ضرر سلاح مخفَّض
+ccqdrsse001-survivalmode|strings|0x000001A4	الأسعار أسوأ بنسبة <25>%. الإقناع والترهيب أصعب بنسبة <25>%. يتطوّر إلى البوغ الأخضر الحاد.
+ccqdrsse001-survivalmode|strings|0x000001A5	فتح أقفال ونشل مخفَّضان
+ccqdrsse001-survivalmode|strings|0x000001A6	البوغ الأخضر
+ccqdrsse001-survivalmode|strings|0x000001A7	بعض الدروع، كدروع الفرو وحراشف التنين، توفّر حماية إضافية من البرد.
+ccqdrsse001-survivalmode|strings|0x000001A8	الرنح
+ccqdrsse001-survivalmode|strings|0x000001A9	التسمّم الغذائي
+ccqdrsse001-survivalmode|strings|0x000001AE	حمولة زائدة
+ccqdrsse001-survivalmode|strings|0x000001AF	تصلّب المفاصل
+ccqdrsse001-survivalmode|strings|0x000001B4	ضرر التحمّل
+ccqdrsse001-survivalmode|strings|0x000001BB	منهَك
+ccqdrsse001-survivalmode|strings|0x000001BD	دودة الأمعاء
+ccqdrsse001-survivalmode|strings|0x000001BF	فتح الأقفال والنشل أصعب بنسبة <25>%. يتطوّر إلى الرنح الحاد.
+ccqdrsse001-survivalmode|strings|0x000001C0	استعادة الصحة
+ccqdrsse001-survivalmode|strings|0x000001C1	خطابة مخفَّضة
+ccqdrsse001-survivalmode|strings|0x000001C2	إبطاء تجدّد الصحة
+ccqdrsse001-survivalmode|strings|0x000001C5	العفن البني
+ccqdrsse001-survivalmode|strings|0x000001C6	مُضعَف
+ccqdrsse001-survivalmode|strings|0x000001C7	ما وراء العالم
+ccqdrsse001-survivalmode|strings|0x000001C8	النوم في العراء ليس مريحاً كالنوم في سرير تحت سقف.
+ccqdrsse001-survivalmode|strings|0x000001C9	يتجدّد التحمّل أبطأ بنسبة <mag>%.
+ccqdrsse001-survivalmode|strings|0x000001CE	متعب
+ccqdrsse001-survivalmode|strings|0x000001D1	دودة الأمعاء المُقعِدة
+ccqdrsse001-survivalmode|strings|0x000001D5	يستنزف <75> نقطة من التحمّل.
+ccqdrsse001-survivalmode|strings|0x000001D6	حمى كسر العظام الحادة
+ccqdrsse001-survivalmode|strings|0x000001D7	العفن البني المُقعِد
+ccqdrsse001-survivalmode|strings|0x000001D8	يتعافى التحمّل أبطأ بنسبة <75>%. يتطوّر إلى الحشرجة المُقعِدة.
+ccqdrsse001-survivalmode|strings|0x000001D9	كل المهارات تتحسّن أسرع بنسبة <5>%.
+ccqdrsse001-survivalmode|strings|0x000001DA	إضعاف الإنهاك من المستهلكات
+ccqdrsse001-survivalmode|strings|0x000001DB	فتح أقفال ونشل مخفَّضان
+ccqdrsse001-survivalmode|strings|0x000001DD	العفن البني الحاد
+ccqdrsse001-survivalmode|strings|0x000001DE	الجوع - يتضوّر جوعاً
+ccqdrsse001-survivalmode|strings|0x000001DF	حساء المحار
+ccqdrsse001-survivalmode|strings|0x000001E0	آفة العقل الحادة
+ccqdrsse001-survivalmode|strings|0x000001E1	الإرهاق - متعب
+ccqdrsse001-survivalmode|strings|0x000001E2	فتح الأقفال والنشل أصعب بنسبة <50>%. يتطوّر إلى الرنح المُقعِد.
+ccqdrsse001-survivalmode|strings|0x000001E3	البوغ الأخضر المُقعِد
+ccqdrsse001-survivalmode|strings|0x000001E4	يستنزف <50> نقطة من التحمّل. يتطوّر إلى حمى كسر العظام المُقعِدة.
+ccqdrsse001-survivalmode|strings|0x000001E5	الترهّل الحاد
+ccqdrsse001-survivalmode|strings|0x000001E6	يستنزف <50> نقطة من الطاقة السحرية. يتطوّر إلى عفن الدماغ المُقعِد.
+ccqdrsse001-survivalmode|strings|0x000001E7	تجدّد طاقة سحرية مخفَّض
+ccqdrsse001-survivalmode|strings|0x000001E8	تتعافى الطاقة السحرية بنصف السرعة. يتطوّر إلى آفة العقل الحادة.
+ccqdrsse001-survivalmode|strings|0x000001E9	مشعل
+ccqdrsse001-survivalmode|strings|0x000001EA	ملسوع بالصقيع
+ccqdrsse001-survivalmode|strings|0x000001EC	حساء المحار الساخن
+ccqdrsse001-survivalmode|strings|0x000001ED	تصلّب المفاصل المُقعِد
+ccqdrsse001-survivalmode|strings|0x000001EE	تجدّد تحمّل مخفَّض
+ccqdrsse001-survivalmode|strings|0x000001F0	دودة الأمعاء المُقعِدة
+ccqdrsse001-survivalmode|strings|0x000001F1	حساء الملفوف الساخن
+ccqdrsse001-survivalmode|strings|0x000001F2	النظام الغذائي النيء
+ccqdrsse001-survivalmode|strings|0x000001F3	ينخفض تجدّد التحمّل بنسبة <25>%. الطعام يخفّف الجوع أقل بنسبة <25>%. يتطوّر إلى دودة الأمعاء الحادة.
+ccqdrsse001-survivalmode|strings|0x000001F4	الأسعار أسوأ بنسبة <50>%. الإقناع والترهيب أصعب بنسبة <50>%. يتطوّر إلى البوغ الأخضر المُقعِد.
+ccqdrsse001-survivalmode|strings|0x000001F5	أنت أقل فعالية بأسلحة الالتحام بنسبة <75>%.
+ccqdrsse001-survivalmode|strings|0x000001F6	يخنة لحم البقر
+ccqdrsse001-survivalmode|strings|0x000001F7	الجوع - جائع جداً
+ccqdrsse001-survivalmode|strings|0x000001F8	فتح أقفال ونشل مخفَّضان
+ccqdrsse001-survivalmode|strings|0x000001F9	عفن الدماغ الحاد
+ccqdrsse001-survivalmode|strings|0x000001FA	حساء الخضار الساخن
+ccqdrsse001-survivalmode|strings|0x000001FB	ضرر الطاقة السحرية
+ccqdrsse001-survivalmode|strings|0x000001FC	الرنح المُقعِد
+ccqdrsse001-survivalmode|strings|0x000001FD	الإرهاق - مُجهَد
+ccqdrsse001-survivalmode|strings|0x00000201	البرد - بارد جداً
+ccqdrsse001-survivalmode|strings|0x00000202	يستنزف <25> نقطة من التحمّل. يتطوّر إلى حمى كسر العظام الحادة.
+ccqdrsse001-survivalmode|strings|0x00000203	تجدّد تحمّل مخفَّض
+ccqdrsse001-survivalmode|strings|0x00000205	تجدّد طاقة سحرية مخفَّض
+ccqdrsse001-survivalmode|strings|0x00000206	مهارات سلاح مخفَّضة
+ccqdrsse001-survivalmode|strings|0x00000208	حساء الخضار
+ccqdrsse001-survivalmode|strings|0x00000209	يخنة هوركر
+ccqdrsse001-survivalmode|strings|0x0000020A	الحشرجة الحادة
+ccqdrsse001-survivalmode|strings|0x0000020C	العفن البني الحاد
+ccqdrsse001-survivalmode|strings|0x0000020D	الأسعار أسوأ بنسبة <75>%. الإقناع والترهيب أصعب بنسبة <75>%.
+ccqdrsse001-survivalmode|strings|0x0000020E	الحشرجة المُقعِدة
+ccqdrsse001-survivalmode|strings|0x00000210	حمى كسر العظام المُقعِدة
+ccqdrsse001-survivalmode|strings|0x00000211	تجدّد طاقة سحرية مخفَّض
+ccqdrsse001-survivalmode|strings|0x00000212	الجوع - جائع قليلاً
+ccqdrsse001-survivalmode|strings|0x00000215	البوغ الأخضر الحاد
+ccqdrsse001-survivalmode|strings|0x00000218	ضرر الطاقة السحرية
+ccqdrsse001-survivalmode|strings|0x00000219	تحمّل مخفَّض
+ccqdrsse001-survivalmode|strings|0x0000021B	وضع النجاة
+ccqdrsse001-survivalmode|strings|0x0000021E	ضرر سلاح مخفَّض
+ccqdrsse001-survivalmode|strings|0x00000223	حساء الملفوف والبطاطا
+ccqdrsse001-survivalmode|strings|0x00000224	فتح أقفال ونشل مخفَّضان
+ccqdrsse001-survivalmode|strings|0x00000226	دودة الأمعاء الحادة
+ccqdrsse001-survivalmode|strings|0x00000227	تقليل معدلات التجدّد
+ccqdrsse001-survivalmode|strings|0x00000229	يتعافى التحمّل بنصف السرعة. يتطوّر إلى الحشرجة الحادة.
+ccqdrsse001-survivalmode|strings|0x0000022F	يخنة لحم الغزال الساخنة
+ccqdrsse001-survivalmode|strings|0x00000230	حساء البطاطا
+ccqdrsse001-survivalmode|strings|0x00000231	ضرر سلاح مخفَّض
+ccqdrsse001-survivalmode|strings|0x00000235	وضع النجاة
+ccqdrsse001-survivalmode|strings|0x00000237	الدروع الخفيفة والثقيلة تمنع ضرراً أقل بنسبة <75>%. النوم أقل راحة بنسبة <75>%.
+ccqdrsse001-survivalmode|strings|0x0000023C	آفة العقل المُقعِدة
+ccqdrsse001-survivalmode|strings|0x00000243	فتح الأقفال والنشل أصعب بنسبة <25>%. يتطوّر إلى الرنح الحاد.
+ccqdrsse001-survivalmode|strings|0x00000244	تتعافى الطاقة السحرية بنصف السرعة. يتطوّر إلى آفة العقل الحادة.
+ccqdrsse001-survivalmode|strings|0x00000246	يستنزف <25> نقطة من الطاقة السحرية. يتطوّر إلى عفن الدماغ الحاد.
+ccqdrsse001-survivalmode|strings|0x00000249	حساء البطاطا الساخن
+ccqdrsse001-survivalmode|strings|0x0000024A	الترهّل المُقعِد
+ccqdrsse001-survivalmode|strings|0x0000024B	عفن الدماغ المُقعِد
+ccqdrsse001-survivalmode|strings|0x0000024C	يخنة التفاح والملفوف
+ccqdrsse001-survivalmode|strings|0x0000024D	يخنة الهوركر الساخنة
+ccqdrsse001-survivalmode|strings|0x0000024E	يخنة لحم البقر الساخنة
+ccqdrsse001-survivalmode|strings|0x0000024F	يخنة التفاح والملفوف الساخنة
+ccqdrsse001-survivalmode|strings|0x00000250	يزداد الدفء بمقدار <mag> نقطة.
+ccqdrsse001-survivalmode|strings|0x00000251	يخنة الهوركر وبطاطا الرماد الساخنة
+ccqdrsse001-survivalmode|strings|0x00000252	حساء الطماطم الساخن
+ccqdrsse001-survivalmode|strings|0x00000253	حساء الطماطم
+ccqdrsse001-survivalmode|strings|0x00000254	يخنة لحم الغزال
+ccqdrsse001-survivalmode|strings|0x00000255	البرد - مخدَّر
+ccqdrsse001-survivalmode|strings|0x00000256	حساء الملفوف والبطاطا الساخن
+ccqdrsse001-survivalmode|strings|0x00000257	تحمّل مخفَّض
+ccqdrsse001-survivalmode|strings|0x00000258	مشوّش
+ccqdrsse001-survivalmode|strings|0x00000259	الرنح الحاد
+ccqdrsse001-survivalmode|strings|0x0000025A	أنت أقل فعالية بأسلحة الالتحام بنسبة <50>%. يتطوّر إلى تصلّب المفاصل المُقعِد.
+ccqdrsse001-survivalmode|strings|0x0000025B	يستنزف <75> نقطة من الطاقة السحرية.
+ccqdrsse001-survivalmode|strings|0x0000025D	كل المهارات تتحسّن أسرع بنسبة <15>%.
+ccqdrsse001-survivalmode|strings|0x0000025E	ينخفض تجدّد التحمّل بنسبة <75>%. الطعام يخفّف الجوع أقل بنسبة <75>%.
+ccqdrsse001-survivalmode|strings|0x0000025F	لم يعد التحمّل يتعافى.
+ccqdrsse001-survivalmode|strings|0x00000260	فتح الأقفال والنشل أصعب بنسبة <75>%.
+ccqdrsse001-survivalmode|strings|0x00000261	البرد - بارد قليلاً
+ccqdrsse001-survivalmode|strings|0x00000262	العفن البني المُقعِد
+ccqdrsse001-survivalmode|strings|0x00000263	يستنزف <25> نقطة من الطاقة السحرية. يتطوّر إلى عفن الدماغ الحاد.
+ccqdrsse001-survivalmode|strings|0x00000265	تحمّل مخفَّض
+ccqdrsse001-survivalmode|strings|0x00000266	يستنزف <25> نقطة من التحمّل. يتطوّر إلى حمى كسر العظام الحادة.
+ccqdrsse001-survivalmode|strings|0x00000267	خطابة مخفَّضة
+ccqdrsse001-survivalmode|strings|0x00000268	الدروع الخفيفة والثقيلة تمنع ضرراً أقل بنسبة <25>%. النوم أقل راحة بنسبة <25>%. يتطوّر إلى العفن البني الحاد.
+ccqdrsse001-survivalmode|strings|0x00000269	دودة الأمعاء الحادة
+ccqdrsse001-survivalmode|strings|0x0000026B	ضرر الطاقة السحرية
+ccqdrsse001-survivalmode|strings|0x0000026C	تجدّد تحمّل مخفَّض
+ccqdrsse001-survivalmode|strings|0x0000026D	الإرهاق - مستنزَف
+ccqdrsse001-survivalmode|strings|0x0000026E	الإرهاق - منهَك
+ccqdrsse001-survivalmode|strings|0x0000026F	خطابة مخفَّضة
+ccqdrsse001-survivalmode|strings|0x00000270	الدروع الخفيفة والثقيلة تمنع ضرراً أقل بنسبة <50>%. النوم أقل راحة بنسبة <50>%. يتطوّر إلى العفن البني المُقعِد.
+ccqdrsse001-survivalmode|strings|0x00000272	الجوع - جائع
+ccqdrsse001-survivalmode|strings|0x00000273	تحمّل مخفَّض
+ccqdrsse001-survivalmode|strings|0x00000274	البرد - متجمّد
+ccqdrsse001-survivalmode|strings|0x00000275	تجدّد طاقة سحرية مخفَّض
+ccqdrsse001-survivalmode|strings|0x00000276	أنت أقل فعالية بأسلحة الالتحام بنسبة <25>%. يتطوّر إلى تصلّب المفاصل الحاد.
+ccqdrsse001-survivalmode|strings|0x00000277	لم تعد الطاقة السحرية تتجدّد.
+ccqdrsse001-survivalmode|strings|0x00000278	ضرر أسلحة اليد الواحدة واليدين أقل بنسبة <30>%. يتطوّر إلى الترهّل المُقعِد.
+ccqdrsse001-survivalmode|strings|0x00000279	يتعافى التحمّل بنصف السرعة. يتطوّر إلى الحشرجة الحادة.
+ccqdrsse001-survivalmode|strings|0x0000027A	مُضعَف
+ccqdrsse001-survivalmode|strings|0x0000027B	الإرهاق - مرتاح تماماً
+ccqdrsse001-survivalmode|strings|0x0000027C	مهارات سلاح مخفَّضة
+ccqdrsse001-survivalmode|strings|0x0000027D	ضرر الطاقة السحرية
+ccqdrsse001-survivalmode|strings|0x0000027E	ينخفض تجدّد التحمّل بنسبة <50>%. الطعام يخفّف الجوع أقل بنسبة <50>%. يتطوّر إلى دودة الأمعاء المُقعِدة.
+ccqdrsse001-survivalmode|strings|0x0000027F	الإرهاق - سلوى العاشق
+ccqdrsse001-survivalmode|strings|0x00000280	تصلّب المفاصل الحاد
+ccqdrsse001-survivalmode|strings|0x00000283	حمى كسر العظام
+ccqdrsse001-survivalmode|strings|0x00000284	تتعافى الطاقة السحرية أبطأ بنسبة <75>%. يتطوّر إلى آفة العقل المُقعِدة.
+ccqdrsse001-survivalmode|strings|0x00000285	مهارات سلاح مخفَّضة
+ccqdrsse001-survivalmode|strings|0x00000286	تجدّد تحمّل مخفَّض
+ccqdrsse001-survivalmode|strings|0x00000287	الإرهاق - مرتاح
+ccqdrsse001-survivalmode|strings|0x00000288	تعزيز الدفء
+ccqdrsse001-survivalmode|strings|0x00000289	ضرر أسلحة اليد الواحدة واليدين أقل بنسبة <45>%.
+ccqdrsse001-survivalmode|strings|0x0000028A	كل المهارات تتحسّن أسرع بنسبة <10>%.
+ccqdrsse001-survivalmode|strings|0x0000028B	تقليل الطاقة السحرية بمقدار <mag> نقطة.
+ccqdrsse001-survivalmode|strings|0x0000028C	عقوبة سمة التحمّل
+ccqdrsse001-survivalmode|strings|0x0000028D	البرد - دافئ
+ccqdrsse001-survivalmode|strings|0x0000028E	جائع جداً
+ccqdrsse001-survivalmode|strings|0x0000028F	تقليل التحمّل بمقدار <mag> نقطة.
+ccqdrsse001-survivalmode|strings|0x00000290	تحمّل مخفَّض
+ccqdrsse001-survivalmode|strings|0x00000291	مقاومة الصقيع
+ccqdrsse001-survivalmode|strings|0x00000295	فوندو إلسوير الساخن
+ccqdrsse001-survivalmode|strings|0x00000296	[SURV=يسدّ الجوع بمقدار <2> نقطة.]
+ccqdrsse001-survivalmode|strings|0x00000297	أرجل سلطعون طين مطهوة بالبخار
+ccqdrsse001-survivalmode|strings|0x00000298	جرّة حليب
+ccqdrsse001-survivalmode|strings|0x0000029A	عقوبة سمة الطاقة السحرية
+ccqdrsse001-survivalmode|strings|0x0000029B	أرجل سلطعون الطين
+ccqdrsse001-survivalmode|strings|0x0000029C	كروستاتا توت العرعر
+ccqdrsse001-survivalmode|strings|0x0000029D	خبز البطاطا
+ccqdrsse001-survivalmode|strings|0x0000029E	عقوبة سمة الصحة
+ccqdrsse001-survivalmode|strings|0x0000029F	صحة مخفَّضة
+ccqdrsse001-survivalmode|strings|0x000002A1	[SURV=يزداد الدفء بمقدار <mag> نقطة لمدة <dur> ثانية.]
+ccqdrsse001-survivalmode|strings|0x000002A3	طاقة سحرية مخفَّضة
+ccqdrsse001-survivalmode|strings|0x000002A4	تقليل الصحة بمقدار <mag> نقطة.
+ccqdrsse001-survivalmode|strings|0x000002A5	نبيذ الدم الأرغوني
+ccqdrsse001-survivalmode|strings|0x000002A9	التسمّم الغذائي
+ccqdrsse001-survivalmode|strings|0x000002AA	يزداد الدفء بمقدار <mag> نقطة.
+ccqdrsse001-survivalmode|strings|0x000002B2	عفن الدماغ
+ccqdrsse001-survivalmode|strings|0x000002B5	حمى كسر العظام
+ccqdrsse001-survivalmode|strings|0x000002B7	[SURV=مصاصو الدماء يسدّون الجوع بمقدار <380> نقطة.]
+ccqdrsse001-survivalmode|strings|0x000002B8	إشباع جوع مصاص الدماء كبير
+ccqdrsse001-survivalmode|strings|0x000003CE	عفن الدماغ
+ccqdrsse001-survivalmode|strings|0x00000A31	لفافة عباءة اللهب من جزارغو
+ccqdrsse001-survivalmode|strings|0x00000AAB	فطيرة دجاج محشوة
+ccqdrsse001-survivalmode|strings|0x00000C34	فطيرة الخزامى المحشوة
+ccqdrsse001-survivalmode|strings|0x00000C43	بطاطا الرماد
+ccqdrsse001-survivalmode|strings|0x00000DEF	سوجاما
+ccqdrsse001-survivalmode|strings|0x0000100E	فلين
+ccqdrsse001-survivalmode|strings|0x0000107B	شاين
+ccqdrsse001-survivalmode|strings|0x00001087	خبز الفطير
+ccqdrsse001-survivalmode|strings|0x000010EB	سوجاما سادري
+ccqdrsse001-survivalmode|strings|0x00001885	شرائح جبن إيدار
+ccqdrsse001-survivalmode|strings|0x00001CC6	جرعة الدم
+ccqdrsse001-survivalmode|strings|0x00001D13	خبز بالثوم
+ccqdrsse001-survivalmode|strings|0x00001D14	خبز مضفور
+ccqdrsse001-survivalmode|strings|0x00001F4A	عباءة اللهب
+ccqdrsse001-survivalmode|strings|0x00001FDF	عباءة اللهب لجزارغو
+ccqdrsse001-survivalmode|strings|0x000020E7	لحم بقر نيء
+ccqdrsse001-survivalmode|strings|0x000022F7	نبيذ وسم الجمر
+ccqdrsse001-survivalmode|strings|0x000024F3	لفافة عباءة اللهب
+ccqdrsse001-survivalmode|strings|0x000025A6	جعة
+ccqdrsse001-survivalmode|strings|0x000025CE	سلوى العاشق
+ccqdrsse001-survivalmode|strings|0x0000271E	ميد نار الرماد
+ccqdrsse001-survivalmode|strings|0x00002744	جزرة
+ccqdrsse001-survivalmode|strings|0x00002ABE	وجبة منزلية
+ccqdrsse001-survivalmode|strings|0x00002D88	قرص جبن إيدار
+ccqdrsse001-survivalmode|strings|0x00002E35	لحم خنزير بري
+ccqdrsse001-survivalmode|strings|0x00002E38	لحم قافز الرماد
+ccqdrsse001-survivalmode|strings|0x00002E63	يخنة الهوركر وبطاطا الرماد
+ccqdrsse001-survivalmode|strings|0x00002E77	لحم خنزير بري مطهو
+ccqdrsse001-survivalmode|strings|0x00002E94	ساق قافز الرماد
+ccqdrsse001-survivalmode|strings|0x00002EF7	جعة أرغونية
+ccqdrsse001-survivalmode|strings|0x0000374E	براندي كولوفي
+ccqdrsse001-survivalmode|strings|0x000038DC	حلوى الكريمة المسلوقة
+ccqdrsse001-survivalmode|strings|0x00003BBC	برج الذهب الأبيض
+ccqdrsse001-survivalmode|strings|0x000046E4	فيلفيت لوشانس
+ccqdrsse001-survivalmode|strings|0x00004A96	سمكة ذبح محمّرة
+ccqdrsse001-survivalmode|strings|0x00004BEC	ميد نَفَس التنين
+ccqdrsse001-survivalmode|strings|0x00004C9E	الحشرجة
+ccqdrsse001-survivalmode|strings|0x000052CD	كرّاث مشوي
+ccqdrsse001-survivalmode|strings|0x00005784	لحم بقر متبّل
+ccqdrsse001-survivalmode|strings|0x00006A46	تفاحة خضراء
+ccqdrsse001-survivalmode|strings|0x00007153	نبيذ وسم النار
+ccqdrsse001-survivalmode|strings|0x00007244	غضب الأسلاف
+ccqdrsse001-survivalmode|strings|0x00007494	رم سترو مكاي
+ccqdrsse001-survivalmode|strings|0x00007648	آفة العقل
+ccqdrsse001-survivalmode|strings|0x00007C9E	طماطم
+ccqdrsse001-survivalmode|strings|0x000086DD	بطاطا مشوية
+ccqdrsse001-survivalmode|strings|0x00008844	نبيذ ألتو
+ccqdrsse001-survivalmode|strings|0x0000898D	وعاء جبن الماموث
+ccqdrsse001-survivalmode|strings|0x00008E9D	تحمّل مخفَّض
+ccqdrsse001-survivalmode|strings|0x00009690	كعكة الحلوى
+ccqdrsse001-survivalmode|strings|0x00009DD7	نبيذ ألتو
+ccqdrsse001-survivalmode|strings|0x0000A702	متسابق المنحدرات
+ccqdrsse001-survivalmode|strings|0x0000B43F	نبيذ
+ccqdrsse001-survivalmode|strings|0x0000B762	تجدّد تحمّل مخفَّض
+ccqdrsse001-survivalmode|strings|0x0000B83E	ميد بلاك-براير
+ccqdrsse001-survivalmode|strings|0x0000C0AA	براندي سيروديلي
+ccqdrsse001-survivalmode|strings|0x0000C7EF	لحم سكيفر متفحّم
+ccqdrsse001-survivalmode|strings|0x0000CA9C	ميد هونينغبرو
+ccqdrsse001-survivalmode|strings|0x0000D248	شريحة جبن إيدار
+ccqdrsse001-survivalmode|strings|0x0000D298	خبز
+ccqdrsse001-survivalmode|strings|0x0000E019	شريحة جبن ماعز
+ccqdrsse001-survivalmode|strings|0x0000E053	نبيذ
+ccqdrsse001-survivalmode|strings|0x0000E227	قرص جبن ماعز
+ccqdrsse001-survivalmode|strings|0x0000E551	فطيرة التفاح
+ccqdrsse001-survivalmode|strings|0x0000E7CA	كرّاث
+ccqdrsse001-survivalmode|strings|0x0000E7CB	لحم بقر مطهو
+ccqdrsse001-survivalmode|strings|0x0000E92F	حلوى العسل والمكسرات
+ccqdrsse001-survivalmode|strings|0x0000E931	تفاحة حمراء
+ccqdrsse001-survivalmode|strings|0x0000E962	نبيذ متبّل
+ccqdrsse001-survivalmode|strings|0x0000E9A2	ميد نوردي
+ccqdrsse001-survivalmode|strings|0x0000E9D8	شرائح جبن ماعز
+ccqdrsse001-survivalmode|strings|0x0000EAD5	جلد الهيست
+ccqdrsse001-survivalmode|strings|0x0000F1E8	ملفوف
+ccqdrsse001-survivalmode|strings|0x0000F962	حلوى التوفي الطويلة
+ccqdrsse001-survivalmode|strings|0x0000FA5F	بطاطا
+ccqdrsse001-survivalmode|strings|0x0000FA69	تجدّد طاقة سحرية مخفَّض
+ccqdrsse001-survivalmode|strings|0x0000FD41	ضرر الطاقة السحرية
+ccqdrsse001-survivalmode|strings|0x0000FDF0	خبز
+ccqdrsse001-survivalmode|strings|0x0000FE4B	لحم هوركر
+ccqdrsse001-survivalmode|strings|0x0000FE57	فخذ أرنب نيء
+ccqdrsse001-survivalmode|strings|0x0000FE75	لحم سلمون
+ccqdrsse001-survivalmode|strings|0x0000FE9E	رغيف هوركر
+ccqdrsse001-survivalmode|strings|0x0000FEAD	صدر تدرج
+ccqdrsse001-survivalmode|strings|0x0000FEF8	شريحة سلمون
+ccqdrsse001-survivalmode|strings|0x0000FF95	شريحة لحم ماموث
+ccqdrsse001-survivalmode|strings|0x0000FFB0	قطعة لحم غزال
+ccqdrsse001-survivalmode|strings|0x0000FFCB	لحم حصان
+ccqdrsse001-survivalmode|strings|0x0001019C	فخذ حصان
+ccqdrsse001-survivalmode|strings|0x000101A8	خطم ماموث
+ccqdrsse001-survivalmode|strings|0x000101E7	تدرج مشوي
+ccqdrsse001-survivalmode|strings|0x000101EC	لحم غزال
+ccqdrsse001-survivalmode|strings|0x000101F8	ساق الماعز المشوي
+ccqdrsse001-survivalmode|strings|0x000102D2	فخذ أرنب
+ccqdrsse001-survivalmode|strings|0x000102D5	ساق الماعز
+ccqdrsse001-survivalmode|strings|0x000103AE	حساء الملفوف
+ccqdrsse001-survivalmode|strings|0x000103AF	لحم المحار
+ccqdrsse001-survivalmode|strings|0x000104DA	لحم كلب
+ccqdrsse001-survivalmode|strings|0x00010511	ميد بلاك-براير المعتّق
+ccqdrsse001-survivalmode|strings|0x0001054A	فوندو إلسوير
+ccqdrsse001-survivalmode|strings|0x00010670	صدر دجاج مشوي
+ccqdrsse001-survivalmode|strings|0x000106EF	نبيذ جيسيكا
+ccqdrsse001-survivalmode|strings|0x000108AC	صدر دجاج
+ccqdrsse001-survivalmode|strings|0x00010E57	مرتاح تماماً
+ccqdrsse001-survivalmode|strings|0x00010F72	مرتاح
+ccqdrsse001-survivalmode|strings|0x000111E2	خطم ماموث
+ccqdrsse001-survivalmode|strings|0x0001140A	عسل
+ccqdrsse001-survivalmode|strings|0x00011707	ميد بتوت العرعر
+ccqdrsse001-survivalmode|strings|0x0001176D	الوابل المزدوج 30
+ccqdrsse001-survivalmode|strings|0x000118BA	الوابل المزدوج 50
+ccqdrsse001-survivalmode|strings|0x000118F2	تجدّد طاقة سحرية مخفَّض
+ccqdrsse001-survivalmode|strings|0x0001191E	فتح أقفال ونشل مخفَّضان
+ccqdrsse001-survivalmode|strings|0x00011935	حمى كسر العظام
+ccqdrsse001-survivalmode|strings|0x00011976	الحشرجة
+ccqdrsse001-survivalmode|strings|0x00011987	طاقة سحرية مخفَّضة
+ccqdrsse001-survivalmode|strings|0x000119BE	آفة العقل
+ccqdrsse001-survivalmode|strings|0x000119D3	مهارات سلاح مخفَّضة
+ccqdrsse001-survivalmode|strings|0x000119FB	تحمّل مخفَّض
+ccqdrsse001-survivalmode|strings|0x00011A08	تجدّد تحمّل مخفَّض
+ccqdrsse001-survivalmode|strings|0x00011A0B	عفن الدماغ
+ccqdrsse001-survivalmode|strings|0x00011C5A	قرعة
+ccqdrsse001-survivalmode|strings|0x00012183	يتعافى التحمّل بنصف السرعة.
+ccqdrsse001-survivalmode|strings|0x000121F5	تتعافى الطاقة السحرية بنصف السرعة.
+ccqdrsse001-survivalmode|strings|0x0001227D	أنت أقل فعالية بأسلحة الالتحام بنسبة <mag>%.
+ccqdrsse001-survivalmode|strings|0x0001227E	تتعافى الطاقة السحرية بنصف السرعة.
+ccqdrsse001-survivalmode|strings|0x00012284	يستنزف <mag> نقطة من التحمّل.
+ccqdrsse001-survivalmode|strings|0x000122B4	يستنزف <mag> نقطة من الطاقة السحرية.
+ccqdrsse001-survivalmode|strings|0x0001231B	يستنزف <mag> نقطة تحمّل.
+ccqdrsse001-survivalmode|strings|0x00012364	فتح الأقفال والنشل أصعب بنسبة <mag>%.
+ccqdrsse001-survivalmode|strings|0x00012366	يستنزف <mag> نقطة طاقة سحرية.
+ccqdrsse001-survivalmode|strings|0x0001236C	يتعافى التحمّل بنصف السرعة.

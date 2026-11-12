@@ -1,0 +1,98 @@
+{
+ "bartermenu": {
+  "scripts": false,
+  "fields_zeroed": 5
+ },
+ "bookmenu": {
+  "scripts": false,
+  "fields_zeroed": 2
+ },
+ "containermenu": {
+  "scripts": false,
+  "fields_zeroed": 6
+ },
+ "craftingmenu": {
+  "scripts": false,
+  "fields_zeroed": 10
+ },
+ "dialoguemenu": {
+  "scripts": false,
+  "fields_zeroed": 5
+ },
+ "favoritesmenu": {
+  "scripts": false,
+  "fields_zeroed": 2
+ },
+ "giftmenu": {
+  "scripts": false,
+  "fields_zeroed": 3
+ },
+ "hudmenu": {
+  "scripts": true,
+  "fields_zeroed": 15
+ },
+ "inventorymenu": {
+  "scripts": false,
+  "fields_zeroed": 5
+ },
+ "loadingmenu": {
+  "scripts": false,
+  "fields_zeroed": 2
+ },
+ "lockpickingmenu": {
+  "scripts": false,
+  "fields_zeroed": 11
+ },
+ "magicmenu": {
+  "scripts": false,
+  "fields_zeroed": 3
+ },
+ "map": {
+  "scripts": false,
+  "fields_zeroed": 12
+ },
+ "messagebox": {
+  "scripts": false,
+  "fields_zeroed": 2
+ },
+ "quest_journal": {
+  "scripts": true,
+  "fields_zeroed": 50
+ },
+ "racesex_menu": {
+  "scripts": false,
+  "fields_zeroed": 14
+ },
+ "sharedcomponents": {
+  "scripts": false,
+  "fields_zeroed": 3
+ },
+ "sleepwaitmenu": {
+  "scripts": false,
+  "fields_zeroed": 6
+ },
+ "startmenu": {
+  "scripts": false,
+  "fields_zeroed": 23
+ },
+ "statsmenu": {
+  "scripts": false,
+  "fields_zeroed": 18
+ },
+ "textentry": {
+  "scripts": false,
+  "fields_zeroed": 2
+ },
+ "trainingmenu": {
+  "scripts": false,
+  "fields_zeroed": 10
+ },
+ "tutorialmenu": {
+  "scripts": false,
+  "fields_zeroed": 4
+ },
+ "tweenmenu": {
+  "scripts": true,
+  "fields_zeroed": 7
+ }
+}

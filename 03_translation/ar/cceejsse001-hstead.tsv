@@ -1,0 +1,120 @@
+key	arabic
+cceejsse001-hstead|dlstrings|0x0000002F	لا تملك الغرض المطلوب.
+cceejsse001-hstead|dlstrings|0x000000AA	<font face="$HandwrittenFont">\n<font size='24'><p align='center'>ضيعة للبيع</p></font>\n<font size='18'><p>هذا البيت، وما يحيط به، معروض للشراء.\n\nعشت مغامرات عزيزة كثيرة في سكايرم، لكنني الآن أخشى أنني يجب أن أتركها خلفي. جعلت الحرب الحياة صعبة علينا جميعاً، وأخشى أن الأسوأ لم يأتِ بعد.\n\nأوكلت إلى الوكيل في دراغونزريتش إدارة بيع ضيعتي. إن كنت مهتماً، فأرجو أن تبحث عنه.</p></font>
+cceejsse001-hstead|strings|0x00000005	جراب الصيدلي
+cceejsse001-hstead|strings|0x00000006	ضيعة التندرا
+cceejsse001-hstead|strings|0x00000009	سرير
+cceejsse001-hstead|strings|0x0000000B	خزنة
+cceejsse001-hstead|strings|0x0000000E	مختبر الخيمياء
+cceejsse001-hstead|strings|0x0000000F	خزانة
+cceejsse001-hstead|strings|0x00000010	صندوق صغير
+cceejsse001-hstead|strings|0x00000013	كيس
+cceejsse001-hstead|strings|0x00000018	خزانة عرض
+cceejsse001-hstead|strings|0x00000019	كرسي بذراعين
+cceejsse001-hstead|strings|0x0000001A	سلّة
+cceejsse001-hstead|strings|0x0000001B	سلّة
+cceejsse001-hstead|strings|0x0000001C	جرّة صغيرة
+cceejsse001-hstead|strings|0x0000001F	ضيعة التندرا
+cceejsse001-hstead|strings|0x00000023	طبق تقديم
+cceejsse001-hstead|strings|0x00000026	سطح الخَبز
+cceejsse001-hstead|strings|0x00000027	ضع
+cceejsse001-hstead|strings|0x00000029	جوهرة الياقوت المثلى
+cceejsse001-hstead|strings|0x0000002A	ضيعة التندرا
+cceejsse001-hstead|strings|0x0000002B	ضع
+cceejsse001-hstead|strings|0x0000002C	ترس أورييل
+cceejsse001-hstead|strings|0x0000002E	ضع
+cceejsse001-hstead|strings|0x00000030	يعسوب في برطمان
+cceejsse001-hstead|strings|0x00000031	ضع
+cceejsse001-hstead|strings|0x00000034	فولسونغ
+cceejsse001-hstead|strings|0x00000035	أوتار
+cceejsse001-hstead|strings|0x00000036	القناع الخشبي
+cceejsse001-hstead|strings|0x00000037	حصاد
+cceejsse001-hstead|strings|0x00000038	حصاد
+cceejsse001-hstead|strings|0x0000003A	ضع
+cceejsse001-hstead|strings|0x0000003B	ضيعة التندرا، القبو
+cceejsse001-hstead|strings|0x0000003C	ضع
+cceejsse001-hstead|strings|0x0000003D	مخلب التنين الزجاجي
+cceejsse001-hstead|strings|0x0000003E	ضع
+cceejsse001-hstead|strings|0x0000003F	ضع
+cceejsse001-hstead|strings|0x00000040	صندوق
+cceejsse001-hstead|strings|0x00000041	ضع
+cceejsse001-hstead|strings|0x00000042	مخلب التنين المرجاني
+cceejsse001-hstead|strings|0x00000043	جوهرة الزمرد المثلى
+cceejsse001-hstead|strings|0x00000044	ضع
+cceejsse001-hstead|strings|0x00000045	فراشة ليلية في برطمان
+cceejsse001-hstead|strings|0x00000046	جرّة صغيرة
+cceejsse001-hstead|strings|0x00000047	ضع
+cceejsse001-hstead|strings|0x00000048	ضع
+cceejsse001-hstead|strings|0x0000004A	مخلب التنين الأبنوسي
+cceejsse001-hstead|strings|0x0000004B	ضع
+cceejsse001-hstead|strings|0x0000004C	كأس
+cceejsse001-hstead|strings|0x0000004D	ضع
+cceejsse001-hstead|strings|0x0000004F	يراعة في برطمان
+cceejsse001-hstead|strings|0x00000050	مخلب التنين الياقوتي الأزرق
+cceejsse001-hstead|strings|0x00000051	قطن التندرا المجفف
+cceejsse001-hstead|strings|0x00000052	مخلب التنين العاجي
+cceejsse001-hstead|strings|0x00000053	خزانة
+cceejsse001-hstead|strings|0x00000054	مخلب التنين الياقوتي
+cceejsse001-hstead|strings|0x00000055	ضع
+cceejsse001-hstead|strings|0x00000058	مفتاح جمجمة تورستن
+cceejsse001-hstead|strings|0x00000059	ضع
+cceejsse001-hstead|strings|0x0000005A	مفتاح جمجمة سايريك
+cceejsse001-hstead|strings|0x0000005B	كوناهريك
+cceejsse001-hstead|strings|0x0000005C	ضع
+cceejsse001-hstead|strings|0x0000005E	ضع
+cceejsse001-hstead|strings|0x0000005F	ضع
+cceejsse001-hstead|strings|0x00000060	ضع
+cceejsse001-hstead|strings|0x00000062	ضع
+cceejsse001-hstead|strings|0x00000063	خزامى مجففة
+cceejsse001-hstead|strings|0x00000066	ضع
+cceejsse001-hstead|strings|0x00000068	كروسيس
+cceejsse001-hstead|strings|0x0000006C	ضع
+cceejsse001-hstead|strings|0x0000006E	مخلب التنين الزمردي
+cceejsse001-hstead|strings|0x0000006F	ضع
+cceejsse001-hstead|strings|0x00000070	ضع
+cceejsse001-hstead|strings|0x00000071	راغوت
+cceejsse001-hstead|strings|0x00000073	ضع
+cceejsse001-hstead|strings|0x00000074	دوكان
+cceejsse001-hstead|strings|0x00000075	كوب
+cceejsse001-hstead|strings|0x00000076	فراشة في برطمان
+cceejsse001-hstead|strings|0x00000077	جوهرة الألماس المثلى
+cceejsse001-hstead|strings|0x00000079	ناكريين
+cceejsse001-hstead|strings|0x0000007A	ضع
+cceejsse001-hstead|strings|0x0000007D	موروكي
+cceejsse001-hstead|strings|0x0000007E	هيفنوراك
+cceejsse001-hstead|strings|0x00000081	إبريق المريد
+cceejsse001-hstead|strings|0x00000083	زاكريسوس
+cceejsse001-hstead|strings|0x00000084	مخلب التنين الذهبي
+cceejsse001-hstead|strings|0x00000085	ضع
+cceejsse001-hstead|strings|0x00000086	جوهرة الجمشت المثلى
+cceejsse001-hstead|strings|0x00000088	ضع
+cceejsse001-hstead|strings|0x00000089	نحلة في برطمان
+cceejsse001-hstead|strings|0x0000008A	مخلب التنين الحديدي
+cceejsse001-hstead|strings|0x0000008B	ضع
+cceejsse001-hstead|strings|0x0000008C	ضع
+cceejsse001-hstead|strings|0x0000008D	أزيدال
+cceejsse001-hstead|strings|0x0000008E	فوكون
+cceejsse001-hstead|strings|0x00000091	ضع
+cceejsse001-hstead|strings|0x00000092	ضع
+cceejsse001-hstead|strings|0x00000094	ضع
+cceejsse001-hstead|strings|0x00000095	ضع
+cceejsse001-hstead|strings|0x00000096	ضع
+cceejsse001-hstead|strings|0x00000098	جوهرة الياقوت الأزرق المثلى
+cceejsse001-hstead|strings|0x00000099	ضع
+cceejsse001-hstead|strings|0x0000009A	مخلب التنين الماسي
+cceejsse001-hstead|strings|0x0000009B	خزانة
+cceejsse001-hstead|strings|0x0000009D	سرير
+cceejsse001-hstead|strings|0x0000009F	ضيعة التندرا
+cceejsse001-hstead|strings|0x000000A0	خزانة أدراج
+cceejsse001-hstead|strings|0x000000A1	سرير
+cceejsse001-hstead|strings|0x000000A2	باب
+cceejsse001-hstead|strings|0x000000A3	أودّ شراء مزرعة خارج المدينة. (<Global=ccEEJ001HP> قطعة ذهبية)
+cceejsse001-hstead|strings|0x000000A4	مفتاح ضيعة التندرا
+cceejsse001-hstead|strings|0x000000A5	زُر ضيعة التندرا، منزلك الجديد
+cceejsse001-hstead|strings|0x000000A6	استخدام
+cceejsse001-hstead|strings|0x000000A7	سطح الخَبز
+cceejsse001-hstead|strings|0x000000A8	خزانة كتب
+cceejsse001-hstead|strings|0x000000A9	ضيعة للبيع
+cceejsse001-hstead|strings|0x000000AB	مزرعة للبيع
+cceejsse001-hstead|strings|0x000000AC	قراءة
+cceejsse001-hstead|strings|0x000020E6	سكايرم

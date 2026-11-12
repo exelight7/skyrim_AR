@@ -1,0 +1,46 @@
+key	arabic
+ccbgssse018-shadowrend|dlstrings|0x00000010	القرين
+ccbgssse018-shadowrend|dlstrings|0x00000011	هزمتُ ظلّي وأشعر بالسكينة. عليّ أن أسترجع السلاح من بقاياه.
+ccbgssse018-shadowrend|dlstrings|0x00000012	صوت في داخلي يخبرني بأن عليّ مواجهة ظلمة تسكنني. أشعر بانجذاب نحو بركة ينبوع حار في إيستمارش. لعل الأجوبة هناك.
+ccbgssse018-shadowrend|dlstrings|0x00000018	السلاح الذي حاولت أخذه انتزع شيئاً من داخلي: ظلاً مظلماً لنفسي. عليّ أن أهزم هذا القرين.
+ccbgssse018-shadowrend|dlstrings|0x0000001D	شعب جبال روثغاريان وذيل التنين، والحدّادون الأورك مقدَّرون لإتقانهم الصنعة. جنود الأورك بالدروع الثقيلة من أفضل جنود الإمبراطورية، ومرعبون حين يستخدمون «غضب الهائج».
+ccbgssse018-shadowrend|dlstrings|0x00000028	أهل العشائر في غابات فالينوود الغربية، ويُعرَفون أيضاً باسم «بوسمر». إلف الغابة كشّافون ولصوص بارعون، ولا يوجد في كل تامريل رماة أمهر منهم. لديهم مقاومة طبيعية للسموم والأمراض. يمكنهم «إمرة الحيوان» لتقاتل من أجلهم.
+ccbgssse018-shadowrend|dlstrings|0x0000002C	ظلّك خامد وأنت متحوّل.
+ccbgssse018-shadowrend|dlstrings|0x00000035	مواطنو سكايرم، شعب طويل القامة أشقر الشعر. أقوياء وصلبون، يشتهر النورد بمقاومتهم للبرد وموهبتهم كمحاربين. يمكنهم استخدام «صيحة المعركة» لجعل خصومهم يفرّون.
+ccbgssse018-shadowrend|dlstrings|0x0000003D	هذا العرق الزاحف، المتكيّف مع مستنقعات موطنه الغادرة في المستنقع الأسود، طوّر مقاومة طبيعية للأمراض والقدرة على التنفس تحت الماء. يمكنهم استدعاء «جلد الهيست» لتجديد الصحة بسرعة كبيرة.
+ccbgssse018-shadowrend|dlstrings|0x0000003E	قادمون من مقاطعة إلسوير، وهم أذكياء وسريعون ورشيقون. يصنعون لصوصاً ممتازين بفضل تخفّيهم الفطري. يستطيع كل الخاجيت الرؤية في الظلام متى شاؤوا، ولديهم هجمات مخالب بلا سلاح.
+ccbgssse018-shadowrend|dlstrings|0x00000043	عثرتُ على قريني الظلّي وهزمته، وحصلتُ على السلاح «ممزّق الظلال».
+ccbgssse018-shadowrend|strings|0x00000001	ممزّق الظلال
+ccbgssse018-shadowrend|strings|0x00000003	ممزّق الظلال
+ccbgssse018-shadowrend|strings|0x00000007	أخذ
+ccbgssse018-shadowrend|strings|0x00000009	عبر زجاج معتم
+ccbgssse018-shadowrend|strings|0x0000000A	تأثير تعويذة الفرار
+ccbgssse018-shadowrend|strings|0x0000000B	أخذ
+ccbgssse018-shadowrend|strings|0x0000000C	ظلّ <Alias=Player>
+ccbgssse018-shadowrend|strings|0x0000000D	ممزّق الظلال
+ccbgssse018-shadowrend|strings|0x0000000E	ممزّق الظلال
+ccbgssse018-shadowrend|strings|0x0000000F	استرجع شادوريند
+ccbgssse018-shadowrend|strings|0x00000013	تعويذة الفرار
+ccbgssse018-shadowrend|strings|0x00000014	اذهب إلى ينابيع إيستمارش الحارة
+ccbgssse018-shadowrend|strings|0x00000015	قدرة الشبح
+ccbgssse018-shadowrend|strings|0x00000016	عُد إلى ينابيع إيستمارش الحارة
+ccbgssse018-shadowrend|strings|0x00000017	اهزم ظلك
+ccbgssse018-shadowrend|strings|0x0000001E	ظل
+ccbgssse018-shadowrend|strings|0x00000023	ظل
+ccbgssse018-shadowrend|strings|0x00000024	سجين
+ccbgssse018-shadowrend|strings|0x00000025	أوركي
+ccbgssse018-shadowrend|strings|0x00000026	ظل
+ccbgssse018-shadowrend|strings|0x00000027	نوردي
+ccbgssse018-shadowrend|strings|0x0000002B	ظل
+ccbgssse018-shadowrend|strings|0x0000002D	ظل
+ccbgssse018-shadowrend|strings|0x0000002E	ظل
+ccbgssse018-shadowrend|strings|0x0000002F	ظل
+ccbgssse018-shadowrend|strings|0x00000034	الضعف أمام السحر
+ccbgssse018-shadowrend|strings|0x00000036	إلف الغابة
+ccbgssse018-shadowrend|strings|0x00000039	يصبح الهدف أضعف أمام السحر بنسبة <mag>% لمدة <dur> ثانية.
+ccbgssse018-shadowrend|strings|0x0000003C	أرغوني
+ccbgssse018-shadowrend|strings|0x0000003F	ظل
+ccbgssse018-shadowrend|strings|0x00000040	ظل
+ccbgssse018-shadowrend|strings|0x00000041	ظل
+ccbgssse018-shadowrend|strings|0x00000042	خاجيت
+ccbgssse018-shadowrend|strings|0x000020E6	سكايرم

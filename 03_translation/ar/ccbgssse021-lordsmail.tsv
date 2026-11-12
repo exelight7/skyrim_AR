@@ -1,0 +1,53 @@
+key	arabic
+ccbgssse021-lordsmail|dlstrings|0x00000009	واجهتُ مرتزقة الأليكر ووجدتُ صندوقاً مقفلاً. لم يبقَ إلا أن أجد المفتاح...
+ccbgssse021-lordsmail|dlstrings|0x0000000A	عُثر في قلعة دور على رسالة من الإمبراطور تخصّ قطعة أثرية إمبراطورية. وعليّ أن أقرأها لأعرف موضوعها.
+ccbgssse021-lordsmail|dlstrings|0x0000000D	استُعيد «زرد السيّد»، وباركته كيناريث، وصار ارتداؤه آمناً.
+ccbgssse021-lordsmail|dlstrings|0x00000013	يعاني مرتديه انخفاضاً بمقدار <50> نقطة في الصحة والتحمّل والطاقة السحرية.
+ccbgssse021-lordsmail|dlstrings|0x00000018	استعدتُ «زرد السيّد»، الدرع الإمبراطوري الأسطوري. وقبل ارتدائه، يجب تطهيره عند مزار كيناريث في سوليتيود.
+ccbgssse021-lordsmail|dlstrings|0x0000001A	طُهّر «زرد السيّد»
+ccbgssse021-lordsmail|dlstrings|0x0000001C	<font face="$HandwrittenFont" size="16">\n15 من البذرة الأخيرة، سنة 201 من العصر 4\n\nالجنرال توليوس،\n\nفي أوقات الحرب هذه، أؤمن بشدة بأهمية إلهام شعبنا باستعراض القوة العسكرية والمواكب. فبالنسبة إلى الأصغر سناً بيننا، لا شيء يلهم مثل رؤية جندي إمبراطوري يرتدي أرقى الدروع التي وضعت إمبراطوريتنا يدها عليها.\n\nلهذا السبب أطلب رسمياً أن تُعاد عدة آثار إمبراطورية إلى خدمة الإمبراطورية، وتوزَّع على كبار المسؤولين. يجب أن نفعل كل ما بوسعنا لنثير الرهبة، ونساعد في ترسيخ صورة قضيتنا بين الناس.\n\nبلغني أن قطعة أثرية بعينها، درع موريهاوس، هبة كيناريث، المعروف أيضاً باسم زرد اللورد، اختفى مؤخراً. ويُعتقد أن مجموعة من المرتزقة الريدغارد سرقته بقصد بيعه لمن يدفع أكثر. وآخر ما شوهدوا مسافرين جنوب حصن المستنقع الرمادي.\n\nجد هؤلاء المرتزقة، واسترجع زرد اللورد. البسه بفخر. وأرِ الناس أن كيناريث تحابي مملكة الإمبراطورية.\n\nالإمبراطور تيتوس ميدي الثاني\n</font>
+ccbgssse021-lordsmail|dlstrings|0x00000025	وجدتُ رسالة موجّهة إلى الجنرال توليوس من إمبراطور تامريل، يأمر فيها بالعثور على «زرد السيّد»، الأثر الإمبراطوري الثمين، واستعادته. ويُشاع أن عصابة من المرتزقة الريدغارديين أخذته. وعليّ أن أحدّد مكانهم وأرى إن كنتُ أستطيع الحصول على القطعة الأثرية.
+ccbgssse021-lordsmail|dlstrings|0x0000002C	<font face="$HandwrittenFont" size="16">\nماجد،\n\nكما تناقشنا، هذا الدرع ثمين جداً. أرجو أن تحميه مهما كلف الأمر. يجب أن تناموا أنت ورجالك بالتناوب لتجنب أي مفاجآت، وتخلصوا من أي شخص لا تعرفونه. لا يجوز أن يُكشف أمرنا.\n\nسيسافر المشتري للقائك في الأيام القادمة. سنجني ثروة صغيرة، وستحصل أنت ورجالك على حصتكم المستحقة من الأرباح، كما اتفقنا. فقدان قطعة أثرية كهذه سيجلب العار على الإمبراطورية، ويجب أن نفخر جميعاً.\n\nأرجو أن تنتبه، من المهم جداً ألا تلبس هذا الدرع. لم أصدق الحكايات، لكن حين لبسته غلبني إرهاق مقلق. لا تخبر المشتري المحتمل بهذا لئلا يغير رأيه. دعه يسعى إلى بركة كيناريث بنفسه.\n</font>
+ccbgssse021-lordsmail|strings|0x00000001	زرد اللورد
+ccbgssse021-lordsmail|strings|0x00000002	امتصاص الصحة لزرد اللورد
+ccbgssse021-lordsmail|strings|0x00000004	امتصاص الصحة لزرد اللورد
+ccbgssse021-lordsmail|strings|0x00000006	زرد اللورد
+ccbgssse021-lordsmail|strings|0x00000007	يزيد مقاومة السحر بنسبة <mag>%.
+ccbgssse021-lordsmail|strings|0x00000008	هلاك كيناريث
+ccbgssse021-lordsmail|strings|0x0000000B	يعاني مرتديه انخفاضاً بمقدار <50> نقطة في الصحة والتحمّل والطاقة السحرية.
+ccbgssse021-lordsmail|strings|0x0000000C	طاقة سحرية مخفَّضة
+ccbgssse021-lordsmail|strings|0x0000000E	تُمتص <5> نقاط من صحة الخصوم في مدى الالتحام في الثانية. يزيد مقاومة السموم بنسبة <75>%. يزيد مقاومة السحر بنسبة <17>%.
+ccbgssse021-lordsmail|strings|0x0000000F	مفتاح صندوق مرتزق من أليكر
+ccbgssse021-lordsmail|strings|0x00000010	اقرأ رسالة الإمبراطور
+ccbgssse021-lordsmail|strings|0x00000011	مقاومة السموم
+ccbgssse021-lordsmail|strings|0x00000012	صحة مخفَّضة
+ccbgssse021-lordsmail|strings|0x00000014	هبة كيناريث
+ccbgssse021-lordsmail|strings|0x00000015	ماجد المجنون
+ccbgssse021-lordsmail|strings|0x00000016	واجه مرتزقة الأليكر
+ccbgssse021-lordsmail|strings|0x00000017	رسالة إلى الجنرال توليوس
+ccbgssse021-lordsmail|strings|0x00000019	طهّر درع السيد الزردي في سوليتيود
+ccbgssse021-lordsmail|strings|0x0000001B	يستنزف <mag> نقطة طاقة سحرية.
+ccbgssse021-lordsmail|strings|0x0000001D	استرجع درع السيد الزردي
+ccbgssse021-lordsmail|strings|0x0000001E	تحمّل مخفَّض
+ccbgssse021-lordsmail|strings|0x0000001F	يستنزف <mag> نقطة من التحمّل.
+ccbgssse021-lordsmail|strings|0x00000020	زرد اللورد
+ccbgssse021-lordsmail|strings|0x00000021	يزيد مقاومة السموم بنسبة <mag>%.
+ccbgssse021-lordsmail|strings|0x00000022	يقلّل الصحة بمقدار <mag>.
+ccbgssse021-lordsmail|strings|0x00000023	صندوق
+ccbgssse021-lordsmail|strings|0x00000024	مرتزق من أليكر
+ccbgssse021-lordsmail|strings|0x00000026	مقاومة السحر
+ccbgssse021-lordsmail|strings|0x00000027	ماجد
+ccbgssse021-lordsmail|strings|0x00000028	مرتزق من أليكر
+ccbgssse021-lordsmail|strings|0x00000029	زرد اللورد (ملعون)
+ccbgssse021-lordsmail|strings|0x0000002A	ملابس ريدغاردية
+ccbgssse021-lordsmail|strings|0x0000002B	قلنسوة ريدغاردية
+ccbgssse021-lordsmail|strings|0x0000002D	ملابس ريدغاردية
+ccbgssse021-lordsmail|strings|0x0000002E	مجيد - اقرأ من فضلك
+ccbgssse021-lordsmail|strings|0x0000002F	قلنسوة ريدغاردية
+ccbgssse021-lordsmail|strings|0x00000030	مزار كيناريث
+ccbgssse021-lordsmail|strings|0x00000031	زرد اللورد (ملعون)
+ccbgssse021-lordsmail|strings|0x00000032	قلنسوة ريدغاردية
+ccbgssse021-lordsmail|strings|0x00000033	زرد اللورد (ملعون)
+ccbgssse021-lordsmail|strings|0x00000048	قلعة دور
+ccbgssse021-lordsmail|strings|0x000020E6	سكايرم
+ccbgssse021-lordsmail|strings|0x0000EA4B	معبد الآلهة

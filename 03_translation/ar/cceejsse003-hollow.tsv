@@ -1,0 +1,152 @@
+key	arabic
+cceejsse003-hollow|dlstrings|0x00000063	لا تملك الغرض المطلوب.
+cceejsse003-hollow|dlstrings|0x0000008C	بعد لقائي بنقابة اللصوص في الإبريق الممزق، اشتريتُ من فيكيل بيتاً في ممر الجرذان. وعليّ أن أجد مكانه وأستقرّ فيه.
+cceejsse003-hollow|dlstrings|0x0000008D	بعد لقائي بنقابة اللصوص في الإبريق الممزق، اشتريتُ من فيكيل بيتاً في ممر الجرذان. ووجدتُ مدخل محراب قدم الظل، وأستطيع الآن الاستقرار فيه.
+cceejsse003-hollow|dlstrings|0x00000093	ليست كل البيوت في سكايرم مبنية فوق الأرض. فإن احتجتُ يوماً إلى مخبأ أكثر تكتّماً، فعليّ التوجه إلى ريفتن والتحدث إلى العارفين ببواطن الأمور.
+cceejsse003-hollow|dlstrings|0x00000096	<font face="$HandwrittenFont" size="18">\n\nفيكيل،\n\nلا بد أن في النقابة من نستطيع أن نبيعه بيت ممر الجرذان، لذا أخليت مخرج فتحة المجاري في غرفة الصنع. يمكن استخدامه للوصول بسرعة إلى جهة الأرصفة، وربما للتهرب من.. الضيوف غير المرغوب فيهم.\n\nبيورن\n\n
+cceejsse003-hollow|strings|0x00000001	ضع
+cceejsse003-hollow|strings|0x00000002	ضع
+cceejsse003-hollow|strings|0x00000003	ضع
+cceejsse003-hollow|strings|0x00000004	كرسي بذراعين
+cceejsse003-hollow|strings|0x00000005	ضع
+cceejsse003-hollow|strings|0x00000006	سلّة
+cceejsse003-hollow|strings|0x00000007	ضع
+cceejsse003-hollow|strings|0x00000008	القاطع الكئيب
+cceejsse003-hollow|strings|0x00000009	قوس العندليب
+cceejsse003-hollow|strings|0x0000000A	محراب قدم الظل
+cceejsse003-hollow|strings|0x0000000B	ضع
+cceejsse003-hollow|strings|0x0000000C	طبق تقديم
+cceejsse003-hollow|strings|0x0000000D	مصهر
+cceejsse003-hollow|strings|0x0000000E	فراشة في برطمان
+cceejsse003-hollow|strings|0x0000000F	خزانة
+cceejsse003-hollow|strings|0x00000011	هيفنوراك
+cceejsse003-hollow|strings|0x00000012	زاكريسوس
+cceejsse003-hollow|strings|0x00000013	ضع
+cceejsse003-hollow|strings|0x00000014	جرّة صغيرة
+cceejsse003-hollow|strings|0x00000015	ضع
+cceejsse003-hollow|strings|0x00000016	شمعدان
+cceejsse003-hollow|strings|0x00000017	ضع
+cceejsse003-hollow|strings|0x00000018	كوناهريك
+cceejsse003-hollow|strings|0x00000019	ضع
+cceejsse003-hollow|strings|0x0000001A	جرّة
+cceejsse003-hollow|strings|0x0000001B	جوهرة الألماس المثلى
+cceejsse003-hollow|strings|0x0000001C	جوهرة الياقوت المثلى
+cceejsse003-hollow|strings|0x0000001D	إبريق ماء مرصّع
+cceejsse003-hollow|strings|0x0000001E	ضع
+cceejsse003-hollow|strings|0x0000001F	ضع
+cceejsse003-hollow|strings|0x00000020	ضع
+cceejsse003-hollow|strings|0x00000021	فراشة ليلية في برطمان
+cceejsse003-hollow|strings|0x00000022	ضع
+cceejsse003-hollow|strings|0x00000023	ضع
+cceejsse003-hollow|strings|0x00000024	خريطة شحن شركة الإمبراطورية الشرقية
+cceejsse003-hollow|strings|0x00000025	مجسّم سفينة
+cceejsse003-hollow|strings|0x00000026	دوكان
+cceejsse003-hollow|strings|0x00000027	ضع
+cceejsse003-hollow|strings|0x00000028	ضع
+cceejsse003-hollow|strings|0x00000029	شمعدان
+cceejsse003-hollow|strings|0x0000002A	عصا التحكم بالعنكبوت
+cceejsse003-hollow|strings|0x0000002B	ضع
+cceejsse003-hollow|strings|0x0000002C	خزانة كتب
+cceejsse003-hollow|strings|0x0000002D	صندوق
+cceejsse003-hollow|strings|0x0000002E	مخلب التنين الياقوتي الأزرق
+cceejsse003-hollow|strings|0x0000002F	ضع
+cceejsse003-hollow|strings|0x00000030	مخلب التنين الياقوتي
+cceejsse003-hollow|strings|0x00000031	أزيدال
+cceejsse003-hollow|strings|0x00000032	ضع
+cceejsse003-hollow|strings|0x00000033	ضع
+cceejsse003-hollow|strings|0x00000034	إبريق ماء مرصّع
+cceejsse003-hollow|strings|0x00000035	مخلب التنين الذهبي
+cceejsse003-hollow|strings|0x00000036	جرّة صغيرة
+cceejsse003-hollow|strings|0x00000037	مخلب التنين المرجاني
+cceejsse003-hollow|strings|0x00000038	ضع
+cceejsse003-hollow|strings|0x00000039	كيس كبير
+cceejsse003-hollow|strings|0x0000003A	يعسوب في برطمان
+cceejsse003-hollow|strings|0x0000003B	ضع
+cceejsse003-hollow|strings|0x0000003C	سلّة
+cceejsse003-hollow|strings|0x0000003D	جوهرة الجمشت المثلى
+cceejsse003-hollow|strings|0x0000003E	سرير
+cceejsse003-hollow|strings|0x0000003F	نحلة في برطمان
+cceejsse003-hollow|strings|0x00000040	ناكريين
+cceejsse003-hollow|strings|0x00000041	حشرة المشعل في برطمان
+cceejsse003-hollow|strings|0x00000042	كأس
+cceejsse003-hollow|strings|0x00000043	ضع
+cceejsse003-hollow|strings|0x00000044	ضع
+cceejsse003-hollow|strings|0x00000045	ضع
+cceejsse003-hollow|strings|0x00000046	مخلب التنين الحديدي
+cceejsse003-hollow|strings|0x00000047	سلّة
+cceejsse003-hollow|strings|0x00000048	وعاء
+cceejsse003-hollow|strings|0x00000049	ضع
+cceejsse003-hollow|strings|0x0000004A	ضع
+cceejsse003-hollow|strings|0x0000004B	ضع
+cceejsse003-hollow|strings|0x0000004C	كوب
+cceejsse003-hollow|strings|0x0000004D	ضع
+cceejsse003-hollow|strings|0x0000004E	خزانة
+cceejsse003-hollow|strings|0x0000004F	تمثال ملكة النحل
+cceejsse003-hollow|strings|0x00000050	ضع
+cceejsse003-hollow|strings|0x00000051	نصل العندليب
+cceejsse003-hollow|strings|0x00000052	ضع
+cceejsse003-hollow|strings|0x00000053	دورق هونينغبرو
+cceejsse003-hollow|strings|0x00000054	مخلب التنين الزمردي
+cceejsse003-hollow|strings|0x00000055	مخلب التنين العاجي
+cceejsse003-hollow|strings|0x00000056	برطمان زجاجي
+cceejsse003-hollow|strings|0x00000057	ضع
+cceejsse003-hollow|strings|0x00000058	ضع
+cceejsse003-hollow|strings|0x00000059	ضع
+cceejsse003-hollow|strings|0x0000005A	راغوت
+cceejsse003-hollow|strings|0x0000005B	برميل
+cceejsse003-hollow|strings|0x0000005C	العين اليسرى للفالمر
+cceejsse003-hollow|strings|0x0000005D	مدخل المجاري إلى محراب قدم الظل
+cceejsse003-hollow|strings|0x0000005E	جوهرة الياقوت الأزرق المثلى
+cceejsse003-hollow|strings|0x0000005F	صندوق
+cceejsse003-hollow|strings|0x00000060	جوهرة الزمرد المثلى
+cceejsse003-hollow|strings|0x00000061	مخرج المجاري إلى ريفتن
+cceejsse003-hollow|strings|0x00000062	وعاء
+cceejsse003-hollow|strings|0x00000064	جرّة صغيرة
+cceejsse003-hollow|strings|0x00000065	محراب قدم الظل
+cceejsse003-hollow|strings|0x00000066	كروسيس
+cceejsse003-hollow|strings|0x00000067	مفتاح محراب قدم الظل
+cceejsse003-hollow|strings|0x00000068	سندان
+cceejsse003-hollow|strings|0x00000069	ضع
+cceejsse003-hollow|strings|0x0000006A	فوكون
+cceejsse003-hollow|strings|0x0000006B	جرّة صغيرة
+cceejsse003-hollow|strings|0x0000006C	ضع
+cceejsse003-hollow|strings|0x0000006D	موروكي
+cceejsse003-hollow|strings|0x0000006E	صحن
+cceejsse003-hollow|strings|0x0000006F	ضع
+cceejsse003-hollow|strings|0x00000070	أوتار
+cceejsse003-hollow|strings|0x00000071	ضع
+cceejsse003-hollow|strings|0x00000072	مكعب الألغاز الدويمري
+cceejsse003-hollow|strings|0x00000073	ضع
+cceejsse003-hollow|strings|0x00000074	مخلب التنين الزجاجي
+cceejsse003-hollow|strings|0x00000075	مخلب التنين الماسي
+cceejsse003-hollow|strings|0x00000076	ضع
+cceejsse003-hollow|strings|0x00000077	ممزّق البرد
+cceejsse003-hollow|strings|0x00000078	ضع
+cceejsse003-hollow|strings|0x00000079	مخلب التنين الأبنوسي
+cceejsse003-hollow|strings|0x0000007A	ضع
+cceejsse003-hollow|strings|0x0000007B	القناع الخشبي
+cceejsse003-hollow|strings|0x0000007C	ضع
+cceejsse003-hollow|strings|0x0000007D	فولسونغ
+cceejsse003-hollow|strings|0x0000007E	ضع
+cceejsse003-hollow|strings|0x0000007F	كأس مرصّعة
+cceejsse003-hollow|strings|0x00000080	سرير
+cceejsse003-hollow|strings|0x00000081	جرّة صغيرة
+cceejsse003-hollow|strings|0x00000082	ضع
+cceejsse003-hollow|strings|0x00000083	كيس كبير
+cceejsse003-hollow|strings|0x00000084	تمثال نصفي للثعلب الرمادي
+cceejsse003-hollow|strings|0x00000085	العين اليمنى للفالمر
+cceejsse003-hollow|strings|0x00000086	مجسّم سفينة مرصّع
+cceejsse003-hollow|strings|0x00000087	شمعدان
+cceejsse003-hollow|strings|0x00000088	باب
+cceejsse003-hollow|strings|0x00000089	سآخذه. (7500 قطعة ذهبية)
+cceejsse003-hollow|strings|0x0000008A	سأفكّر في الأمر.
+cceejsse003-hollow|strings|0x0000008B	ادخل محراب قدم الظل
+cceejsse003-hollow|strings|0x0000008E	أريد أن أتخذ بيتاً هنا في ممر الجرذان.
+cceejsse003-hollow|strings|0x00000090	اشترِ منزلاً في ممرات الجرذان في ريفتن
+cceejsse003-hollow|strings|0x00000091	ينقصني بعض المال الآن. (7500 قطعة ذهبية)
+cceejsse003-hollow|strings|0x00000092	محراب قدم الظل
+cceejsse003-hollow|strings|0x00000094	أرصفة ريفتن
+cceejsse003-hollow|strings|0x00000095	رسالة إلى فيكيل
+cceejsse003-hollow|strings|0x000020E6	سكايرم
+cceejsse003-hollow|strings|0x00003C33	ممر الجرذان في ريفتن
+cceejsse003-hollow|strings|0x00007848	ممر الجرذان

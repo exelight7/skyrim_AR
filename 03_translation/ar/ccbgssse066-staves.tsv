@@ -1,0 +1,462 @@
+key	arabic
+ccbgssse066-staves|strings|0x00000001	عصا خشبية ذات الحرب
+ccbgssse066-staves|strings|0x00000002	عصا أبنوسية ذات الحساب
+ccbgssse066-staves|strings|0x00000005	عصا السلام
+ccbgssse066-staves|strings|0x00000006	عصا الحساب
+ccbgssse066-staves|strings|0x00000007	عصا الإذلال
+ccbgssse066-staves|strings|0x00000008	عصا دروغ ذات السلام
+ccbgssse066-staves|strings|0x00000009	عصا الحساب
+ccbgssse066-staves|strings|0x0000000A	عصا السلام
+ccbgssse066-staves|strings|0x0000000B	عصا دروغ ذات الأسلاف
+ccbgssse066-staves|strings|0x0000000C	استدعاء شبح سلف
+ccbgssse066-staves|strings|0x0000000D	عصا السلام
+ccbgssse066-staves|strings|0x0000000E	عصا الحرب
+ccbgssse066-staves|strings|0x0000000F	عصا الإذلال
+ccbgssse066-staves|strings|0x00000010	استدعاء شبح سلف
+ccbgssse066-staves|strings|0x00000011	عصا خشبية ذات الحساب
+ccbgssse066-staves|strings|0x00000012	يستدعي شبح سلف لمدة <dur> ثانية.
+ccbgssse066-staves|strings|0x00000013	عصا التأديب
+ccbgssse066-staves|strings|0x00000014	عصا السلام
+ccbgssse066-staves|strings|0x00000015	استدعاء شبح سلف
+ccbgssse066-staves|strings|0x00000016	عصا الحرب
+ccbgssse066-staves|strings|0x00000017	عصا الحرب
+ccbgssse066-staves|strings|0x00000018	عصا التأديب
+ccbgssse066-staves|strings|0x0000001A	جدار الصقيع واللهب
+ccbgssse066-staves|strings|0x0000001B	شبح سلف
+ccbgssse066-staves|strings|0x0000001C	عصا الحساب
+ccbgssse066-staves|strings|0x0000001D	عصا دروغ ذات الحساب
+ccbgssse066-staves|strings|0x0000001E	عصا الإذلال
+ccbgssse066-staves|strings|0x0000001F	شبح سلف
+ccbgssse066-staves|strings|0x00000020	شبح سلف
+ccbgssse066-staves|strings|0x00000021	عصا الحرب
+ccbgssse066-staves|strings|0x00000022	عصا دايدرية غير مسحورة
+ccbgssse066-staves|strings|0x00000023	عصا دايدرية ذات الإذلال
+ccbgssse066-staves|strings|0x00000025	ضرر عنصري يُلحق <mag> نقطة في الثانية بالصحة والطاقة السحرية والتحمّل. الأهداف المشتعلة تتلقى ضرراً إضافياً.
+ccbgssse066-staves|strings|0x00000026	عصا خشبية ذات التأديب
+ccbgssse066-staves|strings|0x00000027	عصا فضية ذات الحرب
+ccbgssse066-staves|strings|0x00000028	يستدعي شبح سلف لمدة <dur> ثانية.
+ccbgssse066-staves|strings|0x00000029	استدعاء شبح سلف
+ccbgssse066-staves|strings|0x0000002A	عصا أبنوسية ذات الحرب
+ccbgssse066-staves|strings|0x0000002B	استدعاء شبح سلف
+ccbgssse066-staves|strings|0x0000002C	عصا أبنوسية ذات السلام
+ccbgssse066-staves|strings|0x0000002D	عصا التأديب
+ccbgssse066-staves|strings|0x0000002E	عصا أبنوسية ذات التأديب
+ccbgssse066-staves|strings|0x0000002F	استدعاء شبح سلف
+ccbgssse066-staves|strings|0x00000030	عصا الأجداد الأبنوسية
+ccbgssse066-staves|strings|0x00000031	عصا زجاجية ذات الحساب
+ccbgssse066-staves|strings|0x00000032	استدعاء شبح سلف
+ccbgssse066-staves|strings|0x00000033	عصا خشبية ذات السلام
+ccbgssse066-staves|strings|0x00000034	يستدعي شبح سلف لمدة <dur> ثانية.
+ccbgssse066-staves|strings|0x00000035	عصا السلام
+ccbgssse066-staves|strings|0x00000036	استدعاء شبح سلف
+ccbgssse066-staves|strings|0x00000037	عصا دروغ ذات الحرب
+ccbgssse066-staves|strings|0x00000038	استدعاء شبح سلف
+ccbgssse066-staves|strings|0x00000039	عصا الحساب
+ccbgssse066-staves|strings|0x0000003A	استدعاء شبح سلف
+ccbgssse066-staves|strings|0x0000003B	عصا دايدرية ذات الحساب
+ccbgssse066-staves|strings|0x0000003C	عصا الأجداد الدايدرية
+ccbgssse066-staves|strings|0x0000003D	يستدعي شبح سلف لمدة <dur> ثانية.
+ccbgssse066-staves|strings|0x0000003E	عصا الإذلال
+ccbgssse066-staves|strings|0x0000003F	يستدعي شبح سلف لمدة <dur> ثانية.
+ccbgssse066-staves|strings|0x00000040	عصا دروغ ذات الإذلال
+ccbgssse066-staves|strings|0x00000041	عصا فضية ذات الإذلال
+ccbgssse066-staves|strings|0x00000042	عصا الحساب
+ccbgssse066-staves|strings|0x00000043	عصا دايدرية ذات الحرب
+ccbgssse066-staves|strings|0x00000044	عصا خشبية غير مسحورة
+ccbgssse066-staves|strings|0x00000045	عصا خشبية ذات الإذلال
+ccbgssse066-staves|strings|0x00000046	عصا زجاجية ذات الحرب
+ccbgssse066-staves|strings|0x00000047	عصا فولاذية ذات الحرب
+ccbgssse066-staves|strings|0x00000048	استدعاء شبح سلف
+ccbgssse066-staves|strings|0x00000049	عصا زجاجية ذات الإذلال
+ccbgssse066-staves|strings|0x0000004A	عصا زجاجية ذات السلام
+ccbgssse066-staves|strings|0x0000004B	عصا زجاجية ذات التأديب
+ccbgssse066-staves|strings|0x0000004C	عصا التأديب
+ccbgssse066-staves|strings|0x0000004D	عصا التأديب
+ccbgssse066-staves|strings|0x0000004E	عصا أبنوسية ذات الإذلال
+ccbgssse066-staves|strings|0x0000004F	عصا الإذلال
+ccbgssse066-staves|strings|0x00000050	عصا فولاذية ذات السلام
+ccbgssse066-staves|strings|0x00000051	عصا فولاذية ذات الإذلال
+ccbgssse066-staves|strings|0x00000052	عصا فضية غير مسحورة
+ccbgssse066-staves|strings|0x00000053	عصا التأديب
+ccbgssse066-staves|strings|0x00000054	عصا فولاذية ذات الحساب
+ccbgssse066-staves|strings|0x00000055	عصا فولاذية ذات التأديب
+ccbgssse066-staves|strings|0x00000056	عصا الحساب
+ccbgssse066-staves|strings|0x00000057	عصا الحرب
+ccbgssse066-staves|strings|0x00000058	عصا دروغ غير مسحورة
+ccbgssse066-staves|strings|0x00000059	عصا فضية ذات السلام
+ccbgssse066-staves|strings|0x0000005A	عصا السلام
+ccbgssse066-staves|strings|0x0000005B	عصا خشبية ذات الأسلاف
+ccbgssse066-staves|strings|0x0000005C	شبح سلف
+ccbgssse066-staves|strings|0x0000005D	عصا فضية ذات الأسلاف
+ccbgssse066-staves|strings|0x0000005E	عصا دايدرية ذات السلام
+ccbgssse066-staves|strings|0x0000005F	عصا التأديب
+ccbgssse066-staves|strings|0x00000060	عصا فولاذية غير مسحورة
+ccbgssse066-staves|strings|0x00000061	عصا الحرب
+ccbgssse066-staves|strings|0x00000062	عصا فولاذية ذات الأسلاف
+ccbgssse066-staves|strings|0x00000063	عصا السلام
+ccbgssse066-staves|strings|0x00000064	عصا الإذلال
+ccbgssse066-staves|strings|0x00000065	تُرشّ على الأرض فتُنشئ جداراً من الجليد والنار يُلحق <50> نقطة ضرر عنصري في الثانية.
+ccbgssse066-staves|strings|0x00000066	عصا الحرب
+ccbgssse066-staves|strings|0x00000067	عصا أبنوسية غير مسحورة
+ccbgssse066-staves|strings|0x00000068	استدعاء شبح سلف
+ccbgssse066-staves|strings|0x00000069	عصا الحساب
+ccbgssse066-staves|strings|0x0000006A	عصا فضية ذات الحساب
+ccbgssse066-staves|strings|0x0000006B	عصا زجاجية ذات الأسلاف
+ccbgssse066-staves|strings|0x0000006C	عصا زجاجية غير مسحورة
+ccbgssse066-staves|strings|0x0000006D	الضرر العنصري
+ccbgssse066-staves|strings|0x0000006E	عصا فضية ذات التأديب
+ccbgssse066-staves|strings|0x0000006F	عصا الإذلال
+ccbgssse066-staves|strings|0x00000071	عصا دايدرية ذات التأديب
+ccbgssse066-staves|strings|0x00000072	عصا دروغ ذات التأديب
+ccbgssse066-staves|strings|0x00000073	عصا خشبية ذات السلام
+ccbgssse066-staves|strings|0x00000074	عصا خشبية ذات التأديب
+ccbgssse066-staves|strings|0x00000075	عصا خشبية غير مسحورة
+ccbgssse066-staves|strings|0x00000076	عصا خشبية ذات الأسلاف
+ccbgssse066-staves|strings|0x00000077	عصا خشبية ذات الإذلال
+ccbgssse066-staves|strings|0x00000078	عصا خشبية ذات الحساب
+ccbgssse066-staves|strings|0x00000079	عصا خشبية ذات الحرب
+ccbgssse066-staves|strings|0x0000007A	عصا أبنوسية ذات لسعة الصقيع
+ccbgssse066-staves|strings|0x0000007B	عصا خشبية ذات أتروناخ العاصفة
+ccbgssse066-staves|strings|0x0000007C	عصا خشبية ذات اليد الشافية
+ccbgssse066-staves|strings|0x0000007D	عصا خشبية ذات لسعة الصقيع
+ccbgssse066-staves|strings|0x0000007E	عصا خشبية ذات الإلهام
+ccbgssse066-staves|strings|0x0000007F	عصا فولاذية ذات أتروناخ اللهب
+ccbgssse066-staves|strings|0x00000080	عصا دروغ ذات الترميم
+ccbgssse066-staves|strings|0x00000081	عصا فضية ذات الدفع
+ccbgssse066-staves|strings|0x00000082	عصا خشبية ذات صواعق البرق
+ccbgssse066-staves|strings|0x00000083	عصا أبنوسية ذات النفي
+ccbgssse066-staves|strings|0x00000084	عصا فضية ذات ضوء الساحر
+ccbgssse066-staves|strings|0x00000085	عصا خشبية ذات أتروناخ الصقيع
+ccbgssse066-staves|strings|0x00000086	عصا خشبية عظمى ذات الطرد
+ccbgssse066-staves|strings|0x00000087	عصا دايدرية ذات الخوف
+ccbgssse066-staves|strings|0x00000088	عصا خشبية ذات الطرد
+ccbgssse066-staves|strings|0x00000089	عصا فضية ذات الرفيق السحري
+ccbgssse066-staves|strings|0x0000008A	عصا دروغ ذات العواصف الجليدية
+ccbgssse066-staves|strings|0x0000008B	عصا زجاجية ذات الإمرة الدايدرية
+ccbgssse066-staves|strings|0x0000008C	عصا خشبية ذات الرمح الجليدي
+ccbgssse066-staves|strings|0x0000008D	عصا زجاجية ذات الكرات النارية
+ccbgssse066-staves|strings|0x0000008E	عصا خشبية ذات الدفع
+ccbgssse066-staves|strings|0x0000008F	عصا خشبية ذات الأشواك الجليدية
+ccbgssse066-staves|strings|0x00000090	عصا فضية عظمى ذات الدفع
+ccbgssse066-staves|strings|0x00000091	عصا زجاجية ذات سهام النار
+ccbgssse066-staves|strings|0x00000092	عصا خشبية ذات الزومبي المرعبين
+ccbgssse066-staves|strings|0x00000093	عصا أبنوسية ذات الإمرة الدايدرية
+ccbgssse066-staves|strings|0x00000094	عصا دايدرية صغرى ذات الطرد
+ccbgssse066-staves|strings|0x00000095	عصا فولاذية ذات الخوف
+ccbgssse066-staves|strings|0x00000096	عصا دايدرية ذات الطرد
+ccbgssse066-staves|strings|0x00000097	عصا دايدرية ذات الكرات النارية
+ccbgssse066-staves|strings|0x00000098	عصا زجاجية ذات جدار اللهب
+ccbgssse066-staves|strings|0x00000099	عصا أبنوسية ذات صواعق البرق
+ccbgssse066-staves|strings|0x0000009A	عصا دروغ ذات الطرد
+ccbgssse066-staves|strings|0x0000009B	عصا أبنوسية ذات التهدئة
+ccbgssse066-staves|strings|0x0000009C	عصا دايدرية ذات العواصف الجليدية
+ccbgssse066-staves|strings|0x0000009D	عصا فضية ذات الخوف
+ccbgssse066-staves|strings|0x0000009E	عصا أبنوسية ذات أتروناخ الصقيع
+ccbgssse066-staves|strings|0x0000009F	عصا خشبية ذات جدار اللهب
+ccbgssse066-staves|strings|0x000000A0	عصا دايدرية ذات اللهب
+ccbgssse066-staves|strings|0x000000A1	عصا زجاجية ذات التهدئة
+ccbgssse066-staves|strings|0x000000A2	عصا فولاذية ذات الإمرة الدايدرية
+ccbgssse066-staves|strings|0x000000A3	عصا أبنوسية ذات جدار اللهب
+ccbgssse066-staves|strings|0x000000A4	عصا خشبية صغرى ذات الطرد
+ccbgssse066-staves|strings|0x000000A5	عصا دروغ ذات البرق المتسلسل
+ccbgssse066-staves|strings|0x000000A6	عصا فضية ذات الشجاعة
+ccbgssse066-staves|strings|0x000000A7	عصا دايدرية عظمى ذات الطرد
+ccbgssse066-staves|strings|0x000000A8	عصا خشبية ذات أسر الأرواح
+ccbgssse066-staves|strings|0x000000A9	عصا دروغ ذات الرفيق السحري
+ccbgssse066-staves|strings|0x000000AA	عصا زجاجية ذات الزومبي المرعبين
+ccbgssse066-staves|strings|0x000000AB	عصا أبنوسية ذات الإحياء
+ccbgssse066-staves|strings|0x000000AC	عصا فضية ذات سهام النار
+ccbgssse066-staves|strings|0x000000AD	عصا زجاجية ذات الشلل
+ccbgssse066-staves|strings|0x000000AE	عصا خشبية ذات الخوف
+ccbgssse066-staves|strings|0x000000AF	عصا خشبية ذات أتروناخ اللهب
+ccbgssse066-staves|strings|0x000000B0	عصا دايدرية ذات أتروناخ العاصفة
+ccbgssse066-staves|strings|0x000000B1	عصا دروغ ذات الإحياء
+ccbgssse066-staves|strings|0x000000B2	عصا أبنوسية ذات اللهب
+ccbgssse066-staves|strings|0x000000B3	عصا خشبية ذات ضوء الساحر
+ccbgssse066-staves|strings|0x000000B4	عصا خشبية ذات جدار العاصفة
+ccbgssse066-staves|strings|0x000000B5	عصا فولاذية ذات الإقصاء
+ccbgssse066-staves|strings|0x000000B6	عصا فضية ذات اللهب
+ccbgssse066-staves|strings|0x000000B7	عصا زجاجية ذات الأطياف العائدة
+ccbgssse066-staves|strings|0x000000B8	عصا زجاجية ذات الإقصاء
+ccbgssse066-staves|strings|0x000000B9	عصا فضية ذات لسعة الصقيع
+ccbgssse066-staves|strings|0x000000BA	عصا خشبية ذات سهام النار
+ccbgssse066-staves|strings|0x000000BB	عصا خشبية ذات لسعة الصقيع
+ccbgssse066-staves|strings|0x000000BC	عصا زجاجية ذات الشرر
+ccbgssse066-staves|strings|0x000000BD	عصا خشبية ذات اليد الشافية
+ccbgssse066-staves|strings|0x000000BE	عصا دروغ ذات الخوف
+ccbgssse066-staves|strings|0x000000BF	عصا خشبية ذات الشجاعة
+ccbgssse066-staves|strings|0x000000C0	عصا خشبية ذات الأطياف العائدة
+ccbgssse066-staves|strings|0x000000C1	عصا فولاذية ذات اليد الشافية
+ccbgssse066-staves|strings|0x000000C2	عصا خشبية ذات الطرد
+ccbgssse066-staves|strings|0x000000C3	عصا فضية ذات الصواعق الرعدية
+ccbgssse066-staves|strings|0x000000C4	عصا دايدرية ذات جدار الصقيع
+ccbgssse066-staves|strings|0x000000C5	عصا دايدرية ذات جدار اللهب
+ccbgssse066-staves|strings|0x000000C6	عصا خشبية ذات جدار اللهب
+ccbgssse066-staves|strings|0x000000C7	عصا فضية ذات الإحراق
+ccbgssse066-staves|strings|0x000000C8	عصا أبنوسية ذات اليد الشافية
+ccbgssse066-staves|strings|0x000000C9	عصا خشبية ذات جدار الصقيع
+ccbgssse066-staves|strings|0x000000CA	عصا فضية ذات القهر
+ccbgssse066-staves|strings|0x000000CB	عصا فولاذية ذات التهدئة
+ccbgssse066-staves|strings|0x000000CC	عصا زجاجية ذات لسعة الصقيع
+ccbgssse066-staves|strings|0x000000CD	عصا خشبية ذات التهدئة
+ccbgssse066-staves|strings|0x000000CE	عصا دروغ ذات جدار اللهب
+ccbgssse066-staves|strings|0x000000CF	عصا دايدرية ذات النفي
+ccbgssse066-staves|strings|0x000000D0	عصا زجاجية ذات الترميم
+ccbgssse066-staves|strings|0x000000D1	عصا أبنوسية ذات الصواعق الرعدية
+ccbgssse066-staves|strings|0x000000D2	عصا دروغ ذات الزومبي
+ccbgssse066-staves|strings|0x000000D3	عصا فولاذية ذات أسر الأرواح
+ccbgssse066-staves|strings|0x000000D4	عصا دروغ ذات الإحراق
+ccbgssse066-staves|strings|0x000000D5	عصا فولاذية ذات الترميم
+ccbgssse066-staves|strings|0x000000D6	عصا دروغ ذات أتروناخ اللهب
+ccbgssse066-staves|strings|0x000000D7	عصا خشبية ذات أتروناخ العاصفة
+ccbgssse066-staves|strings|0x000000D8	عصا دروغ ذات اللهب
+ccbgssse066-staves|strings|0x000000D9	عصا فولاذية ذات جدار الصقيع
+ccbgssse066-staves|strings|0x000000DA	عصا فضية ذات الشلل
+ccbgssse066-staves|strings|0x000000DB	عصا خشبية ذات الترميم
+ccbgssse066-staves|strings|0x000000DC	عصا خشبية ذات الأشواك الجليدية
+ccbgssse066-staves|strings|0x000000DD	عصا فولاذية ذات الأطياف العائدة
+ccbgssse066-staves|strings|0x000000DE	عصا خشبية ذات الهياج
+ccbgssse066-staves|strings|0x000000DF	عصا فضية ذات أتروناخ اللهب
+ccbgssse066-staves|strings|0x000000E0	عصا دايدرية عظمى ذات الدفع
+ccbgssse066-staves|strings|0x000000E1	عصا فضية ذات النفي
+ccbgssse066-staves|strings|0x000000E2	عصا دايدرية ذات لسعة الصقيع
+ccbgssse066-staves|strings|0x000000E3	عصا فولاذية ذات ضوء الساحر
+ccbgssse066-staves|strings|0x000000E4	عصا خشبية ذات أسر الأرواح
+ccbgssse066-staves|strings|0x000000E5	عصا خشبية ذات الرفيق السحري
+ccbgssse066-staves|strings|0x000000E6	عصا زجاجية ذات الطرد
+ccbgssse066-staves|strings|0x000000E7	عصا فولاذية ذات الغضب
+ccbgssse066-staves|strings|0x000000E8	عصا فضية ذات الرمح الجليدي
+ccbgssse066-staves|strings|0x000000E9	عصا خشبية ذات القهر
+ccbgssse066-staves|strings|0x000000EA	عصا فولاذية ذات صواعق البرق
+ccbgssse066-staves|strings|0x000000EB	عصا دروغ ذات الكرات النارية
+ccbgssse066-staves|strings|0x000000EC	عصا فولاذية ذات الرمح الجليدي
+ccbgssse066-staves|strings|0x000000ED	عصا أبنوسية ذات الكرات النارية
+ccbgssse066-staves|strings|0x000000EE	عصا فولاذية ذات سهام النار
+ccbgssse066-staves|strings|0x000000EF	عصا فضية ذات اليد الشافية
+ccbgssse066-staves|strings|0x000000F0	عصا خشبية ذات الرفيق السحري
+ccbgssse066-staves|strings|0x000000F1	عصا دايدرية ذات الأشواك الجليدية
+ccbgssse066-staves|strings|0x000000F2	عصا فولاذية ذات الهياج
+ccbgssse066-staves|strings|0x000000F3	عصا خشبية ذات ضوء الساحر
+ccbgssse066-staves|strings|0x000000F4	عصا زجاجية صغرى ذات الطرد
+ccbgssse066-staves|strings|0x000000F5	عصا دروغ ذات الأشواك الجليدية
+ccbgssse066-staves|strings|0x000000F6	عصا أبنوسية ذات الشجاعة
+ccbgssse066-staves|strings|0x000000F7	عصا خشبية ذات الصواعق الرعدية
+ccbgssse066-staves|strings|0x000000F8	عصا خشبية ذات جدار الصقيع
+ccbgssse066-staves|strings|0x000000F9	عصا أبنوسية ذات الرفيق السحري
+ccbgssse066-staves|strings|0x000000FA	عصا أبنوسية ذات أتروناخ اللهب
+ccbgssse066-staves|strings|0x000000FB	عصا دروغ صغرى ذات الطرد
+ccbgssse066-staves|strings|0x000000FC	عصا خشبية ذات التهدئة
+ccbgssse066-staves|strings|0x000000FD	عصا زجاجية ذات الرفيق السحري
+ccbgssse066-staves|strings|0x000000FE	عصا فولاذية ذات الزومبي المرعبين
+ccbgssse066-staves|strings|0x000000FF	عصا فضية صغرى ذات الطرد
+ccbgssse066-staves|strings|0x00000100	عصا دايدرية ذات الزومبي المرعبين
+ccbgssse066-staves|strings|0x00000101	عصا أبنوسية ذات الرمح الجليدي
+ccbgssse066-staves|strings|0x00000102	عصا زجاجية ذات صواعق البرق
+ccbgssse066-staves|strings|0x00000103	عصا زجاجية ذات الأشواك الجليدية
+ccbgssse066-staves|strings|0x00000104	عصا زجاجية ذات جدار الصقيع
+ccbgssse066-staves|strings|0x00000105	عصا دايدرية ذات التهدئة
+ccbgssse066-staves|strings|0x00000106	عصا فولاذية ذات النفي
+ccbgssse066-staves|strings|0x00000107	عصا أبنوسية ذات الغضب
+ccbgssse066-staves|strings|0x00000108	عصا خشبية ذات العواصف الجليدية
+ccbgssse066-staves|strings|0x00000109	عصا فولاذية ذات أتروناخ العاصفة
+ccbgssse066-staves|strings|0x0000010A	عصا دروغ عظمى ذات الدفع
+ccbgssse066-staves|strings|0x0000010B	عصا فولاذية ذات الطرد
+ccbgssse066-staves|strings|0x0000010C	عصا زجاجية ذات الغضب
+ccbgssse066-staves|strings|0x0000010D	عصا أبنوسية ذات الخوف
+ccbgssse066-staves|strings|0x0000010E	عصا دروغ ذات صواعق البرق
+ccbgssse066-staves|strings|0x0000010F	عصا خشبية ذات الإقصاء
+ccbgssse066-staves|strings|0x00000110	عصا أبنوسية ذات أتروناخ العاصفة
+ccbgssse066-staves|strings|0x00000111	عصا دايدرية ذات أسر الأرواح
+ccbgssse066-staves|strings|0x00000112	عصا زجاجية ذات النفي
+ccbgssse066-staves|strings|0x00000113	عصا دايدرية ذات صواعق البرق
+ccbgssse066-staves|strings|0x00000114	شبح سلف
+ccbgssse066-staves|strings|0x00000115	عصا دروغ ذات الشجاعة
+ccbgssse066-staves|strings|0x00000116	عصا خشبية ذات الشلل
+ccbgssse066-staves|strings|0x00000117	عصا أبنوسية ذات الترميم
+ccbgssse066-staves|strings|0x00000118	عصا دروغ ذات جدار العاصفة
+ccbgssse066-staves|strings|0x00000119	عصا فولاذية ذات الشجاعة
+ccbgssse066-staves|strings|0x0000011A	عصا خشبية ذات الكرات النارية
+ccbgssse066-staves|strings|0x0000011B	عصا فولاذية ذات جدار اللهب
+ccbgssse066-staves|strings|0x0000011C	عصا فضية ذات أتروناخ الصقيع
+ccbgssse066-staves|strings|0x0000011D	عصا دايدرية ذات الأطياف العائدة
+ccbgssse066-staves|strings|0x0000011E	عصا خشبية ذات جدار العاصفة
+ccbgssse066-staves|strings|0x0000011F	عصا فولاذية ذات جدار العاصفة
+ccbgssse066-staves|strings|0x00000120	عصا دايدرية ذات الترميم
+ccbgssse066-staves|strings|0x00000121	عصا أبنوسية ذات سهام النار
+ccbgssse066-staves|strings|0x00000122	عصا زجاجية ذات جدار العاصفة
+ccbgssse066-staves|strings|0x00000123	عصا أبنوسية ذات الإلهام
+ccbgssse066-staves|strings|0x00000124	عصا أبنوسية ذات جدار العاصفة
+ccbgssse066-staves|strings|0x00000125	عصا دايدرية ذات الشجاعة
+ccbgssse066-staves|strings|0x00000126	عصا فولاذية ذات لسعة الصقيع
+ccbgssse066-staves|strings|0x00000127	عصا أبنوسية ذات الشلل
+ccbgssse066-staves|strings|0x00000128	عصا خشبية ذات الكرات النارية
+ccbgssse066-staves|strings|0x00000129	عصا فولاذية ذات الإحياء
+ccbgssse066-staves|strings|0x0000012A	عصا دايدرية ذات الإحراق
+ccbgssse066-staves|strings|0x0000012B	عصا فضية ذات جدار العاصفة
+ccbgssse066-staves|strings|0x0000012C	عصا زجاجية عظمى ذات الدفع
+ccbgssse066-staves|strings|0x0000012D	عصا دروغ ذات الدفع
+ccbgssse066-staves|strings|0x0000012E	عصا دروغ ذات أتروناخ الصقيع
+ccbgssse066-staves|strings|0x0000012F	عصا زجاجية ذات ضوء الساحر
+ccbgssse066-staves|strings|0x00000130	عصا أبنوسية ذات الدفع
+ccbgssse066-staves|strings|0x00000131	عصا زجاجية ذات الدفع
+ccbgssse066-staves|strings|0x00000132	عصا أبنوسية ذات الإحراق
+ccbgssse066-staves|strings|0x00000133	عصا فضية ذات الزومبي المرعبين
+ccbgssse066-staves|strings|0x00000134	عصا خشبية ذات الترميم
+ccbgssse066-staves|strings|0x00000135	عصا خشبية ذات الدفع
+ccbgssse066-staves|strings|0x00000136	عصا دايدرية ذات الصواعق الرعدية
+ccbgssse066-staves|strings|0x00000137	عصا دايدرية ذات الدفع
+ccbgssse066-staves|strings|0x00000138	عصا فولاذية ذات الكرات النارية
+ccbgssse066-staves|strings|0x00000139	عصا فولاذية عظمى ذات الدفع
+ccbgssse066-staves|strings|0x0000013A	عصا خشبية عظمى ذات الدفع
+ccbgssse066-staves|strings|0x0000013B	عصا دايدرية ذات جدار العاصفة
+ccbgssse066-staves|strings|0x0000013C	عصا دروغ ذات الرمح الجليدي
+ccbgssse066-staves|strings|0x0000013D	عصا دروغ ذات لسعة الصقيع
+ccbgssse066-staves|strings|0x0000013E	عصا خشبية عظمى ذات الدفع
+ccbgssse066-staves|strings|0x0000013F	عصا دايدرية ذات الزومبي
+ccbgssse066-staves|strings|0x00000140	عصا دايدرية ذات أتروناخ الصقيع
+ccbgssse066-staves|strings|0x00000141	عصا خشبية ذات الهياج
+ccbgssse066-staves|strings|0x00000142	عصا دروغ ذات الإلهام
+ccbgssse066-staves|strings|0x00000143	عصا دروغ ذات الأطياف العائدة
+ccbgssse066-staves|strings|0x00000144	عصا أبنوسية ذات الأطياف العائدة
+ccbgssse066-staves|strings|0x00000145	عصا فضية ذات الأطياف العائدة
+ccbgssse066-staves|strings|0x00000146	عصا خشبية ذات الأطياف العائدة
+ccbgssse066-staves|strings|0x00000147	عصا فولاذية ذات الشلل
+ccbgssse066-staves|strings|0x00000148	عصا دايدرية ذات القهر
+ccbgssse066-staves|strings|0x00000149	عصا فضية ذات جدار اللهب
+ccbgssse066-staves|strings|0x0000014A	عصا دروغ ذات القهر
+ccbgssse066-staves|strings|0x0000014B	عصا فولاذية عظمى ذات الطرد
+ccbgssse066-staves|strings|0x0000014C	عصا أبنوسية ذات القهر
+ccbgssse066-staves|strings|0x0000014D	عصا زجاجية ذات القهر
+ccbgssse066-staves|strings|0x0000014E	عصا فضية ذات الغضب
+ccbgssse066-staves|strings|0x0000014F	عصا فضية ذات صواعق البرق
+ccbgssse066-staves|strings|0x00000150	عصا دروغ ذات أسر الأرواح
+ccbgssse066-staves|strings|0x00000151	عصا خشبية ذات الشجاعة
+ccbgssse066-staves|strings|0x00000152	عصا خشبية ذات الخوف
+ccbgssse066-staves|strings|0x00000153	عصا فولاذية ذات القهر
+ccbgssse066-staves|strings|0x00000154	عصا أبنوسية ذات أسر الأرواح
+ccbgssse066-staves|strings|0x00000155	عصا زجاجية ذات أسر الأرواح
+ccbgssse066-staves|strings|0x00000156	عصا فضية ذات أسر الأرواح
+ccbgssse066-staves|strings|0x00000157	عصا خشبية ذات النفي
+ccbgssse066-staves|strings|0x00000158	عصا دروغ ذات سهام النار
+ccbgssse066-staves|strings|0x00000159	عصا دايدرية ذات الشرر
+ccbgssse066-staves|strings|0x0000015A	عصا دروغ ذات الشرر
+ccbgssse066-staves|strings|0x0000015B	عصا دايدرية ذات الإقصاء
+ccbgssse066-staves|strings|0x0000015C	عصا فضية ذات جدار الصقيع
+ccbgssse066-staves|strings|0x0000015D	عصا أبنوسية ذات الشرر
+ccbgssse066-staves|strings|0x0000015E	عصا خشبية ذات اللهب
+ccbgssse066-staves|strings|0x0000015F	عصا فضية ذات الزومبي
+ccbgssse066-staves|strings|0x00000160	عصا فضية ذات الشرر
+ccbgssse066-staves|strings|0x00000161	عصا دايدرية ذات الإحياء
+ccbgssse066-staves|strings|0x00000162	عصا فولاذية ذات الشرر
+ccbgssse066-staves|strings|0x00000163	عصا دروغ ذات الشلل
+ccbgssse066-staves|strings|0x00000164	عصا خشبية ذات الشرر
+ccbgssse066-staves|strings|0x00000165	عصا دايدرية ذات ضوء الساحر
+ccbgssse066-staves|strings|0x00000166	عصا خشبية ذات الغضب
+ccbgssse066-staves|strings|0x00000167	عصا خشبية ذات الشرر
+ccbgssse066-staves|strings|0x00000168	عصا أبنوسية عظمى ذات الدفع
+ccbgssse066-staves|strings|0x00000169	عصا دايدرية ذات الشلل
+ccbgssse066-staves|strings|0x0000016A	عصا دروغ ذات الصواعق الرعدية
+ccbgssse066-staves|strings|0x0000016B	عصا زجاجية ذات الصواعق الرعدية
+ccbgssse066-staves|strings|0x0000016C	عصا فولاذية ذات الرفيق السحري
+ccbgssse066-staves|strings|0x0000016D	عصا فضية ذات الإقصاء
+ccbgssse066-staves|strings|0x0000016E	عصا فولاذية ذات الصواعق الرعدية
+ccbgssse066-staves|strings|0x0000016F	عصا خشبية ذات الصواعق الرعدية
+ccbgssse066-staves|strings|0x00000170	عصا زجاجية ذات اليد الشافية
+ccbgssse066-staves|strings|0x00000171	عصا دروغ ذات الهياج
+ccbgssse066-staves|strings|0x00000172	عصا دروغ عظمى ذات الطرد
+ccbgssse066-staves|strings|0x00000173	عصا فضية ذات أتروناخ العاصفة
+ccbgssse066-staves|strings|0x00000174	عصا خشبية ذات الإمرة الدايدرية
+ccbgssse066-staves|strings|0x00000175	عصا زجاجية عظمى ذات الطرد
+ccbgssse066-staves|strings|0x00000176	عصا دروغ ذات الإمرة الدايدرية
+ccbgssse066-staves|strings|0x00000177	عصا دروغ ذات الغضب
+ccbgssse066-staves|strings|0x00000178	عصا خشبية ذات العواصف الجليدية
+ccbgssse066-staves|strings|0x00000179	عصا زجاجية ذات أتروناخ اللهب
+ccbgssse066-staves|strings|0x0000017A	عصا فضية ذات الإلهام
+ccbgssse066-staves|strings|0x0000017B	عصا خشبية عظمى ذات الطرد
+ccbgssse066-staves|strings|0x0000017C	عصا أبنوسية صغرى ذات الطرد
+ccbgssse066-staves|strings|0x0000017D	عصا خشبية صغرى ذات الطرد
+ccbgssse066-staves|strings|0x0000017E	عصا دايدرية ذات الإلهام
+ccbgssse066-staves|strings|0x0000017F	عصا دروغ ذات التهدئة
+ccbgssse066-staves|strings|0x00000180	عصا فضية ذات الإمرة الدايدرية
+ccbgssse066-staves|strings|0x00000181	عصا فولاذية صغرى ذات الطرد
+ccbgssse066-staves|strings|0x00000182	عصا خشبية ذات البرق المتسلسل
+ccbgssse066-staves|strings|0x00000183	عصا أبنوسية ذات العواصف الجليدية
+ccbgssse066-staves|strings|0x00000184	عصا أبنوسية ذات الزومبي المرعبين
+ccbgssse066-staves|strings|0x00000185	عصا زجاجية ذات الإلهام
+ccbgssse066-staves|strings|0x00000186	عصا أبنوسية ذات البرق المتسلسل
+ccbgssse066-staves|strings|0x00000187	عصا خشبية ذات البرق المتسلسل
+ccbgssse066-staves|strings|0x00000188	عصا دايدرية ذات الهياج
+ccbgssse066-staves|strings|0x00000189	عصا خشبية ذات الشلل
+ccbgssse066-staves|strings|0x0000018A	عصا زجاجية ذات أتروناخ الصقيع
+ccbgssse066-staves|strings|0x0000018B	عصا زجاجية ذات الخوف
+ccbgssse066-staves|strings|0x0000018C	عصا فولاذية ذات الزومبي
+ccbgssse066-staves|strings|0x0000018D	عصا خشبية ذات اللهب
+ccbgssse066-staves|strings|0x0000018E	عصا خشبية ذات الإحياء
+ccbgssse066-staves|strings|0x0000018F	عصا دروغ ذات أتروناخ العاصفة
+ccbgssse066-staves|strings|0x00000190	عصا زجاجية ذات أتروناخ العاصفة
+ccbgssse066-staves|strings|0x00000191	عصا خشبية ذات النفي
+ccbgssse066-staves|strings|0x00000192	عصا زجاجية ذات العواصف الجليدية
+ccbgssse066-staves|strings|0x00000193	عصا فولاذية ذات اللهب
+ccbgssse066-staves|strings|0x00000194	عصا خشبية ذات القهر
+ccbgssse066-staves|strings|0x00000195	عصا فضية ذات الإحياء
+ccbgssse066-staves|strings|0x00000196	عصا خشبية ذات الزومبي
+ccbgssse066-staves|strings|0x00000197	عصا فضية ذات الأشواك الجليدية
+ccbgssse066-staves|strings|0x00000198	عصا دايدرية ذات الغضب
+ccbgssse066-staves|strings|0x00000199	عصا فولاذية ذات الإلهام
+ccbgssse066-staves|strings|0x0000019A	عصا فولاذية ذات العواصف الجليدية
+ccbgssse066-staves|strings|0x0000019B	عصا خشبية ذات الإحياء
+ccbgssse066-staves|strings|0x0000019C	عصا فضية ذات الكرات النارية
+ccbgssse066-staves|strings|0x0000019D	عصا دايدرية ذات أتروناخ اللهب
+ccbgssse066-staves|strings|0x0000019E	عصا دروغ ذات النفي
+ccbgssse066-staves|strings|0x0000019F	عصا دروغ ذات الزومبي المرعبين
+ccbgssse066-staves|strings|0x000001A0	عصا زجاجية ذات الإحياء
+ccbgssse066-staves|strings|0x000001A1	عصا دروغ ذات جدار الصقيع
+ccbgssse066-staves|strings|0x000001A2	عصا أبنوسية عظمى ذات الطرد
+ccbgssse066-staves|strings|0x000001A3	عصا دايدرية ذات البرق المتسلسل
+ccbgssse066-staves|strings|0x000001A4	عصا دايدرية ذات الإمرة الدايدرية
+ccbgssse066-staves|strings|0x000001A5	عصا خشبية ذات صواعق البرق
+ccbgssse066-staves|strings|0x000001A6	عصا خشبية ذات أتروناخ اللهب
+ccbgssse066-staves|strings|0x000001A7	عصا فولاذية ذات أتروناخ الصقيع
+ccbgssse066-staves|strings|0x000001A8	عصا دايدرية ذات سهام النار
+ccbgssse066-staves|strings|0x000001A9	عصا زجاجية ذات الشجاعة
+ccbgssse066-staves|strings|0x000001AA	عصا دروغ ذات الإقصاء
+ccbgssse066-staves|strings|0x000001AB	عصا أبنوسية ذات الإقصاء
+ccbgssse066-staves|strings|0x000001AC	عصا فضية ذات البرق المتسلسل
+ccbgssse066-staves|strings|0x000001AD	عصا أبنوسية ذات ضوء الساحر
+ccbgssse066-staves|strings|0x000001AE	عصا دروغ ذات ضوء الساحر
+ccbgssse066-staves|strings|0x000001AF	عصا خشبية ذات الإقصاء
+ccbgssse066-staves|strings|0x000001B0	عصا خشبية ذات سهام النار
+ccbgssse066-staves|strings|0x000001B1	عصا زجاجية ذات الهياج
+ccbgssse066-staves|strings|0x000001B2	عصا فولاذية ذات الإحراق
+ccbgssse066-staves|strings|0x000001B3	عصا زجاجية ذات الإحراق
+ccbgssse066-staves|strings|0x000001B4	عصا خشبية ذات الإحراق
+ccbgssse066-staves|strings|0x000001B5	عصا فولاذية ذات الدفع
+ccbgssse066-staves|strings|0x000001B6	عصا دايدرية ذات الرفيق السحري
+ccbgssse066-staves|strings|0x000001B7	عصا خشبية ذات الإلهام
+ccbgssse066-staves|strings|0x000001B8	عصا خشبية ذات أتروناخ الصقيع
+ccbgssse066-staves|strings|0x000001B9	عصا دايدرية ذات الرمح الجليدي
+ccbgssse066-staves|strings|0x000001BA	عصا فولاذية ذات البرق المتسلسل
+ccbgssse066-staves|strings|0x000001BB	عصا فضية ذات العواصف الجليدية
+ccbgssse066-staves|strings|0x000001BC	عصا زجاجية ذات البرق المتسلسل
+ccbgssse066-staves|strings|0x000001BD	عصا فضية عظمى ذات الطرد
+ccbgssse066-staves|strings|0x000001BE	عصا خشبية ذات الزومبي
+ccbgssse066-staves|strings|0x000001BF	عصا خشبية ذات الإحراق
+ccbgssse066-staves|strings|0x000001C0	عصا فضية ذات التهدئة
+ccbgssse066-staves|strings|0x000001C1	عصا خشبية ذات الزومبي المرعبين
+ccbgssse066-staves|strings|0x000001C2	عصا زجاجية ذات الزومبي
+ccbgssse066-staves|strings|0x000001C3	عصا دروغ ذات اليد الشافية
+ccbgssse066-staves|strings|0x000001C4	عصا دايدرية ذات اليد الشافية
+ccbgssse066-staves|strings|0x000001C5	عصا خشبية ذات الغضب
+ccbgssse066-staves|strings|0x000001C6	عصا فضية ذات الطرد
+ccbgssse066-staves|strings|0x000001C7	عصا فضية ذات الهياج
+ccbgssse066-staves|strings|0x000001C8	عصا زجاجية ذات الرمح الجليدي
+ccbgssse066-staves|strings|0x000001C9	عصا خشبية ذات الإمرة الدايدرية
+ccbgssse066-staves|strings|0x000001CA	عصا خشبية ذات الرمح الجليدي
+ccbgssse066-staves|strings|0x000001CB	عصا أبنوسية ذات الأشواك الجليدية
+ccbgssse066-staves|strings|0x000001CC	عصا أبنوسية ذات جدار الصقيع
+ccbgssse066-staves|strings|0x000001CD	عصا أبنوسية ذات الطرد
+ccbgssse066-staves|strings|0x000001CE	عصا فضية ذات الترميم
+ccbgssse066-staves|strings|0x000001CF	عصا زجاجية ذات اللهب
+ccbgssse066-staves|strings|0x000001D0	عصا أبنوسية ذات الهياج
+ccbgssse066-staves|strings|0x000001D1	عصا أبنوسية ذات الزومبي
+ccbgssse066-staves|strings|0x000001D2	عصا فولاذية ذات الأشواك الجليدية
