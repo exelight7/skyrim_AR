@@ -120,11 +120,16 @@
                             <Grid.RenderTransform>
                                 <ScaleTransform x:Name="S"/>
                             </Grid.RenderTransform>
-                            <Border x:Name="Glow" Background="#E2B96A" Margin="26,14,26,-4" Opacity="0.28">
-                                <Border.Effect>
-                                    <BlurEffect Radius="26"/>
-                                </Border.Effect>
-                            </Border>
+                            <!-- glow is a gradient, not a blur: free to composite every frame -->
+                            <Rectangle x:Name="Glow" Margin="-18,-2,-18,-26" Opacity="0.3" IsHitTestVisible="False">
+                                <Rectangle.Fill>
+                                    <RadialGradientBrush RadiusX="0.5" RadiusY="0.5">
+                                        <GradientStop Color="#D0E2B96A" Offset="0"/>
+                                        <GradientStop Color="#70E2B96A" Offset="0.45"/>
+                                        <GradientStop Color="#00E2B96A" Offset="1"/>
+                                    </RadialGradientBrush>
+                                </Rectangle.Fill>
+                            </Rectangle>
                             <Grid>
                                 <Grid.ColumnDefinitions>
                                     <ColumnDefinition Width="24"/>
@@ -175,7 +180,7 @@
                                 <Trigger.EnterActions>
                                     <BeginStoryboard>
                                         <Storyboard>
-                                            <DoubleAnimation Storyboard.TargetName="Glow" Storyboard.TargetProperty="Opacity" To="0.85" Duration="0:0:0.25"/>
+                                            <DoubleAnimation Storyboard.TargetName="Glow" Storyboard.TargetProperty="Opacity" To="0.95" Duration="0:0:0.25"/>
                                             <DoubleAnimation Storyboard.TargetName="S" Storyboard.TargetProperty="ScaleX" To="1.04" Duration="0:0:0.3">
                                                 <DoubleAnimation.EasingFunction>
                                                     <BackEase EasingMode="EaseOut" Amplitude="0.9"/>
@@ -193,7 +198,7 @@
                                 <Trigger.ExitActions>
                                     <BeginStoryboard>
                                         <Storyboard>
-                                            <DoubleAnimation Storyboard.TargetName="Glow" Storyboard.TargetProperty="Opacity" To="0.28" Duration="0:0:0.35"/>
+                                            <DoubleAnimation Storyboard.TargetName="Glow" Storyboard.TargetProperty="Opacity" To="0.3" Duration="0:0:0.35"/>
                                             <DoubleAnimation Storyboard.TargetName="S" Storyboard.TargetProperty="ScaleX" To="1" Duration="0:0:0.25"/>
                                             <DoubleAnimation Storyboard.TargetName="S" Storyboard.TargetProperty="ScaleY" To="1" Duration="0:0:0.25"/>
                                         </Storyboard>
@@ -313,13 +318,14 @@
                                         <ColumnDefinition Width="*"/>
                                     </Grid.ColumnDefinitions>
                                     <Grid Width="34" Height="34" FlowDirection="LeftToRight" Margin="2,0,14,0">
-                                        <Rectangle x:Name="Halo" Width="24" Height="24" Fill="#E2B96A" Opacity="0" RenderTransformOrigin="0.5,0.5">
-                                            <Rectangle.RenderTransform>
-                                                <RotateTransform Angle="45"/>
-                                            </Rectangle.RenderTransform>
-                                            <Rectangle.Effect>
-                                                <BlurEffect Radius="14"/>
-                                            </Rectangle.Effect>
+                                        <Rectangle x:Name="Halo" Margin="-12" Opacity="0">
+                                            <Rectangle.Fill>
+                                                <RadialGradientBrush>
+                                                    <GradientStop Color="#C8E2B96A" Offset="0"/>
+                                                    <GradientStop Color="#50E2B96A" Offset="0.5"/>
+                                                    <GradientStop Color="#00E2B96A" Offset="1"/>
+                                                </RadialGradientBrush>
+                                            </Rectangle.Fill>
                                         </Rectangle>
                                         <Rectangle Width="19" Height="19" Fill="#B005070D" Stroke="#99E2B96A" StrokeThickness="1.3" RenderTransformOrigin="0.5,0.5">
                                             <Rectangle.RenderTransform>
@@ -354,7 +360,7 @@
                                                     <BackEase EasingMode="EaseOut" Amplitude="1.4"/>
                                                 </DoubleAnimation.EasingFunction>
                                             </DoubleAnimation>
-                                            <DoubleAnimation Storyboard.TargetName="Halo" Storyboard.TargetProperty="Opacity" To="0.6" Duration="0:0:0.4"/>
+                                            <DoubleAnimation Storyboard.TargetName="Halo" Storyboard.TargetProperty="Opacity" To="0.8" Duration="0:0:0.4"/>
                                             <DoubleAnimation Storyboard.TargetName="CP" Storyboard.TargetProperty="Opacity" To="1" Duration="0:0:0.3"/>
                                         </Storyboard>
                                     </BeginStoryboard>
@@ -392,56 +398,5 @@
             </Setter>
         </Style>
 
-        <!-- ===== Choice card (font style) ===== -->
-        <Style x:Key="ChoiceCard" TargetType="RadioButton">
-            <Setter Property="Foreground" Value="{StaticResource Text}"/>
-            <Setter Property="Cursor" Value="Hand"/>
-            <Setter Property="FocusVisualStyle" Value="{x:Null}"/>
-            <Setter Property="Template">
-                <Setter.Value>
-                    <ControlTemplate TargetType="RadioButton">
-                        <Grid>
-                            <Border x:Name="Bd" Background="#0FFFFFFF" BorderBrush="#26FFFFFF" BorderThickness="1" Padding="16,9,16,10">
-                                <ContentPresenter/>
-                            </Border>
-                            <Border x:Name="On" BorderBrush="{StaticResource Gold}" BorderThickness="1.4" Opacity="0">
-                                <Border.Background>
-                                    <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
-                                        <GradientStop Color="#2AE2B96A" Offset="0"/>
-                                        <GradientStop Color="#08E2B96A" Offset="1"/>
-                                    </LinearGradientBrush>
-                                </Border.Background>
-                                <Rectangle Width="9" Height="9" Fill="{StaticResource GoldMetalHot}" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,-5,12,0" RenderTransformOrigin="0.5,0.5">
-                                    <Rectangle.RenderTransform>
-                                        <RotateTransform Angle="45"/>
-                                    </Rectangle.RenderTransform>
-                                </Rectangle>
-                            </Border>
-                        </Grid>
-                        <ControlTemplate.Triggers>
-                            <Trigger Property="IsChecked" Value="True">
-                                <Trigger.EnterActions>
-                                    <BeginStoryboard>
-                                        <Storyboard>
-                                            <DoubleAnimation Storyboard.TargetName="On" Storyboard.TargetProperty="Opacity" To="1" Duration="0:0:0.25"/>
-                                        </Storyboard>
-                                    </BeginStoryboard>
-                                </Trigger.EnterActions>
-                                <Trigger.ExitActions>
-                                    <BeginStoryboard>
-                                        <Storyboard>
-                                            <DoubleAnimation Storyboard.TargetName="On" Storyboard.TargetProperty="Opacity" To="0" Duration="0:0:0.25"/>
-                                        </Storyboard>
-                                    </BeginStoryboard>
-                                </Trigger.ExitActions>
-                            </Trigger>
-                            <Trigger Property="IsMouseOver" Value="True">
-                                <Setter TargetName="Bd" Property="Background" Value="#1CFFFFFF"/>
-                            </Trigger>
-                        </ControlTemplate.Triggers>
-                    </ControlTemplate>
-                </Setter.Value>
-            </Setter>
-        </Style>
     </Application.Resources>
 </Application>

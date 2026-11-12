@@ -1,6 +1,9 @@
 using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Diagnostics;
+using System.Threading;
+using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
@@ -12,33 +15,35 @@ using System.Windows.Threading;
 
 namespace SkyrimArabicInstaller
 {
-    // Presentation shell. Every screen, transition and effect is real; the
-    // install itself is simulated in RunInstallStep() and touches no game files.
+    // The window: five screens, their transitions, and the bridge between the
+    // installer engine (Installer.cs, runs on a worker thread) and what is shown.
     //
-    // Seam for the real installer:
-    //   - ReportProgress(percent, taskIndex) drives the rune ring, task title and pips.
-    //   - GamePath, OptText/OptBackup/OptShortcut.IsChecked and FontClassic.IsChecked hold the user's choices.
-    //   - Replace StartInstall()'s timer with the real work and call ReportProgress from it.
+    // The engine reports (task, fraction). The screen never jumps to that value: each
+    // frame it eases the displayed percentage toward it, so a two-second copy still
+    // reads as a deliberate carving and a slow disk never makes the ring stutter.
+    //
+    // Design aids (never touch a game unless --game is given):
+    //   --demo                     simulate the job
+    //   --page=N [--freeze=P]      open on screen N, hold the progress at P percent
+    //   --uninstall                with --page=3, run the uninstall job instead
+    //   --game=PATH                use this folder as the game
+    //   --shot=FILE [--at=MS] [--rtb]   save a picture of the window and exit
+    //   --perf=FILE                measure 8 seconds of rendering and exit
+    //   --skip=aurora,snow,...     with --perf: hide groups (aurora, snow, stars, hills, sigil, text, frame) to cost them
     public partial class MainWindow : Window
     {
-        // Figures shown on the welcome screen (from STATUS.md, 2026-11-06). Update at release.
-        const int StatStrings = 70877, StatPlugins = 80, StatOriginalsTouched = 0;
+        enum Job { Install, Uninstall }
 
-        static readonly Color Gold = (Color)ColorConverter.ConvertFromString("#E2B96A");
-        static readonly Color GoldLight = (Color)ColorConverter.ConvertFromString("#F7E3AE");
-        static readonly Color Good = (Color)ColorConverter.ConvertFromString("#7FE0B0");
-        static readonly Color Warn = (Color)ColorConverter.ConvertFromString("#F0A868");
-        static readonly Color MutedC = (Color)ColorConverter.ConvertFromString("#8693A8");
+        static readonly Color Gold = Fx.C("#E2B96A");
+        static readonly Color GoldLight = Fx.C("#F7E3AE");
+        static readonly Color Good = Fx.C("#7FE0B0");
+        static readonly Color Warn = Fx.C("#F0A868");
+        static readonly Color MutedC = Fx.C("#8693A8");
         static readonly IEasingFunction EaseOut = new CubicEase { EasingMode = EasingMode.EaseOut };
         static readonly IEasingFunction EaseInOut = new CubicEase { EasingMode = EasingMode.EaseInOut };
         static readonly IEasingFunction Back = new BackEase { EasingMode = EasingMode.EaseOut, Amplitude = 0.8 };
 
         readonly string[] _stepNames = { "النداء", "الطريق", "العتاد", "النقش", "الختام" };
-        readonly string[] _tasks =
-        {
-            "التحقق من ملفات اللعبة", "إنشاء نسخة احتياطية", "نسخ ملفات الترجمة",
-            "تثبيت الخط العربي", "تحديث إعدادات اللغة", "اللمسات الأخيرة"
-        };
 
         // Where the rune ring sits on each screen: centre x, centre y, scale
         static readonly double[][] Pose =
@@ -46,9 +51,10 @@ namespace SkyrimArabicInstaller
             new[] { 306.0, 334, 1.00 },
             new[] { 290.0, 344, 0.84 },
             new[] { 312.0, 330, 0.90 },
-            new[] { 590.0, 262, 0.92 },
-            new[] { 590.0, 196, 0.66 },
+            new[] { 590.0, 262, 0.90 },
+            new[] { 590.0, 196, 0.64 },
         };
+        static readonly double[] ErrorPose = { 590.0, 214, 0.70 };
 
         sealed class StepVisual
         {
@@ -57,25 +63,57 @@ namespace SkyrimArabicInstaller
 
         readonly List<StepVisual> _steps = new List<StepVisual>();
         readonly List<Rectangle> _pips = new List<Rectangle>();
-        readonly Random _rnd = new Random();
         readonly Stopwatch _clock = Stopwatch.StartNew();
         readonly ScaleTransform _sigS = new ScaleTransform(0.5, 0.5);
         readonly TranslateTransform _sigT = new TranslateTransform(Pose[0][0], Pose[0][1]);
         Rectangle _stepLine;
+        Chrome.Shadow _shadow;
         Scene _scene;
         Sigil _sigil;
         Panel[] _pages;
         int _page, _taskIndex = -1;
-        bool _busy, _pathOk;
-        double _last, _mx = 590, _my = 300, _progress, _freezeAt = -1, _countT = 2;
-        DispatcherTimer _installTimer;
+        bool _busy, _pathOk, _demo;
+        double _last, _mx = 590, _my = 300, _freezeAt = -1, _countT = 2;
 
-        public string GamePath => PathText.Text.Trim();
+        // The running job. Worker writes _wTask/_wFrac/_wDone/_wError; the UI thread only reads them.
+        Job _job = Job.Install;
+        string[] _tasks = Installer.InstallTasks;
+        double[] _weights = Installer.InstallWeights;
+        volatile int _wTask;
+        double _wFrac;
+        volatile bool _wDone, _working;
+        volatile Exception _wError;
+        JobResult _wResult;
+        bool _running;
+        double _shown;
+
+        int _perfFrames; double _perfTick; string _perfFile;
+
+        public string GamePath => PathText.Text.Trim().TrimEnd('\\');
 
         public MainWindow()
         {
             InitializeComponent();
             _pages = new Panel[] { PageWelcome, PagePath, PageOptions, PageInstall, PageDone };
+
+            var area = SystemParameters.WorkArea;
+            Left = area.Left + (area.Width - Width) / 2;
+            Top = area.Top + (area.Height - Height) / 2;
+            _shadow = new Chrome.Shadow(Width, Height);
+            _shadow.Follow(this);
+            _shadow.Show();
+            Owner = _shadow;                         // an owned window always stays above its owner
+            LocationChanged += (s, e) => _shadow.Follow(this);
+            StateChanged += (s, e) => _shadow.Visibility = WindowState == WindowState.Minimized ? Visibility.Hidden : Visibility.Visible;
+            Closed += (s, e) => _shadow.Close();
+        }
+
+        protected override void OnSourceInitialized(EventArgs e)
+        {
+            base.OnSourceInitialized(e);
+            var src = PresentationSource.FromVisual(this);
+            if (src?.CompositionTarget != null) Fx.Dpi = src.CompositionTarget.TransformToDevice.M11;
+            Chrome.Shape(this, Fx.Dpi);
         }
 
         // ---------- helpers ----------
@@ -108,6 +146,12 @@ namespace SkyrimArabicInstaller
 
         void Window_Loaded(object sender, RoutedEventArgs e)
         {
+            // Layers that never change are rasterised once (see Fx)
+            HeroGlowHost.CacheMode = Fx.Cache(0.5);     // a blur; half resolution is invisible
+            FrameHost.CacheMode = Fx.Cache();
+            Brand.CacheMode = Fx.Cache();
+            Nav.CacheMode = Fx.Cache();                 // re-rasterised only while a button is animating
+
             _scene = new Scene(SceneHost);
             _sigil = new Sigil { Opacity = 0 };
             var tg = new TransformGroup();
@@ -116,62 +160,100 @@ namespace SkyrimArabicInstaller
             _sigil.RenderTransform = tg;
             SigilHost.Children.Add(_sigil);
 
-            BuildSteps();
-            BuildPips();
-            DetectGame();
-
             int start = 0;
-            string shot = null;
+            string shot = null, game = null;
             double shotAt = 3200;
+            bool rtb = false;
             foreach (var arg in Environment.GetCommandLineArgs())
             {
                 if (arg.StartsWith("--page=") && int.TryParse(arg.Substring(7), out var n)) start = Math.Max(0, Math.Min(_pages.Length - 1, n));
                 else if (arg.StartsWith("--freeze=") && double.TryParse(arg.Substring(9), out var f)) _freezeAt = f;
                 else if (arg.StartsWith("--shot=")) shot = arg.Substring(7);
                 else if (arg.StartsWith("--at=") && double.TryParse(arg.Substring(5), out var at)) shotAt = at;
+                else if (arg.StartsWith("--perf=")) _perfFile = arg.Substring(7);
+                else if (arg.StartsWith("--game=")) game = arg.Substring(7);
+                else if (arg == "--demo") _demo = true;
+                else if (arg == "--uninstall") _job = Job.Uninstall;
+                else if (arg == "--rtb") rtb = true;
+                else if (arg.StartsWith("--skip="))
+                    foreach (var part in arg.Substring(7).Split(','))
+                    {
+                        if (part == "sigil") SigilHost.Visibility = Visibility.Collapsed;
+                        else if (part == "text") { PageHost.Visibility = Nav.Visibility = StepsHost.Visibility = Visibility.Collapsed; }
+                        else if (part == "frame") FrameHost.Visibility = Visibility.Collapsed;
+                        else _scene.Skip(part);
+                    }
             }
+            // A design run must never write to a real game by accident
+            if ((shot != null || _perfFile != null || start >= 3) && game == null) _demo = true;
             _page = start;
 
+            BuildSteps();
+            ShowPayloadFigures();
+            PathText.Text = game ?? Installer.FindGame() ?? "";
+
             // Opening: the dark lifts, the ring spins up, then the words arrive
-            Anim(Root, OpacityProperty, 1, 380);
-            Anim(RootScale, ScaleTransform.ScaleXProperty, 1, 700, 0, EaseOut);
-            Anim(RootScale, ScaleTransform.ScaleYProperty, 1, 700, 0, EaseOut);
             Anim(Curtain, OpacityProperty, 0, 1700, 250, EaseInOut);
+            After(2100, () => Curtain.Visibility = Visibility.Collapsed);
             Anim(_sigil, OpacityProperty, 1, 1100, 350);
             Anim(Brand, OpacityProperty, 1, 700, 1150, null, 0);
             Anim(StepsHost, OpacityProperty, 1, 700, 1150, null, 0);
 
             EdgeLightT.BeginAnimation(TranslateTransform.XProperty, new DoubleAnimation(-240, 2600, TimeSpan.FromSeconds(9))
             { RepeatBehavior = RepeatBehavior.Forever, BeginTime = TimeSpan.FromSeconds(1.5) });
-            HeroShimmer.BeginAnimation(TranslateTransform.XProperty, new DoubleAnimation(-1, 1, TimeSpan.FromSeconds(3.4))
-            { RepeatBehavior = RepeatBehavior.Forever, BeginTime = TimeSpan.FromSeconds(2) });
 
             ApplyStage(false, 1300);
             UpdateSteps();
             UpdateNav(false);
             After(start == 0 ? 750 : 300, () => ShowPage(_pages[_page]));
 
-            CompositionTarget.Rendering += OnFrame;
+            // The scene is advanced by an animation clock, not by CompositionTarget.Rendering: it then
+            // ticks on exactly the same beat as every other animation (see App), so one frame is
+            // drawn per beat instead of one for the scene and another for the storyboards.
+            BeginAnimation(BeatProperty, new DoubleAnimation(0, 1, TimeSpan.FromSeconds(1)) { RepeatBehavior = RepeatBehavior.Forever });
 
-            if (shot != null) After(shotAt, () => { SaveShot(shot); Close(); });
+            if (shot != null)
+            {
+                if (!rtb) Topmost = true;
+                After(shotAt, () => { SaveShot(shot, rtb); Close(); });
+            }
+            if (_perfFile != null) After(4000, StartPerfProbe);
         }
 
-        void OnFrame(object sender, EventArgs e)
+        void ShowPayloadFigures()
+        {
+            var info = Installer.Info;
+            SumStrings.Text = info.Strings.ToString("N0");
+            SumFiles.Text = info.StringFiles.ToString();
+            SumUi.Text = info.InterfaceFiles.ToString();
+            SpaceText.Text = info.Present ? "نحو " + Math.Max(1, (int)Math.Round(info.Bytes / 1048576.0)) + " ميغابايت" : "—";
+            SupportedText.Text = info.GameVersion ?? "—";
+        }
+
+        static readonly DependencyProperty BeatProperty = DependencyProperty.Register("Beat", typeof(double), typeof(MainWindow),
+            new PropertyMetadata(0.0, (d, e) => ((MainWindow)d).OnFrame()));
+
+        void OnFrame()
         {
             double now = _clock.Elapsed.TotalSeconds;
             double dt = Math.Min(0.05, now - _last);
             _last = now;
+            if (WindowState == WindowState.Minimized) return;       // nothing to draw: do no work
+
             _scene.Tick(dt, now, _mx, _my);
             _sigil.Tick(dt);
+            if (_running) StepJob(dt);
 
             if (_countT < 1)
             {
+                var info = Installer.Info;
                 _countT = Math.Min(1, _countT + dt / 1.6);
                 double k = 1 - Math.Pow(1 - _countT, 3);
-                Stat1.Text = ((int)(StatStrings * k)).ToString("N0");
-                Stat2.Text = ((int)(StatPlugins * k)).ToString();
-                Stat3.Text = StatOriginalsTouched.ToString();
+                Stat1.Text = ((int)(info.Strings * k)).ToString("N0");
+                Stat2.Text = ((int)(info.Plugins * k)).ToString();
+                Stat3.Text = "0";
             }
+            _perfFrames++; _perfTick += (_clock.Elapsed.TotalSeconds - now) * 1000;
         }
 
         void Shell_MouseMove(object sender, MouseEventArgs e)
@@ -185,24 +267,25 @@ namespace SkyrimArabicInstaller
         void BuildSteps()
         {
             const double w = 506, y = 13, pad = 30, gap = (w - pad * 2) / 4;
-            StepsHost.Children.Add(new Rectangle { Width = w - pad * 2, Height = 1, Fill = new SolidColorBrush(Color.FromArgb(0x30, 255, 255, 255)) }
-                .At(pad, y));
+            var halos = new Canvas();
+            var still = new Canvas { Width = w, Height = 58, CacheMode = Fx.Cache(1.5) };     // line, diamonds, labels: redrawn only when a step changes
+            StepsHost.Children.Add(halos);
+            StepsHost.Children.Add(still);
+            still.Children.Add(new Rectangle { Width = w - pad * 2, Height = 1, Fill = new SolidColorBrush(Color.FromArgb(0x30, 255, 255, 255)) }
+                .Put(pad, y));
             _stepLine = new Rectangle { Width = 0, Height = 1.6, Fill = (Brush)FindResource("Gold") };
             Canvas.SetRight(_stepLine, pad);
             Canvas.SetTop(_stepLine, y - 0.3);
-            StepsHost.Children.Add(_stepLine);
+            still.Children.Add(_stepLine);
+
 
             for (int i = 0; i < _stepNames.Length; i++)
             {
                 double x = w - pad - i * gap;     // first step on the right: the journey reads right to left
                 var v = new StepVisual { Scale = new ScaleTransform(1, 1) };
 
-                v.Halo = new Rectangle { Width = 26, Height = 26, Opacity = 0, RenderTransform = new RotateTransform(45, 13, 13) };
-                var hb = new RadialGradientBrush();
-                hb.GradientStops.Add(new GradientStop(Color.FromArgb(150, Gold.R, Gold.G, Gold.B), 0));
-                hb.GradientStops.Add(new GradientStop(Color.FromArgb(0, Gold.R, Gold.G, Gold.B), 1));
-                v.Halo.Fill = hb;
-                StepsHost.Children.Add(v.Halo.At(x - 13, y - 13));
+                v.Halo = new Rectangle { Width = 34, Height = 34, Opacity = 0, Fill = new RadialGradientBrush(Fx.A(Gold, 150), Fx.A(Gold, 0)) };
+                halos.Children.Add(v.Halo.Put(x - 17, y - 17));
 
                 var tg = new TransformGroup();
                 tg.Children.Add(new RotateTransform(45, 5.5, 5.5));
@@ -214,20 +297,20 @@ namespace SkyrimArabicInstaller
                     Fill = new SolidColorBrush(Color.FromRgb(6, 9, 16)),
                     Stroke = new SolidColorBrush(Color.FromArgb(0x70, 255, 255, 255))
                 };
-                StepsHost.Children.Add(v.Diamond.At(x - 5.5, y - 5.5));
+                still.Children.Add(v.Diamond.Put(x - 5.5, y - 5.5));
 
                 v.Label = new TextBlock
                 {
                     Text = _stepNames[i], Width = 90, TextAlignment = TextAlignment.Center, FontSize = 12.5,
                     Foreground = new SolidColorBrush(MutedC), FlowDirection = FlowDirection.RightToLeft
                 };
-                StepsHost.Children.Add(v.Label.At(x - 45, y + 14));
+                still.Children.Add(v.Label.Put(x - 45, y + 14));
 
                 int index = i;
                 var hit = new Border { Width = 90, Height = 58, Background = Brushes.Transparent };
                 hit.MouseLeftButtonDown += (s, e) => { e.Handled = true; if (index < _page && _page < 3) GoTo(index); };
                 v.Hit = hit;
-                StepsHost.Children.Add(hit.At(x - 45, 0));
+                StepsHost.Children.Add(hit.Put(x - 45, 0));
                 _steps.Add(v);
             }
         }
@@ -248,11 +331,12 @@ namespace SkyrimArabicInstaller
                 double s = active ? 1.45 : 1;
                 Anim(v.Scale, ScaleTransform.ScaleXProperty, s, 600, 200, Back);
                 Anim(v.Scale, ScaleTransform.ScaleYProperty, s, 600, 200, Back);
+                v.Halo.Opacity = active ? 1 : 0;       // only the current step's halo is drawn at all
                 if (active)
-                    v.Halo.BeginAnimation(OpacityProperty, new DoubleAnimation(0.25, 1, TimeSpan.FromSeconds(1.3))
+                    v.Halo.Fill.BeginAnimation(Brush.OpacityProperty, new DoubleAnimation(0.25, 1, TimeSpan.FromSeconds(1.3))
                     { AutoReverse = true, RepeatBehavior = RepeatBehavior.Forever, EasingFunction = new SineEase { EasingMode = EasingMode.EaseInOut } });
                 else
-                    Anim(v.Halo, OpacityProperty, 0, 300);
+                    v.Halo.Fill.BeginAnimation(Brush.OpacityProperty, null);
                 v.Hit.Cursor = i < _page && _page < 3 ? Cursors.Hand : Cursors.Arrow;
             }
         }
@@ -288,8 +372,17 @@ namespace SkyrimArabicInstaller
         // Moves the ring, the sky and the footer to suit the current screen
         void ApplyStage(bool animate, double ms)
         {
-            var p = Pose[_page];
-            bool centre = _page >= 3;
+            bool centre = _page >= 3, undo = _job == Job.Uninstall;
+            MoveSigil(Pose[_page], animate, ms);
+            Anim(ReadShade, OpacityProperty, centre ? 0 : 1, animate ? 700 : 0);
+            Anim(StepsShift, TranslateTransform.XProperty, centre ? -259 : 0, animate ? ms : 0, 0, EaseInOut);
+            _scene.SetPage(_page, undo);
+            _sigil.Reverse = centre && undo;
+            _sigil.SetMode(_page == 3 ? SigilMode.Progress : _page == 4 ? SigilMode.Done : SigilMode.Idle);
+        }
+
+        void MoveSigil(double[] p, bool animate, double ms)
+        {
             if (animate)
             {
                 Anim(_sigT, TranslateTransform.XProperty, p[0], ms, 0, EaseInOut);
@@ -298,22 +391,23 @@ namespace SkyrimArabicInstaller
             else { _sigT.X = p[0]; _sigT.Y = p[1]; }
             Anim(_sigS, ScaleTransform.ScaleXProperty, p[2], ms, 0, animate ? EaseInOut : EaseOut);
             Anim(_sigS, ScaleTransform.ScaleYProperty, p[2], ms, 0, animate ? EaseInOut : EaseOut);
-            Anim(ReadShade, OpacityProperty, centre ? 0 : 1, animate ? 700 : 0);
-            Anim(StepsShift, TranslateTransform.XProperty, centre ? -263 : 0, animate ? ms : 0, 0, EaseInOut);
-            _scene.SetPage(_page);
-            _sigil.SetMode(_page == 3 ? SigilMode.Progress : _page == 4 ? SigilMode.Done : SigilMode.Idle);
         }
 
         void ShowPage(Panel page)
         {
+            if (page == PageDone) SetUpDone();
+            if (page == PageInstall) ResetInstallScreen();
+
             page.BeginAnimation(OpacityProperty, null);
             page.Opacity = 1;
             page.Visibility = Visibility.Visible;
+            page.CacheMode = null;
 
             // Each block of the page rises into place, one after another
             int i = 0;
             foreach (UIElement child in page.Children)
             {
+                if (child.Visibility != Visibility.Visible) continue;
                 var t = new TranslateTransform(0, 30);
                 child.RenderTransform = t;
                 child.Opacity = 0;
@@ -322,9 +416,28 @@ namespace SkyrimArabicInstaller
                 i++;
             }
 
-            if (page == PageWelcome) { _countT = 2; After(520, () => _countT = 0); }
+            // Once its entrance has played, a page is a still image: keep it as one texture.
+            // (The install screen keeps changing, so it is left live.)
+            if (page != PageInstall)
+                After(i * 90 + 900 + (page == PageWelcome ? 1800 : 0), () =>
+                {
+                    if (_pages[_page] == page && !_busy) page.CacheMode = Fx.Cache();
+                });
+
+            if (page == PageWelcome)
+            {
+                _countT = 2;
+                After(520, () => _countT = 0);
+                // A glint crosses the title every seven seconds; between passes nothing is redrawn
+                var sweep = new DoubleAnimationUsingKeyFrames { Duration = TimeSpan.FromSeconds(7), RepeatBehavior = RepeatBehavior.Forever, BeginTime = TimeSpan.FromSeconds(1.2) };
+                sweep.KeyFrames.Add(new DiscreteDoubleKeyFrame(-1, KeyTime.FromPercent(0)));
+                sweep.KeyFrames.Add(new EasingDoubleKeyFrame(1, KeyTime.FromPercent(0.24), new SineEase { EasingMode = EasingMode.EaseInOut }));
+                sweep.KeyFrames.Add(new DiscreteDoubleKeyFrame(1, KeyTime.FromPercent(1)));
+                HeroShimmer.BeginAnimation(TranslateTransform.XProperty, sweep);
+            }
+            else HeroShimmer.BeginAnimation(TranslateTransform.XProperty, null);     // no hidden animation left running
             if (page == PagePath) ValidatePath(true);
-            if (page == PageInstall) StartInstall();
+            if (page == PageInstall) StartJob();
         }
 
         void UpdateNav(bool animate)
@@ -342,32 +455,22 @@ namespace SkyrimArabicInstaller
             else if (!visible) { el.BeginAnimation(OpacityProperty, null); el.Opacity = 0; }
         }
 
-        void Next_Click(object sender, RoutedEventArgs e) => GoTo(_page + 1);
+        void Next_Click(object sender, RoutedEventArgs e)
+        {
+            if (_page == 2) _job = Job.Install;
+            GoTo(_page + 1);
+        }
 
         void Back_Click(object sender, RoutedEventArgs e) => GoTo(_page - 1);
 
         void Window_KeyDown(object sender, KeyEventArgs e)
         {
             if (_page >= 3 || PathText.IsKeyboardFocused) return;
-            if (e.Key == Key.Enter && BtnNext.IsEnabled) GoTo(_page + 1);
+            if (e.Key == Key.Enter && BtnNext.IsEnabled) Next_Click(null, null);
             else if (e.Key == Key.Escape && _page > 0) GoTo(_page - 1);
         }
 
         // ---------- game folder ----------
-
-        void DetectGame()
-        {
-            string[] guesses =
-            {
-                @"C:\Program Files (x86)\Steam\steamapps\common\Skyrim Special Edition",
-                @"C:\SteamLibrary\steamapps\common\Skyrim Special Edition",
-                @"D:\SteamLibrary\steamapps\common\Skyrim Special Edition",
-                @"D:\Steam\steamapps\common\Skyrim Special Edition",
-                @"E:\SteamLibrary\steamapps\common\Skyrim Special Edition"
-            };
-            foreach (var g in guesses)
-                if (LooksLikeGame(g)) { PathText.Text = g; return; }
-        }
 
         void Browse_Click(object sender, RoutedEventArgs e)
         {
@@ -386,13 +489,21 @@ namespace SkyrimArabicInstaller
         void ValidatePath(bool replay)
         {
             if (_sigil == null) return;
-            string path = GamePath;
-            bool was = _pathOk;
-            _pathOk = path.Length > 0 && LooksLikeGame(path);
-            Color c = path.Length == 0 ? MutedC : _pathOk ? Good : Warn;
+            string path = GamePath, built = Installer.Info.GameVersion;
+            bool was = _pathOk, found = Installer.LooksLikeGame(path);
+            string version = found ? Installer.GameVersion(path) : null;
+            bool match = Installer.SameVersion(version, built), installed = found && Installer.IsInstalled(path);
+            _pathOk = found || (_demo && path.Length > 0);
+
+            Color c = path.Length == 0 ? MutedC : !found ? Warn : match ? Good : Warn;
             StatusText.Text = path.Length == 0 ? "لم يُحدَّد مجلد بعد"
-                            : _pathOk ? "عُثر على سكايرم. الطريق سالكة."
-                            : "لا أثر للملف SkyrimSE.exe في هذا المجلد";
+                : !found ? "لا أثر للملف SkyrimSE.exe في هذا المجلد"
+                : !match ? "وُجدت اللعبة بالإصدار " + version + "، والتعريب مبنيّ للإصدار " + built + ". قد تغيب بعض النصوص."
+                : installed ? "سكايرم هنا، ومعرَّبة من قبل. سيُحدَّث التعريب إلى أحدث نقش."
+                : "عُثر على سكايرم. الطريق سالكة.";
+            YourVersionText.Text = version ?? "—";
+            YourVersionText.Foreground = new SolidColorBrush(found && !match ? Warn : Fx.C("#EEF2F8"));
+            BtnUninstall.Visibility = installed ? Visibility.Visible : Visibility.Collapsed;
 
             Tint(StatusDotBrush, c);
             PathGlowStop.BeginAnimation(GradientStop.ColorProperty, new ColorAnimation(c, TimeSpan.FromMilliseconds(350)));
@@ -401,19 +512,15 @@ namespace SkyrimArabicInstaller
 
             // A beacon ping around the status dot, and an answering pulse from the ring
             var ring = (ScaleTransform)StatusRing.RenderTransform;
-            var grow = new DoubleAnimation(0.5, 2.3, TimeSpan.FromSeconds(1.5)) { RepeatBehavior = RepeatBehavior.Forever, EasingFunction = EaseOut };
-            ring.BeginAnimation(ScaleTransform.ScaleXProperty, grow);
-            ring.BeginAnimation(ScaleTransform.ScaleYProperty, grow);
-            StatusRing.BeginAnimation(OpacityProperty, new DoubleAnimation(0.9, 0, TimeSpan.FromSeconds(1.5)) { RepeatBehavior = RepeatBehavior.Forever });
-            if (_pathOk && (!was || replay) && _page == 1) _sigil.Pulse(Good, replay ? 600 : 0);
-
-            if (_page == 1) BtnNext.IsEnabled = _pathOk;
-        }
-
-        static bool LooksLikeGame(string folder)
-        {
-            try { return System.IO.File.Exists(System.IO.Path.Combine(folder, "SkyrimSE.exe")); }
-            catch { return false; }
+            if (_page == 1)
+            {
+                var grow = new DoubleAnimation(0.5, 2.3, TimeSpan.FromSeconds(1.5)) { RepeatBehavior = new RepeatBehavior(3), FillBehavior = FillBehavior.Stop, EasingFunction = EaseOut };
+                ring.BeginAnimation(ScaleTransform.ScaleXProperty, grow);
+                ring.BeginAnimation(ScaleTransform.ScaleYProperty, grow);
+                StatusRing.BeginAnimation(OpacityProperty, new DoubleAnimation(0.9, 0, TimeSpan.FromSeconds(1.5)) { RepeatBehavior = new RepeatBehavior(3), FillBehavior = FillBehavior.Stop });
+                if (found && (!was || replay)) _sigil.Pulse(c, replay ? 600 : 0);
+                BtnNext.IsEnabled = _pathOk;
+            }
         }
 
         void Option_Click(object sender, RoutedEventArgs e)
@@ -422,10 +529,29 @@ namespace SkyrimArabicInstaller
             _sigil.Tease();
         }
 
-        // ---------- the carving (install, simulated) ----------
-
-        void BuildPips()
+        void Uninstall_Click(object sender, RoutedEventArgs e)
         {
+            _job = Job.Uninstall;
+            GoTo(3);
+        }
+
+        // ---------- the carving ----------
+
+        void ResetInstallScreen()
+        {
+            bool undo = _job == Job.Uninstall;
+            _tasks = undo ? Installer.UninstallTasks : Installer.InstallTasks;
+            _weights = undo ? Installer.UninstallWeights : Installer.InstallWeights;
+            InstallEyebrow.Text = undo ? "يُمحى النقش" : "يُنقَش الآن";
+            TaskText.Foreground = (Brush)FindResource("Text");
+            TaskText.Text = _tasks[0];
+            LogText.Text = " ";
+            LogText.Foreground = (Brush)FindResource("Muted");
+            ErrorNav.Visibility = Visibility.Collapsed;
+            Pips.Visibility = Visibility.Visible;
+
+            Pips.Children.Clear();
+            _pips.Clear();
             for (int i = 0; i < _tasks.Length; i++)
             {
                 var r = new Rectangle
@@ -440,40 +566,72 @@ namespace SkyrimArabicInstaller
             }
         }
 
-        void StartInstall()
+        void StartJob()
         {
-            _progress = 0;
             _taskIndex = -1;
-            LogText.Text = " ";
-            foreach (var p in _pips)
-            {
-                Tint((SolidColorBrush)p.Fill, Colors.Transparent, 0);
-                Tint((SolidColorBrush)p.Stroke, Color.FromArgb(0x66, 255, 255, 255), 0);
-            }
+            _shown = 0;
+            _wTask = 0; Volatile.Write(ref _wFrac, 0); _wDone = false; _wError = null; _wResult = null;
             ReportProgress(0, 0);
-            _installTimer?.Stop();
-            _installTimer = new DispatcherTimer { Interval = TimeSpan.FromMilliseconds(40) };
-            _installTimer.Tick += (s, e) => RunInstallStep();
-            After(900, () => _installTimer.Start());
+
+            var opts = new InstallOptions { GameDir = GamePath, Backup = OptBackup.IsChecked == true, Shortcut = OptShortcut.IsChecked == true };
+            var job = _job;
+            bool demo = _demo;
+            int count = _tasks.Length;
+            Action<int, double> report = (t, f) => { _wTask = t; Volatile.Write(ref _wFrac, f); };
+
+            _working = true;
+            BtnClose.IsEnabled = false;
+            // Let the ring settle into its starting pose before the first letters strike
+            After(900, () =>
+            {
+                _running = true;
+                Task.Run(() =>
+                {
+                    try
+                    {
+                        _wResult = demo ? Installer.Demo(count, report)
+                                 : job == Job.Uninstall ? Installer.Uninstall(opts.GameDir, report)
+                                 : Installer.Install(opts, report);
+                    }
+                    catch (Exception ex) { _wError = ex; }
+                    finally { _wDone = true; _working = false; }
+                });
+            });
         }
 
-        // Design build: only advances the numbers. Real patching goes here later.
-        void RunInstallStep()
+        // Called every frame while a job is running
+        void StepJob(double dt)
         {
-            _progress = Math.Min(100, _progress + 0.18 + _rnd.NextDouble() * 0.6);
-            if (_freezeAt >= 0 && _progress >= _freezeAt) { _progress = _freezeAt; _installTimer.Stop(); }
-            ReportProgress(_progress, Math.Min(_tasks.Length - 1, (int)(_progress / 100 * _tasks.Length)));
+            if (_wError != null) { _running = false; BtnClose.IsEnabled = true; ShowError(_wError); return; }
 
-            if (_progress >= 100)
+            double target = 100;
+            if (!_wDone)
             {
-                _installTimer.Stop();
+                int t = Math.Min(_wTask, _weights.Length - 1);
+                double before = 0;
+                for (int i = 0; i < t; i++) before += _weights[i];
+                target = (before + _weights[t] * Math.Max(0, Math.Min(1, Volatile.Read(ref _wFrac)))) * 100;
+            }
+            // Ease toward the real figure: never faster than the eye can follow, never stalling behind it
+            _shown = Math.Min(target, _shown + (14 + (target - _shown) * 0.12) * dt);
+            if (_freezeAt >= 0 && _shown >= _freezeAt) _shown = _freezeAt;
+
+            double acc = 0;
+            int idx = _weights.Length - 1;
+            for (int i = 0; i < _weights.Length; i++) { acc += _weights[i] * 100; if (_shown < acc) { idx = i; break; } }
+            ReportProgress(_shown, idx);
+
+            if (_wDone && _shown >= 100)
+            {
+                _running = false;
+                BtnClose.IsEnabled = true;
                 ReportProgress(100, _tasks.Length);
                 After(1100, () => GoTo(4));
             }
         }
 
         /// <summary>Drive the install screen. taskIndex == task count means "all done".</summary>
-        public void ReportProgress(double percent, int taskIndex)
+        void ReportProgress(double percent, int taskIndex)
         {
             _sigil.SetProgress(percent / 100);
             if (taskIndex == _taskIndex) return;
@@ -484,6 +642,7 @@ namespace SkyrimArabicInstaller
                 Tint((SolidColorBrush)_pips[i].Stroke, GoldLight, 400);
                 LogText.Text = "✓  " + _tasks[i];
                 Anim(LogText, OpacityProperty, 1, 400, 0, null, 0);
+                _sigil.Pulse(Gold);                  // each finished task rings out from the circle
             }
             _taskIndex = taskIndex;
             if (taskIndex < _tasks.Length)
@@ -497,15 +656,62 @@ namespace SkyrimArabicInstaller
             }
         }
 
+        void ShowError(Exception ex)
+        {
+            bool undo = _job == Job.Uninstall;
+            InstallEyebrow.Text = undo ? "توقّف المحو" : "توقّف النقش";
+            TaskText.Text = undo ? "تعذّرت إزالة التعريب" : "تعذّر إكمال النقش";
+            TaskText.Foreground = new SolidColorBrush(Warn);
+            LogText.Text = ex is InstallException ? ex.Message : "خطأ غير متوقَّع: " + ex.Message;
+            LogText.Foreground = (Brush)FindResource("Soft");
+            Pips.Visibility = Visibility.Collapsed;
+            ErrorNav.Visibility = Visibility.Visible;
+            Anim(ErrorNav, OpacityProperty, 1, 400, 0, null, 0);
+            ErrorNav.RenderTransform = null;
+            MoveSigil(ErrorPose, true, 700);
+            _sigil.Reverse = false;
+            _sigil.SetMode(SigilMode.Idle);
+            _scene.SetPage(1);
+        }
+
+        void Retry_Click(object sender, RoutedEventArgs e)
+        {
+            ResetInstallScreen();
+            MoveSigil(Pose[3], true, 700);
+            _scene.SetPage(3, _job == Job.Uninstall);
+            _sigil.Reverse = _job == Job.Uninstall;
+            _sigil.SetMode(SigilMode.Progress);
+            StartJob();
+        }
+
+        void ErrorBack_Click(object sender, RoutedEventArgs e)
+        {
+            _job = Job.Install;
+            GoTo(1);
+        }
+
+        // ---------- the end ----------
+
+        void SetUpDone()
+        {
+            bool undo = _job == Job.Uninstall;
+            var r = _wResult ?? new JobResult();
+            DoneEyebrow.Text = undo ? "اكتمل المحو" : "اكتمل النقش";
+            DoneTitle.Text = undo ? "عادت سكايرم إلى أصلها" : "سكايرم تتكلّم العربية";
+            DoneLead.Text = undo ? "أُزيل التعريب من اللعبة. يمكنك نقشه من جديد متى شئت."
+                                 : "كل شيء في مكانه، والملفات الأصلية لم تُمَسّ. رحلة موفّقة يا دوفاكين.";
+            DoneNote.Text = _demo ? "عرض تجريبي: لم يُكتب أي ملف."
+                : undo ? "الملفات المُزالة: " + r.Files + (r.Restored > 0 ? "  ·  المُعادة من النسخة الاحتياطية: " + r.Restored : "")
+                         + (r.LeftInPlace > 0 ? "  ·  المتروكة لأنها تغيّرت: " + r.LeftInPlace : "")
+                : "الملفات المنقوشة: " + r.Files + (r.BackedUp > 0 ? "  ·  المحفوظة في النسخة الاحتياطية: " + r.BackedUp : "");
+            BtnLaunch.Visibility = undo ? Visibility.Collapsed : Visibility.Visible;
+        }
+
         void Launch_Click(object sender, RoutedEventArgs e)
         {
-            try
-            {
-                string exe = System.IO.Path.Combine(GamePath, "SkyrimSE.exe");
-                if (System.IO.File.Exists(exe))
-                    Process.Start(new ProcessStartInfo(exe) { WorkingDirectory = GamePath, UseShellExecute = true });
-            }
-            catch { /* launching is a courtesy; closing still succeeds */ }
+            if (!_demo)
+                try { Installer.Launch(GamePath); }
+                catch { /* launching is a courtesy; closing still succeeds */ }
             CloseAnimated();
         }
 
@@ -520,39 +726,65 @@ namespace SkyrimArabicInstaller
 
         void Close_Click(object sender, RoutedEventArgs e) => CloseAnimated();
 
+        // Files are being moved: closing now could leave the game half-patched
+        protected override void OnClosing(CancelEventArgs e)
+        {
+            if (_working) e.Cancel = true;
+            base.OnClosing(e);
+        }
+
         void CloseAnimated()
         {
-            var fade = new DoubleAnimation(0, TimeSpan.FromMilliseconds(260));
+            if (_working) return;
+            Curtain.Visibility = Visibility.Visible;
+            var fade = new DoubleAnimation(1, TimeSpan.FromMilliseconds(240));
             fade.Completed += (s, e) => Close();
-            Root.BeginAnimation(OpacityProperty, fade);
-            Anim(RootScale, ScaleTransform.ScaleXProperty, 0.96, 260);
-            Anim(RootScale, ScaleTransform.ScaleYProperty, 0.96, 260);
+            Curtain.BeginAnimation(OpacityProperty, fade);
         }
 
-        // Design aid: SkyrimArabic.exe --page=3 --freeze=62 --shot=out.png [--at=3200]
-        void SaveShot(string file)
+        // ---------- design aids ----------
+
+        // By default this photographs the real window, so cached layers and hardware
+        // effects are captured exactly as the user sees them. --rtb renders off-screen instead.
+        void SaveShot(string file, bool rtb)
         {
-            var dv = new DrawingVisual();
-            using (var dc = dv.RenderOpen())
+            if (rtb)
             {
-                dc.DrawRectangle(new SolidColorBrush(Color.FromRgb(40, 44, 52)), null, new Rect(0, 0, ActualWidth, ActualHeight));
-                dc.DrawRectangle(new VisualBrush(Root) { Stretch = Stretch.None }, null, new Rect(30, 30, Root.ActualWidth, Root.ActualHeight));
+                // Off-screen: draws the window's own content and never reads the screen
+                var bmp = new RenderTargetBitmap((int)Math.Round(Root.ActualWidth * Fx.Dpi), (int)Math.Round(Root.ActualHeight * Fx.Dpi), 96 * Fx.Dpi, 96 * Fx.Dpi, PixelFormats.Pbgra32);
+                bmp.Render(Root);
+                var enc = new PngBitmapEncoder();
+                enc.Frames.Add(BitmapFrame.Create(bmp));
+                using (var fs = System.IO.File.Create(file)) enc.Save(fs);
+                return;
             }
-            var bmp = new RenderTargetBitmap((int)ActualWidth, (int)ActualHeight, 96, 96, PixelFormats.Pbgra32);
-            bmp.Render(dv);
-            var enc = new PngBitmapEncoder();
-            enc.Frames.Add(BitmapFrame.Create(bmp));
-            using (var fs = System.IO.File.Create(file)) enc.Save(fs);
+            double pad = Chrome.ShadowPad;                 // include the shadow window in the picture
+            var origin = PointToScreen(new Point(-pad, -pad));
+            int w = (int)Math.Round((ActualWidth + pad * 2) * Fx.Dpi), h = (int)Math.Round((ActualHeight + pad * 2) * Fx.Dpi);
+            using (var shot = new System.Drawing.Bitmap(w, h))
+            {
+                using (var g = System.Drawing.Graphics.FromImage(shot))
+                    g.CopyFromScreen((int)origin.X, (int)origin.Y, 0, 0, new System.Drawing.Size(w, h));
+                shot.Save(file, System.Drawing.Imaging.ImageFormat.Png);
+            }
         }
-    }
 
-    static class CanvasExt
-    {
-        public static T At<T>(this T el, double x, double y) where T : UIElement
+        void StartPerfProbe()
         {
-            Canvas.SetLeft(el, x);
-            Canvas.SetTop(el, y);
-            return el;
+            var proc = Process.GetCurrentProcess();
+            var cpu0 = proc.TotalProcessorTime;
+            var w0 = _clock.Elapsed;
+            _perfFrames = 0; _perfTick = 0;
+            After(8000, () =>
+            {
+                proc.Refresh();
+                double wall = (_clock.Elapsed - w0).TotalSeconds;
+                System.IO.File.WriteAllText(_perfFile, string.Format(System.Globalization.CultureInfo.InvariantCulture,
+                    "page={0} fps={1:F1} cpu={2:F1}% of one core, tick={3:F3} ms/frame, tier={4}, display={5} Hz",
+                    _page, _perfFrames / wall, (proc.TotalProcessorTime - cpu0).TotalSeconds / wall * 100,
+                    _perfTick / Math.Max(1, _perfFrames), RenderCapability.Tier >> 16, Chrome.RefreshRate()));
+                Close();
+            });
         }
     }
 }

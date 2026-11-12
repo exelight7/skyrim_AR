@@ -131,3 +131,9 @@ B074_bk27 and B075_bk28 accepted and deployed.
 - B081_bk34 and B082_bk35 accepted (30/30 each, 0 open rejections). Not yet redeployed (deploy once at end of run).
 - Helper for lean batches: scratchpad bk.py (new = export+print; done = rebuild ar.tsv from t*.raw, import, show rejections only).
 - Spelling fixes in passing: Windhelm -> «ويندهيلم» (name_form), Northwatch Keep -> «قلعة المرصد الشمالي», Oakflesh -> «جلد البلوط», Fire Storm -> «عاصفة نارية», Telekinesis -> «التحريك الذهني».
+
+## 2026-11-12 (installer)
+- Mod rebuilt from the database: 94,226 strings in 166 files + 861 UI keys (95,087 accepted), problems=0, tests + selftest OK.
+- Installer (05_tools/installer_ui) now performs a real install/update/uninstall: the build embeds 07_patch/SkyrimArabic as payload.zip; files go to Data as loose files with staging, SHA-256 receipt (Data/SkyrimArabic/receipt.tsv), backup of pre-existing files, rollback on failure. Verified on a dummy game folder only (193 files byte-identical to 07_patch; uninstall restores the prior state). Not yet run against the real game.
+- Rendering reworked: opaque shaped window + separate static shadow window, cached layers, baked particle sheets, one 60-72 Hz beat. Measured on this PC: 32-43 fps at 62-71% of a core before, ~70 fps at 33-40% after.
+- Output copy: 09_release/SkyrimArabic-Installer.exe. Rebuild the installer after every build_mod.py run to refresh the payload.

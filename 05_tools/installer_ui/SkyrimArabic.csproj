@@ -13,8 +13,34 @@
     <AutoGenerateBindingRedirects>false</AutoGenerateBindingRedirects>
     <Version>1.0.0</Version>
     <Product>تعريب سكايرم</Product>
+
+    <!-- The translation that gets embedded: the latest build of the mod (build_mod.py output).
+         It is game-derived, so it is zipped outside the repository and never committed. -->
+    <PayloadSrc>$(MSBuildProjectDirectory)\..\..\07_patch\SkyrimArabic</PayloadSrc>
+    <PayloadReport>$(MSBuildProjectDirectory)\..\..\08_qa\reports\build_report.json</PayloadReport>
+    <PayloadWork>$(LOCALAPPDATA)\SkyrimArabicInstallerBuild\payload</PayloadWork>
+    <PayloadZip>$(PayloadWork)\payload.zip</PayloadZip>
   </PropertyGroup>
   <ItemGroup>
     <Resource Include="Fonts\*.ttf" />
+    <Reference Include="System.IO.Compression" />
+    <EmbeddedResource Include="$(PayloadZip)" LogicalName="payload.zip" Link="payload.zip" />
   </ItemGroup>
+
+  <Target Name="PackPayload" BeforeTargets="BeforeBuild">
+    <ItemGroup>
+      <PayloadStrings Include="$(PayloadSrc)\Strings\**\*" />
+      <PayloadInterface Include="$(PayloadSrc)\Interface\**\*" />
+      <PayloadLicenses Include="$(PayloadSrc)\LICENSES\**\*" />
+    </ItemGroup>
+    <Error Condition="'@(PayloadStrings)' == '' Or '@(PayloadInterface)' == ''"
+           Text="No translation found in 07_patch\SkyrimArabic. Build it first: python -I 05_tools\skyrim_l10n\build_mod.py --project &lt;root&gt;" />
+    <RemoveDir Directories="$(PayloadWork)\stage" />
+    <Copy SourceFiles="@(PayloadStrings)" DestinationFolder="$(PayloadWork)\stage\Strings\%(RecursiveDir)" />
+    <Copy SourceFiles="@(PayloadInterface)" DestinationFolder="$(PayloadWork)\stage\Interface\%(RecursiveDir)" />
+    <Copy SourceFiles="@(PayloadLicenses)" DestinationFolder="$(PayloadWork)\stage\LICENSES\%(RecursiveDir)" />
+    <Copy SourceFiles="$(PayloadReport)" DestinationFolder="$(PayloadWork)\stage" Condition="Exists('$(PayloadReport)')" />
+    <ZipDirectory SourceDirectory="$(PayloadWork)\stage" DestinationFile="$(PayloadZip)" Overwrite="true" />
+    <Message Importance="high" Text="Packed translation payload: @(PayloadStrings->Count()) string files, @(PayloadInterface->Count()) interface files" />
+  </Target>
 </Project>

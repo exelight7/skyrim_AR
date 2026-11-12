@@ -16,6 +16,9 @@ namespace SkyrimArabicInstaller
     // As the install advances, each rune is re-struck as one of the 28 Arabic
     // letters, running counter-clockwise (the direction Arabic is written).
     // Drawn around (0,0); the window positions and scales it.
+    //
+    // Every part that only spins is its own cached layer, so a frame of the idle
+    // animation is a handful of textured quads rather than hundreds of re-tessellated shapes.
     public sealed class Sigil : Canvas
     {
         public const int N = 28;
@@ -23,20 +26,20 @@ namespace SkyrimArabicInstaller
         const string Letters = "ابتثجحخدذرزسشصضطظعغفقكلمنهوي";
         const double GlyphR = 151, ArcR = 175;
 
-        static readonly Color Gold = (Color)ColorConverter.ConvertFromString("#E2B96A");
-        static readonly Color GoldLight = (Color)ColorConverter.ConvertFromString("#F7E3AE");
-        static readonly Color Ice = (Color)ColorConverter.ConvertFromString("#9FDCF0");
+        static readonly Color Gold = Fx.C("#E2B96A");
+        static readonly Color GoldLight = Fx.C("#F7E3AE");
+        static readonly Color Ice = Fx.C("#9FDCF0");
         static readonly IEasingFunction Out = new CubicEase { EasingMode = EasingMode.EaseOut };
         static readonly IEasingFunction InOut = new CubicEase { EasingMode = EasingMode.EaseInOut };
         static readonly IEasingFunction Back = new BackEase { EasingMode = EasingMode.EaseOut, Amplitude = 1.1 };
 
         sealed class Slot
         {
-            public TextBlock Rune, Letter; public ScaleTransform LetterScale; public Ellipse Flash; public bool Lit;
+            public TextBlock Rune, Letter; public ScaleTransform LetterScale; public Rectangle Flash; public bool Lit;
         }
         sealed class Spark
         {
-            public Ellipse E; public TranslateTransform T; public double X, Y, Vx, Vy, Life, Max;
+            public Brush B; public Rectangle E; public TranslateTransform T; public double X, Y, Vx, Vy, Life, Max;
         }
 
         readonly Slot[] _slots = new Slot[N];
@@ -44,13 +47,15 @@ namespace SkyrimArabicInstaller
         readonly Random _rnd = new Random();
         readonly RotateTransform _glyphRot = new RotateTransform();
         readonly Canvas _fx = new Canvas();
-        readonly Ellipse _glow, _head, _headGlow;
-        readonly Path _arc, _arcGlow, _check;
-        readonly TextBlock _dad, _digits;
-        readonly FrameworkElement _percent;
+        readonly FrameworkElement _head, _headGlow, _percent, _dad;
+        readonly Path _arc, _arcGlowA, _arcGlowB, _check;
+        readonly TextBlock _digits;
         readonly DispatcherTimer _tease;
         SigilMode _mode = SigilMode.Idle;
         double _p, _hx, _hy = -ArcR, _emit;
+
+        /// <summary>Uninstall: the ring starts fully Arabic and the letters fall back to runes.</summary>
+        public bool Reverse { get; set; }
 
         public Sigil()
         {
@@ -61,58 +66,93 @@ namespace SkyrimArabicInstaller
             var metal = (Brush)Application.Current.Resources["GoldMetalHot"];
 
             // Breathing halo
-            _glow = Disc(285, Radial(Color.FromArgb(120, Gold.R, Gold.G, Gold.B), Color.FromArgb(0, Gold.R, Gold.G, Gold.B)));
-            Children.Add(_glow);
-            Loop(_glow, OpacityProperty, 0.45, 0.95, 3.2);
+            // (fades through its brush: element opacity would cost a 570px blend layer every frame)
+            var glowBrush = Fx.Radial(Fx.A(Gold, 120), Fx.A(Gold, 0));
+            Children.Add(Square(285, glowBrush));
+            glowBrush.BeginAnimation(Brush.OpacityProperty, new DoubleAnimation(0.45, 0.95, TimeSpan.FromSeconds(3.2))
+            { AutoReverse = true, RepeatBehavior = RepeatBehavior.Forever, EasingFunction = new SineEase { EasingMode = EasingMode.EaseInOut } });
 
-            // Dark plate so glyphs stay legible over the aurora
-            var plate = Radial(Color.FromArgb(215, 4, 6, 12), Color.FromArgb(0, 4, 6, 12));
+            // ---- static base: dark plate, forged outer band, studs, progress track ----
+            var basePlate = new Canvas { CacheMode = Fx.Cache() };
+            var plate = Fx.Radial(Color.FromArgb(215, 4, 6, 12), Color.FromArgb(0, 4, 6, 12));
             plate.GradientStops.Insert(1, new GradientStop(Color.FromArgb(190, 4, 6, 12), 0.78));
-            Children.Add(Disc(232, plate));
+            basePlate.Children.Add(Disc(232, Fx.Frozen(plate)));
 
-            Children.Add(Ring(199, Gold, 1, 0.45));
-            var ticks = Ring(190, Gold, 6, 0.5);
-            ticks.StrokeDashArray = new DoubleCollection { 0.22, 2.432 };
+            // The outer band reads as worked metal: light from the upper left, shade lower right
+            var band = new LinearGradientBrush { StartPoint = new Point(0.1, 0), EndPoint = new Point(0.9, 1) };
+            band.GradientStops.Add(new GradientStop(Fx.C("#FFF4D2"), 0));
+            band.GradientStops.Add(new GradientStop(Fx.C("#C99A45"), 0.28));
+            band.GradientStops.Add(new GradientStop(Fx.C("#6E4C17"), 0.55));
+            band.GradientStops.Add(new GradientStop(Fx.C("#D9AE5C"), 0.8));
+            band.GradientStops.Add(new GradientStop(Fx.C("#FBE6B0"), 1));
+            basePlate.Children.Add(RingB(201.5, Fx.Frozen(band), 2.4, 0.95));
+            basePlate.Children.Add(Ring(197, Gold, 1, 0.3));
+            basePlate.Children.Add(Ring(205.5, Gold, 1, 0.22));
+            for (int i = 0; i < 8; i++)
+            {
+                bool major = i % 2 == 0;
+                double sz = major ? 10 : 5;
+                var d = new Rectangle { Width = sz, Height = sz, Fill = metal };
+                var tg = new TransformGroup();
+                tg.Children.Add(new RotateTransform(45, sz / 2, sz / 2));
+                tg.Children.Add(new TranslateTransform(-sz / 2, -201.5 - sz / 2));
+                tg.Children.Add(new RotateTransform(i * 45));
+                d.RenderTransform = tg;
+                basePlate.Children.Add(d);
+            }
+            basePlate.Children.Add(Ring(ArcR, Colors.White, 1, 0.13));
+            Children.Add(basePlate);
+
+            // ---- tick ring, slowly turning ----
+            var ticks = new Canvas { CacheMode = Fx.Cache() };
+            var t1 = Ring(188, Gold, 6, 0.5);
+            t1.StrokeDashArray = new DoubleCollection { 0.22, 2.4049 };
+            var t2 = Ring(188, GoldLight, 10, 0.8);
+            t2.StrokeDashArray = new DoubleCollection { 0.16, 16.714 };
+            ticks.Children.Add(t1);
+            ticks.Children.Add(t2);
             Spin(ticks, 0, 360, 140);
             Children.Add(ticks);
-            var ticks2 = Ring(190, GoldLight, 10, 0.75);
-            ticks2.StrokeDashArray = new DoubleCollection { 0.16, 16.892 / 1.0 };
-            Spin(ticks2, 0, 360, 140);
-            Children.Add(ticks2);
 
-            // Cardinal studs
-            for (int i = 0; i < 4; i++)
+            // A highlight that circles the outer band, as if a torch were carried around it
+            var glint = new Canvas { CacheMode = Fx.Cache() };
+            var gb = new LinearGradientBrush { StartPoint = new Point(0, 0), EndPoint = new Point(1, 0) };
+            gb.GradientStops.Add(new GradientStop(Color.FromArgb(0, 255, 255, 255), 0));
+            gb.GradientStops.Add(new GradientStop(Color.FromArgb(255, 255, 252, 235), 0.5));
+            gb.GradientStops.Add(new GradientStop(Color.FromArgb(0, 255, 255, 255), 1));
+            glint.Children.Add(new Path
             {
-                var d = new Rectangle { Width = 9, Height = 9, Fill = metal };
-                var tg = new TransformGroup();
-                tg.Children.Add(new RotateTransform(45, 4.5, 4.5));
-                tg.Children.Add(new TranslateTransform(-4.5, -199 - 4.5));
-                tg.Children.Add(new RotateTransform(i * 90));
-                d.RenderTransform = tg;
-                Children.Add(d);
-            }
+                Data = Geometry.Parse("M-78,-185.8 A201.5,201.5 0 0 1 78,-185.8"),
+                Stroke = Fx.Frozen(gb), StrokeThickness = 2.6
+            });
+            Spin(glint, 0, 360, 11);
+            Children.Add(glint);
 
-            // The glyph ring
+            // ---- the glyph ring ----
+            // Each cell is its own small cached tile: the ring turns as 28 textured quads, and a rune
+            // that is being re-struck re-rasterises only its own tile.
             var glyphs = new Canvas { RenderTransform = _glyphRot };
+            var flash = Fx.Frozen(Fx.Radial(Color.FromArgb(200, 255, 226, 150), Color.FromArgb(0, 255, 226, 150)));
+            var iceBrush = Fx.Frozen(new SolidColorBrush(Ice));
+            var letterBrush = Fx.Frozen(new SolidColorBrush(GoldLight));
             for (int i = 0; i < N; i++)
             {
                 double deg = -i * 360.0 / N, a = deg * Math.PI / 180;
                 var s = new Slot { LetterScale = new ScaleTransform(0.3, 0.3) };
-                var cell = new Grid { Width = 46, Height = 46, RenderTransform = new RotateTransform(deg, 23, 23) };
+                var cell = new Grid { Width = 46, Height = 46, RenderTransform = new RotateTransform(deg, 23, 23), CacheMode = Fx.Cache(1.25) };
                 SetLeft(cell, Math.Sin(a) * GlyphR - 23);
                 SetTop(cell, -Math.Cos(a) * GlyphR - 23);
 
-                s.Flash = new Ellipse { Margin = new Thickness(-9), Opacity = 0, Fill = Radial(Color.FromArgb(200, 255, 226, 150), Color.FromArgb(0, 255, 226, 150)) };
+                s.Flash = new Rectangle { Margin = new Thickness(-9), Opacity = 0, Fill = flash };
                 s.Rune = new TextBlock
                 {
-                    Text = Runes[i].ToString(), FontFamily = runes, FontSize = 23, Opacity = 0.62,
-                    Foreground = new SolidColorBrush(Ice),
+                    Text = Runes[i].ToString(), FontFamily = runes, FontSize = 23, Opacity = 0.62, Foreground = iceBrush,
                     HorizontalAlignment = HorizontalAlignment.Center, VerticalAlignment = VerticalAlignment.Center
                 };
                 s.Letter = new TextBlock
                 {
                     Text = Letters[i].ToString(), FontFamily = amiri, FontWeight = FontWeights.Bold, FontSize = 25, Opacity = 0,
-                    Foreground = new SolidColorBrush(GoldLight), FlowDirection = FlowDirection.RightToLeft,
+                    Foreground = letterBrush, FlowDirection = FlowDirection.RightToLeft,
                     HorizontalAlignment = HorizontalAlignment.Center, VerticalAlignment = VerticalAlignment.Center,
                     Margin = new Thickness(0, -8, 0, 0),
                     RenderTransform = s.LetterScale, RenderTransformOrigin = new Point(0.5, 0.5)
@@ -125,36 +165,24 @@ namespace SkyrimArabicInstaller
             }
             Children.Add(glyphs);
 
-            // Progress track, arc and comet head
-            Children.Add(Ring(ArcR, Colors.White, 1, 0.13));
-            _arcGlow = new Path
-            {
-                Stroke = new SolidColorBrush(Gold), StrokeThickness = 9, Opacity = 0.75,
-                StrokeStartLineCap = PenLineCap.Round, StrokeEndLineCap = PenLineCap.Round,
-                Effect = new BlurEffect { Radius = 12 }
-            };
-            _arc = new Path
-            {
-                Stroke = metal, StrokeThickness = 3.2,
-                StrokeStartLineCap = PenLineCap.Round, StrokeEndLineCap = PenLineCap.Round
-            };
-            _headGlow = Disc(17, Radial(Color.FromArgb(255, 255, 240, 200), Color.FromArgb(0, 255, 200, 110)));
-            _head = Disc(4, Brushes.White);
+            // ---- progress arc: a hot core over two wide soft strokes (no blur) ----
+            _arcGlowA = ArcPath(new SolidColorBrush(Fx.A(Gold, 34)), 17);
+            _arcGlowB = ArcPath(new SolidColorBrush(Fx.A(Gold, 80)), 8.5);
+            _arc = ArcPath(metal, 3.2);
+            _headGlow = Square(20, Fx.Frozen(Fx.Radial(Color.FromArgb(255, 255, 246, 214), Color.FromArgb(150, 255, 214, 130), Color.FromArgb(0, 255, 200, 110))));
+            _head = Square(4.5, Fx.Frozen(Fx.Radial(Colors.White, Colors.White, Color.FromArgb(0, 255, 255, 255))));
             _headGlow.RenderTransform = _head.RenderTransform = new TranslateTransform(0, -ArcR);
-            _arc.Opacity = _arcGlow.Opacity = _head.Opacity = _headGlow.Opacity = 0;
-            Children.Add(_arcGlow);
-            Children.Add(_arc);
-            Children.Add(_headGlow);
-            Children.Add(_head);
+            foreach (var el in new UIElement[] { _arcGlowA, _arcGlowB, _arc, _headGlow, _head }) { el.Opacity = 0; Children.Add(el); }
 
-            // Inner machinery: dashed ice ring and the eight-pointed star
-            var ice = Ring(124, Ice, 1.2, 0.6);
-            ice.StrokeDashArray = new DoubleCollection { 14, 5, 2, 5 };
+            // ---- inner machinery: dashed ice ring and the eight-pointed star ----
+            var ice = new Canvas { CacheMode = Fx.Cache() };
+            var iceRing = Ring(124, Ice, 1.2, 0.6);
+            iceRing.StrokeDashArray = new DoubleCollection { 14, 5, 2, 5 };
+            ice.Children.Add(iceRing);
             Spin(ice, 360, 0, 50);
             Children.Add(ice);
-            Children.Add(Ring(116, Gold, 1, 0.3));
 
-            var star = new Canvas();
+            var star = new Canvas { CacheMode = Fx.Cache() };
             for (int i = 0; i < 2; i++)
             {
                 var sq = new Rectangle
@@ -165,24 +193,38 @@ namespace SkyrimArabicInstaller
                 SetLeft(sq, -79); SetTop(sq, -79);
                 star.Children.Add(sq);
             }
+            for (int i = 0; i < 8; i++)   // a bead at every point of the star
+            {
+                double a = i * Math.PI / 4;
+                var bead = Square(2.6, Fx.Frozen(Fx.Radial(GoldLight, GoldLight, Fx.A(Gold, 0))));
+                bead.RenderTransform = new TranslateTransform(Math.Sin(a) * 111.7, -Math.Cos(a) * 111.7);
+                star.Children.Add(bead);
+            }
             Spin(star, 0, 360, 110);
             Children.Add(star);
 
-            var core = Radial(Color.FromArgb(255, 20, 30, 48), Color.FromArgb(255, 5, 8, 14));
-            var disc = Disc(79, core);
-            disc.Stroke = metal; disc.StrokeThickness = 1.6;
-            Children.Add(disc);
-            Children.Add(Ring(72, Gold, 1, 0.28));
+            var hub = new Canvas { CacheMode = Fx.Cache() };
+            hub.Children.Add(Ring(116, Gold, 1, 0.3));
+            var disc = Disc(79, Fx.Frozen(Fx.Radial(Color.FromArgb(255, 22, 34, 54), Color.FromArgb(255, 9, 14, 24), Color.FromArgb(255, 4, 6, 12))));
+            disc.Stroke = metal; disc.StrokeThickness = 1.8;
+            hub.Children.Add(disc);
+            hub.Children.Add(Ring(72, Gold, 1, 0.28));
+            Children.Add(hub);
 
-            // Centre: the letter Dad (Arabic is "the language of the Dad"), then the percentage, then the seal
-            _dad = new TextBlock
+            // ---- centre: the letter Dad (Arabic is "the language of the Dad"), then the percentage, then the seal ----
+            // The glow is baked into a cached layer once; fading it later costs nothing.
+            var dadHost = new Canvas { CacheMode = Fx.Cache() };
+            var dad = new TextBlock
             {
                 Text = "ض", FontFamily = amiri, FontWeight = FontWeights.Bold, FontSize = 104, Foreground = metal,
-                Width = 200, TextAlignment = TextAlignment.Center, FlowDirection = FlowDirection.RightToLeft,
+                Width = 240, TextAlignment = TextAlignment.Center, FlowDirection = FlowDirection.RightToLeft,
                 Effect = new DropShadowEffect { Color = Gold, BlurRadius = 26, ShadowDepth = 0, Opacity = 0.75 }
             };
-            SetLeft(_dad, -100); SetTop(_dad, -108);
-            Children.Add(_dad);
+            SetLeft(dad, -120); SetTop(dad, -108);
+            dadHost.Children.Add(Square(170, Brushes.Transparent));     // gives the cache room for the glow
+            dadHost.Children.Add(dad);
+            _dad = dadHost;
+            Children.Add(dadHost);
 
             _digits = new TextBlock { Text = "0", FontFamily = cairo, FontWeight = FontWeights.Black, FontSize = 62, Foreground = metal };
             var pc = new StackPanel { Orientation = Orientation.Horizontal, HorizontalAlignment = HorizontalAlignment.Center, VerticalAlignment = VerticalAlignment.Center };
@@ -198,6 +240,7 @@ namespace SkyrimArabicInstaller
             _percent = pg;
             Children.Add(pg);
 
+            var checkHost = new Canvas { CacheMode = Fx.Cache() };
             _check = new Path
             {
                 Data = Geometry.Parse("M-30,2 L-9,23 L32,-20"), Stroke = metal, StrokeThickness = 9,
@@ -205,33 +248,39 @@ namespace SkyrimArabicInstaller
                 StrokeDashArray = new DoubleCollection { 10.2, 10.2 }, StrokeDashOffset = 10.2,
                 Effect = new DropShadowEffect { Color = Gold, BlurRadius = 22, ShadowDepth = 0, Opacity = 0.9 }
             };
-            Children.Add(_check);
+            checkHost.Children.Add(Square(90, Brushes.Transparent));
+            checkHost.Children.Add(_check);
+            Children.Add(checkHost);
 
-            // Orbiting motes
-            double[] orbitR = { 212, 136, 96 };
+            // ---- orbiting motes ----
+            double[] orbitR = { 216, 136, 96 };
             for (int i = 0; i < 3; i++)
             {
                 var orbit = new Canvas();
-                var m = Disc(i == 0 ? 2.6 : 2, new SolidColorBrush(i == 1 ? Ice : GoldLight));
+                Color c = i == 1 ? Ice : GoldLight;
+                var m = Square(i == 0 ? 9 : 7, Fx.Frozen(Fx.Radial(Colors.White, c, Fx.A(c, 70), Fx.A(c, 0))));
                 m.RenderTransform = new TranslateTransform(0, -orbitR[i]);
-                m.Effect = new DropShadowEffect { Color = i == 1 ? Ice : Gold, BlurRadius = 10, ShadowDepth = 0, Opacity = 1 };
                 orbit.Children.Add(m);
                 Spin(orbit, i % 2 == 0 ? 0 : 360, i % 2 == 0 ? 360 : 0, 17 + i * 9);
                 Children.Add(orbit);
             }
 
             Children.Add(_fx);
-            for (int i = 0; i < 44; i++)
+            var hot = Fx.Frozen(Fx.Radial(Colors.White, GoldLight, Fx.A(Gold, 0)));
+            var warm = Fx.Frozen(Fx.Radial(Fx.C("#FFE2B0"), Color.FromRgb(255, 170, 90), Color.FromArgb(0, 255, 140, 60)));
+            for (int i = 0; i < 48; i++)
             {
                 var sp = new Spark { T = new TranslateTransform() };
-                double sz = 1.4 + _rnd.NextDouble() * 2.2;
-                sp.E = new Ellipse { Width = sz, Height = sz, Opacity = 0, RenderTransform = sp.T, Fill = new SolidColorBrush(_rnd.NextDouble() < 0.5 ? GoldLight : Color.FromRgb(255, 170, 90)) };
+                double sz = 3 + _rnd.NextDouble() * 4;
+                sp.B = (_rnd.NextDouble() < 0.5 ? hot : warm).Clone();
+                sp.B.Opacity = 0;
+                sp.E = new Rectangle { Width = sz, Height = sz, Margin = new Thickness(-sz / 2), RenderTransform = sp.T, Fill = sp.B, Opacity = 0 };
                 _fx.Children.Add(sp.E);
                 _sparks.Add(sp);
             }
 
             StartIdleSpin();
-            _tease = new DispatcherTimer { Interval = TimeSpan.FromMilliseconds(520) };
+            _tease = new DispatcherTimer { Interval = TimeSpan.FromMilliseconds(700) };
             _tease.Tick += (s, e) => Tease();
             _tease.Start();
         }
@@ -247,7 +296,7 @@ namespace SkyrimArabicInstaller
                 _tease.Start();
                 for (int i = 0; i < N; i++) Strike(i, false, i * 14);
                 _p = 0;
-                Fade(_arc, 0, 300); Fade(_arcGlow, 0, 300); Fade(_head, 0, 200); Fade(_headGlow, 0, 200);
+                Fade(_arc, 0, 300); Fade(_arcGlowA, 0, 300); Fade(_arcGlowB, 0, 300); Fade(_head, 0, 200); Fade(_headGlow, 0, 200);
                 Fade(_percent, 0, 250); Fade(_dad, 1, 600, 200);
                 _check.BeginAnimation(Shape.StrokeDashOffsetProperty, null);
                 StartIdleSpin();
@@ -255,50 +304,59 @@ namespace SkyrimArabicInstaller
             else if (mode == SigilMode.Progress)
             {
                 _tease.Stop();
-                for (int i = 0; i < N; i++) Strike(i, false, 0);
+                for (int i = 0; i < N; i++) Strike(i, Reverse, Reverse ? i * 12 : 0);
                 // Settle the ring so the first letter sits at twelve o'clock
                 double cur = _glyphRot.Angle;
                 _glyphRot.BeginAnimation(RotateTransform.AngleProperty,
                     new DoubleAnimation(cur, Math.Round(cur / 360) * 360, TimeSpan.FromMilliseconds(900)) { EasingFunction = InOut });
+                _check.BeginAnimation(Shape.StrokeDashOffsetProperty, null);
                 Fade(_dad, 0, 350);
                 Fade(_percent, 1, 500, 300);
-                Fade(_arc, 1, 400, 500); Fade(_arcGlow, 0.75, 400, 500); Fade(_head, 1, 300, 600); Fade(_headGlow, 1, 300, 600);
+                Fade(_arc, 1, 400, 500); Fade(_arcGlowA, 1, 400, 500); Fade(_arcGlowB, 1, 400, 500);
+                Fade(_head, 1, 300, 600); Fade(_headGlow, 1, 300, 600);
                 SetProgress(0);
             }
             else
             {
                 _tease.Stop();
-                for (int i = 0; i < N; i++) Strike(i, true, i * 10);
+                for (int i = 0; i < N; i++) Strike(i, !Reverse, i * 10);
                 Fade(_percent, 0, 300); Fade(_dad, 0, 300);
                 Fade(_head, 0, 400); Fade(_headGlow, 0, 400);
+                if (Reverse) { Fade(_arc, 0, 600); Fade(_arcGlowA, 0, 600); Fade(_arcGlowB, 0, 600); }
                 _check.BeginAnimation(Shape.StrokeDashOffsetProperty,
                     new DoubleAnimation(10.2, 0, TimeSpan.FromMilliseconds(620)) { BeginTime = TimeSpan.FromMilliseconds(380), EasingFunction = Out });
-                Pulse(GoldLight, 0); Pulse(Gold, 260); Pulse(Ice, 520);
+                if (Reverse) Pulse(Ice, 0);
+                else { Pulse(GoldLight, 0); Pulse(Gold, 260); Pulse(Ice, 520); }
                 StartIdleSpin();
             }
         }
 
-        /// <summary>0..1. Draws the arc and re-strikes runes as Arabic letters.</summary>
+        /// <summary>0..1. Draws the arc and re-strikes runes as Arabic letters (or back, when Reverse).</summary>
         public void SetProgress(double p)
         {
             p = Math.Max(0, Math.Min(1, p));
+            if (_mode == SigilMode.Progress && Math.Abs(p - _p) < 0.0004 && p > 0 && p < 1) return;
             _p = p;
             _digits.Text = ((int)Math.Round(p * 100)).ToString();
 
-            double phi = Math.Min(p, 0.9995) * 2 * Math.PI;
+            double q = Reverse ? 1 - p : p;          // how much of the ring is Arabic
+            double phi = Math.Min(q, 0.9995) * 2 * Math.PI;
             _hx = -Math.Sin(phi) * ArcR; _hy = -Math.Cos(phi) * ArcR;
             var fig = new PathFigure { StartPoint = new Point(0, -ArcR) };
-            fig.Segments.Add(new ArcSegment(new Point(_hx, _hy), new Size(ArcR, ArcR), 0, p > 0.5, SweepDirection.Counterclockwise, true));
+            fig.Segments.Add(new ArcSegment(new Point(_hx, _hy), new Size(ArcR, ArcR), 0, q > 0.5, SweepDirection.Counterclockwise, true));
             var g = new PathGeometry();
             g.Figures.Add(fig);
             g.Freeze();
-            _arc.Data = _arcGlow.Data = g;
+            _arc.Data = _arcGlowA.Data = _arcGlowB.Data = g;
             var ht = (TranslateTransform)_head.RenderTransform;
             ht.X = _hx; ht.Y = _hy;
 
-            int lit = (int)Math.Floor(p * N + 0.5);
+            int lit = (int)Math.Floor(q * N + 0.5);
             for (int i = 0; i < N; i++)
+            {
                 if (i < lit && !_slots[i].Lit) Strike(i, true, 0);
+                else if (Reverse && i >= lit && _slots[i].Lit && _mode == SigilMode.Progress && p > 0) Strike(i, false, 0);
+            }
         }
 
         /// <summary>An expanding ring of light, used as feedback.</summary>
@@ -307,6 +365,7 @@ namespace SkyrimArabicInstaller
             var ring = Ring(ArcR, c, 2.2, 0);
             var st = new ScaleTransform(1, 1);
             ring.RenderTransform = st;
+            ring.CacheMode = Fx.Cache(1.6);
             _fx.Children.Add(ring);
             var d = TimeSpan.FromMilliseconds(1300);
             var b = TimeSpan.FromMilliseconds(delayMs);
@@ -342,12 +401,14 @@ namespace SkyrimArabicInstaller
                     var sp = _sparks.Find(x => x.Life <= 0);
                     if (sp == null) break;
                     // Fly off roughly along the tangent, trailing behind the head
-                    double phi = _p * 2 * Math.PI, tx = Math.Cos(phi), ty = -Math.Sin(phi);
+                    double phi = (Reverse ? 1 - _p : _p) * 2 * Math.PI, dir = Reverse ? -1 : 1;
+                    double tx = Math.Cos(phi) * dir, ty = -Math.Sin(phi) * dir;
                     double spd = 30 + _rnd.NextDouble() * 110, spread = (_rnd.NextDouble() - 0.5) * 1.5;
                     sp.X = _hx; sp.Y = _hy;
                     sp.Vx = tx * spd + _hx / ArcR * spd * spread;
                     sp.Vy = ty * spd + _hy / ArcR * spd * spread;
                     sp.Max = sp.Life = 0.35 + _rnd.NextDouble() * 0.7;
+                    sp.E.Opacity = 1;                 // a dead spark is not drawn at all
                 }
             }
             foreach (var sp in _sparks)
@@ -357,7 +418,8 @@ namespace SkyrimArabicInstaller
                 sp.Vy += 120 * dt;
                 sp.X += sp.Vx * dt; sp.Y += sp.Vy * dt;
                 sp.T.X = sp.X; sp.T.Y = sp.Y;
-                sp.E.Opacity = sp.Life <= 0 ? 0 : Math.Min(1, sp.Life / sp.Max * 1.4);
+                if (sp.Life <= 0) { sp.E.Opacity = 0; continue; }
+                sp.B.Opacity = Math.Min(1, sp.Life / sp.Max * 1.4);
             }
         }
 
@@ -388,6 +450,12 @@ namespace SkyrimArabicInstaller
                 new DoubleAnimation(cur, cur - 360, TimeSpan.FromSeconds(120)) { RepeatBehavior = RepeatBehavior.Forever });
         }
 
+        static Path ArcPath(Brush stroke, double thickness) => new Path
+        {
+            Stroke = stroke, StrokeThickness = thickness,
+            StrokeStartLineCap = PenLineCap.Round, StrokeEndLineCap = PenLineCap.Round
+        };
+
         static void Keys(IAnimatable target, DependencyProperty prop, double a, double b, double c, double d)
         {
             var k = new DoubleAnimationUsingKeyFrames { Duration = TimeSpan.FromSeconds(2.4) };
@@ -403,25 +471,11 @@ namespace SkyrimArabicInstaller
             el.BeginAnimation(OpacityProperty, new DoubleAnimation(to, TimeSpan.FromMilliseconds(ms)) { BeginTime = TimeSpan.FromMilliseconds(delayMs) });
         }
 
-        static void Loop(UIElement el, DependencyProperty prop, double from, double to, double seconds)
-        {
-            el.BeginAnimation(prop, new DoubleAnimation(from, to, TimeSpan.FromSeconds(seconds))
-            { AutoReverse = true, RepeatBehavior = RepeatBehavior.Forever, EasingFunction = new SineEase { EasingMode = EasingMode.EaseInOut } });
-        }
-
         static void Spin(UIElement el, double from, double to, double seconds)
         {
             var r = new RotateTransform();
             el.RenderTransform = r;
             r.BeginAnimation(RotateTransform.AngleProperty, new DoubleAnimation(from, to, TimeSpan.FromSeconds(seconds)) { RepeatBehavior = RepeatBehavior.Forever });
-        }
-
-        static RadialGradientBrush Radial(Color inner, Color outer)
-        {
-            var b = new RadialGradientBrush();
-            b.GradientStops.Add(new GradientStop(inner, 0));
-            b.GradientStops.Add(new GradientStop(outer, 1));
-            return b;
         }
 
         static Ellipse Disc(double r, Brush fill)
@@ -431,13 +485,24 @@ namespace SkyrimArabicInstaller
             return e;
         }
 
+        // A soft round sprite: a square with a radial brush that is clear at the edge
+        static Rectangle Square(double r, Brush fill)
+        {
+            var e = new Rectangle { Width = r * 2, Height = r * 2, Fill = fill };
+            SetLeft(e, -r); SetTop(e, -r);
+            return e;
+        }
+
         // A stroked circle of radius r centred on the origin (stroke centred on r)
-        static Ellipse Ring(double r, Color c, double thickness, double opacity)
+        static Ellipse Ring(double r, Color c, double thickness, double opacity) =>
+            RingB(r, new SolidColorBrush(c), thickness, opacity);
+
+        static Ellipse RingB(double r, Brush stroke, double thickness, double opacity)
         {
             double o = r + thickness / 2;
             var e = new Ellipse
             {
-                Width = o * 2, Height = o * 2, Stroke = new SolidColorBrush(c), StrokeThickness = thickness,
+                Width = o * 2, Height = o * 2, Stroke = stroke, StrokeThickness = thickness,
                 Opacity = opacity, RenderTransformOrigin = new Point(0.5, 0.5)
             };
             SetLeft(e, -o); SetTop(e, -o);
